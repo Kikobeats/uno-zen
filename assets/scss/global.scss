@@ -1,0 +1,325 @@
+// ------------------------------
+// BASICS
+// ------------------------------
+
+html, body {
+  height: 100%;
+}
+
+html {
+    height: 100%;
+    max-height: 100%;
+}
+
+body {
+  font-family: $sans-font;
+  font-size: 1em;
+  color: $gray-darker;
+}
+
+::selection {
+  background: lighten($primary-color, 36%);
+}
+
+::-moz-selection {
+  background: lighten($primary-color, 36%);
+}
+
+// ------------------------------
+// TYPOGRAPHYf
+// ------------------------------
+
+a {
+  text-decoration: none;
+  color: $link-color;
+
+  // TODO
+  &:hover {
+    color: $hover-color;
+    transition:.5s;
+  }
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h5 {
+  margin-top: 3rem;
+  margin-bottom: .8rem;
+  font-family: $serif-font;
+  font-weight: lighter;
+  color: $gray-darkest;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 2.5em;
+  line-height: 1.2em;
+  letter-spacing: .05em;
+  // font-weight: 400;
+}
+
+h2 {
+  font-size: 1.8em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+h4 {
+  font-size: 1.25em;
+}
+
+h4 {
+  font-size: 1.05em;
+}
+
+h5 {
+  font-size: .86em;
+}
+
+p {
+  margin-bottom: 1.3em;
+  line-height: 1.7em;
+}
+
+strong {
+  font-weight: bold;
+}
+
+em {
+  font-style: italic;
+}
+
+blockquote {
+  margin: 1em 0;
+  padding: 2em 0;
+  background: $gray-lightest;
+  border: 1px solid $gray-lighter;
+  border-radius: $border-radius;
+  font-family: $serif-font;
+  font-weight: lighter;
+  font-style: italic;
+  font-size: 1.3em;
+  text-align: center;
+
+  p {
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+  }
+
+}
+
+// ------------------------------
+// BASIC STYLING
+// ------------------------------
+
+ol, ul {
+  margin: 0 0 1.3em 2.5em;
+
+  li {
+    margin: 0 0 .2em 0;
+    line-height: 1.6em;
+  }
+
+  ol, ul {
+    margin: .1em 0 .2em 2em;
+  }
+
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+code {
+font-family:Consolas,Menlo,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace,serif;
+font-size:.85em;
+color:#999;
+border:1.5px solid #d9d9d9;
+border-radius:3px;
+background:0 0;
+-webkit-box-shadow:none;
+-moz-box-shadow:none;
+box-shadow:none;
+text-shadow:none;
+padding:.1em .4em;
+}
+
+pre {
+font-family:Consolas,Menlo,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace,serif;
+font-size:.9em;
+font-weight:400;
+line-height:1.3em;
+margin-bottom:1.3em;
+word-wrap:break-word;
+color:#999;
+border:1px solid #d9d9d9;
+border-radius:3px;
+background:0 0;
+padding:1em 2.5%;
+}
+
+pre code {
+border:none;
+background:0 0;
+padding:0;
+}
+
+code:hover,pre:hover {
+  color: $gray-darkest;
+}
+
+.date,
+.time,
+.author,
+.tags {
+  font-size: .8em;
+  color: darken($gray, 2%);
+
+  a {
+    color: darken($primary-color, 100%);
+    padding: .166666666666667rem .25rem;
+    background-color: rgba($primary-color, .7);
+    border-radius: .25rem;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.3rem;
+    &:hover {
+      background-color: rgba($primary-color, 1);
+    }
+  }
+}
+
+.excerpt {
+  margin: 0;
+  font-size: .9em;
+  color: $gray-dark;
+}
+
+.intro {
+  font-family: $serif-font;
+  font-size: 1.2em;
+  font-weight: lighter;
+  color: $gray-dark;
+}
+
+.block-heading {
+  @include column(12);
+  position: relative;
+  bottom: -15px;
+  font-size: .8em;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.label {
+  position: relative;
+  display: inline-block;
+  padding: 8px 18px 9px 18px;
+  background: $primary-color;
+  border-radius: $border-radius;
+  text-align: center;
+  color: #FFF;
+}
+
+// ------------------------------
+// MAIN LAYOUT
+// ------------------------------
+
+.container {
+  position: relative;
+  z-index: 500;
+  width: $total-width - $gutter-width;
+  margin: 0 auto;
+}
+
+.content-wrapper {
+  position: absolute;
+  left: 400px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  padding: 40px 15%
+}
+
+  .content-wrapper__inner {
+    margin: 0 10%;
+    padding: 50px 0;
+  }
+
+.footer {
+  display: block;
+  padding: 2em 0 0 0;
+  border-top: 2px solid $gray-light;
+  font-size: .7em;
+  color: lighten($gray-dark, 10%);
+}
+
+  .footer__copyright {
+    display: block;
+    margin-bottom: .7em;
+
+    a {
+      color: lighten($gray-dark, 5%);
+      text-decoration: underline;
+
+      &:hover {
+        color: $hover-color;
+      }
+
+    }
+
+  }
+
+// ------------------------------
+// AVATAR & LOGO
+// ------------------------------
+
+.avatar,
+.logo {
+  border-radius: 50%;
+  border: 2px solid $primary-color;
+  box-shadow:0 0 1px 1px rgba(000,000,000,.3);
+}
+
+// ------------------------------
+// DIVIDERS
+// ------------------------------
+
+hr {
+  border: none;
+}
+
+.section-title__divider {
+  width: 30%;
+  margin: 2.2em 0 2.1em 0;
+  border-top: 1px solid $gray-light;
+}
+
+// ------------------------------
+// MISC STYLES / HELPERS
+// ------------------------------
+
+.hidden {
+  display: none !important;
+}
+
+space-medium {
+display:block;
+height:100px;
+}

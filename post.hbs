@@ -1,0 +1,29 @@
+{{!< default}}
+
+{{#post}}
+
+  <article class="post-container post-container--single">
+
+    <header class="post-header">
+      <div class="post-meta">
+        <time datetime="{{date format="DD MMM YYYY"}}" class="post-meta__date date">{{date format="DD MMM YYYY"}}</time>&#8226;<span class="post-meta__tags tags">{{tags prefix="on "}}</span>
+        <!--<span class="post-meta__author author"><img src="{{author.image}}" alt="profile image for {{author.name}}" class="avatar post-meta__avatar" /> by {{author.name}}</span>-->
+      </div>
+
+      {{#if image}}
+      <a href={{url}}><center><img id="feature-image" src={{image}} alt="{{{title}}}"></center><h1 id="feature-title" class="post-title">{{{title}}}.</h1></a>
+      {{else}}
+      <a href={{url}}><h1 id="feature-title" class="post-title">{{{title}}}.</h1></a>
+      {{/if}}
+
+    </header>
+
+    <section class="{{post_class}}">
+      {{content}}
+    </section>
+
+  </article>
+
+  {{!-- {{> comments}} --}}
+
+{{/post}}
