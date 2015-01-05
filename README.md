@@ -25,11 +25,13 @@ You can see a demo in my [blog](http://blog.kikobeats.com).
 
 ## Installation
 
-1) Fork this repository.
+1) Download the last release tagged version.
 
 2) Execute `npm install` for install the dependencies.
 
 3) For development exec `grunt`. This provide you livereload. You need to have [SASS and bourbon](https://github.com/daleanthony/uno#development) as well.
+
+4) Create your favicons with [Favicon Generator](http://realfavicongenerator.net/)-
 
 4) For production exec `grunt production`. This minify and concat your code.
 
