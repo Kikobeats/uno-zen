@@ -6,7 +6,7 @@ var initReadTime = function(elem) {
       readingTimeTarget: '.post-reading-time',
     });
   }
-}
+};
 
 $(document).ready(function() {
   initReadTime('.content-wrapper');
