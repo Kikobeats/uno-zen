@@ -7,11 +7,13 @@ var showSearchForm = function(){
 };
 
 $(document).ready(function() {
-    console.debug("Enjoy watching the code :-) ~ Kiko");
-    if (!$(".panel-cover").hasClass("panel-cover--collapsed"))
-        $(".navigation--social").css("margin-left", "1.5em");
+    if (!$(".panel-cover").hasClass("panel-cover--collapsed")){
+      $(".navigation--social").css("margin-left", "1.5em");
+      $(".pace").remove();
+    }
 
     $("body").removeClass("no-js");
+
     hideSearchForm();
 
     $("a.blog-button").click(function() {

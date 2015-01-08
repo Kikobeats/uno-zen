@@ -23,6 +23,11 @@
 
 @media all and (max-width: 1023px) {
 
+  .pace,
+  .post-meta__read {
+    display: none;
+  }
+
   .content-wrapper {
     left: 0;
   }

@@ -6,59 +6,69 @@ module.exports = (grunt) ->
     # =============
     # SETUP
     # =============
-    pkg         : grunt.file.readJSON './package.json'
 
-    meta:
-      banner    : '/* <%= pkg.name %> v<%= pkg.version %>\n' +
-                '   <%= pkg.homepage %>' +
-                '   Copyright (c) <%= grunt.template.today("yyyy") %> <%= pkg.author.name %>' +
-                ' - Licensed <%= pkg.license %> */\n'
+    pkg : grunt.file.readJSON './package.json'
+    meta: banner = [
+      "/**"
+      " * <%= pkg.name %> - <%= pkg.description %>"
+      " * @version  v<%= pkg.version %>"
+      " * @homepage <%= pkg.homepage %>"
+      " * @author   <%= pkg.author.name %> (<%= pkg.author.url %>)"
+      " * @license  <%= pkg.license %>"
+      " */"].join("\n")
+
     src:
       sass:
         main   : 'assets/scss/uno.scss'
         files  : ['assets/scss/**/*.scss']
       js       :
-        main   : ['assets/js/index.js',
-                  'assets/js/ghostHunter.js',
-                  'assets/vendor/js/jquery.ghostHunter.min.js']
+        main   : ['assets/js/init.open.js'
+                  'assets/js/init.ghostHunter.js'
+                  'assets/js/init.readingTime.js']
+        vendor : ['assets/vendor/ghostHunter/jquery.ghostHunter.min.js'
+                  'assets/vendor/pace/pace.min.js'
+                  'assets/vendor/reading-time/build/readingTime.min.js']
       css      :
         main   : 'assets/css/uno.css'
-        vendor : ['assets/vendor/css/**/*.css']
+        vendor : []
+
+    dist       :
+      css      : 'assets/css/uno.css'
+      js       : 'assets/js/uno.js'
 
     # =============
     # TASKS
     # =============
-    sass:
-      main        : files: '<%=src.css.main%>' : '<%=src.sass.main%>'
 
-    concat:
-      options : stripBanners: true
-      css      : src: ['<%=src.css.main%>', '<%= src.css.vendor %>'], dest: 'assets/css/uno.css'
-      js       : src: ['<%=src.js.main%>'], dest: 'assets/js/uno.js'
+    sass       :
+      main     : files: '<%=dist.css%>' : '<%=src.sass.main%>'
 
-    autoprefixer:
-      main        : files: '<%=src.css.main%>' : '<%=src.css.main%>'
+    concat     :
+      options  : stripBanners: true
+      css      : src: ['<%=src.css.main%>', '<%=src.css.vendor%>'], dest: '<%=dist.css%>'
+      js       : src: ['<%=src.js.main%>', '<%=src.js.vendor%>'], dest: '<%=dist.js%>'
 
-    cssmin:
-      options     : banner: '<%=meta.banner%>', report: 'gzip'
-      main        : files: 'assets/css/uno.min.css': '<%=src.css.main%>'
+    autoprefixer :
+      main       : files: '<%=dist.css%>' : '<%=src.css.main%>'
 
-    uglify:
+    cssmin     :
+      options  : banner: '<%=meta.banner%>', report: 'gzip'
+      main     : files: '<%=dist.css%>': '<%=dist.css%>'
+
+    uglify        :
       options     : compress: false, banner: '<%=meta.banner%>', report: 'gzip', preserveComments: false
-      main: files : 'assets/js/uno.min.js': '<%=src.js.main%>'
+      main: files : '<%=dist.js%>': '<%=dist.js%>'
 
-    clean:
-      cache:
-        ['.sass-cache', 'assets/scss/.sass-cache']
-      npm:
-        ['node_modules']
+    clean       :
+      cache     : ['.sass-cache', 'assets/scss/.sass-cache']
+      npm       : ['node_modules']
 
-    watch:
-      sass:
+    watch       :
+      sass      :
         files   : ['<%=src.sass.files%>']
         tasks   : ['css']
         options : livereload: true
-      js:
+      js        :
         files   : ['<%=src.js.main%>']
         tasks   : ['js']
         options : livereload: true
@@ -66,6 +76,7 @@ module.exports = (grunt) ->
   # =============
   # REGISTER
   # =============
+
   grunt.registerTask 'css', ['sass', 'concat:css', 'autoprefixer', 'cssmin']
   grunt.registerTask 'js', ['concat:js','uglify']
   grunt.registerTask 'production', ['css', 'js']

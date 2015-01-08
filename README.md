@@ -6,10 +6,11 @@
 
 **Uno Zen** is a fork of [Uno for Ghost](https://github.com/daleanthony/Uno) that provides some features missing in the original theme:
 
-* Some little improves in the layout grid and in the CSS style.
+* Improve CSS layout and use a main image for each post.
 * Search support by [ghostHunter](https://github.com/i11ume/ghostHunter/).
-* Main post image support.
-* Better development and production with Grunt.
+* Estimate the time of reading a post by [readingTime.js](https://github.com/michael-lynch/reading-time).
+* Added Progress bar with support for different themes by [pace](http://github.hubspot.com/pace/docs/welcome/).
+* Better development and production workflow with Grunt.
 
 ... and more and more features in the future. If you want to help visit TODO section.
 
@@ -27,7 +28,7 @@ You can see a demo in my [blog](http://blog.kikobeats.com).
 
 1) Download the last release tagged version.
 
-2) Execute `npm install` for install the dependencies.
+2) Execute `npm install` and `bower install` for install the dependencies.
 
 3) For development exec `grunt`. This provide you livereload. You need to have [SASS and bourbon](https://github.com/daleanthony/uno#development) as well.
 

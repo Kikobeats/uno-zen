@@ -1,0 +1,21 @@
+{
+  "name": "uno-zen",
+  "description": "Minimalist and Elegant theme for Ghost",
+  "version": "1.1.8",
+  "authors": [
+    "Kiko Beats <josefrancisco.verdu@gmail.com>"
+  ],
+  "dependencies": {
+    "ghostHunter": "git://github.com/i11ume/ghostHunter/"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "assets/vendor ",
+    "test",
+    "tests"
+  ],
+  "license": "MIT",
+  "private": true
+}

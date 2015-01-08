@@ -17,7 +17,6 @@
     color: darken($primary-color, 15%);
     border-color: darken($primary-color, 15%);
   }
-
 }
 
 .btn-secondary {
@@ -27,17 +26,6 @@
   &:hover {
     color: darken($secondary-color, 15%);
     border-color: darken($secondary-color, 15%);
-  }
-
-}
-
-.btn-tertiary {
-  border-color: $primary-color;
-  color: $primary-color;
-
-  &:hover {
-    color: darken($primary-color, 15%);
-    border-color: darken($primary-color, 15%);
   }
 
 }
