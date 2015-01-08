@@ -2,25 +2,14 @@
 @import url("http://fonts.googleapis.com/css?family=Raleway:400,700|Roboto+Slab:300,400");
 
 // ------------------------------
-// THE BASICS
+// MODULES
 // ------------------------------
 
-@import 'reset.scss';
-@import 'grid.scss';
-@import 'variables.scss';
-@import 'fonts.scss';
-
-// ------------------------------
-// GLOBAL STYLES
-// ------------------------------
-
-@import 'global.scss';
-
-// ------------------------------
-// SECTIONS
-// ------------------------------
-
-@import 'sections/post.scss';
+@import 'modules/reset.scss';
+@import 'modules/grid.scss';
+@import 'modules/variables.scss';
+@import 'modules/fonts.scss';
+@import 'modules/global.scss';
 
 // ------------------------------
 // COMPONENTS
@@ -31,15 +20,10 @@
 @import 'components/navigation.scss';
 @import 'components/pagination.scss';
 @import 'components/icons.scss';
-@import 'components/post-list.scss';
+@import 'components/post.scss';
 @import 'components/forms.scss';
 @import 'components/searchs.scss';
 @import 'components/images.scss';
 @import 'components/effects.scss';
 @import 'components/loading.scss';
-
-// ------------------------------
-// MEDIA QUERIES
-// ------------------------------
-
-@import 'media-queries.scss';
+@import 'components/media-queries.scss';
