@@ -1,6 +1,6 @@
 *:focus {
   outline: none;
-}
+  }
 
 input[type="text"],
 input[type="password"],
@@ -17,18 +17,16 @@ input[type="search"],
 input[type="tel"] {
   width: 240px;
   padding: 1em 1em;
-  background: #FFF;
-  border: 1px solid $gray-light;
-  border-radius: $border-radius;
   font-size: .9em;
   color: $gray-darker;
-
-  &:focus {
-    border-color: $secondary-color;
-  }
+  background: #fff;
+  border: 1px solid $gray-light;
+  border-radius: $border-radius;
 
   @include placeholder {
     color: $gray;
+    }
+  &:focus {
+    border-color: $secondary-color;
+    }
   }
-
-}

@@ -3,36 +3,36 @@
 // ------------------------------
 
 .post-comments {
-  border-top: 1px solid $gray-light;
   padding: 60px 0;
-}
+  border-top: 1px solid $gray-light;
+  }
 
 // ------------------------------
 // SINGLE POST METAß
 // ------------------------------
 
 .post-meta {
-  text-align: center;
   color: darken($gray, 2%);
-}
+  text-align: center;
+  }
 
 .post-meta__author {
   margin-left: 1.5em;
-}
+  }
 
 .post-meta__avatar {
   display: inline-block;
   width: 22px;
   height: 22px;
-  margin: 0 .3em -.4em 0;
+  margin: 0 .3em .4em 0;
   border: none;
   box-shadow:none;
-}
+  }
 
 .post-meta__date,
 .post-meta__read {
   font-size: .85rem;
-}
+  }
 
 // ------------------------------
 // SINGLE POST STYLES
@@ -40,82 +40,77 @@
 
 .post {
   a:not([data-reactid]) {
-    border-bottom: 1px solid lighten($secondary-color, 25%);
     padding: 1px;
-
+    border-bottom: 1px solid lighten($secondary-color, 25%);
     &:hover {
       border-bottom: 1px solid darken($primary-color, 20%);
+      }
     }
-  }
-
   img {
     max-width: 100%;
     margin: 0 auto;
-    border-radius: $border-radius;
     text-align: center;
-  }
-
+    border-radius: $border-radius;
+    }
   pre {
     width: 95%;
-  }
-
+    }
   hr {
     display: block;
     width: 30%;
     margin: 2em 0;
     border-top: 1px solid $gray-light;
+    }
   }
-
-}
 
 // ------------------------------
 // POST LIST
 // ------------------------------
 
 .post-list {
-  margin: 0;
   padding: 0;
-  list-style-type: none;
+  margin: 0;
   text-align: left;
+  list-style-type: none;
   li {
     margin: 0 0 2.2em 0;
     &:last-child {
       hr {
         display: none;
+        }
       }
     }
   }
-}
 
 .post-list__post-title {
-  font-size: 1.5em;
-  line-height: 1.3em;
   margin-top: 0;
   margin-bottom: .2em;
+  font-size: 1.5em;
+  line-height: 1.3em;
   //     a {
-    //   color: $gray-darkest;
-    //       &:hover {
-      //   color: $hover-color;
-      //
-    // }
+  //   color: $gray-darkest;
+  //       &:hover {
+  //   color: $hover-color;
+  //
   // }
-}
+  // }
+  }
 
 .post-list__meta {
-  font-size: .9em;
   display: block;
   margin: .7em 0 0 0;
+  font-size: .9em;
   color: darken($gray, 2%);
-}
+  }
 .post-list__meta--date {
   margin-right: .5em;
   color: darken($gray, 2%);
-}
+  }
 .post-list__meta--tags {
   margin-left: .5em;
-}
+  }
 .post-list__divider {
   width: 30%;
   margin: 2.2em 0 2.1em 0;
   border-top: 1px solid $gray-light;
-}
+  }

@@ -1,13 +1,13 @@
 i {
   font-family: 'entypo';
-  font-weight: normal;
-  font-style: normal;
   font-size: 18px;
-}
+  font-style: normal;
+  font-weight: normal;
+  }
 
 .icon-social {
+  position: relative;
+  display: block;
   font-family: 'entypo-social';
   font-size: 22px;
-  display: block;
-  position: relative;
-}
+  }

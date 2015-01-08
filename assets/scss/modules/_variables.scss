@@ -1,18 +1,18 @@
 
-$gray-darkest    : #333333;
-$gray-darker     : #666666;
-$gray-dark       : #999999;
-$gray            : #CCCCCC;
-$gray-light      : #DDDDDD;
-$gray-lighter    : #EEEEEE;
-$gray-lightest   : #F8F8F8;
+$gray-darkest    : #333;
+$gray-darker     : #666;
+$gray-dark       : #999;
+$gray            : #ccc;
+$gray-light      : #ddd;
+$gray-lighter    : #eee;
+$gray-lightest   : #f8f8f8;
 
-$green           : #156F78;
+$green           : #156f78;
 $red             : #c0392b;
 $purple          : #493252;
-$slate           : #3D4260;
+$slate           : #3d4260;
 
-$primary-color   : lighten(#156F78, 20%);
+$primary-color   : lighten(#156f78, 20%);
 $secondary-color : $gray-dark;
 
 $link-color      : $gray-darkest;
@@ -21,7 +21,7 @@ $hover-color     : $primary-color;
 $sans-font       : 'Raleway', sans-serif;
 $serif-font      : 'Roboto Slab', serif;
 
-$cover-color-first  : rgba(14, 44, 71, 0.31);
-$cover-color-second : rgba(67, 148, 162, 0.51);
+$cover-color-first  : rgba(14, 44, 71, .31);
+$cover-color-second : rgba(67, 148, 162, .51);
 
 $border-radius   : 3px;

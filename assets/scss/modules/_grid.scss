@@ -10,7 +10,7 @@ $columns: 12;
 // Utility function — you should never need to modify this
 @function gridsystem-width($columns:$columns) {
   @return ($column-width * $columns) + ($gutter-width * $columns);
-}
+  }
 
 // Set $total-width to 100% for a fluid layout
 $total-width: gridsystem-width($columns);
@@ -22,16 +22,15 @@ $total-width: gridsystem-width($columns);
 // The micro clearfix http://nicolasgallagher.com/micro-clearfix-hack/
 @mixin clearfix() {
   *zoom:1;
-
   &:before,
   &:after {
-      content:"";
-      display:table;
-  }
+    display:table;
+    content:"";
+    }
   &:after {
-      clear:both;
+    clear:both;
+    }
   }
-}
 
 
 //////////
@@ -40,8 +39,9 @@ $total-width: gridsystem-width($columns);
 
 body {
   width: 100%;
+
   @include clearfix();
-}
+  }
 
 @mixin row($columns:$columns) {
   display: block;
@@ -49,8 +49,9 @@ body {
   margin: 0 $total-width*((($gutter-width*.5)/gridsystem-width($columns))*-1);
   // *width: $total-width*(($gutter-width + gridsystem-width($columns))/gridsystem-width($columns))-$correction;
   // *margin: 0 $total-width*((($gutter-width*.5)/gridsystem-width($columns))*-1)-$correction;
+
   @include clearfix();
-}
+  }
 @mixin column($x,$columns:$columns) {
   display: inline;
   float: left;
@@ -58,10 +59,10 @@ body {
   margin: 0 $total-width*(($gutter-width*.5)/gridsystem-width($columns));
   // *width: $total-width*(((($gutter-width+$column-width)*$x)-$gutter-width) / gridsystem-width($columns))-$correction;
   // *margin: 0 $total-width*(($gutter-width*.5)/gridsystem-width($columns))-$correction;
-}
+  }
 @mixin push($offset:1) {
   margin-left: $total-width*((($gutter-width+$column-width)*$offset) / gridsystem-width($columns)) + $total-width*(($gutter-width*.5)/gridsystem-width($columns));
-}
+  }
 @mixin pull($offset:1) {
   margin-right: $total-width*((($gutter-width+$column-width)*$offset) / gridsystem-width($columns)) + $total-width*(($gutter-width*.5)/gridsystem-width($columns));
-}
+  }
