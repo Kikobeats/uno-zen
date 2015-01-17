@@ -22,15 +22,16 @@ module.exports = (grunt) ->
         main   : 'assets/scss/uno.scss'
         files  : ['assets/scss/**/*.scss']
       js       :
-        main   : ['assets/js/init.open.js'
-                  'assets/js/init.ghostHunter.js'
-                  'assets/js/init.readingTime.js']
+        main   : ['assets/js/src/__init.coffee'
+                  'assets/js/src/cover.coffee'
+                  'assets/js/src/search.coffee'
+                  'assets/js/src/post.coffee']
         vendor : ['assets/vendor/ghostHunter/jquery.ghostHunter.min.js'
                   'assets/vendor/pace/pace.min.js'
                   'assets/vendor/reading-time/build/readingTime.min.js']
       css      :
         main   : 'assets/css/uno.css'
-        vendor : []
+        vendor : ['assets/vendor/animate.css/animate.min.css']
 
     dist       :
       css      : 'assets/css/uno.css'
@@ -40,13 +41,16 @@ module.exports = (grunt) ->
     # TASKS
     # =============
 
+    coffee     :
+      main     : files: '<%=dist.js%>' : '<%=src.js.main%>'
+
     sass       :
       main     : files: '<%=dist.css%>' : '<%=src.sass.main%>'
 
     concat     :
       options  : stripBanners: true
       css      : src: ['<%=src.css.main%>', '<%=src.css.vendor%>'], dest: '<%=dist.css%>'
-      js       : src: ['<%=src.js.main%>', '<%=src.js.vendor%>'], dest: '<%=dist.js%>'
+      js       : src: ['<%=dist.js%>', '<%=src.js.vendor%>'], dest: '<%=dist.js%>'
 
     autoprefixer :
       main       : files: '<%=dist.css%>' : '<%=src.css.main%>'
@@ -78,6 +82,6 @@ module.exports = (grunt) ->
   # =============
 
   grunt.registerTask 'css', ['sass', 'concat:css', 'autoprefixer', 'cssmin']
-  grunt.registerTask 'js', ['concat:js','uglify']
+  grunt.registerTask 'js', ['coffee', 'concat:js','uglify']
   grunt.registerTask 'production', ['css', 'js']
   grunt.registerTask 'default', ['css', 'js','watch']
