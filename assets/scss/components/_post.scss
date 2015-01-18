@@ -103,14 +103,17 @@
   color: darken($gray, 2%);
   }
 .post-list__meta--date {
-  margin-right: .5em;
   color: darken($gray, 2%);
   }
-.post-list__meta--tags {
-  margin-left: .5em;
-  }
+
 .post-list__divider {
   width: 30%;
   margin: 2.2em 0 2.1em 0;
   border-top: 1px solid $gray-light;
   }
+
+.post-button {
+  position: absolute;
+  left: 0;
+  top: 30px;
+}

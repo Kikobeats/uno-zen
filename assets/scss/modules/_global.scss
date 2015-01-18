@@ -74,11 +74,11 @@ h4 {
   font-size: 1.25em;
   }
 
-h4 {
+h5 {
   font-size: 1.05em;
   }
 
-h5 {
+h6 {
   font-size: .86em;
   }
 
@@ -246,7 +246,7 @@ code:hover,pre:hover {
   right: 0;
   bottom: 0;
   left: 400px;
-  padding: 40px 15%;
+  padding: 40px 5%;
   }
 
 .content-wrapper__inner {
@@ -256,7 +256,7 @@ code:hover,pre:hover {
 
 .footer {
   display: block;
-  padding: 2em 0 0 0;
+  padding: 2em 0 0;
   font-size: .7em;
   color: lighten($gray-dark, 10%);
   border-top: 2px solid $gray-light;

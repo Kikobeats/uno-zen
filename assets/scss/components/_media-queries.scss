@@ -23,9 +23,14 @@
 
 @media all and (max-width: 1023px) {
 
+  .content-wrapper__inner {
+    padding: 15px 0;
+  }
+
   .pace,
+  .post-button,
   .post-meta__read {
-    display: none;
+    display: none !important;
     }
 
   .content-wrapper {

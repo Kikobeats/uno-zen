@@ -11,8 +11,11 @@
   letter-spacing: 1px;
   border: 1px solid $primary-color;
   border-radius: 20px;
-
   -webkit-font-smoothing: antialiased;
+
+  &.square {
+    border-radius: 0;
+  }
   &:hover {
     color: darken($primary-color, 15%);
     border-color: darken($primary-color, 15%);
