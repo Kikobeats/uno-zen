@@ -7,7 +7,7 @@
     <header class="post-header">
       <div class="post-meta">
         <time datetime="{{date format="DD MMM YYYY"}}" class="post-meta__date date">{{date format="DD MMM YYYY"}}</time>
-        <a class="post-button btn square btn-small" href="javascript:history.back()">« Back</a>
+        <a id="back-button" class="post-button btn square btn-small" href="javascript:history.back()">« Back</a>
         <span class="post-meta__tags tags">{{tags prefix="in " separator=" "}}</span>
         {{!-- <span class="post-meta__author author"><img src="{{author.image}}" alt="profile image for {{author.name}}" class="avatar post-meta__avatar" /> by {{author.name}} – 7 mins to read</span> --}}
         <span class="post-meta__read"> – <span class="post-reading-time"></span> read.</span>
