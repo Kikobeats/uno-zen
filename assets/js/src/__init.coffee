@@ -3,18 +3,23 @@
 $(document).ready ->
 
   window.Uno = Uno =
-
     version: '1.1.24'
 
     cover:
       width: -> $(".panel-cover").width()
       isCollapsed: -> $(".panel-cover").hasClass("panel-cover--collapsed")
+      collapsed: -> $(".panel-cover").addClass("panel-cover--collapsed")
 
     search:
       container: -> $('#results')
       form: (action) -> $("#search")[action]()
 
     loadingBar: (action) -> $(".pace")[action]()
+
+    context: ->
+      # get the context from the first class name of body
+      # https://github.com/TryGhost/Ghost/wiki/Context-aware-Filters-and-Helpers
+      document.body.className.split(" ")[0].split("-")[0]
 
     readTime: do ->
 
@@ -45,3 +50,5 @@ $(document).ready ->
           container.readingTime readingTimeTarget: ".post-reading-time"
 
   $("body").removeClass "no-js"
+  context = document.body.dataset['page'] ?= Uno.context()
+  Uno.cover.collapsed() if context is 'post' or 'error'

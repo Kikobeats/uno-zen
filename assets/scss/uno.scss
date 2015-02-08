@@ -6,10 +6,11 @@
 // ------------------------------
 
 @import 'modules/reset.scss';
-@import 'modules/grid.scss';
 @import 'modules/variables.scss';
-@import 'modules/fonts.scss';
+@import 'modules/mixins.scss';
+@import 'modules/grid.scss';
 @import 'modules/global.scss';
+@import 'modules/fonts.scss';
 
 // ------------------------------
 // COMPONENTS

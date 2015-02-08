@@ -127,3 +127,8 @@
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
 }
+
+.example-one {
+  font-size: 100px;
+  @include textGlitch("example-one", 17, white, black, red, blue, 450, 115);
+}
