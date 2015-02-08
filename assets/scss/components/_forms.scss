@@ -1,7 +1,6 @@
 *:focus {
   outline: none;
-  }
-
+}
 input[type="text"],
 input[type="password"],
 input[type="datetime"],
@@ -22,11 +21,10 @@ input[type="tel"] {
   background: #fff;
   border: 1px solid $gray-light;
   border-radius: $border-radius;
-
   @include placeholder {
     color: $gray;
-    }
+  }
   &:focus {
     border-color: $secondary-color;
-    }
   }
+}

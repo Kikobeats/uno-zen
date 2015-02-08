@@ -12,39 +12,33 @@
   border: 1px solid $primary-color;
   border-radius: 20px;
   -webkit-font-smoothing: antialiased;
-
   &.square {
     border-radius: 0;
   }
   &:hover {
     color: darken($primary-color, 15%);
     border-color: darken($primary-color, 15%);
-    }
   }
-
+}
 .btn-secondary {
   color: $secondary-color;
   border-color: $secondary-color;
   &:hover {
     color: darken($secondary-color, 15%);
     border-color: darken($secondary-color, 15%);
-    }
   }
-
+}
 .btn-large {
   padding: 10px 24px;
   font-size: 1.1em;
-  }
-
+}
 .btn-small {
   padding: 8px 12px;
   font-size: .7em;
-  }
-
+}
 #back-button {
   margin-left: 3.5%;
 }
-
 // ------------------------------
 // MOBILE MENU BUTTON
 // ------------------------------
@@ -60,13 +54,12 @@
   height: 42px;
   text-align: center;
   background: $gray-darkest;
-  border-bottom: 1px solid rgba(255,255,255,.1);
-  }
-
+  border-bottom: 1px solid rgba(255, 255, 255, .1);
+}
 .btn-mobile-menu__icon,
 .btn-mobile-close__icon {
   position: relative;
   top: 3px;
   font-size: 36px;
   color: #fff;
-  }
+}

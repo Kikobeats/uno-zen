@@ -1,27 +1,27 @@
 
-$gray-darkest    : #333;
-$gray-darker     : #666;
-$gray-dark       : #999;
-$gray            : #ccc;
-$gray-light      : #ddd;
-$gray-lighter    : #eee;
-$gray-lightest   : #f8f8f8;
+$gray-darkest       : #333;
+$gray-darker        : #666;
+$gray-dark          : #999;
+$gray               : #ccc;
+$gray-light         : #ddd;
+$gray-lighter       : #eee;
+$gray-lightest      : #f8f8f8;
 
-$green           : #156f78;
-$red             : #c0392b;
-$purple          : #493252;
-$slate           : #3d4260;
+$green              : #156f78;
+$red                : #c0392b;
+$purple             : #493252;
+$slate              : #3d4260;
 
-$primary-color   : lighten(#156f78, 20%);
-$secondary-color : $gray-dark;
+$primary-color      : lighten(#156f78, 20%);
+$secondary-color    : $gray-dark;
 
-$link-color      : $gray-darkest;
-$hover-color     : $primary-color;
+$link-color         : $gray-darkest;
+$hover-color        : $primary-color;
 
-$sans-font       : 'Raleway', sans-serif;
-$serif-font      : 'Roboto Slab', serif;
+$sans-font          : 'Raleway', sans-serif;
+$serif-font         : 'Roboto Slab', serif;
 
 $cover-color-first  : rgba(14, 44, 71, .31);
 $cover-color-second : rgba(67, 148, 162, .51);
 
-$border-radius   : 3px;
+$border-radius      : 3px;

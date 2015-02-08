@@ -1,16 +1,13 @@
 .pace {
-          pointer-events: none;
+  pointer-events: none;
   -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
-
+  -moz-user-select: none;
+  user-select: none;
   -webkit-pointer-events: none;
-  }
-
+}
 .pace.pace-inactive .pace-progress {
   display: none;
-  }
-
+}
 .pace .pace-progress {
   position: fixed;
   top: 0;
@@ -19,10 +16,9 @@
   width: 5rem;
   height: 5rem;
   -webkit-transform: translate3d(0, 0, 0) !important;
-      -ms-transform: translate3d(0, 0, 0) !important;
-          transform: translate3d(0, 0, 0) !important;
-  }
-
+  -ms-transform: translate3d(0, 0, 0) !important;
+  transform: translate3d(0, 0, 0) !important;
+}
 .pace .pace-progress:after {
   position: absolute;
   top: 0;
@@ -35,4 +31,4 @@
   color: rgba(darken($gray, 2%), .7);
   text-align: right;
   content: attr(data-progress-text);
-  }
+}

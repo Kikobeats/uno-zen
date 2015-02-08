@@ -4,22 +4,20 @@
   padding: 5% 5px 5% 18px;
   border: 1.5px solid lighten($hover-color, 5%);
   border-radius: 27px;
-  }
-
+}
 .icon-search {
   position: relative;
   top: 2px;
   left: 13rem;
   color: #bbb;
-  }
-
+}
 #results {
   text-align: center;
   > p {
     margin-bottom: 3rem;
     font-size: 1.4rem;
     color: #bbb;
-    }
+  }
   a {
     display: block;
     padding: 1em 2.5%;
@@ -30,7 +28,7 @@
     border: 1px solid #d9d9d9;
     &:hover {
       background-color: #f5f5f5;
-      transition:0s;
-      }
+      transition: 0s;
     }
   }
+}
