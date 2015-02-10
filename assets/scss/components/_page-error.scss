@@ -1,0 +1,35 @@
+body[data-page="error"] {
+  background-image: url(/assets/img/cover.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: normal;
+}
+
+.mayday {
+  font-size: 34px;
+  color: white;
+  animation: flicker 2s ease infinite;
+  padding: 0 21rem;
+  margin: 9% auto 50px auto;
+}
+
+.astro-wrap {
+  width: 175px;
+  height: 283px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.astronaut {
+  background: url(/assets/img/astronaut.png);
+  width: 175px;
+  height: 283px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(0, 50px);
+  animation: move 10s infinite;
+}

@@ -28,7 +28,7 @@ module.exports = (grunt) ->
                   'assets/js/src/post.coffee']
         vendor : ['assets/vendor/ghostHunter/jquery.ghostHunter.min.js'
                   'assets/vendor/pace/pace.min.js'
-                  'assets/vendor/reading-time/build/readingTime.min.js']
+                  'assets/vendor/reading-time/build/readingTime.min.js' ]
       css      :
         main   : 'assets/css/uno.css'
         vendor : ['assets/vendor/animate.css/animate.min.css']

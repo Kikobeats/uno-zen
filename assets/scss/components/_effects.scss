@@ -128,7 +128,67 @@
   animation-iteration-count: 1;
 }
 
-.example-one {
-  font-size: 100px;
-  @include textGlitch("example-one", 17, white, black, red, blue, 450, 115);
+@keyframes move {
+  0% {
+    transform: translate(0, 50px);
+  }
+  50% {
+    transform: translate(20px, 100px);
+  }
+  100% {
+    transform: translate(0, 50px);
+  }
+}
+
+
+@keyframes blink {
+  0% {
+    top: 50px;
+    left: 0px;
+  }
+  50% {
+    top: 100px;
+    left: 20px;
+  }
+  100% {
+    top: 50px;
+    left: 0px;
+  }
+}
+
+
+@keyframes flicker {
+  0% {
+    opacity: 0.9;
+  }
+  30% {
+    opacity: 0.97;
+  }
+  40% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 0.9;
+  }
+  88% {
+    opacity: 0.98;
+  }
+  90% {
+    opacity: 0.94;
+  }
+  93% {
+    opacity: 0.9;
+  }
+  95% {
+    opacity: 0.99;
+  }
+  96% {
+    opacity: 0.93;
+  }
+  98% {
+    opacity: 1;
+  }
+  99% {
+    opacity: 0.93;
+  }
 }

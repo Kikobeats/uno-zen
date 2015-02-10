@@ -7,7 +7,9 @@
   ],
   "dependencies": {
     "ghostHunter": "git://github.com/i11ume/ghostHunter/",
-    "animate.css": "~3.2.0"
+    "animate.css": "~3.2.0",
+    "reading-time": "*",
+    "pace.js": "*"
   },
   "ignore": [
     "**/.*",

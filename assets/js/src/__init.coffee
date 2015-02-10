@@ -19,7 +19,8 @@ $(document).ready ->
     context: ->
       # get the context from the first class name of body
       # https://github.com/TryGhost/Ghost/wiki/Context-aware-Filters-and-Helpers
-      document.body.className.split(" ")[0].split("-")[0]
+      className = document.body.className.split(" ")[0].split("-")[0]
+      if className is "" then 'error' else className
 
     readTime: do ->
 
@@ -51,4 +52,5 @@ $(document).ready ->
 
   $("body").removeClass "no-js"
   context = document.body.dataset['page'] ?= Uno.context()
-  Uno.cover.collapsed() if context is 'post' or 'error'
+
+  Uno.cover.collapsed() if context is 'post'
