@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
   {{! Meta }}
-  <title>Page not Found - {{@blog.title}}</title>
+  <title>Houston, we have a problem - {{@blog.title}}</title>
 
   <meta name="HandheldFriendly" content="True">
   <meta name="MobileOptimized" content="320">
@@ -52,14 +52,27 @@
 </head>
 <body data-page="error" class="text-center no-js">
   <div class="panel-cover--overlay">
+
     <div class="astro-wrap">
       <a class="astronaut" href="#" title="return to base"></a>
     </div>
-    <h1 class="mayday">
-    ..shhh....houston...404. ..shhhh...lost...in...space. .shhhhh...
-    </h1>
 
-    <a id="panic-button" class="btn btn-small" href="#">Panic button</a>
+    <div class="mayday">
+      <hr class="panel-cover__divider">
+      <h1>
+      Houston, we have a problem. <br>
+      Houston, 404 error appeared.
+      </h1>
+      <hr class="panel-cover__divider panel-cover__divider--secondary">
+      <h1>
+        What happens now?
+      </h1>
+    </div>
+
+    <div class="mayday options">
+      <a id="panic-button" class="btn btn-small" href="#">Panic button</a>
+      <a id="safe-button" class="btn btn-small" href="/#open">Safe button</a>
+    </div>
 
   </div>
 

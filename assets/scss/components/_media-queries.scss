@@ -60,9 +60,6 @@
     max-width: 600px;
     margin: 0 auto;
   }
-  .panel-cover__divider--secondary {
-    display: none;
-  }
   .panel-cover {
     width: 100%;
     height: 100%;
@@ -163,5 +160,17 @@
   .btn {
     display: block;
     margin-bottom: .4em;
+  }
+
+  .panel-cover__divider {
+    margin: 15px auto;
+  }
+
+  .mayday {
+    width: 100%;
+    > h1 {
+      font-size: 20px;
+      line-height: 25px;
+    }
   }
 }

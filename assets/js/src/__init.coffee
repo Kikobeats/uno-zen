@@ -3,7 +3,7 @@
 $(document).ready ->
 
   window.Uno = Uno =
-    version: '1.1.24'
+    version: '1.2'
 
     cover:
       width: -> $(".panel-cover").width()
@@ -23,7 +23,6 @@ $(document).ready ->
       if className is "" then 'error' else className
 
     readTime: do ->
-
       container = $('.content-wrapper')
       readingTime = $(".post-reading-time")
       isPostPage = container.length > 0 and readingTime.length > 0
@@ -50,7 +49,10 @@ $(document).ready ->
         DateInDays '.post-meta > time', ->
           container.readingTime readingTimeTarget: ".post-reading-time"
 
-  $("body").removeClass "no-js"
+  $('body').removeClass "no-js"
   context = document.body.dataset['page'] ?= Uno.context()
-
   Uno.cover.collapsed() if context is 'post'
+  $('#panic-button').click ->
+    s = document.createElement('script');
+    s.setAttribute('src','https://nthitz.github.io/turndownforwhatjs/tdfw.js');
+    document.body.appendChild(s);
