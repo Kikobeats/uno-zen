@@ -28,10 +28,10 @@ $(document).ready ->
     $(".panel-cover").addClass "panel-cover--collapsed"
     Uno.search.form 'show'
 
-  if window.location.pathname and window.location.pathname isnt "/"
+  if document.body.dataset.page is 'home'
     Uno.search.form 'show'
 
-  if window.location.pathname.substring(0, 5) is "/tag/"
+  if document.body.dataset.page is 'tag'
     $(".panel-cover").addClass "panel-cover--collapsed"
 
   $(".btn-mobile-menu").click ->

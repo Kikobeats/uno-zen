@@ -1,9 +1,8 @@
 "use strict"
 
 $(document).ready ->
-
   window.Uno = Uno =
-    version: '1.2.2'
+    version: '1.3.0'
 
     cover:
       width: -> $(".panel-cover").width()
@@ -50,9 +49,12 @@ $(document).ready ->
           container.readingTime readingTimeTarget: ".post-reading-time"
 
   $('body').removeClass "no-js"
-  context = document.body.dataset['page'] ?= Uno.context()
+  el = document.body
+  context = el.dataset.page ?= Uno.context()
   Uno.cover.collapsed() if context is 'post'
+  FastClick.attach(el) if el.dataset.device isnt 'desktop'
+
   $('#panic-button').click ->
-    s = document.createElement('script');
-    s.setAttribute('src','https://nthitz.github.io/turndownforwhatjs/tdfw.js');
-    document.body.appendChild(s);
+    s = document.createElement('script')
+    s.setAttribute('src','https://nthitz.github.io/turndownforwhatjs/tdfw.js')
+    document.body.appendChild(s)
