@@ -36,23 +36,11 @@
   width: 100%;
   max-width: none;
   height: 100%;
-  background: url(../images/background-cover.jpg) top left no-repeat $gray-darker;
-  background-position: 0 100%;
-  background-size: cover;
+  @include filter;
 }
 .panel-cover--collapsed {
   width: 28%;
   max-width: 400px;
-}
-.panel-cover--overlay {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 0;
-  display: block;
-  background: linear-gradient(150deg, rgba(19, 106, 138, .65) 30%, rgba(38, 120, 113, .44) 70%);
 }
 .panel-cover__logo {
   width: 10rem;
