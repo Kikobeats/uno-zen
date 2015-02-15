@@ -37,8 +37,6 @@ $(document).ready ->
   checkMobileLocation = ->
     isHome = location.pathname is "/"
     isOpen = location.hash is "#open"
-    console.log isHome
-    console.log isOpen
     if isHome
       action = if isOpen then 'show' else 'hide'
       $(".content-wrapper")[action]()
