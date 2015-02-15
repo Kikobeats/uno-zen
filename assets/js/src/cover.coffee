@@ -2,8 +2,11 @@
 
 $(document).ready ->
 
-  unless Uno.cover.isCollapsed()
-    $(".navigation--social").css "margin-left", "1.5em"
+  el = document.body
+
+  if not Uno.cover.isCollapsed()
+    if el.dataset.device is 'desktop'
+      $(".navigation--social").css "margin-left", "1.5em"
     Uno.loadingBar 'hide'
     Uno.search.form 'hide'
 
@@ -28,10 +31,22 @@ $(document).ready ->
     $(".panel-cover").addClass "panel-cover--collapsed"
     Uno.search.form 'show'
 
-  if window.location.pathname isnt "/"
+  if location.pathname isnt "/"
     Uno.search.form 'show'
 
-  if document.body.dataset.page is 'tag'
+  checkMobileLocation = ->
+    isHome = location.pathname is "/"
+    isOpen = location.hash is "#open"
+    console.log isHome
+    console.log isOpen
+    if isHome
+      action = if isOpen then 'show' else 'hide'
+      $(".content-wrapper")[action]()
+
+  do checkMobileLocation
+  $(window).on 'hashchange', checkMobileLocation
+
+  if el.dataset.page is 'tag'
     $(".panel-cover").addClass "panel-cover--collapsed"
 
   $(".btn-mobile-menu").click ->

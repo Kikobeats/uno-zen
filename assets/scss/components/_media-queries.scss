@@ -166,11 +166,37 @@
     margin: 15px auto;
   }
 
+  .panel-cover__description {
+    font-size: 14px;
+    padding: 0 .85rem;
+  }
+
   .mayday {
     width: 100%;
     > h1 {
       font-size: 20px;
       line-height: 25px;
     }
+  }
+
+  .pagination__page-number {
+    display: none;
+  }
+
+  .pagination {
+    margin: 0 0 2em;
+  }
+
+  .pagination__newer,
+  .pagination__older {
+    padding: 1rem;
+  }
+
+  .pagination__newer {
+    margin: 0 0 25px 0;
+  }
+
+  .pagination__older {
+    margin: 0 0 10px 0;
   }
 }

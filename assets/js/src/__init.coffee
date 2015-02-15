@@ -1,8 +1,8 @@
-"use strict"
+'use strict'
 
-$(document).ready ->
+$ ->
   window.Uno = Uno =
-    version: '1.3.1'
+    version: '1.3.2'
 
     cover:
       width: -> $(".panel-cover").width()
