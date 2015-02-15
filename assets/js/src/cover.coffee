@@ -28,7 +28,7 @@ $(document).ready ->
     $(".panel-cover").addClass "panel-cover--collapsed"
     Uno.search.form 'show'
 
-  if document.body.dataset.page is 'home'
+  if window.location.pathname isnt "/"
     Uno.search.form 'show'
 
   if document.body.dataset.page is 'tag'

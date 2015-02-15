@@ -2,7 +2,7 @@
 
 $(document).ready ->
   window.Uno = Uno =
-    version: '1.3.0'
+    version: '1.3.1'
 
     cover:
       width: -> $(".panel-cover").width()

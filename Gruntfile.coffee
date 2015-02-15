@@ -52,7 +52,7 @@ module.exports = (grunt) ->
 
     concat     :
       options  : stripBanners: true
-      css      : src: ['<%=src.css.vendor%>', '<%=src.css.main%>'], dest: '<%=dist.css%>'
+      css      : src: ['<%=src.css.main%>', '<%=src.css.vendor%>'], dest: '<%=dist.css%>'
       js       : src: ['<%=src.js.vendor%>', '<%=dist.js%>'], dest: '<%=dist.js%>'
 
     autoprefixer :
