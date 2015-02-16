@@ -15,7 +15,7 @@
   margin: 0;
   font-family: "Raleway";
   font-weight: 700;
-  color: $gray-lightest !important;
+  font-size: 2rem;
 }
 .panel-subtitle {
   font-family: $serif-font;
@@ -48,7 +48,7 @@
 }
 .panel-cover__description {
   margin: 0 30px;
-  font-size: 17px;
+  font-size: 15px;
 }
 .panel-cover__divider {
   width: 50%;
@@ -91,14 +91,11 @@
 }
 .panel-inverted {
   font-weight: 100;
-  color: #fff;
+  color: $gray-lightest;
   text-align: center;
-  text-shadow: 0 1px 1px rgba(000,
-  000,
-  000,
-  .4);
+  text-shadow: 0 1px 1px rgba(000, 000, 000, .4);
   a {
-    color: #fff;
+    color: $gray-lightest;
   }
 }
 // ------------------------------

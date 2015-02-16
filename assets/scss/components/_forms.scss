@@ -18,7 +18,7 @@ input[type="tel"] {
   padding: 1em 1em;
   font-size: .9em;
   color: $gray-darker;
-  background: #fff;
+  background: $gray-lightest;
   border: 1px solid $gray-light;
   border-radius: $border-radius;
   @include placeholder {

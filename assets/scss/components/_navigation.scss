@@ -16,19 +16,20 @@ nav {
   a {
     position: relative;
     display: block;
-    color: #fff;
-    border-color: #fff;
+    color: $gray-lightest;
+    border-color: $gray-lightest;
     opacity: .8;
     @extend .btn;
     &:hover {
-      color: #fff;
-      border-color: #fff;
+      color: $gray-lightest;
+      border-color: $gray-lightest;
       opacity: 1;
     }
   }
 }
 .navigation--social {
-  a{padding: 6px 8px 6px 9px;
+  a {
+    padding: 6px 8px 6px 9px;
     .label {
       display: none;
     }

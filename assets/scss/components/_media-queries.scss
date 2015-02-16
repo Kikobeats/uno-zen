@@ -160,11 +160,17 @@
   }
 
   .mayday {
-    width: 100%;
     > h1 {
       font-size: 20px;
       line-height: 25px;
     }
+  }
+  .astro-options {
+    padding: 0 4rem;
+  }
+
+  #panic-button {
+    margin-bottom: 1rem;
   }
   .panel-title {
     margin-bottom: .1em;
