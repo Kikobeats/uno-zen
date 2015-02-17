@@ -1,5 +1,9 @@
+// ------------------------------
+// PRE
+// ------------------------------
+
 @import 'bourbon/bourbon';
-@import url("https://fonts.googleapis.com/css?family=Raleway:400,700|Roboto+Slab:300,400");
+@import 'modules/mixins.scss';
 
 // ------------------------------
 // MODULES
@@ -7,7 +11,7 @@
 
 @import 'modules/reset.scss';
 @import 'modules/variables.scss';
-@import 'modules/mixins.scss';
+
 @import 'modules/helpers.scss';
 @import 'modules/grid.scss';
 @import 'modules/global.scss';

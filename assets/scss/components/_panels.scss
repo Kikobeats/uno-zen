@@ -36,7 +36,7 @@
   width: 100%;
   max-width: none;
   height: 100%;
-  @include filter;
+  @include filterBackground;
 }
 .panel-cover--collapsed {
   width: 28%;
