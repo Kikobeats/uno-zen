@@ -19,23 +19,24 @@
     color: darken($primary-color, 15%);
     border-color: darken($primary-color, 15%);
   }
-}
-.btn-secondary {
-  color: $secondary-color;
-  border-color: $secondary-color;
-  &:hover {
-    color: darken($secondary-color, 15%);
-    border-color: darken($secondary-color, 15%);
+  &.small {
+    padding: 8px 12px;
+    font-size: .7em;
+  }
+  &.large {
+    padding: 10px 24px;
+    font-size: 1.1em;
+  }
+  &.secondary {
+    color: $secondary-color;
+    border-color: $secondary-color;
+    &:hover {
+      color: darken($secondary-color, 15%);
+      border-color: darken($secondary-color, 15%);
+    }
   }
 }
-.btn-large {
-  padding: 10px 24px;
-  font-size: 1.1em;
-}
-.btn-small {
-  padding: 8px 12px;
-  font-size: .7em;
-}
+
 #back-button {
   margin-left: 3.5%;
 }

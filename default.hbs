@@ -4,72 +4,33 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-  {{! Meta }}
   <title>{{#unless post}}{{#if message}}{{message}} - {{@blog.title}}{{/if}}{{meta_title}}{{else}}{{meta_title}} - {{@blog.title}}{{/unless}}</title>
 
-  <meta name="HandheldFriendly" content="True">
-  <meta name="MobileOptimized" content="320">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {{> meta}}
 
-  <meta name="description" content="{{meta_description}}">
-
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="{{meta_title}}">
-  <meta name="twitter:description" content="{{meta_description}}">
-
-  <meta property="og:type" content="article">
-  <meta property="og:title" content="{{meta_title}}">
-  <meta property="og:description" content="{{meta_description}}">
-
-  {{!-- Favicon --}}
-  <link rel="shortcut icon" href="/assets/img/favicon.ico">
-  <link rel="apple-touch-icon" sizes="57x57" href="/assets/img/apple-touch-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="/assets/img/apple-touch-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="/assets/img/apple-touch-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="/assets/img/apple-touch-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="/assets/img/apple-touch-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="/assets/img/apple-touch-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/apple-touch-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="/assets/img/apple-touch-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon-180x180.png">
-  <link rel="icon" type="image/png" href="/assets/img/favicon-192x192.png" sizes="192x192">
-  <link rel="icon" type="image/png" href="/assets/img/favicon-160x160.png" sizes="160x160">
-  <link rel="icon" type="image/png" href="/assets/img/favicon-96x96.png" sizes="96x96">
-  <link rel="icon" type="image/png" href="/assets/img/favicon-16x16.png" sizes="16x16">
-  <link rel="icon" type="image/png" href="/assets/img/favicon-32x32.png" sizes="32x32">
-  <meta name="msapplication-TileColor" content="#00a300">
-  <meta name="msapplication-TileImage" content="/assets/img/mstile-144x144.png">
-  <meta name="msapplication-config" content="/assets/img/browserconfig.xml">
-
-  {{! Styles and Scripts }}
   <link rel="stylesheet" type="text/css" href="{{asset "css/uno.css"}}" />
 
-  {{! Ghost Magic }}
   {{ghost_head}}
 
 </head>
-<body class="{{body_class}} no-js">
+<body class="{{body_class}}">
 
-  <span class="mobile btn-mobile-menu">
+  <article class="mobile btn-mobile-menu">
     <i class="icon icon-list btn-mobile-menu__icon"></i>
     <i class="icon icon-x-circle btn-mobile-close__icon hidden"></i>
-  </span>
+  </article>
 
-  {{> side-panel}}
+  {{> aside}}
 
-  <div class="content-wrapper">
-    <div id="results"></div>
-    <div class="content-wrapper__inner">
+  <article class="main">
+    <section id="results"></section>
+    <section class="content">
       {{{body}}}
       {{> footer}}
-    </div>
-  </div>
+    </section>
+  </article>
 
-  {{! Ghost Footer Magic }}
   {{ghost_foot}}
-  {{! The main JavaScript file for Casper }}
   <script type="text/javascript" src="{{asset "js/uno.js"}}"></script>
   {{> google-analytics}}
 </body>

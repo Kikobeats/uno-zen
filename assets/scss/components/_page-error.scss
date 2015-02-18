@@ -4,7 +4,7 @@ body[data-page='error'] {
   line-height: 25px;
   width: 100%;
   height: 100%;
-  @include filter;
+  @include background-filter;
 
   > article {
     position: absolute;

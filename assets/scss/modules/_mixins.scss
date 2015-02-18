@@ -1,5 +1,33 @@
-@mixin filterBackground {
+@mixin background-filter {
   background: linear-gradient(150deg, rgba(19, 106, 138, .65) 30%, rgba(38, 120, 113, .44) 70%), url(/assets/img/cover.jpg) no-repeat center;
   background-attachment: fixed;
   background-size: cover;
+}
+
+@mixin center-absolute {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin font-shadow {
+  text-shadow: 0 1px 1px rgba(000, 000, 000, .4);
+}
+
+@mixin btn-cover {
+  font-size: .9em;
+  font-weight: bold;
+  text-shadow: none;
+  letter-spacing: 1px;
+  border-radius: 20px;
+  -webkit-font-smoothing: antialiased;
+  position: relative;
+  display: block;
+  opacity: .8;
+  border: 1px solid $gray-lightest;
+  color: $gray-lightest;
+
+  &:hover {
+    opacity: 1;
+  }
 }

@@ -1,0 +1,53 @@
+.cover {
+  position: fixed;
+  z-index: 900;
+  display: block;
+  width: 100%;
+  height: 100%;
+  @include background-filter;
+  &.collapsed {
+    width: $aside-width-collapsed;
+    &.animated {
+      transition: width $aside-animation-time $animation-ease;
+    }
+  }
+  &.container {
+    font-weight: $font-weight-thin;
+    text-align: center;
+    color: $gray-lightest;
+    @include center-absolute;
+    @include font-shadow;
+  }
+}
+
+.profile {
+  max-width: 620px;
+  margin: 0 auto;
+
+  > p {
+    font-size: 15px;
+    margin: 0 30px;
+  }
+  > a {
+    > img {
+      width: 10rem;
+      margin-bottom: 1.2rem;
+      border: 2px solid $primary-color;
+      border-radius: 50%;
+      box-shadow: 0 0 1px 1px rgba(000, 000, 000, .3);
+    }
+    > h1 {
+    font-family: $sans-font;
+    font-size: $font-size-big;
+    font-weight: $font-weight-bold;
+    margin: 0;
+    color: $gray-lightest;
+    }
+  }
+  &.contact {
+    > nav {
+      position: relative;
+      display: inline-block;
+    }
+  }
+}

@@ -1,3 +1,4 @@
+/* COLORS */
 
 $gray-darkest       : #333;
 $gray-darker        : #666;
@@ -25,3 +26,22 @@ $cover-color-first  : rgba(14, 44, 71, .31);
 $cover-color-second : rgba(67, 148, 162, .51);
 
 $border-radius      : 3px;
+
+/* FONT */
+
+$unit                : 1rem;
+
+$font-size-tiny      : 0.8rem;
+$font-size-small     : 1.2rem;
+$font-size-normal    : 1rem;
+$font-size-big       : 2rem;
+
+$font-weight-thin    : 100;
+$font-weight-normal  : 300;
+$font-weight-bold    : 700;
+
+/* OTHERS */
+
+$animation-ease        : cubic-bezier(.02, .01, .47, 1);
+$aside-width-collapsed : 28%;
+$aside-animation-time  : 400ms;

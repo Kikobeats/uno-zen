@@ -1,56 +1,33 @@
 "use strict"
 
-$(document).ready ->
-
+$ ->
   el = document.body
+  isHome = location.pathname is "/"
+  isOpen = location.hash is '#open'
+  isDesktop = el.dataset.device is 'desktop'
 
-  if not Uno.cover.isCollapsed()
-    if el.dataset.device is 'desktop'
-      $(".navigation--social").css "margin-left", "1.5em"
+  if isHome
     Uno.loadingBar 'hide'
     Uno.search.form 'hide'
+    $(".content-wrapper").hide() unless isOpen
+  else
+    Uno.cover.collapsed()
 
-  $("a.blog-button").click ->
+  if isOpen
+    Uno.cover.collapsed()
     Uno.search.form 'show'
-    $(".navigation--social").css "margin-left", "0px;"
+    $('.social.expanded').removeClass 'expanded'
 
-    unless Uno.cover.isCollapsed()
-      if Uno.cover.width() < 960
-        $(".panel-cover").addClass "panel-cover--collapsed"
-        $(".content-wrapper").addClass "animated slideInRight"
-      else
-        $(".navigation--social").css "margin-left", "0px"
-        $(".panel-cover").css "max-width", Uno.cover.width()
-        $(".panel-cover").animate
-          "max-width": "400px"
-          width: "28%"
-        , 400, swing = "swing", -> {}
-
-  if location.hash is "#open"
-    $(".navigation--social").css "margin-left", "0px"
-    $(".panel-cover").addClass "panel-cover--collapsed"
+  $('#blog-button').click ->
+    Uno.cover.collapsedWithAnimation()
     Uno.search.form 'show'
+    $('.social.expanded').removeClass 'expanded'
+    $(".content-wrapper").show()
 
-  if location.pathname isnt "/"
-    Uno.search.form 'show'
+  # $(".btn-mobile-menu").click ->
+  #   $(".navigation-wrapper").toggleClass "visible animated bounceInDown"
+  #   $(".btn-mobile-menu__icon").toggleClass "icon-list icon-x-circle animated fadeIn"
 
-  checkMobileLocation = ->
-    isHome = location.pathname is "/"
-    isOpen = location.hash is "#open"
-    if isHome
-      action = if isOpen then 'show' else 'hide'
-      $(".content-wrapper")[action]()
-
-  do checkMobileLocation
-  $(window).on 'hashchange', checkMobileLocation
-
-  if el.dataset.page is 'tag'
-    $(".panel-cover").addClass "panel-cover--collapsed"
-
-  $(".btn-mobile-menu").click ->
-    $(".navigation-wrapper").toggleClass "visible animated bounceInDown"
-    $(".btn-mobile-menu__icon").toggleClass "icon-list icon-x-circle animated fadeIn"
-
-  $(".navigation-wrapper .blog-button").click ->
-    $(".navigation-wrapper").toggleClass "visible"
-    $(".btn-mobile-menu__icon").toggleClass "icon-list icon-x-circle animated fadeIn"
+  # $(".navigation-wrapper .blog-button").click ->
+  #   $(".navigation-wrapper").toggleClass "visible"
+  #   $(".btn-mobile-menu__icon").toggleClass "icon-list icon-x-circle animated fadeIn"

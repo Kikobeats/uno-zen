@@ -1,19 +1,10 @@
-// ------------------------------
-// PAGINATION
-// ------------------------------
-
 .pagination {
-  display: block;
   margin: 0 0 2.5em 0;
 }
-.pagination__page-number {
-  margin: 0;
+
+.posts.index {
+  margin-left: 1em;
+  margin-right: 1em;
   font-size: .8em;
   color: $gray-dark;
-}
-.pagination__newer {
-  margin-right: 1em;
-}
-.pagination__older {
-  margin-left: 1em;
 }

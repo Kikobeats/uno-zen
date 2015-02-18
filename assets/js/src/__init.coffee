@@ -5,9 +5,12 @@ $ ->
     version: '1.3.2'
 
     cover:
-      width: -> $(".panel-cover").width()
-      isCollapsed: -> $(".panel-cover").hasClass("panel-cover--collapsed")
-      collapsed: -> $(".panel-cover").addClass("panel-cover--collapsed")
+      width: -> $(".cover").width()
+      isCollapsed: -> $(".cover").hasClass("collapsed")
+      collapsed: ->
+        $(".cover").addClass("collapsed")
+      collapsedWithAnimation: ->
+        $(".cover").addClass("collapsed animated")
 
     search:
       container: -> $('#results')
@@ -25,7 +28,7 @@ $ ->
       container = $('.content-wrapper')
       readingTime = $(".post-reading-time")
       isPostPage = container.length > 0 and readingTime.length > 0
-      isPostListPage = $(".post-list__meta > time").length > 0
+      isPostListPage = $(".post.date").length > 0
 
       DateInDays = (selector, cb) ->
         $(selector).each ->
@@ -43,12 +46,11 @@ $ ->
         cb?()
 
       if isPostListPage
-        DateInDays ".post-list__meta > time"
+        DateInDays ".post.date"
       else if isPostPage
-        DateInDays '.post-meta > time', ->
+        DateInDays '.post.meta > time', ->
           container.readingTime readingTimeTarget: ".post-reading-time"
 
-  $('body').removeClass "no-js"
   el = document.body
   context = el.dataset.page ?= Uno.context()
   Uno.cover.collapsed() if context is 'post'
@@ -56,5 +58,5 @@ $ ->
 
   $('#panic-button').click ->
     s = document.createElement('script')
-    s.setAttribute('src','https://nthitz.github.io/turndownforwhatjs/tdfw.js')
+    s.setAttribute('src','/assets/js/tdfw.js')
     document.body.appendChild(s)

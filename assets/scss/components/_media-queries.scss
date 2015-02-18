@@ -101,12 +101,8 @@
     display: none;
     width: 100%;
     padding: 20px 0;
-    background: rgba($gray-darkest,
-    .98);
-    border-bottom: 1px solid rgba(255,
-    255,
-    255,
-    .15);
+    background: rgba($gray-darkest,.98);
+    border-bottom: 1px solid rgba(255, 255, 255, .15);
     &.visible {
       display: block;
     }

@@ -52,7 +52,6 @@ h1 {
   font-size: 2.5em;
   line-height: 1.2em;
   letter-spacing: .05em;
-  // font-weight: 400;
 }
 h2 {
   font-size: 1.8em;
@@ -175,11 +174,7 @@ pre:hover {
     }
   }
 }
-.excerpt {
-  margin: 0;
-  font-size: .9em;
-  color: $gray-dark;
-}
+
 .intro {
   font-family: $serif-font;
   font-size: 1.2em;
@@ -215,7 +210,7 @@ pre:hover {
   width: $total-width - $gutter-width;
   margin: 0 auto;
 }
-.content-wrapper {
+.main {
   position: absolute;
   top: 0;
   right: 0;
@@ -223,7 +218,7 @@ pre:hover {
   left: 400px;
   padding: 40px 5%;
 }
-.content-wrapper__inner {
+.content {
   padding: 50px 0;
   margin: 0 10%;
 }
@@ -246,17 +241,7 @@ pre:hover {
     }
   }
 }
-// ------------------------------
-// AVATAR & LOGO
-// ------------------------------
 
-.avatar,
-.logo {
-  width: 25%;
-  border: 2px solid $primary-color;
-  border-radius: 50%;
-  box-shadow: 0 0 1px 1px rgba(000, 000, 000, .3);
-}
 // ------------------------------
 // DIVIDERS
 // ------------------------------

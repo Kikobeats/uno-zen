@@ -1,0 +1,21 @@
+<aside class="cover">
+  <div class="cover container">
+    <div class="profile">
+      {{#if @blog.logo}}
+      <a href="{{@blog.url}}/#open" title="link to homepage for {{@blog.title}}">
+        <img src="{{@blog.logo}}" alt="{{@blog.title}} avatar" class="profile avatar hvr-buzz-out" />
+        <h1>Kiko Beats</h1>
+      </a>
+      {{/if}}
+
+      <hr class="divider long" />
+      <p>{{@blog.description}}</p>
+      <hr class="divider short" />
+      {{> search }}
+      <div class="profile contact">
+        {{> links}}
+        {{> social}}
+      </div>
+    </div>
+  </div>
+</aside>
