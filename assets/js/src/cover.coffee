@@ -24,10 +24,13 @@ $ ->
     $('.social.expanded').removeClass 'expanded'
     $(".content-wrapper").show()
 
+
   # $(".btn-mobile-menu").click ->
+  #   /* now is #search-container */
   #   $(".navigation-wrapper").toggleClass "visible animated bounceInDown"
   #   $(".btn-mobile-menu__icon").toggleClass "icon-list icon-x-circle animated fadeIn"
 
   # $(".navigation-wrapper .blog-button").click ->
+  #   /* now is #search-container */
   #   $(".navigation-wrapper").toggleClass "visible"
   #   $(".btn-mobile-menu__icon").toggleClass "icon-list icon-x-circle animated fadeIn"

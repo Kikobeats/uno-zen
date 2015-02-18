@@ -14,7 +14,7 @@ $ ->
 
     search:
       container: -> $('#results')
-      form: (action) -> $("#search")[action]()
+      form: (action) -> $("#search-container")[action]()
 
     loadingBar: (action) -> $(".pace")[action]()
 
