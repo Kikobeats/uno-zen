@@ -2,7 +2,7 @@
 
 $ ->
   window.Uno = Uno =
-    version: '1.3.2'
+    version: '2.0'
 
     cover:
       width: -> $(".cover").width()
@@ -24,12 +24,9 @@ $ ->
       className = document.body.className.split(" ")[0].split("-")[0]
       if className is "" then 'error' else className
 
-    readTime: do ->
-      container = $('.content-wrapper')
-      readingTime = $(".post-reading-time")
-      isPostPage = container.length > 0 and readingTime.length > 0
-      isPostListPage = $(".post.date").length > 0
+    is: (property, value) -> document.body.dataset[property] is value
 
+    readTime: ->
       DateInDays = (selector, cb) ->
         $(selector).each ->
           postDate = $(this).html()
@@ -45,16 +42,19 @@ $ ->
           $(this).mouseout -> $(this).html(postDateInDays)
         cb?()
 
-      if isPostListPage
-        DateInDays ".post.date"
-      else if isPostPage
-        DateInDays '.post.meta > time', ->
-          container.readingTime readingTimeTarget: ".post-reading-time"
+      DateInDays ".post.meta > time"
 
+  ## Main
   el = document.body
-  context = el.dataset.page ?= Uno.context()
-  Uno.cover.collapsed() if context is 'post'
-  FastClick.attach(el) if el.dataset.device isnt 'desktop'
+  el.dataset.page ?= Uno.context()
+
+  Uno.readTime()
+
+  if Uno.is 'page', 'post'
+    $('.main').readingTime readingTimeTarget: ".post.reading-time > span"
+
+  if Uno.is 'device', 'desktop'
+    FastClick.attach(el)
 
   $('#panic-button').click ->
     s = document.createElement('script')

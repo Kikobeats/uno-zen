@@ -22,13 +22,12 @@ body {
   background: lighten($primary-color, 36%);
 }
 // ------------------------------
-// TYPOGRAPHYf
+// TYPOGRAPHY
 // ------------------------------
 
 a {
   color: $link-color;
   text-decoration: none;
-  // TODO
   &:hover {
     color: $hover-color;
     transition: .5s;
@@ -152,28 +151,25 @@ code:hover,
 pre:hover {
   color: $gray-darkest;
 }
-.date,
-.time,
-.author,
-.tags {
-  font-size: .8em;
-  color: darken($gray,
-  2%);
-  a {
-    padding: .166666666666667rem .25rem;
-    font-size: .3rem;
-    color: darken($primary-color,
-    100%);
-    color: white;
-    text-transform: uppercase;
-    background-color: rgba($primary-color,
-    .7);
-    border-radius: .25rem;
-    &:hover {
-      background-color: rgba($primary-color, 1);
-    }
-  }
-}
+// .date,
+// .time,
+// .author,
+// .tags {
+//   font-size: .85em;
+//   color: darken($gray, 2%);
+//   a {
+//     padding: .166666666666667rem .25rem;
+//     font-size: .3rem;
+//     color: darken($primary-color, 100%);
+//     color: white;
+//     text-transform: uppercase;
+//     background-color: rgba($primary-color, .7);
+//     border-radius: .25rem;
+//     &:hover {
+//       background-color: rgba($primary-color, 1);
+//     }
+//   }
+// }
 
 .intro {
   font-family: $serif-font;

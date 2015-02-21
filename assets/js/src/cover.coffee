@@ -2,18 +2,14 @@
 
 $ ->
   el = document.body
-  isHome = location.pathname is "/"
   isOpen = location.hash is '#open'
-  isDesktop = el.dataset.device is 'desktop'
 
-  if isHome
+  if Uno.is 'page', 'home'
     Uno.loadingBar 'hide'
     Uno.search.form 'hide'
     $(".content-wrapper").hide() unless isOpen
-  else
-    Uno.cover.collapsed()
 
-  if isOpen
+  if isOpen or not Uno.is 'page', 'home'
     Uno.cover.collapsed()
     Uno.search.form 'show'
     $('.social.expanded').removeClass 'expanded'

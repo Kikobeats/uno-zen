@@ -1,38 +1,24 @@
-// ------------------------------
-// SINGLE POST LAYOUT
-// ------------------------------
-
-.post-comments {
-  padding: 60px 0;
-  border-top: 1px solid $gray-light;
+.posts {
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  list-style-type: none;
+  > li {
+    > h2 {
+      margin-bottom: 1rem;
+      font-size: 1.5em;
+      line-height: 1.3em;
+      &:first-child {
+        margin-top: 0;
+      }
+    }
+    > p {
+      margin-bottom: 1rem;
+      font-size: .9em;
+      color: $gray-dark;
+    }
+  }
 }
-// ------------------------------
-// SINGLE POST METAß
-// ------------------------------
-
-.post-meta {
-  color: darken($gray, 2%);
-  text-align: center;
-}
-.post-meta__author {
-  margin-left: 1.5em;
-}
-.post-meta__avatar {
-  display: inline-block;
-  width: 22px;
-  height: 22px;
-  margin: 0 .3em .4em 0;
-  border: none;
-  box-shadow: none;
-}
-.post-meta__date,
-.post-meta__read {
-  font-size: .85rem;
-}
-// ------------------------------
-// SINGLE POST STYLES
-// ------------------------------
-
 .post {
   img {
     max-width: 100%;
@@ -49,45 +35,65 @@
     margin: 2em 0;
     border-top: 1px solid $gray-light;
   }
-}
-// ------------------------------
-// POST LIST
-// ------------------------------
-
-.posts {
-  padding: 0;
-  margin: 0;
-  text-align: left;
-  list-style-type: none;
-  > li {
-    margin: 0 0 2.2em;
-
-    > h2 {
-      margin-top: 0;
-      margin-bottom: .2em;
-      font-size: 1.5em;
-      line-height: 1.3em;
-    }
-
-    > p {
-      margin: 0;
-      font-size: .9em;
-      color: $gray-dark;
-    }
+  > header {
+    text-align: center;
   }
-}
-
-.post {
   &.meta {
-    display: block;
-    margin: .7em 0 0 0;
-    font-size: .9em;
+    margin: .7em 0;
+    font-size: .85rem;
     color: darken($gray, 2%);
   }
+  &.tags {
+    font-size: .85em;
+    color: darken($gray, 2%);
+    a {
+      padding: .166666666666667rem .25rem;
+      font-size: .3rem;
+      color: darken($primary-color,
+      100%);
+      color: white;
+      text-transform: uppercase;
+      background-color: rgba($primary-color,
+      .7);
+      border-radius: .25rem;
+      &:hover {
+        background-color: rgba($primary-color, 1);
+      }
+    }
+  }
+
+  &.author {
+    margin-left: 1.2em;
+
+    img {
+      display: inline-block;
+      vertical-align:middle;
+      height: 22px;
+      border: none;
+      box-shadow: none;
+    }
+  }
+
+  &.comments {
+    padding: 60px 0;
+    border-top: 1px solid $gray-light;
+  }
 }
 
-.post-button {
+#back-button {
   position: absolute;
   left: 0;
   top: 30px;
+  margin-left: 3.5%;
+}
+
+#post-image {
+  max-width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 6%;
+}
+
+#post-title {
+  margin-bottom: 4rem;
+  text-align: center;
 }
