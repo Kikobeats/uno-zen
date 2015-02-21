@@ -1,34 +1,24 @@
+// more in http://github.hubspot.com/pace/docs/welcome/
+
 .pace {
+  -webkit-pointer-events: none;
   pointer-events: none;
+
   -webkit-user-select: none;
   -moz-user-select: none;
   user-select: none;
-  -webkit-pointer-events: none;
 }
-.pace.pace-inactive .pace-progress {
+
+.pace-inactive {
   display: none;
 }
+
 .pace .pace-progress {
+  background: $primary-color;
   position: fixed;
-  top: 0;
-  right: 0;
   z-index: 2000;
-  width: 5rem;
-  height: 5rem;
-  -webkit-transform: translate3d(0, 0, 0) !important;
-  -ms-transform: translate3d(0, 0, 0) !important;
-  transform: translate3d(0, 0, 0) !important;
-}
-.pace .pace-progress:after {
-  position: absolute;
   top: 0;
-  right: .5rem;
-  display: block;
-  font-family: "Helvetica Neue", sans-serif;
-  font-size: 5rem;
-  font-weight: 100;
-  line-height: 1;
-  color: rgba(darken($gray, 2%), .7);
-  text-align: right;
-  content: attr(data-progress-text);
+  right: 100%;
+  width: 100%;
+  height: 2px;
 }

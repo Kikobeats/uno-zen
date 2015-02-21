@@ -41,16 +41,13 @@
   &.meta {
     margin: .7em 0;
     font-size: .85rem;
-    color: darken($gray, 2%);
+    color: $gray;
   }
   &.tags {
-    font-size: .85em;
-    color: darken($gray, 2%);
     a {
       padding: .166666666666667rem .25rem;
       font-size: .3rem;
-      color: darken($primary-color,
-      100%);
+      color: darken($primary-color, 100%);
       color: white;
       text-transform: uppercase;
       background-color: rgba($primary-color,

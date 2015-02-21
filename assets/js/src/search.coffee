@@ -1,4 +1,4 @@
-"use strict"
+'use strict'
 
 showSearch = ->
   $(".content-wrapper__inner").hide()
@@ -10,7 +10,7 @@ hideSearch = ->
   $('#search-results').css "padding-top", "0"
   $('#search-results').css "margin-bottom", "0"
 
-$(document).ready ->
+$ ->
   $("#search-field").ghostHunter
     results           : "#search-results"
     zeroResultsInfo   : false

@@ -116,19 +116,7 @@ ol {
 ul {
   list-style-type: disc;
 }
-code {
-  padding: .1em .4em;
-  font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
-  font-size: .85em;
-  color: #999;
-  text-shadow: none;
-  background: 0 0;
-  border: 1.5px solid #d9d9d9;
-  border-radius: 3px;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  box-shadow: none;
-}
+
 pre {
   padding: 1em 2.5%;
   margin-bottom: 1.3em;
@@ -136,41 +124,31 @@ pre {
   font-size: .9em;
   font-weight: 400;
   line-height: 1.3em;
-  color: #999;
+  color: $gray-dark;
   word-wrap: break-word;
   background: 0 0;
   border: 1px solid #d9d9d9;
   border-radius: 3px;
+
+  > code {
+    padding: 0;
+    font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+    font-size: .85em;
+    color: $gray-dark;
+    text-shadow: none;
+    background: 0 0;
+    border: none;
+    border-radius: 3px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+  }
 }
-pre code {
-  padding: 0;
-  background: 0 0;
-  border: none;
-}
+
 code:hover,
 pre:hover {
   color: $gray-darkest;
 }
-// .date,
-// .time,
-// .author,
-// .tags {
-//   font-size: .85em;
-//   color: darken($gray, 2%);
-//   a {
-//     padding: .166666666666667rem .25rem;
-//     font-size: .3rem;
-//     color: darken($primary-color, 100%);
-//     color: white;
-//     text-transform: uppercase;
-//     background-color: rgba($primary-color, .7);
-//     border-radius: .25rem;
-//     &:hover {
-//       background-color: rgba($primary-color, 1);
-//     }
-//   }
-// }
-
 .intro {
   font-family: $serif-font;
   font-size: 1.2em;
@@ -213,19 +191,19 @@ pre:hover {
   bottom: 0;
   left: 400px;
   padding: 40px 5%;
+  > .content {
+    padding: 50px 0;
+    margin: 0 10%;
+    > footer {
+      display: block;
+      padding: 2em 0 0;
+      font-size: .7em;
+      color: lighten($gray-dark, 10%);
+      border-top: 2px solid $gray-light;
+    }
+  }
 }
-.content {
-  padding: 50px 0;
-  margin: 0 10%;
-}
-.footer {
-  display: block;
-  padding: 2em 0 0;
-  font-size: .7em;
-  color: lighten($gray-dark, 10%);
-  border-top: 2px solid $gray-light;
-}
-.footer__copyright {
+.copyright {
   display: block;
   margin-bottom: .7em;
   a {
@@ -237,7 +215,6 @@ pre:hover {
     }
   }
 }
-
 // ------------------------------
 // DIVIDERS
 // ------------------------------
