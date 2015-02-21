@@ -1,20 +1,25 @@
 'use strict'
 
-showSearch = ->
-  $(".content-wrapper__inner").hide()
-  $('#search-results').css "margin-top", "3rem"
-  $('#search-results').css "margin-bottom", "9rem"
-
-hideSearch = ->
-  $(".content-wrapper__inner").show()
-  $('#search-results').css "padding-top", "0"
-  $('#search-results').css "margin-bottom", "0"
-
 $ ->
+  showSearch = ->
+    $(".content").hide()
+    $('#search-results').addClass('active')
+
+  hideSearch = ->
+    $(".content").show()
+    $('#search-results').removeClass('active')
+
   $("#search-field").ghostHunter
     results           : "#search-results"
     zeroResultsInfo   : false
     onKeyUp           : true
     displaySearchInfo : true
-    onComplete        : (query) ->
+    result_template   :
+      """
+      <a class="result" href='{{link}}'>
+        <h2>{{title}}</h2>
+        <h4>{{pubDate}}</h4>
+      </a>
+      """
+    onComplete : (query) ->
       if query.length > 0 then showSearch() else hideSearch()

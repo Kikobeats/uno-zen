@@ -58,7 +58,7 @@ gulp.task 'css', ->
   gulp.src src.css.vendor
   .pipe changed dist.css
   .pipe addsrc src.sass.main
-  .pipe sass()
+  .pipe sass().on "error", gutil.log
   .pipe concat 'uno.css'
   .pipe prefix()
   .pipe strip
