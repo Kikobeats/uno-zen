@@ -45,8 +45,9 @@ $ ->
   if Uno.is 'page', 'post'
     $('.main').readingTime readingTimeTarget: ".post.reading-time > span"
 
-  if Uno.is 'device', 'desktop'
+  unless Uno.is 'device', 'desktop'
     FastClick.attach(el)
+    location.hash = '#open' if Uno.is 'page', 'home'
 
   $('#panic-button').click ->
     s = document.createElement('script')

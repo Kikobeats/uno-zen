@@ -28,10 +28,7 @@ $ ->
     action = if $('.main').is(":visible") then 'hide' else 'show'
     $('.main')[action]()
 
-  $(".btn-mobile-menu").click ->
-    $(".navigation").toggleClass "visible animated bounceInDown"
-    $(".btn-mobile-menu__icon").toggleClass "icon-list icon-x-circle animated fadeIn"
-
-  $(".navigation-wrapper .blog-button").click ->
-    $(".navigation").toggleClass "visible"
-    $(".btn-mobile-menu__icon").toggleClass "icon-list icon-x-circle animated fadeIn"
+  $("#cover-button").click ->
+    $('.cover').toggleClass 'collapsed'
+    $('.main').toggleClass 'collapsed'
+    $('#cover-button').toggleClass 'collapsed'

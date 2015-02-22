@@ -158,13 +158,13 @@ pre:hover {
   @include column(12);
 }
 .label {
-  position: relative;
-  display: inline-block;
+  // position: relative;
+  // display: inline-block;
   padding: 8px 18px 9px;
-  color: $gray-lightest;
-  text-align: center;
-  background: $primary-color;
-  border-radius: $border-radius;
+  // color: $gray-lightest;
+  // text-align: center;
+  // background: $primary-color;
+  // border-radius: $border-radius;
 }
 
 // ------------------------------

@@ -33,23 +33,14 @@
   }
 }
 
-.btn-mobile-menu {
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 9999;
+#cover-button {
   display: none;
-  width: 100%;
-  height: 42px;
-  text-align: center;
-  background: $gray-darkest;
-  border-bottom: 1px solid rgba(255, 255, 255, .1);
-}
-.btn-mobile-menu__icon,
-.btn-mobile-close__icon {
-  position: relative;
-  top: 3px;
-  font-size: 36px;
-  color: $gray-lightest;
+ > a {
+  > i {
+    position: relative;
+    top: 3px;
+    font-size: 36px;
+    color: $gray-lightest;
+  }
+ }
 }
