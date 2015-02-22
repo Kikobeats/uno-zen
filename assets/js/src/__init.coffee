@@ -4,14 +4,6 @@ $ ->
   window.Uno = Uno =
     version: '2.0.0'
 
-    cover:
-      width: -> $(".cover").width()
-      isCollapsed: -> $(".cover").hasClass("collapsed")
-      collapsed: ->
-        $(".cover").addClass("collapsed")
-      collapsedWithAnimation: ->
-        $(".cover").addClass("collapsed animated")
-
     search:
       container: -> $('#results')
       form: (action) -> $("#search-container")[action]()

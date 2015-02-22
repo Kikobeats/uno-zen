@@ -4,22 +4,29 @@ $ ->
   el = document.body
   isOpen = location.hash is '#open'
 
-  if Uno.is 'page', 'home'
+  _expand = ->
     Uno.loadingBar 'hide'
     Uno.search.form 'hide'
-    $(".content-wrapper").hide() unless isOpen
+    $(".cover").removeClass("collapsed")
+    $(".main").hide() unless isOpen
 
-  if isOpen or not Uno.is 'page', 'home'
-    Uno.cover.collapsed()
+  _collapsed = ->
+    $(".cover").addClass("collapsed")
     Uno.search.form 'show'
     $('.social.expanded').removeClass 'expanded'
+
+  if Uno.is 'page', 'home'
+    $('.cover').addClass 'animated'
+    _expand()
+
+  _collapsed() if isOpen or not Uno.is 'page', 'home'
 
   $('#blog-button').click ->
-    Uno.cover.collapsedWithAnimation()
-    Uno.search.form 'show'
-    $('.social.expanded').removeClass 'expanded'
-    $(".content-wrapper").show()
-
+    $('.cover').toggleClass("collapsed")
+    Uno.search.form 'toggle'
+    $('.social.expanded').toggleClass 'expanded'
+    action = if $('.main').is(":visible") then 'hide' else 'show'
+    $('.main')[action]()
 
   # $(".btn-mobile-menu").click ->
   #   /* now is #search-container */

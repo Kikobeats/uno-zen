@@ -5,11 +5,13 @@
   width: 100%;
   height: 100%;
   @include background-filter;
+
+  &.animated {
+    transition: width $aside-animation-time $animation-ease;
+  }
+
   &.collapsed {
     width: $aside-width-collapsed;
-    &.animated {
-      transition: width $aside-animation-time $animation-ease;
-    }
   }
   &.container {
     font-weight: $font-weight-thin;
