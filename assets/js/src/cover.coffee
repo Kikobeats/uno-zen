@@ -7,13 +7,13 @@ $ ->
   _expand = ->
     Uno.loadingBar 'hide'
     Uno.search.form 'hide'
-    $(".cover").removeClass("collapsed")
+    $(".cover").removeClass 'collapsed'
     $(".main").hide() unless isOpen
 
   _collapsed = ->
     $(".cover").addClass("collapsed")
     Uno.search.form 'show'
-    $('.social.expanded').removeClass 'expanded'
+    $('.social').removeClass 'expanded'
 
   if Uno.is 'page', 'home'
     $('.cover').addClass 'animated'
@@ -22,9 +22,9 @@ $ ->
   _collapsed() if isOpen or not Uno.is 'page', 'home'
 
   $('#blog-button').click ->
-    $('.cover').toggleClass("collapsed")
+    $('.cover').toggleClass 'collapsed'
     Uno.search.form 'toggle'
-    $('.social.expanded').toggleClass 'expanded'
+    $('.social').toggleClass 'expanded'
     action = if $('.main').is(":visible") then 'hide' else 'show'
     $('.main')[action]()
 
