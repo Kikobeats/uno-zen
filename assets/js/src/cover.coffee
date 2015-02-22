@@ -32,3 +32,6 @@ $ ->
     $('.cover').toggleClass 'collapsed'
     $('.main').toggleClass 'collapsed'
     $('#cover-button').toggleClass 'collapsed'
+
+  if (not Uno.is 'device', 'desktop') and (Uno.is 'page', 'home')
+    $("#blog-button").trigger('click')

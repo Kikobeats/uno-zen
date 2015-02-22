@@ -37,19 +37,19 @@ $ ->
       DateInDays ".post.meta > time"
 
   ## Main
+
   el = document.body
   el.dataset.page ?= Uno.context()
-
   Uno.readTime()
 
   if Uno.is 'page', 'post'
     $('.main').readingTime readingTimeTarget: ".post.reading-time > span"
 
-  unless Uno.is 'device', 'desktop'
-    FastClick.attach(el)
-    location.hash = '#open' if Uno.is 'page', 'home'
-
   $('#panic-button').click ->
     s = document.createElement('script')
     s.setAttribute('src','https://nthitz.github.io/turndownforwhatjs/tdfw.js')
     document.body.appendChild(s)
+
+  $ ->
+    unless Uno.is 'device', 'desktop'
+      FastClick.attach(el)

@@ -93,3 +93,4 @@ gulp.task "default", ->
   gulp.start ["build", "server"]
   gulp.watch src.sass.files, ["css"]
   gulp.watch src.js.main, ["js"]
+  gulp.watch src.js.vendor, ["js"]
