@@ -21,6 +21,7 @@ $hover-color        : $primary-color;
 
 $sans-font          : 'Raleway', sans-serif;
 $serif-font         : 'Roboto Slab', serif;
+$code-font          : Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
 
 $cover-color-first  : rgba(14, 44, 71, .31);
 $cover-color-second : rgba(67, 148, 162, .51);
@@ -43,5 +44,5 @@ $font-weight-bold    : 700;
 /* OTHERS */
 
 $animation-ease        : cubic-bezier(.02, .01, .47, 1);
-$aside-width-collapsed : 360px;
+$aside-width-collapsed : 22.5rem;
 $aside-animation-time  : 400ms;

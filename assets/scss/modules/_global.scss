@@ -2,17 +2,17 @@
 // BASICS
 // ------------------------------
 
+html {
+  height: 100%;
+  max-height: 100%;
+  font-size: 16px;
+}
 html,
 body {
   height: 100%;
 }
-html {
-  height: 100%;
-  max-height: 100%;
-}
 body {
   font-family: $sans-font;
-  font-size: 1em;
   color: $gray-darker;
 }
 ::selection {
@@ -116,45 +116,37 @@ ol {
 ul {
   list-style-type: disc;
 }
-
 pre {
-  padding: 1em 2.5%;
-  margin-bottom: 1.3em;
-  font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
-  font-size: .9em;
-  font-weight: 400;
-  line-height: 1.3em;
-  color: $gray-dark;
-  word-wrap: break-word;
-  background: 0 0;
-  border: 1px solid #d9d9d9;
-  border-radius: 3px;
-
+  padding       : 1em 2.5%;
+  margin-bottom : 1.3em;
+  font-family   : $code-font;
+  font-size     : .9em;
+  font-weight   : 400;
+  line-height   : 1.3em;
+  color         : $gray-dark;
+  word-wrap     : break-word;
+  background    : 0 0;
+  border        : 1px solid #d9d9d9;
+  border-radius : 3px;
   > code {
-    padding: 0;
-    font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
-    font-size: .85em;
-    color: $gray-dark;
-    text-shadow: none;
-    background: 0 0;
-    border: none;
-    border-radius: 3px;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
+    padding            : 0;
+    font-family        : $code-font;
+    font-size          : .85em;
+    color              : $gray-dark;
+    text-shadow        : none;
+    background         : 0 0;
+    border             : none;
+    border-radius      : 3px;
+    -webkit-box-shadow : none;
+    -moz-box-shadow    : none;
+    box-shadow         : none;
   }
 }
-
 code:hover,
 pre:hover {
   color: $gray-darkest;
 }
-.intro {
-  font-family: $serif-font;
-  font-size: 1.2em;
-  font-weight: lighter;
-  color: $gray-dark;
-}
+
 .block-heading {
   position: relative;
   bottom: -15px;
@@ -169,11 +161,12 @@ pre:hover {
   position: relative;
   display: inline-block;
   padding: 8px 18px 9px 18px;
-  color: #fff;
+  color: $gray-lightest;
   text-align: center;
   background: $primary-color;
   border-radius: $border-radius;
 }
+
 // ------------------------------
 // MAIN LAYOUT
 // ------------------------------
@@ -189,10 +182,11 @@ pre:hover {
   top: 0;
   right: 0;
   bottom: 0;
-  left: 400px;
-  padding: 40px 5%;
+  left: 25rem;
+  padding: 2.5rem 4rem;
+
   > .content {
-    padding: 50px 0;
+    padding: 3rem 0;
     margin: 0 10%;
     > footer {
       display: block;
@@ -207,23 +201,14 @@ pre:hover {
   display: block;
   margin-bottom: .7em;
   a {
-    color: lighten($gray-dark,
-    5%);
+    color: lighten($gray-dark, 5%);
     text-decoration: underline;
     &:hover {
       color: $hover-color;
     }
   }
 }
-// ------------------------------
-// DIVIDERS
-// ------------------------------
 
 hr {
   border: none;
-}
-.section-title__divider {
-  width: 30%;
-  margin: 2.2em 0 2.1em 0;
-  border-top: 1px solid $gray-light;
 }

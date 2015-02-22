@@ -23,12 +23,12 @@
 }
 
 .profile {
-  max-width: 620px;
+  max-width: 38.75rem;
   margin: 0 auto;
 
   > p {
-    font-size: 15px;
-    margin: 0 30px;
+    font-size: .9rem;
+    margin: 0 2rem;
   }
   > a {
     > img {
@@ -73,7 +73,7 @@
     line-height: 1em;
     a {
       @include btn-cover;
-      padding: 10px 20px;
+      padding: .625rem 1.25rem;
     }
   }
 }

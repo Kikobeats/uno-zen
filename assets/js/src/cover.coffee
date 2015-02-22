@@ -28,12 +28,10 @@ $ ->
     action = if $('.main').is(":visible") then 'hide' else 'show'
     $('.main')[action]()
 
-  # $(".btn-mobile-menu").click ->
-  #   /* now is #search-container */
-  #   $(".navigation-wrapper").toggleClass "visible animated bounceInDown"
-  #   $(".btn-mobile-menu__icon").toggleClass "icon-list icon-x-circle animated fadeIn"
+  $(".btn-mobile-menu").click ->
+    $(".navigation").toggleClass "visible animated bounceInDown"
+    $(".btn-mobile-menu__icon").toggleClass "icon-list icon-x-circle animated fadeIn"
 
-  # $(".navigation-wrapper .blog-button").click ->
-  #   /* now is #search-container */
-  #   $(".navigation-wrapper").toggleClass "visible"
-  #   $(".btn-mobile-menu__icon").toggleClass "icon-list icon-x-circle animated fadeIn"
+  $(".navigation-wrapper .blog-button").click ->
+    $(".navigation").toggleClass "visible"
+    $(".btn-mobile-menu__icon").toggleClass "icon-list icon-x-circle animated fadeIn"

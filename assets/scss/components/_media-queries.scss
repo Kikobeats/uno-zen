@@ -2,99 +2,82 @@
 // MEDIA QUERIES
 // ------------------------------
 
-@media only screen and (max-width:1428px) {
-  .content-wrapper {
-    left: 30%;
-    padding: 40px 9%;
-  }
-  .panel-main__inner {
-    padding: 0 0;
-  }
-  #search-field {
-    widows: 60%;
-  }
-  #back-button {
-    margin-left: 0;
-  }
-}
+// @media only screen and (max-width:1428px) {
+//   .content-wrapper {
+//     left: 30%;
+//     padding: 40px 9%;
+//   }
+//   .panel-main__inner {
+//     padding: 0 0;
+//   }
+//   #search-field {
+//     widows: 60%;
+//   }
+//   #back-button {
+//     margin-left: 0;
+//   }
+// }
+
 // ------------------------------
 // < 1023px
 // ------------------------------
 
 @media all and (max-width:1023px) {
-  .content-wrapper__inner {
-    padding: 15px 0;
+
+  .btn-mobile-menu {
+    display: block;
   }
-  .pace,
-  .post-button,
-  .post-meta__read {
-    display: none !important;
+
+  .cover {
+    position: relative;
+    &.collapsed {
+      display: block;
+      width: 100%;
+      height: 9rem;
+      padding-top: 1.7rem;
+
+    &.container {
+
+      }
+    }
   }
-  .content-wrapper {
-    left: 0;
+
+  .profile {
+    > a {
+      > img {
+        width: 15%;
+        border-width: 2px;
+        margin-bottom: 0;
+      }
+
+      > h1 {
+        font-size: 23px;
+        margin-top: 8px;
+      }
+    }
+
+    > p,
+    .divider {
+      display: none;
+    }
   }
+
   #search-field {
     width: 50%;
     height: 38px;
     padding: 0;
     text-align: center;
   }
-  .icon-search {
-    left: 47.5%;
-  }
-  .btn-mobile-menu {
-    display: block;
-  }
-  .panel-main {
-    position: relative;
-    display: table;
+
+
+  .pace,
+  .post.reading-time,
+  #back-button {
+    display: none;
   }
 
-  .panel-main__content {
-    padding: 10px 0;
-  }
-  .panel-cover--collapsed {
-    width: 100%;
-    max-width: none;
-  }
-  .panel-cover__description {
-    display: block;
-    max-width: 600px;
-    margin: 0 auto;
-  }
-  .panel-cover {
-    width: 100%;
-    height: 100%;
-    background-position: center center;
-    &.panel-cover--collapsed {
-      position: relative;
-      display: block;
-      height: auto;
-      padding-top: 42px;
-      background-position: center center;
-      .panel-main__inner {
-        display: block;
-      }
-      .panel-cover__logo {
-        width: 15%;
-        border-width: 2px;
-        margin-bottom: 0;
-      }
-      .panel-cover__title {
-        font-size: 23px;
-        margin-top: 8px;
-      }
-      .panel-cover__description {
-        display: none;
-      }
-      .panel-cover__divider {
-        display: none;
-        margin: 1em auto;
-      }
-    }
-  }
-  /* now is #search-container */
-  .navigation-wrapper {
+
+  .navigation {
     position: fixed;
     top: 42px;
     right: 0;
@@ -108,43 +91,48 @@
       display: block;
     }
   }
-  .cover-navigation {
-    position: relative;
-    display: block;
-    float: left;
-    width: 100%;
-    clear: left;
-    .navigation {
-      display: block;
-      width: 100%;
-      li {
-        width: 80%;
-        margin-bottom: .4em;
-      }
-    }
-    &.navigation--social {
-      padding-top: 5px;
-      .navigation {
-        li {
-          display: inline-block;
-          width: 25.8%;
-        }
-      }
-    }
-  }
-  .content-wrapper {
+  // .cover-navigation {
+  //   position: relative;
+  //   display: block;
+  //   float: left;
+  //   width: 100%;
+  //   clear: left;
+  //   .navigation {
+  //     display: block;
+  //     width: 100%;
+  //     li {
+  //       width: 80%;
+  //       margin-bottom: .4em;
+  //     }
+  //   }
+  //   &.navigation--social {
+  //     padding-top: 5px;
+  //     .navigation {
+  //       li {
+  //         display: inline-block;
+  //         width: 25.8%;
+  //       }
+  //     }
+  //   }
+  // }
+  .main {
     width: 80%;
     max-width: none;
-    margin-top: 185px;
+    margin-top: 23%;
+    left: 0;
+    padding: 40px 10%;
+
+    > .content {
+      padding: 15px 0;
+      margin-right: 0;
+      margin-left: 0;
+    }
   }
-  .content-wrapper__inner {
-    margin-right: 0;
-    margin-left: 0;
-  }
-  .navigation__item {
-    width: 100%;
-    margin: 0 0 .4em 0;
-  }
+
+  // .navigation__item {
+  //   width: 100%;
+  //   margin: 0 0 .4em 0;
+  // }
 }
 // ------------------------------
 // < 500px
@@ -181,7 +169,7 @@
     margin-bottom: .4em;
   }
 
-  .panel-cover__logo {
+  .panel-cover__logo {
     width: 20% !important;
   }
 

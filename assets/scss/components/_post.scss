@@ -45,13 +45,12 @@
   }
   &.tags {
     a {
-      padding: .166666666666667rem .25rem;
-      font-size: .3rem;
+      padding: .167rem .25rem;
+      font-size: .55rem;
       color: darken($primary-color, 100%);
-      color: white;
+      color: $gray-lightest;
       text-transform: uppercase;
-      background-color: rgba($primary-color,
-      .7);
+      background-color: rgba($primary-color, .7);
       border-radius: .25rem;
       &:hover {
         background-color: rgba($primary-color, 1);
@@ -80,8 +79,7 @@
 #back-button {
   position: absolute;
   left: 0;
-  top: 30px;
-  margin-left: 3.5%;
+  top: 1.8rem;
 }
 
 #post-image {
