@@ -6,7 +6,7 @@
     "Kiko Beats <josefrancisco.verdu@gmail.com>"
   ],
   "dependencies": {
-    "ghostHunter": "git://github.com/i11ume/ghostHunter/",
+    "ghostHunter": "git://github.com/i11ume/ghostHunter.git",
     "animate.css": "*",
     "reading-time": "*",
     "pace": "*",
