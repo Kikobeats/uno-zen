@@ -160,7 +160,7 @@ pre:hover {
 .label {
   position: relative;
   display: inline-block;
-  padding: 8px 18px 9px 18px;
+  padding: 8px 18px 9px;
   color: $gray-lightest;
   text-align: center;
   background: $primary-color;
@@ -183,11 +183,11 @@ pre:hover {
   right: 0;
   bottom: 0;
   left: 25rem;
-  padding: 2.5rem 4rem;
+  padding: 2rem 3rem;
 
   > .content {
     padding: 3rem 0;
-    margin: 0 10%;
+    margin: 0 3.7rem;
     > footer {
       display: block;
       padding: 2em 0 0;

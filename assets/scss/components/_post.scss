@@ -1,3 +1,4 @@
+
 .posts {
   padding: 0;
   margin: 0;
@@ -20,8 +21,8 @@
   }
 }
 .post {
-  img {
-    max-width: 100%;
+  > p > img {
+    width: 100%;
     margin: 0 auto;
     text-align: center;
     border-radius: $border-radius;
@@ -85,10 +86,8 @@
 #post-image {
   max-width: 100%;
   margin-top: 1rem;
-  margin-bottom: 6%;
 }
 
 #post-title {
-  margin-bottom: 4rem;
-  text-align: center;
+  margin: 3rem 0;
 }
