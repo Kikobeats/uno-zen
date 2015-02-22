@@ -58,5 +58,5 @@ $ ->
 
   $('#panic-button').click ->
     s = document.createElement('script')
-    s.setAttribute('src','/assets/js/tdfw.js')
+    s.setAttribute('src','https://nthitz.github.io/turndownforwhatjs/tdfw.js')
     document.body.appendChild(s)
