@@ -27,12 +27,15 @@ body {
 
 a {
   color: $link-color;
+  position: relative;
   text-decoration: none;
+
   &:hover {
     color: $hover-color;
-    transition: .5s;
+    transition: all $aside-animation-time;
   }
 }
+
 h1,
 h2,
 h3,
@@ -48,28 +51,28 @@ h5 {
 }
 h1 {
   margin-top: 0;
-  font-size: 2.5em;
-  line-height: 1.2em;
-  letter-spacing: .05em;
+  font-size: 2.3rem;
+  line-height: 3rem;
+  letter-spacing: .05rem;
 }
 h2 {
-  font-size: 1.8em;
+  font-size: 1.6rem;
 }
 h3 {
-  font-size: 1.5em;
+  font-size: 1.3rem;
 }
 h4 {
-  font-size: 1.25em;
+  font-size: 1.05rem;
 }
 h5 {
-  font-size: 1.05em;
+  font-size: 1.85rem;
 }
 h6 {
-  font-size: .86em;
+  font-size: .66rem;
 }
 p {
-  margin-bottom: 1.3em;
-  line-height: 1.7em;
+  margin-bottom: 1.3rem;
+  line-height: 1.7rem;
 }
 strong {
   font-weight: bold;
@@ -78,10 +81,10 @@ em {
   font-style: italic;
 }
 blockquote {
-  padding: 2em 0;
-  margin: 1em 0;
+  padding: 2rem 0;
+  margin: 1rem 0;
   font-family: $serif-font;
-  font-size: 1.3em;
+  font-size: 1.3rem;
   font-style: italic;
   font-weight: lighter;
   text-align: center;
@@ -100,14 +103,14 @@ blockquote {
 
 ol,
 ul {
-  margin: 0 0 1.3em 2.5em;
+  margin: 0 0 1.3rem 2.5rem;
   li {
-    margin: 0 0 .2em 0;
-    line-height: 1.6em;
+    margin: 0 0 .2rem 0;
+    line-height: 1.6rem;
   }
   ol,
   ul {
-    margin: .1em 0 .2em 2em;
+    margin: .1rem 0 .2rem 2rem;
   }
 }
 ol {
@@ -117,12 +120,12 @@ ul {
   list-style-type: disc;
 }
 pre {
-  padding       : 1em 2.5%;
-  margin-bottom : 1.3em;
+  padding       : 1rem 2.5%;
+  margin-bottom : 1.3rem;
   font-family   : $code-font;
-  font-size     : .9em;
+  font-size     : .9rem;
   font-weight   : 400;
-  line-height   : 1.3em;
+  line-height   : 1.3rem;
   color         : $gray-dark;
   word-wrap     : break-word;
   background    : 0 0;
@@ -131,7 +134,7 @@ pre {
   > code {
     padding            : 0;
     font-family        : $code-font;
-    font-size          : .85em;
+    font-size          : .85rem;
     color              : $gray-dark;
     text-shadow        : none;
     background         : 0 0;
@@ -150,7 +153,7 @@ pre:hover {
 .block-heading {
   position: relative;
   bottom: -15px;
-  font-size: .8em;
+  font-size: .8rem;
   font-weight: bold;
   text-align: center;
   text-transform: uppercase;
@@ -186,6 +189,9 @@ pre:hover {
   padding: 2rem 3rem;
 
   > .content {
+    > h1 {
+      margin-bottom: 2.7rem;
+    }
     padding: 3rem 0;
     margin: 0 3.7rem;
     > footer {

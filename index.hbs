@@ -2,9 +2,7 @@
 <ol class="posts">
   {{#foreach posts}}
   <li>
-    <h2>
-      <a href="{{url}}" title="link to {{{title}}}">{{{title}}}</a>
-    </h2>
+    <a href="{{url}}" title="link to {{{title}}}"><h2>{{{title}}}</h2></a>
     <p>{{excerpt}}&hellip;</p>
     <div class="post meta">
       <time datetime="{{date format="DD MMM YYYY"}}">{{date format="DD MMM YYYY"}}</time>
