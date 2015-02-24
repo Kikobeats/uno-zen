@@ -34,7 +34,8 @@ src =
               'assets/vendor/fastclick/lib/fastclick.js'
               'assets/vendor/ghostHunter/jquery.ghostHunter.min.js'
               'assets/vendor/pace/pace.min.js'
-              'assets/vendor/reading-time/build/readingTime.min.js']
+              'assets/vendor/reading-time/build/readingTime.min.js'
+              'assets/vendor/share-button/build/share.min.js']
   css      :
     main   : 'assets/css/uno.css'
     vendor : ['assets/vendor/animate.css/animate.min.css']

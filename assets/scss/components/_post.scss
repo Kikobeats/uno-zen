@@ -43,8 +43,8 @@ section.post {
     }
   }
 }
-.post {
 
+.post {
   > p > img {
     width: 100%;
     margin: 0 auto;
@@ -77,6 +77,7 @@ section.post {
       text-transform: uppercase;
       background-color: rgba($primary-color, .7);
       border-radius: .25rem;
+      transition: all $aside-animation-time;
       &:hover {
         background-color: rgba($primary-color, 1);
       }
@@ -99,6 +100,25 @@ section.post {
     padding: 60px 0;
     border-top: 1px solid $gray-light;
   }
+}
+
+#social-buttons {
+  transform: rotate(90deg);
+  position: fixed;
+  right: 15px;
+  top: 50%;
+  transition: all $aside-animation-time;
+  &:hover {
+    right: 54px;
+  }
+}
+
+.sharer-0 label {
+  display: none;
+}
+.sharer-0 .social ul li {
+  transform: rotate(-90deg);
+  width: 46px !important;
 }
 
 #back-button {

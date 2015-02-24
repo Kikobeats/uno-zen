@@ -37,19 +37,20 @@ $ ->
       DateInDays ".post.meta > time"
 
   ## Main
-
-  el = document.body
-  el.dataset.page ?= Uno.context()
-  Uno.readTime()
-
-  if Uno.is 'page', 'post'
-    $('.main').readingTime readingTimeTarget: ".post.reading-time > span"
-
-  $('#panic-button').click ->
-    s = document.createElement('script')
-    s.setAttribute('src','https://nthitz.github.io/turndownforwhatjs/tdfw.js')
-    document.body.appendChild(s)
-
   $ ->
-    unless Uno.is 'device', 'desktop'
-      FastClick.attach(el)
+    el = document.body
+    el.dataset.page ?= Uno.context()
+    Uno.readTime()
+    FastClick.attach el unless Uno.is 'device', 'desktop'
+
+    if Uno.is 'page', 'post'
+      $('.main').readingTime readingTimeTarget: '.post.reading-time > span'
+      if Uno.is 'device', 'desktop'
+        firstImage = ($('#post-image')[0] || $('article.post img')[0]).src
+        social = new Share '#social-buttons', image: firstImage
+        social.open()
+
+    $('#panic-button').click ->
+      s = document.createElement 'script'
+      s.setAttribute 'src','https://nthitz.github.io/turndownforwhatjs/tdfw.js'
+      document.body.appendChild s
