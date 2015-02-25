@@ -3,38 +3,42 @@
   background-attachment: fixed;
   background-size: cover;
 }
-
 @mixin center-absolute {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 @mixin font-shadow {
   text-shadow: 0 1px 1px rgba(000, 000, 000, .4);
 }
-
 @mixin btn-cover {
-  font-size: .9em;
-  font-weight: bold;
-  text-shadow: none;
-  letter-spacing: 1px;
-  border-radius: 20px;
-  -webkit-font-smoothing: antialiased;
   position: relative;
   display: block;
-  opacity: .8;
-  border: 1px solid $gray-lightest;
+  font-size: .9em;
+  font-weight: bold;
   color: $gray-lightest;
+  text-shadow: none;
+  letter-spacing: 1px;
+  border: 1px solid $gray-lightest;
+  border-radius: 20px;
+  opacity: .8;
+  -webkit-font-smoothing: antialiased;
 
   &:hover {
     opacity: 1;
   }
 }
-
 @mixin placeholder {
-  ::-webkit-input-placeholder {@content}
-  :-moz-placeholder           {@content}
-  ::-moz-placeholder          {@content}
-  :-ms-input-placeholder      {@content}
+  ::-webkit-input-placeholder {
+    @content
+  }
+  :-moz-placeholder {
+    @content
+  }
+  ::-moz-placeholder {
+    @content
+  }
+  :-ms-input-placeholder {
+    @content
+  }
 }

@@ -26,8 +26,8 @@ body {
 // ------------------------------
 
 a {
-  color: $link-color;
   position: relative;
+  color: $link-color;
   text-decoration: none;
 
   &:hover {
@@ -35,7 +35,6 @@ a {
     transition: all $aside-animation-time;
   }
 }
-
 h1,
 h2,
 h3,
@@ -91,6 +90,7 @@ blockquote {
   background: $gray-lightest;
   border: 1px solid $gray-lighter;
   border-radius: $border-radius;
+
   p {
     &:last-child {
       margin-bottom: 0;
@@ -104,6 +104,7 @@ blockquote {
 ol,
 ul {
   margin: 0 0 1.3rem 2.5rem;
+
   li {
     margin: 0 0 .2rem 0;
     line-height: 1.6rem;
@@ -120,36 +121,36 @@ ul {
   list-style-type: disc;
 }
 pre {
-  padding       : 1rem 2.5%;
-  margin-bottom : 1.3rem;
-  font-family   : $code-font;
-  font-size     : .9rem;
-  font-weight   : 400;
-  line-height   : 1.3rem;
-  color         : $gray-dark;
-  word-wrap     : break-word;
-  background    : 0 0;
-  border        : 1px solid #d9d9d9;
-  border-radius : 3px;
+  padding: 1rem 2.5%;
+  margin-bottom: 1.3rem;
+  font-family: $code-font;
+  font-size: .9rem;
+  font-weight: 400;
+  line-height: 1.3rem;
+  color: $gray-dark;
+  word-wrap: break-word;
+  background: 0 0;
+  border: 1px solid #d9d9d9;
+  border-radius: 3px;
+
   > code {
-    padding            : 0;
-    font-family        : $code-font;
-    font-size          : .85rem;
-    color              : $gray-dark;
-    text-shadow        : none;
-    background         : 0 0;
-    border             : none;
-    border-radius      : 3px;
-    -webkit-box-shadow : none;
-    -moz-box-shadow    : none;
-    box-shadow         : none;
+    padding: 0;
+    font-family: $code-font;
+    font-size: .85rem;
+    color: $gray-dark;
+    text-shadow: none;
+    background: 0 0;
+    border: none;
+    border-radius: 3px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
   }
 }
 code:hover,
 pre:hover {
   color: $gray-darkest;
 }
-
 .block-heading {
   position: relative;
   bottom: -15px;
@@ -169,7 +170,6 @@ pre:hover {
   // background: $primary-color;
   // border-radius: $border-radius;
 }
-
 // ------------------------------
 // MAIN LAYOUT
 // ------------------------------
@@ -189,11 +189,12 @@ pre:hover {
   padding: 2rem 3rem;
 
   > .content {
+    padding: 3rem 0;
+    margin: 0 3.7rem;
+
     > h1 {
       margin-bottom: 2.7rem;
     }
-    padding: 3rem 0;
-    margin: 0 3.7rem;
     > footer {
       display: block;
       padding: 2em 0 0;
@@ -206,18 +207,24 @@ pre:hover {
 .copyright {
   display: block;
   margin-bottom: .7em;
+
   a {
-    color: lighten($gray-dark, 5%);
+    color: lighten($gray-dark,
+    5%);
     text-decoration: underline;
+
     &:hover {
       color: $hover-color;
     }
   }
 }
-
 .divider {
   margin: 15px auto;
-  border-top: 1px solid rgba(255, 255, 255, .14);
+  border-top: 1px solid rgba(255,
+  255,
+  255,
+  .14);
+
   &.long {
     width: 50%;
   }
@@ -230,7 +237,6 @@ pre:hover {
     border-top: 1px solid $gray-light;
   }
 }
-
 hr {
   border: none;
 }

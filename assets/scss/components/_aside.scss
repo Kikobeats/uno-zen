@@ -9,26 +9,24 @@
   &.animated {
     transition: width $aside-animation-time $animation-ease;
   }
-
   &.collapsed {
     width: $aside-width-collapsed;
   }
   &.container {
     font-weight: $font-weight-thin;
-    text-align: center;
     color: $gray-lightest;
+    text-align: center;
     @include center-absolute;
     @include font-shadow;
   }
 }
-
 .profile {
   max-width: 38.75rem;
   margin: 0 auto;
 
   > p {
-    font-size: .9rem;
     margin: 0 2rem;
+    font-size: .9rem;
   }
   > a {
     > img {
@@ -39,11 +37,11 @@
       box-shadow: 0 0 1px 1px rgba(000, 000, 000, .3);
     }
     > h1 {
-    font-family: $sans-font;
-    font-size: $font-size-big;
-    font-weight: $font-weight-bold;
-    margin: 0;
-    color: $gray-lightest;
+      margin: 0;
+      font-family: $sans-font;
+      font-size: $font-size-big;
+      font-weight: $font-weight-bold;
+      color: $gray-lightest;
     }
   }
   &.contact {
@@ -54,7 +52,6 @@
     }
   }
 }
-
 .links,
 .social {
   position: relative;
@@ -63,7 +60,6 @@
   margin: 0;
   list-style-type: none;
 }
-
 .links {
   margin: 0;
 
@@ -71,25 +67,26 @@
     display: inline-block;
     margin: 0 1px 0 0;
     line-height: 1em;
+
     a {
-      @include btn-cover;
       padding: .625rem 1.25rem;
+      @include btn-cover;
     }
   }
 }
-
 .social {
   &.expanded {
     margin: 0 0 0 1.5rem;
   }
-
   &.item {
     display: inline-block;
     margin: 0 4px 0 0;
     line-height: 1em;
+
     a {
-      @include btn-cover;
       padding: 6px 8px 6px 9px;
+      @include btn-cover;
+
       .label {
         display: none;
       }

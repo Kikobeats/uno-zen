@@ -127,7 +127,6 @@
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
 }
-
 @keyframes move {
   0% {
     transform: translate(0, 50px);
@@ -139,12 +138,10 @@
     transform: translate(0, 50px);
   }
 }
-
-
 @keyframes blink {
   0% {
     top: 50px;
-    left: 0px;
+    left: 0;
   }
   50% {
     top: 100px;
@@ -152,43 +149,41 @@
   }
   100% {
     top: 50px;
-    left: 0px;
+    left: 0;
   }
 }
-
-
 @keyframes flicker {
   0% {
-    opacity: 0.9;
+    opacity: .9;
   }
   30% {
-    opacity: 0.97;
+    opacity: .97;
   }
   40% {
     opacity: 1;
   }
   80% {
-    opacity: 0.9;
+    opacity: .9;
   }
   88% {
-    opacity: 0.98;
+    opacity: .98;
   }
   90% {
-    opacity: 0.94;
+    opacity: .94;
   }
   93% {
-    opacity: 0.9;
+    opacity: .9;
   }
   95% {
-    opacity: 0.99;
+    opacity: .99;
   }
   96% {
-    opacity: 0.93;
+    opacity: .93;
   }
   98% {
     opacity: 1;
   }
   99% {
-    opacity: 0.93;
+    opacity: .93;
   }
 }

@@ -8,6 +8,7 @@
   border: 1px solid $primary-color;
   border-radius: 20px;
   -webkit-font-smoothing: antialiased;
+
   &.square {
     border-radius: 0;
   }
@@ -26,21 +27,22 @@
   &.secondary {
     color: $secondary-color;
     border-color: $secondary-color;
+
     &:hover {
       color: darken($secondary-color, 15%);
       border-color: darken($secondary-color, 15%);
     }
   }
 }
-
 #cover-button {
   display: none;
- > a {
-  > i {
-    position: relative;
-    top: 3px;
-    font-size: 36px;
-    color: $gray-lightest;
+
+  > a {
+    > i {
+      position: relative;
+      top: 3px;
+      font-size: 36px;
+      color: $gray-lightest;
+    }
   }
- }
 }

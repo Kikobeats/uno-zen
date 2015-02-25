@@ -2,7 +2,7 @@
 // MEDIA QUERIES
 // ------------------------------
 
-@media only screen and (min-width : 1824px) {
+@media only screen and (min-width:1824px) {
   .main {
     padding: 2.5rem 11rem;
   }
@@ -10,19 +10,16 @@
     margin: 0 7rem;
   }
 }
-
 // ------------------------------
 // < 1023px (Tablet)
 // ------------------------------
 
 @media all and (max-width:1023px) {
-
   html {
     font-size: 90%;
   }
 
   /* disabling element, too much information*/
-
   .pace,
   .post.reading-time,
   #back-button {
@@ -30,31 +27,31 @@
   }
 
   /* off canvas */
-
   #cover-button {
-    display: block;
     position: fixed;
-    z-index: 999;
     top: .5rem;
     left: 14rem;
+    z-index: 999;
+    display: block;
     transition: all $aside-animation-time;
 
     &.collapsed {
       left: 1.5rem;
     }
-
     > a {
       > i {
         color: $hover-color;
       }
     }
   }
-
   .cover {
     width: 16rem;
-    transform: translate3d(0, 0, 0);
     background: $aside-color-mobile;
     transition: all $aside-animation-time;
+    transform: translate3d(0,
+    0,
+    0);
+
     &.collapsed {
       width: 16rem;
       transform: translate3d(-16rem, 0, 0);
@@ -63,10 +60,10 @@
       transition: all $aside-animation-time;
     }
   }
-
   .profile {
-    overflow: scroll;
     height: 100%;
+    overflow: scroll;
+
     &.contact {
       margin-top: 1rem;
 
@@ -74,53 +71,47 @@
         padding: 0;
       }
     }
-
     > a {
       > img {
         width: 6rem;
       }
-
       > h1 {
         font-size: 1.5rem;
       }
     }
-
     > p {
       display: none;
     }
-
     .divider {
       display: none;
     }
   }
-
   #avatar-link {
     display: inline-block;
     margin-top: 1rem;
   }
-
   .navigation {
     width: 100%;
   }
-
   .links,
   .social {
     width: 100%;
+
     &.item {
-      margin: 0;
-      padding: 0;
       height: 100%;
+      padding: 0;
+      margin: 0;
+
       > a {
-        border-radius: 0;
-        border-left: 0;
         border-right: 0;
         border-bottom: 0;
+        border-left: 0;
+        border-radius: 0;
 
         > .icon {
           display: inline-block;
           vertical-align: middle;
         }
-
         > .label {
           display: inline-block;
           padding-left: 3px;
@@ -128,76 +119,79 @@
       }
     }
   }
-
   .social.item:last-child {
     border-bottom: 1px solid;
   }
-
   #search-container {
     display: none !important;
   }
-
   .main {
     left: 0;
-    transform: translate3d(0, 0, 0);
     transition: all $aside-animation-time;
+    transform: translate3d(0,
+    0,
+    0);
+
     &.collapsed {
       transform: translate3d(14rem, 0, 0);
     }
   }
 }
-
 // ------------------------------
 // < 500px (Mobile)
 // ------------------------------
 
 @media all and (max-width:500px) {
-
   html {
     font-size: 80%;
   }
-
   .main {
     padding: 1rem 0;
   }
-
   #cover-button {
     left: 13.5rem;
+
     &.collapsed {
       left: 1rem;
     }
   }
-
   .mayday {
     width: auto;
+
     > h1 {
       font-size: 20px;
       line-height: 25px;
     }
   }
-
   .btn {
     display: block;
     margin-bottom: .4em;
   }
-
   #panic-button {
     margin-bottom: 1rem;
   }
-
-  .posts.newer,
-  .posts.older {
-    padding: 1rem;
+  #post-title {
+    margin: 2.5rem 0;
+    text-align: left;
   }
-
-  .posts.newer {
-    margin: 0 0 1.2rem;
+  .post {
+    &.newer,
+    &.older {
+      padding: 1rem;
+    }
+    &.newer {
+      margin: 0 0 1.2rem;
+    }
+    &.older {
+      margin: 0 0 10px;
+    }
+    &.tags {
+      > a {
+        display: inline-block;
+        margin: .2rem 0;
+      }
+    }
   }
-
-  .posts.older {
-    margin: 0 0 10px;
-  }
-
   .pagination {
     > span {
       display: none;

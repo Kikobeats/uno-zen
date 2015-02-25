@@ -6,18 +6,21 @@
 $column-width:60px;
 $gutter-width: 20px;
 $columns: 12;
+
 // Utility function — you should never need to modify this
 @function gridsystem-width($columns:$columns) {
   @return ($column-width * $columns) + ($gutter-width * $columns);
 }
 // Set $total-width to 100% for a fluid layout
 $total-width: gridsystem-width($columns);
-// Uncomment these two lines and the star-hack width/margin lines below to enable sub-pixel fix for IE6 & 7. See http://tylertate.com/blog/2012/01/05/subpixel-rounding.html
+// Uncomment these two lines and the star-hack width/margin lines below to enable sub-pixel fix for IE6 & 7. See http: //tylertate.com/blog/2012/01/05/subpixel-rounding.html
 // $min-width:999999;
 // $correction: 0.5 / $min-width * 100;
+
 // The micro clearfix http://nicolasgallagher.com/micro-clearfix-hack/
 @mixin clearfix() {
   *zoom: 1;
+
   &:before,
   &:after {
     display: table;

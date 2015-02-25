@@ -5,7 +5,6 @@
 * Made by ZURB 2013 http://zurb.com/playground/foundation-icon-fonts-3
 * MIT License
 */
-
 @font-face {
   font-family: "foundation-icons";
   font-style: normal;
@@ -25,15 +24,14 @@
   text-transform: none;
   -webkit-font-smoothing: antialiased;
 }
-
 .icon-search {
   position: static !important;
 }
 .icon-search:before {
-  content: "\f16c";
   position: absolute;
   right: 83px;
   margin-top: 18px;
+  content: "\f16c";
 }
 .icon-address-book:before {
   content: "\f100";
@@ -723,12 +721,12 @@
   content: "\f1e4";
 }
 .icon-social-twitter-post:after {
-  content: "\f1e4";
   display: inline-block;
-  vertical-align: middle;
   height: 36px;
-  font-size: 26px;
   margin-left: 9px;
+  font-size: 26px;
+  vertical-align: middle;
+  content: "\f1e4";
 }
 .icon-social-vimeo:before {
   content: "\f1e5";
