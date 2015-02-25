@@ -185,7 +185,7 @@ pre:hover {
   top: 0;
   right: 0;
   bottom: 0;
-  left: 25rem;
+  left: 22.5rem;
   padding: 2rem 3rem;
 
   > .content {
@@ -212,6 +212,22 @@ pre:hover {
     &:hover {
       color: $hover-color;
     }
+  }
+}
+
+.divider {
+  margin: 15px auto;
+  border-top: 1px solid rgba(255, 255, 255, .14);
+  &.long {
+    width: 50%;
+  }
+  &.short {
+    width: 15%;
+  }
+  &.post {
+    width: 30%;
+    margin: 1.7rem 0;
+    border-top: 1px solid $gray-light;
   }
 }
 

@@ -2,7 +2,6 @@
 // PRE
 // ------------------------------
 
-// @import 'bourbon/bourbon';
 @import 'modules/mixins.scss';
 
 // ------------------------------
@@ -11,8 +10,6 @@
 
 @import 'modules/reset.scss';
 @import 'modules/variables.scss';
-
-@import 'modules/helpers.scss';
 @import 'modules/grid.scss';
 @import 'modules/global.scss';
 @import 'modules/fonts.scss';

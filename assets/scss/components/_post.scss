@@ -47,7 +47,7 @@ section.post {
 .post {
   > p > img {
     width: 100%;
-    margin: 0 auto;
+    margin: 1.5rem auto;
     text-align: center;
     border-radius: $border-radius;
   }
@@ -123,8 +123,8 @@ section.post {
 
 #back-button {
   position: absolute;
-  left: 0;
-  top: 1.8rem;
+  left: 2rem;
+  top: 2rem;
 }
 
 #post-image {

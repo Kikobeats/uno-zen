@@ -2,21 +2,14 @@
 // MEDIA QUERIES
 // ------------------------------
 
-// @media only screen and (max-width:1428px) {
-//   .content-wrapper {
-//     left: 30%;
-//     padding: 40px 9%;
-//   }
-//   .panel-main__inner {
-//     padding: 0 0;
-//   }
-//   #search-field {
-//     widows: 60%;
-//   }
-//   #back-button {
-//     margin-left: 0;
-//   }
-// }
+@media only screen and (min-width : 1824px) {
+  .main {
+    padding: 2.5rem 11rem;
+  }
+  .content {
+    margin: 0 7rem;
+  }
+}
 
 // ------------------------------
 // < 1023px (Tablet)
