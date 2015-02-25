@@ -2,7 +2,7 @@
 
 > Minimalist and Elegant theme for Ghost.
 
-![](http://i.imgur.com/JJKXd2O.jpg)
+![](http://i.imgur.com/jIuv1pq.png)
 
 **Uno Zen** is a fork of [Uno for Ghost](https://github.com/daleanthony/Uno) that provides some features missing in the original theme.
 
@@ -11,6 +11,7 @@
 - Totally rewritten using HTML5 and CSS3.
 - Improved development workflow with gulp + browersync.
 - Improved responsive and mobile experience.
+- Improved SEO Content with meta tags.
 
 ... and things that already existed:
 
@@ -19,30 +20,11 @@
 - Loading progress state for each page.
 - Estimation the time of reading.
 
-## Preview
-
-![](http://i.imgur.com/YZXKWcW.png)
-![](http://i.imgur.com/6m4kKsy.png)
-![](http://i.imgur.com/BqJBN0X.jpg)
-![](http://i.imgur.com/IUtR60A.jpg)
-
-## Demo
-
 You can see a demo in my [blog](http://blog.kikobeats.com).
 
-## Installation
+## Documentation
 
-1) Download the last release tagged version.
-
-2) Execute `npm install` and `bower install` for install the dependencies.
-
-3) For development exec `grunt`. This provide you livereload. You need to have [SASS and bourbon](https://github.com/daleanthony/uno#development) as well.
-
-4) Create your favicons with [Favicon Generator](http://realfavicongenerator.net/).
-
-4) For production exec `grunt production`. This minify and concat your code.
-
-5) Deploy!
+Please, check the [Wiki](https://github.com/Kikobeats/uno-zen/wiki) for know all questions about the theme.
 
 ## License
 
