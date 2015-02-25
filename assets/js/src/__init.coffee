@@ -45,10 +45,6 @@ $ ->
 
     if Uno.is 'page', 'post'
       $('.main').readingTime readingTimeTarget: '.post.reading-time > span'
-      if Uno.is 'device', 'desktop'
-        firstImage = ($('#post-image')[0] || $('article.post img')[0]).src
-        social = new Share '#social-buttons', image: firstImage
-        social.open()
 
     $('#panic-button').click ->
       s = document.createElement 'script'

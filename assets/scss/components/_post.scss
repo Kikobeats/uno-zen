@@ -134,4 +134,8 @@ section.post {
 
 #post-title {
   margin: 3rem 0 2.5rem;
+  &:hover {
+    color: $hover-color;
+    transition: all 400ms;
+  }
 }

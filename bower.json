@@ -12,8 +12,7 @@
     "pace": "*",
     "parrot-module-device": "*",
     "parrotjs": "*",
-    "reading-time": "*",
-    "share-button": "*"
+    "reading-time": "*"
   },
   "ignore": [
     "**/.*",

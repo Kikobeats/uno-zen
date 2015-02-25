@@ -13,7 +13,8 @@
   src: url("../fonts/foundation-icons/foundation-icons.eot");
   src: url("../fonts/foundation-icons/foundation-icons.eot?#iefix") format("embedded-opentype"), url("../fonts/foundation-icons/foundation-icons.woff") format("woff"), url("../fonts/foundation-icons/foundation-icons.ttf") format("truetype"), url("../fonts/foundation-icons/foundation-icons.svg#fontcustom") format("svg");
 }
-.icon:before {
+.icon:before,
+.icon-reverse:after {
   display: inline-block;
   font-family: "foundation-icons";
   font-style: normal;
@@ -713,6 +714,14 @@
 }
 .icon-social-twitter:before {
   content: "\f1e4";
+}
+.icon-social-twitter-post:after {
+  content: "\f1e4";
+  display: inline-block;
+  vertical-align: middle;
+  height: 40px;
+  font-size: 26px;
+  margin-left: 9px;
 }
 .icon-social-vimeo:before {
   content: "\f1e5";

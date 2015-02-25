@@ -14,19 +14,12 @@
         <span class="post reading-time"> – <span></span> read.</span>
       </div>
 
-      {{#if image}}
-      <a href={{url}}><img id="post-image" src={{image}} alt="{{{title}}}">
-        <h1 id="post-title">{{{title}}}.</h1>
+      <a href="https://twitter.com/intent/tweet?url={{url absolute="true"}};text={{title}} » " alt="Tweet '{{title}}'" target="_blank">
+        <h1 class="icon-reverse icon-social-twitter-post" id="post-title">{{{title}}}.</h1>
+        {{#if image}}<img id="post-image" src={{image}} alt="{{{title}}}">{{/if}}
       </a>
-      {{else}}
-      <a href={{url}}>
-        <h1 id="post-title">{{{title}}}.</h1>
-      </a>
-      {{/if}}
-
     </header>
 
-    <section id="social-buttons"></section>
     <section class="{{post_class}}">
       {{content}}
     </section>
