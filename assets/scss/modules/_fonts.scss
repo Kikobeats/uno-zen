@@ -25,8 +25,15 @@
   text-transform: none;
   -webkit-font-smoothing: antialiased;
 }
+
+.icon-search {
+  position: static !important;
+}
 .icon-search:before {
   content: "\f16c";
+  position: absolute;
+  right: 83px;
+  margin-top: 18px;
 }
 .icon-address-book:before {
   content: "\f100";
