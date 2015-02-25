@@ -2,7 +2,7 @@
 
 > Minimalist and Elegant theme for Ghost.
 
-![](http://i.imgur.com/jIuv1pq.png)
+[<img src="http://i.imgur.com/jIuv1pq.png">](http://kikobeats.com)
 
 **Uno Zen** is a fork of [Uno for Ghost](https://github.com/daleanthony/Uno) that provides some features missing in the original theme.
 
