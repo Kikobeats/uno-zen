@@ -4,15 +4,20 @@
 
 ![](http://i.imgur.com/JJKXd2O.jpg)
 
-**Uno Zen** is a fork of [Uno for Ghost](https://github.com/daleanthony/Uno) that provides some features missing in the original theme:
+**Uno Zen** is a fork of [Uno for Ghost](https://github.com/daleanthony/Uno) that provides some features missing in the original theme.
 
-* Improve CSS layout and use a main image for each post.
-* Search support by [ghostHunter](https://github.com/i11ume/ghostHunter/).
-* Estimate the time of reading a post by [readingTime.js](https://github.com/michael-lynch/reading-time).
-* Added Progress bar with support for different themes by [pace](http://github.hubspot.com/pace/docs/welcome/).
-* Better development and production workflow with Grunt.
+## Whats is new in 2.0
 
-... and more and more features in the future. If you want to help visit TODO section.
+- Totally rewritten using HTML5 and CSS3.
+- Improved development workflow with gulp + browersync.
+- Improved responsive and mobile experience.
+
+... and things that already existed:
+
+- A good [404 page error](http://kikobeats.com/404).
+- Search support.
+- Loading progress state for each page.
+- Estimation the time of reading.
 
 ## Preview
 
