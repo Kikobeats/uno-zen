@@ -26,6 +26,7 @@ src =
     files  : ['assets/scss/**/**']
   js       :
     main   : ['assets/js/src/__init.coffee'
+              'assets/js/src/main.coffee'
               'assets/js/src/cover.coffee'
               'assets/js/src/search.coffee'
               'assets/js/src/post.coffee']
