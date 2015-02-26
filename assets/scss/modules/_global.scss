@@ -15,6 +15,11 @@ body {
   font-family: $sans-font;
   color: $gray-darker;
 }
+
+mark {
+  background: saturate($primary-color, 60%);
+}
+
 ::selection {
   background: lighten($primary-color, 36%);
 }
@@ -29,10 +34,10 @@ a {
   position: relative;
   color: $link-color;
   text-decoration: none;
+  transition: all $aside-animation-time;
 
   &:hover {
     color: $hover-color;
-    transition: all $aside-animation-time;
   }
 }
 h1,
@@ -64,7 +69,7 @@ h4 {
   font-size: 1.05rem;
 }
 h5 {
-  font-size: 1.85rem;
+  font-size: .85rem;
 }
 h6 {
   font-size: .66rem;
@@ -72,6 +77,16 @@ h6 {
 p {
   margin-bottom: 1.3rem;
   line-height: 1.7rem;
+
+  > code {
+    border: 1px solid #D9D9D9;
+    border-radius: 3px;
+    padding: 0.09rem 0.2rem;
+    font-family: $code-font;
+    font-weight: $font-weight-normal;
+    font-size: .85rem;
+    color: $gray-dark;
+  }
 }
 strong {
   font-weight: bold;
@@ -80,21 +95,16 @@ em {
   font-style: italic;
 }
 blockquote {
-  padding: 2rem 0;
-  margin: 1rem 0;
-  font-family: $serif-font;
-  font-size: 1.3rem;
-  font-style: italic;
-  font-weight: lighter;
-  text-align: center;
-  background: $gray-lightest;
-  border: 1px solid $gray-lighter;
-  border-radius: $border-radius;
-
-  p {
-    &:last-child {
-      margin-bottom: 0;
-    }
+  > p {
+    line-height: 1.4;
+    text-align: center;
+    font-size: 1.8rem;
+    margin: 2.5rem -3rem;
+    font-family: $quote-font;
+    letter-spacing: .01rem;
+    font-style: italic;
+    word-wrap: break-word;
+    -webkit-font-smoothing: antialiased;
   }
 }
 // ------------------------------
@@ -120,33 +130,26 @@ ol {
 ul {
   list-style-type: disc;
 }
+
 pre {
   padding: 1rem 2.5%;
   margin-bottom: 1.3rem;
   font-family: $code-font;
   font-size: .9rem;
-  font-weight: 400;
+  font-weight: $font-weight-normal;
   line-height: 1.3rem;
   color: $gray-dark;
   word-wrap: break-word;
-  background: 0 0;
   border: 1px solid #d9d9d9;
   border-radius: 3px;
 
   > code {
-    padding: 0;
     font-family: $code-font;
     font-size: .85rem;
     color: $gray-dark;
-    text-shadow: none;
-    background: 0 0;
-    border: none;
-    border-radius: 3px;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
   }
 }
+
 code:hover,
 pre:hover {
   color: $gray-darkest;
