@@ -17,10 +17,11 @@
 
 - A good [404 page error](http://kikobeats.com/404).
 - Search support.
+- Multiaccount support.
 - Loading progress state for each page.
-- Estimation the time of reading.
+- Estimation about the time of reading.
 
-You can see a demo in my [blog](http://blog.kikobeats.com).
+You can see a demo in my [blog](http://blog.kikobeats.com). Also you can check the [styleguide](kikobeats.com/styleguide) to view how it looks.
 
 ## Documentation
 
