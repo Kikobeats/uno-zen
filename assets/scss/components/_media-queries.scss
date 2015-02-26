@@ -11,13 +11,10 @@
   }
 }
 // ------------------------------
-// < 1023px (Tablet)
+// < 1024px (Tablet)
 // ------------------------------
 
-@media all and (max-width:1023px) {
-  html {
-    font-size: 90%;
-  }
+@media all and (max-width:1024px) {
 
   /* disabling element, too much information*/
   .pace,
@@ -138,13 +135,10 @@
   }
 }
 // ------------------------------
-// < 500px (Mobile)
+// < 480px (Mobile)
 // ------------------------------
 
-@media all and (max-width:500px) {
-  html {
-    font-size: 80%;
-  }
+@media all and (max-width:480px) {
   .main {
     padding: 1rem 0;
   }
@@ -172,7 +166,6 @@
   }
   #post-title {
     margin: 2.5rem 0;
-    text-align: left;
   }
   .post {
     &.newer,
@@ -196,5 +189,9 @@
     > span {
       display: none;
     }
+  }
+
+  blockquote>p {
+    margin: 2rem -1rem;
   }
 }

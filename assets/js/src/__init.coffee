@@ -33,5 +33,11 @@ $ ->
           $(this).mouseover -> $(this).html(postDate)
           $(this).mouseout -> $(this).html(postDateInDays)
         cb?()
-
       DateInDays ".post.meta > time"
+
+    device: ->
+      w = window.innerWidth
+      h = window.innerHeight
+      return 'mobile' if (w <= 480)
+      return 'tablet' if (w <= 1024)
+      'desktop'
