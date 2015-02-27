@@ -45,9 +45,7 @@
     width: 16rem;
     background: $aside-color-mobile;
     transition: all $aside-animation-time;
-    transform: translate3d(0,
-    0,
-    0);
+    transform: translate3d(0, 0, 0);
 
     &.collapsed {
       width: 16rem;
@@ -125,9 +123,7 @@
   .main {
     left: 0;
     transition: all $aside-animation-time;
-    transform: translate3d(0,
-    0,
-    0);
+    transform: translate3d(0, 0, 0);
 
     &.collapsed {
       transform: translate3d(14rem, 0, 0);
@@ -139,16 +135,15 @@
 // ------------------------------
 
 @media all and (max-width:480px) {
+  .btn {
+    display: block;
+    margin-bottom: .4em;
+  }
+
   .main {
     padding: 1rem 0;
   }
-  #cover-button {
-    left: 13.5rem;
 
-    &.collapsed {
-      left: 1rem;
-    }
-  }
   .mayday {
     width: auto;
 
@@ -157,16 +152,31 @@
       line-height: 25px;
     }
   }
-  .btn {
-    display: block;
-    margin-bottom: .4em;
+
+  #cover-button {
+    left: 13.5rem;
+
+    &.collapsed {
+      left: 1rem;
+    }
   }
+
   #panic-button {
     margin-bottom: 1rem;
   }
   #post-title {
     margin: 2.5rem 0;
   }
+
+  body[data-page='post'] {
+    .post.tags {
+      > a {
+        display: inline-block;
+        margin: .2rem 0;
+      }
+    }
+  }
+
   .post {
     &.newer,
     &.older {
@@ -178,14 +188,6 @@
     &.older {
       margin: 0 0 10px;
     }
-    &.meta {
-      &.tags {
-        > a {
-          display: inline-block;
-          margin: .2rem 0;
-        }
-      }
-    }
   }
   .pagination {
     > span {
@@ -193,7 +195,9 @@
     }
   }
 
-  blockquote>p {
-    margin: 2rem -1rem;
+  blockquote {
+    > p {
+      margin: 2rem -1rem;
+    }
   }
 }
