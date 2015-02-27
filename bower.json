@@ -1,7 +1,7 @@
 {
   "name": "uno-zen",
   "description": "Minimalist and Elegant theme for Ghost",
-  "version": "1.3.2",
+  "version": "2.0.1",
   "authors": [
     "Kiko Beats <josefrancisco.verdu@gmail.com>"
   ],
@@ -10,8 +10,6 @@
     "fastclick": "*",
     "ghostHunter": "git://github.com/i11ume/ghostHunter.git",
     "pace": "*",
-    "parrot-module-device": "*",
-    "parrotjs": "*",
     "reading-time": "*"
   },
   "ignore": [

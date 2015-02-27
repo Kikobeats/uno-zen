@@ -72,12 +72,9 @@
     > a {
       padding: .167rem .25rem;
       font-size: .55rem;
-      color: darken($primary-color,
-      100%);
       color: $gray-lightest;
       text-transform: uppercase;
-      background-color: rgba($primary-color,
-      .7);
+      background-color: rgba($primary-color, .7);
       border-radius: .25rem;
       transition: all $aside-animation-time;
 

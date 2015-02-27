@@ -178,10 +178,12 @@
     &.older {
       margin: 0 0 10px;
     }
-    &.tags {
-      > a {
-        display: inline-block;
-        margin: .2rem 0;
+    &.meta {
+      &.tags {
+        > a {
+          display: inline-block;
+          margin: .2rem 0;
+        }
       }
     }
   }
