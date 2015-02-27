@@ -4,7 +4,6 @@ $ ->
   el = document.body
   el.dataset.page ?= Uno.context()
   el.dataset.device ?= Uno.device()
-  console.log Uno.device()
   $(window).on "resize", Uno.device()
   $(window).on "orientationchange", Uno.device()
 
