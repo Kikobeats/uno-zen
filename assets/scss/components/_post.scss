@@ -6,23 +6,19 @@
 
   > li {
     > a {
-      > *:hover {
-        color: $hover-color;
-        transition: all $aside-animation-time;
-      }
       > h2 {
         margin-bottom: 1rem;
         transition: all $aside-animation-time;
+
+        &:hover {
+          color: $hover-color;
+          transition: all $aside-animation-time;
+        }
 
         &:first-child {
           margin-top: 0;
         }
       }
-    }
-    > p {
-      margin-bottom: 1rem;
-      font-size: .9em;
-      color: $gray-dark;
     }
   }
 }
@@ -62,6 +58,11 @@
   }
   > header {
     text-align: center;
+  }
+  &.description {
+    margin-bottom: 1rem;
+    font-size: .9em;
+    color: $gray-dark;
   }
   &.meta {
     margin: .7em 0;
