@@ -13,13 +13,11 @@ $ ->
   _collapsed = ->
     $(".cover").addClass("collapsed")
     Uno.search.form 'show'
-    $('.social').removeClass 'expanded'
     $(".main").show()
 
   $('#blog-button').click ->
     $('.cover').toggleClass 'collapsed'
     Uno.search.form 'toggle'
-    $('.social').toggleClass 'expanded'
     toggle = if $('.main').is(":visible") then 'hide' else 'show'
     $('.main')[toggle]()
 
