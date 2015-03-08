@@ -14,7 +14,6 @@
           color: $hover-color;
           transition: all $aside-animation-time;
         }
-
         &:first-child {
           margin-top: 0;
         }
@@ -23,28 +22,28 @@
   }
 }
 .post {
-  a {
-    transition: all $aside-animation-time;
-
-    &::after {
-      position: absolute;
-      bottom: -.5px;
-      left: 0;
-      width: 100%;
-      height: 0;
-      content: '';
-      border-bottom: 1px solid $primary-color;
-    }
-    &:hover {
-      border-color: $hover-color;
-    }
-  }
   > p {
     > img {
       width: 100%;
       margin: 1.5rem auto;
       text-align: center;
       border-radius: $border-radius;
+    }
+    a {
+      transition: all $aside-animation-time;
+
+      &::after {
+        position: absolute;
+        bottom: -.5px;
+        left: 0;
+        width: 100%;
+        height: 0;
+        content: '';
+        border-bottom: 1px solid $primary-color;
+      }
+      &:hover {
+        border-color: $hover-color;
+      }
     }
   }
   pre {
