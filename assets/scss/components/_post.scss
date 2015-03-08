@@ -14,7 +14,6 @@
           color: $hover-color;
           transition: all $aside-animation-time;
         }
-
         &:first-child {
           margin-top: 0;
         }
@@ -30,7 +29,7 @@
       text-align: center;
       border-radius: $border-radius;
     }
-    > a {
+    a {
       transition: all $aside-animation-time;
 
       &::after {
