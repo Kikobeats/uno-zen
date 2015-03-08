@@ -7,17 +7,19 @@ $ ->
   _expand = ->
     Uno.loadingBar 'hide'
     Uno.search.form 'hide'
-    $(".cover").removeClass 'collapsed'
-    $(".main").hide()
+    $('.cover').removeClass 'collapsed'
+    $('.main').hide()
 
   _collapsed = ->
-    $(".cover").addClass("collapsed")
+    $('.cover').addClass 'collapsed'
+    $('.link-item').addClass 'collapsed'
     Uno.search.form 'show'
-    $(".main").show()
+    $('.main').show()
 
   $('#blog-button').click ->
     $('.cover').toggleClass 'collapsed'
     Uno.search.form 'toggle'
+    $('.link-item').toggleClass 'collapsed'
     toggle = if $('.main').is(":visible") then 'hide' else 'show'
     $('.main')[toggle]()
 

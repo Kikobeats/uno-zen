@@ -37,7 +37,6 @@
       color: $gray-lightest;
       font-size: 1.6rem;
     }
-
     > img {
       width: 7rem;
       border: 2px solid $primary-color;
@@ -46,7 +45,6 @@
     }
   }
 }
-
 .navigation {
   &.left {
     display: inline-block;
@@ -60,22 +58,16 @@
         display: inline-block;
         margin: 0 1px 0 0;
         line-height: 1em;
-
-        a {
-          float: left;
-          padding: .625rem 1.25rem;
-          margin: 0 5px;
-          @include btn-cover;
-        }
       }
     }
   }
-
   &.right {
     display: block;
+    margin: .5rem;
 
     .social {
       margin: 0;
+
       &.item {
         display: inline-block;
         margin: 0 4px 0 0;
@@ -92,8 +84,24 @@
             display: block;
             font-size: 1.7em;
           }
+
+          &:hover {
+            color: $hover-color;
+          }
         }
       }
     }
+  }
+}
+.link-item {
+  float: left;
+  padding: .625rem 1.25rem;
+  margin: 0 5px;
+  @include btn-cover;
+
+  &.collapsed {
+    float: none;
+    padding: .5rem 1.25rem;
+    border: none;
   }
 }
