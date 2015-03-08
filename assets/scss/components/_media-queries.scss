@@ -22,6 +22,14 @@
   #back-button {
     display: none;
   }
+  #search-container {
+    display: none !important;
+  }
+
+  /* Enable element special for little devices */
+  #profile-resume {
+    display: inherit;
+  }
 
   /* off canvas */
   #cover-button {
@@ -56,6 +64,8 @@
     }
   }
   .profile {
+    width: 100%;
+    max-width: 100%;
     height: 100%;
     overflow: scroll;
 
@@ -81,44 +91,32 @@
       display: none;
     }
   }
+  .link-item {
+    margin: 0;
+    border-radius: 0;
+
+    &.collapsed {
+      padding: .625rem 1.25rem;
+    }
+    &:hover {
+      background-color: darken($aside-color-mobile, 5%);
+    }
+  }
   #avatar-link {
     display: inline-block;
     margin-top: 1rem;
   }
   .navigation {
     width: 100%;
-  }
-  .links,
-  .social {
-    width: 100%;
 
-    &.item {
-      height: 100%;
-      padding: 0;
+    &.right {
       margin: 0;
-
-      > a {
-        border-right: 0;
-        border-bottom: 0;
-        border-left: 0;
-        border-radius: 0;
-
-        > .icon {
-          display: inline-block;
-          vertical-align: middle;
-        }
-        > .label {
-          display: inline-block;
-          padding-left: 3px;
-        }
+    }
+    &.left {
+      .links.item {
+        width: 100%;
       }
     }
-  }
-  .social.item:last-child {
-    border-bottom: 1px solid;
-  }
-  #search-container {
-    display: none !important;
   }
   .main {
     left: 0;
@@ -135,15 +133,25 @@
 // ------------------------------
 
 @media all and (max-width:480px) {
+
+  .profile {
+    > a {
+      > h1 {
+        font-size: 1.25rem;
+      }
+
+      > h3 {
+        font-size: 1rem;
+      }
+    }
+  }
   .btn {
     display: block;
     margin-bottom: .4em;
   }
-
   .main {
     padding: 1rem 0;
   }
-
   .mayday {
     width: auto;
 
@@ -152,7 +160,6 @@
       line-height: 25px;
     }
   }
-
   #cover-button {
     left: 13.5rem;
 
@@ -160,14 +167,12 @@
       left: 1rem;
     }
   }
-
   #panic-button {
     margin-bottom: 1rem;
   }
   #post-title {
     margin: 2.5rem 0;
   }
-
   body[data-page='post'] {
     .post.tags {
       > a {
@@ -176,7 +181,6 @@
       }
     }
   }
-
   .post {
     &.newer,
     &.older {
@@ -194,7 +198,6 @@
       display: none;
     }
   }
-
   blockquote {
     > p {
       margin: 2rem -1rem;

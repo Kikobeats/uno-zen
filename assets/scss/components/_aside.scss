@@ -20,6 +20,11 @@
     @include font-shadow;
   }
 }
+
+#profile-resume {
+  display: none;
+}
+
 .profile {
   max-width: 38.75rem;
   margin: 0 auto;
@@ -36,6 +41,12 @@
       font-weight: $font-weight-bold;
       color: $gray-lightest;
       font-size: 1.6rem;
+    }
+
+    > h3 {
+      margin: 0;
+      color: $gray-lightest;
+
     }
     > img {
       width: 7rem;
