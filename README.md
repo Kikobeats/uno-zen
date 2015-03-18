@@ -23,7 +23,7 @@
 - Loading progress state for each page.
 - Estimation about the time of reading.
 
-You can see a demo in my [blog](http://blog.kikobeats.com). Also you can check the [styleguide](kikobeats.com/styleguide) to view how it looks.
+You can see a demo in my [blog](http://blog.kikobeats.com). Also you can check the [styleguide](http://kikobeats.com/styleguide) to view how it looks.
 
 ## Documentation
 
