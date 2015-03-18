@@ -27,7 +27,9 @@ You can see a demo in my [blog](http://blog.kikobeats.com). Also you can check t
 
 ## Documentation
 
-Please, check the [Wiki](https://github.com/Kikobeats/uno-zen/wiki) for know all questions about the theme.
+If is your first time using Ghost, please check the [official documentation](http://support.ghost.org/installation/).
+
+All the information you need to know about the theme is collected on the [wiki](https://github.com/Kikobeats/uno-zen/wiki).
 
 ## License
 
