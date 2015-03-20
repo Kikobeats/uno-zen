@@ -25,6 +25,10 @@
 
 You can see a demo in my [blog](http://blog.kikobeats.com). Also you can check the [styleguide](http://kikobeats.com/styleguide) to view how it looks.
 
+## Showcase
+ 
+I want to create a showcase with blog of the users. Please, [Add your blog!](https://github.com/Kikobeats/uno-zen/issues/new?title=Add%20my%20blog%20into%20showcase&body=The%20URL%20of%20my%20blog%20is:%20).
+
 ## Documentation
 
 If is your first time using Ghost, please check the [official documentation](http://support.ghost.org/installation/).
