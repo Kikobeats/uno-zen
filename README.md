@@ -31,9 +31,9 @@ I want to create a showcase with blog of the users. Please, [Add your blog!](htt
 
 ## Documentation
 
-If is your first time using Ghost, please check the [official documentation](http://support.ghost.org/installation/).
+If is your first time using Ghost, please check the [Official Documentation](http://support.ghost.org/installation/).
 
-All the information you need to know about the theme is collected on the [wiki](https://github.com/Kikobeats/uno-zen/wiki).
+All the information you need to know about the theme is collected on the [Documentation](https://github.com/Kikobeats/uno-zen/blob/master/DOCUMENTATION.md) section.
 
 ## License
 
