@@ -15,13 +15,17 @@
 - Improved responsive and mobile experience.
 - Improved SEO Content with meta tags.
 
-... and things that already existed:
+Things that already existed:
 
 - A good [404 page error](http://kikobeats.com/404).
 - Search support.
 - Multiaccount support.
 - Loading progress state for each page.
 - Estimation about the time of reading.
+
+For more information check [changelog](https://github.com/Kikobeats/uno-zen/blob/master/CHANGELOG.md) section.
+
+## Demo
 
 You can see a demo in my [blog](http://blog.kikobeats.com). Also you can check the [styleguide](http://kikobeats.com/styleguide) to view how it looks.
 
