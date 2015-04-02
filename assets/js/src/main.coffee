@@ -12,8 +12,14 @@ $ ->
 
   if Uno.is 'page', 'post'
     $('.main').readingTime readingTimeTarget: '.post.reading-time > span'
+    postTitle = $('#post-title').text()
+    postTitle = postTitle.substring(0, postTitle.length - 1); # delete dot
+    shareLink = "http://twitter.com/share?url=" + encodeURIComponent(document.URL)
+    shareLink += "&text=" + encodeURIComponent "#{postTitle} »"
+    $('#share_twitter').attr('href', shareLink)
 
-  $('#panic-button').click ->
-    s = document.createElement 'script'
-    s.setAttribute 'src','https://nthitz.github.io/turndownforwhatjs/tdfw.js'
-    document.body.appendChild s
+  if Uno.is 'page', 'error'
+    $('#panic-button').click ->
+      s = document.createElement 'script'
+      s.setAttribute 'src','https://nthitz.github.io/turndownforwhatjs/tdfw.js'
+      document.body.appendChild s
