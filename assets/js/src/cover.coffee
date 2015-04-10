@@ -17,6 +17,7 @@ $ ->
     $('.main').show()
 
   $('#blog-button').click ->
+    return $("#cover-button").trigger("click") unless Uno.is 'device', 'desktop'
     $('.cover').toggleClass 'collapsed'
     Uno.search.form 'toggle'
     $('.link-item').toggleClass 'collapsed'
