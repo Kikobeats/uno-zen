@@ -1,6 +1,7 @@
 # Uno Zen for Ghost
 
-[![Gittip](http://img.shields.io/gittip/Kikobeats.svg?style=flat)](https://www.gittip.com/Kikobeats)
+[![Gittip](https://img.shields.io/badge/Ghost-0.5.x-brightgreen.svg?style=flat-squared)]()
+[![Gittip](http://img.shields.io/gittip/Kikobeats.svg?style=flat-squared)](https://www.gittip.com/Kikobeats)
 
 > Minimalist and Elegant theme for Ghost.
 
