@@ -4,38 +4,35 @@ $ ->
   el = document.body
   isOpen = location.hash is '#open'
 
-  _expand = ->
+  _expand = (options = {}) ->
     Uno.loadingBar 'hide'
     Uno.search.form 'hide'
     $('.cover').removeClass 'collapsed'
+    $('.cover').addClass 'animated' if options.animate
     $('.main').hide()
 
-  _collapsed = ->
-    $('.cover').addClass 'collapsed'
-    $('.link-item').addClass 'collapsed'
-    Uno.search.form 'show'
-    $('.main').show()
+  _collapsed = (options = {})->
+    method = if options.toggle then 'toggleClass' else 'addClass'
+    $('.cover')[method] 'collapsed'
+    $('.cover').addClass 'animated' if options.animate
+    $('.link-item')[method] 'collapsed'
+    isMainVisible = $('.main').is(":visible")
+    action = if (options.toggle and isMainVisible) then 'hide' else 'show'
+    Uno.search.form action
+    $('.main')[action]()
 
   $('#blog-button').click ->
-    return $("#cover-button").trigger("click") unless Uno.is 'device', 'desktop'
-    $('.cover').toggleClass 'collapsed'
-    Uno.search.form 'toggle'
-    $('.link-item').toggleClass 'collapsed'
-    toggle = if $('.main').is(":visible") then 'hide' else 'show'
-    $('.main')[toggle]()
+    return $("#menu-button").trigger("click") unless Uno.is 'device', 'desktop'
+    _collapsed(toggle: true)
 
-  $("#cover-button").click ->
+  $("#menu-button").click ->
     $('.cover').toggleClass 'collapsed'
     $('.main').toggleClass 'collapsed'
-    $('#cover-button').toggleClass 'collapsed'
+    $('#menu-button').toggleClass 'collapsed'
 
   if Uno.is 'device', 'desktop'
-    $('.cover').addClass 'animated'
     if Uno.is 'page', 'home'
-      if isOpen
-        _collapsed()
-      else
-        _expand()
+      if isOpen then _collapsed(animate: true) else _expand(animate: true)
     else
       _collapsed()
   else

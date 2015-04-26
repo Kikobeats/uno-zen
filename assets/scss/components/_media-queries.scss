@@ -32,7 +32,7 @@
   }
 
   /* off canvas */
-  #cover-button {
+  #menu-button {
     position: fixed;
     top: .5rem;
     left: 14rem;
@@ -160,7 +160,7 @@
       line-height: 25px;
     }
   }
-  #cover-button {
+  #menu-button {
     left: 13.5rem;
 
     &.collapsed {

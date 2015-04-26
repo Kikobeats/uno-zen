@@ -7,7 +7,7 @@
   @include background-filter;
 
   &.animated {
-    transition: width $aside-animation-time $animation-ease;
+    transition: all $aside-animation-time $aside-animation;
   }
   &.collapsed {
     width: $aside-width-collapsed;

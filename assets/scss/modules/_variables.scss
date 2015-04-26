@@ -44,7 +44,7 @@ $font-weight-bold    : 700;
 
 /* OTHERS */
 
-$animation-ease        : cubic-bezier(.02, .01, .47, 1);
+$aside-animation       : cubic-bezier(.49,.34,.62,.76);
 $aside-width-collapsed : 22.5rem;
-$aside-animation-time  : 400ms;
-$aside-color-mobile    : #242B33;
+$aside-animation-time  : 700ms;
+$aside-color-mobile    : #242b33;
