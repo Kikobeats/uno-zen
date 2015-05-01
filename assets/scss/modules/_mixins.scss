@@ -19,7 +19,6 @@
   color: $gray-lightest;
   text-shadow: none;
   letter-spacing: 1px;
-  border: 1px solid $gray-lightest;
   border-radius: 20px;
   opacity: .8;
   -webkit-font-smoothing: antialiased;
@@ -28,6 +27,12 @@
     opacity: 1;
   }
 }
+
+@mixin btn-cover-with-border {
+  @extend btn-cover;
+  border: 1px solid $gray-lightest;
+}
+
 @mixin placeholder {
   ::-webkit-input-placeholder {
     @content

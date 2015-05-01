@@ -2,15 +2,15 @@
   position: fixed;
   z-index: 900;
   display: block;
-  width: 100%;
+  width: $aside-width-collapsed;
   height: 100%;
   @include background-filter;
 
   &.animated {
-    transition: all $aside-animation-time $aside-animation;
+    transition: width $aside-animation-time $aside-animation;
   }
-  &.collapsed {
-    width: $aside-width-collapsed;
+  &.expanded {
+    width: 100%;
   }
   &.container {
     font-weight: $font-weight-thin;
@@ -37,10 +37,9 @@
     > h1 {
       margin: 0;
       font-family: $sans-font;
-      font-size: $font-size-big;
+      font-size: $font-size-normal * 1.6;
       font-weight: $font-weight-bold;
       color: $gray-lightest;
-      font-size: 1.6rem;
     }
 
     > h3 {
@@ -105,14 +104,14 @@
   }
 }
 .link-item {
-  float: left;
-  padding: .625rem 1.25rem;
-  margin: 0 5px;
+  float: none;
+  padding: .5rem 1.25rem;
   @include btn-cover;
 
-  &.collapsed {
-    float: none;
-    padding: .5rem 1.25rem;
-    border: none;
+  &.expanded {
+    float: left;
+    padding: .625rem 1.25rem;
+    margin: 0 5px;
+    @include btn-cover-with-border;
   }
 }
