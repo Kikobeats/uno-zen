@@ -1,5 +1,41 @@
 # Change Log
 
+## [2.2.0](https://github.com/Kikobeats/uno-zen/tree/2.2.0) (2015-05-02)
+
+[Full Changelog](https://github.com/Kikobeats/uno-zen/compare/2.1.3...2.2.0)
+
+**Implemented enhancements:**
+
+- disable animation when isn't landing page [\#18](https://github.com/Kikobeats/uno-zen/issues/18)
+
+**Closed issues:**
+
+- open outside website in new tab [\#20](https://github.com/Kikobeats/uno-zen/issues/20)
+
+- Two suggestions [\#19](https://github.com/Kikobeats/uno-zen/issues/19)
+
+- {{ghost\_head}} not working on error page in Ghost 0.6.0 [\#16](https://github.com/Kikobeats/uno-zen/issues/16)
+
+- Problem with aside and blog-button [\#13](https://github.com/Kikobeats/uno-zen/issues/13)
+
+## [2.1.3](https://github.com/Kikobeats/uno-zen/tree/2.1.3) (2015-04-10)
+
+[Full Changelog](https://github.com/Kikobeats/uno-zen/compare/2.1.2...2.1.3)
+
+**Closed issues:**
+
+- Add my blog into showcase [\#15](https://github.com/Kikobeats/uno-zen/issues/15)
+
+- The blog title did not load dynamicly [\#14](https://github.com/Kikobeats/uno-zen/issues/14)
+
+## [2.1.2](https://github.com/Kikobeats/uno-zen/tree/2.1.2) (2015-04-02)
+
+[Full Changelog](https://github.com/Kikobeats/uno-zen/compare/2.1.1...2.1.2)
+
+**Closed issues:**
+
+- The purpose of google-analytics.hbs  ?  [\#12](https://github.com/Kikobeats/uno-zen/issues/12)
+
 ## [2.1.1](https://github.com/Kikobeats/uno-zen/tree/2.1.1) (2015-03-20)
 
 [Full Changelog](https://github.com/Kikobeats/uno-zen/compare/2.1.0...2.1.1)
