@@ -2,6 +2,12 @@
 
 $ ->
   el = document.body
+
+  if Uno.is 'device', 'desktop'
+    $(document.links).filter ->
+      @hostname != window.location.hostname
+    .attr 'target', '_blank'
+
   el.dataset.page ?= Uno.context()
   el.dataset.device ?= Uno.device()
   $(window).on "resize", Uno.device()
