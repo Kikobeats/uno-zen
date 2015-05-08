@@ -33,7 +33,10 @@ You can see a demo in my [blog](http://blog.kikobeats.com). Also you can check t
 
 ## Showcase
 
-I want to create a showcase with blog of the users. Please, [Add your blog!](https://github.com/Kikobeats/uno-zen/issues/new?title=Add%20my%20blog%20into%20showcase&body=The%20URL%20of%20my%20blog%20is:%20).
+[![](http://i.imgur.com/DhidcD5.png)](http://kikobeats.com)
+[![](http://i.imgur.com/iaBPvJN.png)](http://www.evilsocket.net)
+
+Do you want appear here? Please, [add your blog!](https://github.com/Kikobeats/uno-zen/issues/new?title=Add%20my%20blog%20into%20showcase&body=The%20URL%20of%20my%20blog%20is:%20).
 
 ## Documentation
 
