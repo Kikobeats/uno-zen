@@ -35,7 +35,7 @@ You can see a demo in my [blog](http://blog.kikobeats.com). Also you can check t
 
 <div align="center">
 <a target="blank" href="http://kikobeats.com"><img src="http://i.imgur.com/fvRg0fg.png"></a> 
-<a target="blank" href="http://www.evilsocket.net"><img src="http://i.imgur.com/Xwweqlw.png"></a>
+<a target="blank" href="http://www.evilsocket.net"><img src="http://i.imgur.com/qanAbQf.png"></a>
 </br>
 </br>
 </div>
