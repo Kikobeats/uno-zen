@@ -1,5 +1,19 @@
 # Change Log
 
+## [2.2.1](https://github.com/Kikobeats/uno-zen/tree/2.2.1) (2015-05-17)
+
+[Full Changelog](https://github.com/Kikobeats/uno-zen/compare/2.2.0...2.2.1)
+
+**Implemented enhancements:**
+
+- emoji support [\#17](https://github.com/Kikobeats/uno-zen/issues/17)
+
+**Closed issues:**
+
+- Add my blog into showcase [\#22](https://github.com/Kikobeats/uno-zen/issues/22)
+
+- Add my blog into showcase [\#21](https://github.com/Kikobeats/uno-zen/issues/21)
+
 ## [2.2.0](https://github.com/Kikobeats/uno-zen/tree/2.2.0) (2015-05-02)
 
 [Full Changelog](https://github.com/Kikobeats/uno-zen/compare/2.1.3...2.2.0)
