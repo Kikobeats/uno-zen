@@ -1,7 +1,5 @@
 @mixin background-filter {
-  background: linear-gradient(150deg, rgba(19, 106, 138, .65) 30%, rgba(38, 120, 113, .44) 70%), url(/assets/img/cover.jpg) no-repeat center;
-  background-attachment: fixed;
-  background-size: cover;
+  background: linear-gradient(150deg,rgba(19,106,138,.65) 30%,rgba(38,120,113,.44) 70%) 0 0/cover fixed,url(/assets/img/cover.jpg) center/cover no-repeat fixed;
 }
 @mixin center-absolute {
   display: flex;

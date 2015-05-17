@@ -1,6 +1,6 @@
 # Uno Zen for Ghost
 
-[![Gittip](https://img.shields.io/badge/Latest%20stable-2.2.0-green.svg?style=flat-squared)]()
+[![Gittip](https://img.shields.io/badge/Latest%20stable-2.2.1-green.svg?style=flat-squared)]()
 [![Gittip](https://img.shields.io/badge/Ghost-0.6.x-brightgreen.svg?style=flat-squared)]()
 [![Gittip](http://img.shields.io/gittip/Kikobeats.svg?style=flat-squared)](https://www.gittip.com/Kikobeats)
 
@@ -34,7 +34,7 @@ You can see a demo in my [blog](http://blog.kikobeats.com). Also you can check t
 ## Showcase
 
 <div align="center">
-<a target="blank" href="http://kikobeats.com"><img src="http://i.imgur.com/fvRg0fg.png"></a> 
+<a target="blank" href="http://kikobeats.com"><img src="http://i.imgur.com/fvRg0fg.png"></a>
 <a target="blank" href="http://www.evilsocket.net"><img src="http://i.imgur.com/qanAbQf.png"></a>
 <a target="blank" href="http://pupboss.com"><img src="http://i.imgur.com/0AeVKgB.png"></a>
 </br>
