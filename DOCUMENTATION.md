@@ -152,6 +152,10 @@ Create your favicons with [Favicon Generator](http://realfavicongenerator.net/) 
 
 Replace the `assets/img/cover.jpg` file. If you put another with different extensin remember modify the CSS for do it.
 
+### Custom static pages
+
+Check the [page part](http://themes.ghost.org/v0.6.4/docs/page-context) in the Ghost Official Documentation.
+
 ### Multiaccount support
 
 You can enable the multiaccount support for post editing the `posts.hbs` and editing the code commented inside the meta post information.
