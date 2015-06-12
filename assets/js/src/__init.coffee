@@ -2,7 +2,7 @@
 
 $ ->
   window.Uno = Uno =
-    version: '2.2.1'
+    version: '2.2.2'
 
     search:
       container: -> $('#results')

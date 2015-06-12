@@ -1,5 +1,21 @@
 # Change Log
 
+## [Unreleased](https://github.com/Kikobeats/uno-zen/tree/HEAD)
+
+[Full Changelog](https://github.com/Kikobeats/uno-zen/compare/2.2.1...HEAD)
+
+**Closed issues:**
+
+- Add my blog into showcase [\#26](https://github.com/Kikobeats/uno-zen/issues/26)
+
+- Please, add my blog into showcase [\#25](https://github.com/Kikobeats/uno-zen/issues/25)
+
+- About SSL [\#24](https://github.com/Kikobeats/uno-zen/issues/24)
+
+**Merged pull requests:**
+
+- Fix profile center in IE [\#27](https://github.com/Kikobeats/uno-zen/pull/27) ([kutyel](https://github.com/kutyel))
+
 ## [2.2.1](https://github.com/Kikobeats/uno-zen/tree/2.2.1) (2015-05-17)
 
 [Full Changelog](https://github.com/Kikobeats/uno-zen/compare/2.2.0...2.2.1)
