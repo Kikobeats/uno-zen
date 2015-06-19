@@ -2,7 +2,15 @@
 
 ## [Unreleased](https://github.com/Kikobeats/uno-zen/tree/HEAD)
 
-[Full Changelog](https://github.com/Kikobeats/uno-zen/compare/2.2.1...HEAD)
+[Full Changelog](https://github.com/Kikobeats/uno-zen/compare/2.2.2...HEAD)
+
+**Merged pull requests:**
+
+- Fixes overflow below 1024px [\#28](https://github.com/Kikobeats/uno-zen/pull/28) ([kutyel](https://github.com/kutyel))
+
+## [2.2.2](https://github.com/Kikobeats/uno-zen/tree/2.2.2) (2015-06-12)
+
+[Full Changelog](https://github.com/Kikobeats/uno-zen/compare/2.2.1...2.2.2)
 
 **Closed issues:**
 
