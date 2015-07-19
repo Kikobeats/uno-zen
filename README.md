@@ -29,7 +29,7 @@ For more information check [changelog](https://github.com/Kikobeats/uno-zen/blob
 
 ## Demo
 
-You can see a demo in my [blog](http://blog.kikobeats.com). Also you can check the [styleguide](http://kikobeats.com/styleguide) to view how it looks.
+You can see a demo in my [blog](http://kikobeats.com). Also you can check the [styleguide](http://kikobeats.com/styleguide) to view how it looks.
 
 ## Showcase
 
