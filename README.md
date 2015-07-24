@@ -1,6 +1,6 @@
 # Uno Zen for Ghost
 
-[![Gittip](https://img.shields.io/badge/Latest%20stable-2.2.3-green.svg?style=flat-squared)]()
+![Last version](https://img.shields.io/github/tag/Kikobeats/uno-zen.svg?style=flat-square)
 [![Gittip](https://img.shields.io/badge/Ghost-0.6.x-brightgreen.svg?style=flat-squared)]()
 [![Gittip](http://img.shields.io/gittip/Kikobeats.svg?style=flat-squared)](https://www.gittip.com/Kikobeats)
 
