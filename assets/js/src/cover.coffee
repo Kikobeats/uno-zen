@@ -15,8 +15,8 @@ $ ->
     $('.link-item')[method] 'expanded'
     Uno.search.form options.form if options.form?
 
-  $('#blog-button').click ->
-    return $("#menu-button").trigger("click") unless Uno.is 'device', 'desktop'
+  $('#blog-button, #avatar-link').click ->
+    return $(selector).trigger('click') unless Uno.is 'device', 'desktop'
     _expand(hide: 'toggle', form: 'toggle')
 
   $("#menu-button").click ->

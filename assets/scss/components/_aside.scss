@@ -48,7 +48,7 @@
     }
     > img {
       width: 7rem;
-      border: 2px solid $primary-color;
+      border: 2px solid rgba($primary-color, .1);
       border-radius: 50%;
       box-shadow: 0 0 1px 1px rgba(000, 000, 000, .3);
     }
