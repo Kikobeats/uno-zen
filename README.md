@@ -6,7 +6,7 @@
 
 > Minimalist and Elegant theme for Ghost.
 
-[<img src="http://i.imgur.com/jIuv1pq.png">](http://kikobeats.com)
+[<img src="http://i.imgur.com/LCSB4Ca.jpg">](http://kikobeats.com)
 
 **Uno Zen** is a fork of [Uno for Ghost](https://github.com/daleanthony/Uno) that provides some features missing in the original theme.
 
@@ -34,7 +34,7 @@ You can see a demo in my [blog](http://kikobeats.com). Also you can check the [s
 ## Showcase
 
 <div align="center">
-<a target="blank" href="http://kikobeats.com"><img src="http://i.imgur.com/fvRg0fg.png"></a>
+<a target="blank" href="http://kikobeats.com"><img src="http://i.imgur.com/crE8jt2.png"></a>
 <a target="blank" href="http://www.evilsocket.net"><img src="http://i.imgur.com/qanAbQf.png"></a>
 <a target="blank" href="http://pupboss.com"><img src="http://i.imgur.com/0AeVKgB.png"></a>
 <a target="blank" href="http://www.flaviocorpa.com"><img src="http://i.imgur.com/1ESq2xs.png" /></a>
@@ -43,6 +43,7 @@ You can see a demo in my [blog](http://kikobeats.com). Also you can check the [s
 <a target="blank" href="http://jahlom.com/"><img src="http://i.imgur.com/qwgQ9Ay.png" /></a>
 <a target="blank" href="http://adrianperez.org"><img src="http://i.imgur.com/XlNFWWA.png" /></a>
 <a target="blank" href="http://www.bradenericson.com"><img src="http://i.imgur.com/8wz0LKN.png" /></a>
+<a target="blank" href="https://blog.h4t0n.com/"><img src="http://i.imgur.com/GPWzqnG.png" /></a>
 </br>
 </br>
 </div>
