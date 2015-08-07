@@ -54,12 +54,7 @@
   pre {
     width: 95%;
   }
-  hr {
-    display: block;
-    width: 30%;
-    margin: 2em 0;
-    border-top: 1px solid $gray-light;
-  }
+
   > header {
     text-align: center;
   }
@@ -100,7 +95,13 @@
     }
   }
   &.comments {
-    margin-top: 2rem;
+    padding: 2rem 0 0 0;
+  }
+
+  &.related {
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 0 2rem 0;
   }
 }
 

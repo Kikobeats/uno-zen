@@ -18,7 +18,8 @@
 
   /* disabling element, too much information*/
   .pace,
-  .post.reading-time {
+  .post.reading-time,
+  .post.related {
     display: none;
   }
   #search-container {
