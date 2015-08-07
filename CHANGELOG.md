@@ -1,7 +1,20 @@
+<a name="2.2.7"></a>
+## 2.2.7 (2015-08-07)
+
+
+* better way to generate post font size and margins
+ ([49a6e49](https://github.com/kikobeats/uno-zen/commit/49a6e49))
+* little improvements
+ ([d23b3aa](https://github.com/kikobeats/uno-zen/commit/d23b3aa))
+
+
+
 <a name="2.2.6"></a>
 ## 2.2.6 (2015-08-07)
 
 
+* 2.2.6 releases
+ ([635d176](https://github.com/kikobeats/uno-zen/commit/635d176))
 * Merge pull request #41 from Kikobeats/list_code_block
  ([47e8622](https://github.com/kikobeats/uno-zen/commit/47e8622))
 * fixed code block in lists
