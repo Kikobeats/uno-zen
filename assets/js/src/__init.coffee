@@ -32,7 +32,6 @@ $ ->
           $(this).html(postDateInDays)
           $(this).mouseover -> $(this).html(postDate)
           $(this).mouseout -> $(this).html(postDateInDays)
-        cb?()
       DateInDays ".post.meta > time"
 
     device: ->

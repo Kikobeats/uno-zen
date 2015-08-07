@@ -4,7 +4,6 @@
 
   <article class="{{post_class}}">
     <header>
-      <a id="back-button" class="btn small square" href="javascript:history.back()">« Back</a>
       <div class="post meta">
         <time datetime="{{date format="DD MMM YYYY"}}">{{date format="DD MMM YYYY"}}</time>
         <span class="post tags">{{tags prefix="in " separator=" "}}</span>
@@ -20,12 +19,12 @@
       </a>
     </header>
 
-    <section class="{{post_class}}">
+    <div id="post-content" class="{{post_class}}">
       {{content}}
-    </section>
+    </div>
+
+    {{> comments}}
 
   </article>
-
-  {{> comments}}
 
 {{/post}}

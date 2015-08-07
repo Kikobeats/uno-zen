@@ -3,7 +3,7 @@
 // ------------------------------
 
 @media only screen and (min-width:1824px) {
-  .main {
+  main {
     padding: 2.5rem 11rem;
   }
   .content {
@@ -18,8 +18,7 @@
 
   /* disabling element, too much information*/
   .pace,
-  .post.reading-time,
-  #back-button {
+  .post.reading-time {
     display: none;
   }
   #search-container {
@@ -116,7 +115,7 @@
       }
     }
   }
-  .main {
+  main {
     left: 0;
     transition: all $aside-animation-time;
     transform: translate3d(0, 0, 0);
@@ -147,7 +146,7 @@
     display: block;
     margin-bottom: .4em;
   }
-  .main {
+  main {
     padding: 1rem 0;
   }
   .mayday {

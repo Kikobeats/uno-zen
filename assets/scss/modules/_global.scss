@@ -183,7 +183,7 @@ pre:hover {
   width: $total-width - $gutter-width;
   margin: 0 auto;
 }
-.main {
+main {
   position: absolute;
   top: 0;
   right: 0;
@@ -192,7 +192,7 @@ pre:hover {
   padding: 2rem 3rem;
 
   > .content {
-    padding: 4rem 0;
+    padding: 2rem 0;
     margin: 0 3.7rem;
 
     > h1 {

@@ -23,7 +23,7 @@
   }
 }
 
-section.post {
+#post-content {
   a {
     transition: all $aside-animation-time;
 
@@ -100,19 +100,15 @@ section.post {
     }
   }
   &.comments {
-    padding: 3.75rem 0;
-    border-top: 1px solid $gray-light;
+    margin-top: 2rem;
   }
 }
-#back-button {
-  position: absolute;
-  top: 2rem;
-  left: 2rem;
-}
+
 #post-image {
   max-width: 100%;
   margin-top: 1rem;
 }
+
 #post-title {
   margin: 3rem 0 2.5rem;
   transition: all $aside-animation-time;
