@@ -1,7 +1,13 @@
-<a name="2.2.7"></a>
-## 2.2.7 (2015-08-07)
+<a name="2.3.0"></a>
+# 2.3.0 (2015-08-07)
 
 
+* 2.2.7 releases
+ ([f02fd1f](https://github.com/kikobeats/uno-zen/commit/f02fd1f))
+* added next and prev buttons
+ ([3c1ddd2](https://github.com/kikobeats/uno-zen/commit/3c1ddd2))
+* adjust error page margins
+ ([cb39bef](https://github.com/kikobeats/uno-zen/commit/cb39bef))
 * better way to generate post font size and margins
  ([49a6e49](https://github.com/kikobeats/uno-zen/commit/49a6e49))
 * little improvements
