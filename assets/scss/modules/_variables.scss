@@ -1,57 +1,66 @@
 /* COLORS */
 
-$gray-darkest       : #333;
-$gray-darker        : #666;
-$gray-dark          : #999;
-$gray               : #ccc;
-$gray-light         : #ddd;
-$gray-lighter       : #eee;
-$gray-lightest      : #f8f8f8;
+$gray-darkest          : #333;
+$gray-darker           : #666;
+$gray-dark             : #999;
+$gray                  : #ccc;
+$gray-light            : #ddd;
+$gray-lighter          : #eee;
+$gray-lightest         : #f8f8f8;
 
-$black              : #000000;
-$white              : #FFFFFF;
-$cyan               : #006064;
-$red                : #e74c3c;
-$purple             : #493252;
-$slate              : #3d4260;
+$black                 : #000000;
+$white                 : #FFFFFF;
+$cyan                  : #006064;
+$red                   : #e74c3c;
+$purple                : #493252;
+$slate                 : #3d4260;
 
-$primary-color      : lighten($red, 5%);
-$secondary-color    : $gray-dark;
+$primary-color         : lighten($red, 5%);
+$secondary-color       : $gray-dark;
 
-$cover-secondary : rgba(#5f2c82, .1);
-$cover-primary   : rgba(#49a09d, .2);
+$cover-secondary       : rgba(#5f2c82, .1);
+$cover-primary         : rgba(#49a09d, .2);
 
+$mobile-primary        : $gray-darkest;
 
-$mobile-primary     : $gray-darkest;
-
-$link-color         : $gray-darkest;
-$hover-color        : $primary-color;
-
+$link-color            : $gray-darkest;
+$hover-color           : $primary-color;
 
 /* FONT */
 
-$unit               : 1rem;
+$unit                  : 1rem;
 
-$sans-font          : 'Raleway', sans-serif;
-$serif-font         : 'Roboto Slab', serif;
-$code-font          : Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
-$quote-font         : "freight-text-pro", Georgia, Cambria, "Times New Roman", Times, serif;
+$sans-font             : 'Raleway', sans-serif;
+$serif-font            : 'Roboto Slab', serif;
+$code-font             : Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+$quote-font            : "freight-text-pro", Georgia, Cambria, "Times New Roman", Times, serif;
 
-$font-size-tiny     : 0.8rem;
-$font-size-small    : 1.2rem;
-$font-size-normal   : 1rem;
-$font-size-big      : 2rem;
+$font-weight-thin      : 100;
+$font-weight-normal    : 300;
+$font-weight-bold      : 700;
 
-$font-weight-thin   : 100;
-$font-weight-normal : 300;
-$font-weight-bold   : 700;
+$margin-title          : $unit * 2.5;
+$margin-h1             : $margin-title * 1.1;
+$margin-h2             : $margin-title * 0.8;
+$margin-h3             : $margin-h2 * 0.8;
+$margin-h4             : $margin-h3 * 0.8;
+$margin-h5             : $margin-h4 * 0.8;
+$margin-h6             : $margin-h5 * 0.8;
+
+$font-title            : $unit * 2;
+$font-h1               : $font-title * 1.1;
+$font-h2               : $font-title * 0.85;
+$font-h3               : $font-h2 * 0.85;
+$font-h4               : $font-h3 * 0.85;
+$font-h5               : $font-h4 * 0.85;
+$font-h6               : $font-h5 * 0.85;
 
 /* ASIDE */
 
 $aside-animation-time  : 350ms;
 $aside-animation       : cubic-bezier(.645,.045,.355,1);
-$aside-width-collapsed : 22.5rem;
+$aside-width-collapsed : $unit * 22.5;
 
 /* OTHER */
 
-$border-radius      : 3px;
+$border-radius         : 3px;

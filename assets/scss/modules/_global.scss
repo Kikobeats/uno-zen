@@ -46,33 +46,35 @@ h3,
 h4,
 h5,
 h5 {
-  margin-top: 3rem;
-  margin-bottom: .8rem;
   font-family: $serif-font;
   font-weight: lighter;
   color: $gray-darkest;
   -webkit-font-smoothing: antialiased;
 }
 h1 {
-  margin-top: 0;
-  font-size: 2.3rem;
+  margin: $margin-h1 0;
+  font-size: $font-h1;
   line-height: 3rem;
-  letter-spacing: .05rem;
 }
 h2 {
-  font-size: 1.6rem;
+  margin: $margin-h2 0;
+  font-size: $font-h2;
 }
 h3 {
-  font-size: 1.3rem;
+  margin: $margin-h3 0;
+  font-size: $font-h3;
 }
 h4 {
-  font-size: 1.05rem;
+  margin: $margin-h4 0;
+  font-size: $font-h4;
 }
 h5 {
-  font-size: .85rem;
+  margin: $margin-h5 0;
+  font-size: $font-h5;
 }
 h6 {
-  font-size: .66rem;
+  margin: $margin-h6 0;
+  font-size: $font-h6;
 }
 p {
   margin-bottom: 1.3rem;

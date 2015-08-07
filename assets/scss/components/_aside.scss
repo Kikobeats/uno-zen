@@ -36,9 +36,10 @@
     > h1 {
       margin: 0;
       font-family: $sans-font;
-      font-size: $font-size-normal * 1.6;
+      font-size: $unit * 1.6;
       font-weight: $font-weight-bold;
       color: $gray-lightest;
+      letter-spacing: .05rem;
     }
 
     > h3 {
