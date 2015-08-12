@@ -1,13 +1,33 @@
+<a name="2.3.1"></a>
+## 2.3.1 (2015-08-12)
+
+
+* Update README.md
+ ([79546b7](https://github.com/kikobeats/uno-zen/commit/79546b7))
+* fixed little bug in blog button selector
+ ([e9c9a5c](https://github.com/kikobeats/uno-zen/commit/e9c9a5c))
+
+
+
 <a name="2.3.0"></a>
 # 2.3.0 (2015-08-07)
 
 
-* 2.2.7 releases
- ([f02fd1f](https://github.com/kikobeats/uno-zen/commit/f02fd1f))
+* 2.3.0 releases
+ ([0b04906](https://github.com/kikobeats/uno-zen/commit/0b04906))
 * added next and prev buttons
  ([3c1ddd2](https://github.com/kikobeats/uno-zen/commit/3c1ddd2))
 * adjust error page margins
  ([cb39bef](https://github.com/kikobeats/uno-zen/commit/cb39bef))
+
+
+
+<a name="2.2.7"></a>
+## 2.2.7 (2015-08-07)
+
+
+* 2.2.7 releases
+ ([f02fd1f](https://github.com/kikobeats/uno-zen/commit/f02fd1f))
 * better way to generate post font size and margins
  ([49a6e49](https://github.com/kikobeats/uno-zen/commit/49a6e49))
 * little improvements
