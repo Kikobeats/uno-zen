@@ -1,6 +1,7 @@
 <nav class="navigation left">
   <ul class="links">
     <li class="links item">
+      <a href="{{@blog.url}}/#open" class="link-item" title="{{@blog.title}} blog" id="blog-button">Blog</a>
       {{#foreach @blog.navigation}}
         <a href="{{url}}" class="link-item" id="{{slug}}-button">{{label}}</a>
       {{/foreach}}

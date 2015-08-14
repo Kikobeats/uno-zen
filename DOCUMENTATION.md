@@ -148,6 +148,8 @@ Edit the file `partials/social.hbs`.
 
 Go to Ghost admin panel -> `Navigation` and add/edit items.
 
+"Blog" link is always included by default, so you don't need to add it manually.
+
 ### Favicon
 
 Create your favicons with [Favicon Generator](http://realfavicongenerator.net/) and puts it in `assets/img`.
