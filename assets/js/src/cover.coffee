@@ -9,21 +9,17 @@ $ ->
       $('.cover').addClass 'animated'
     , 1000)
 
-  _expand = (options = {})->
-    method = if options.toggle is 'hide' then 'addClass' else 'toggleClass'
-    $('.cover')[method] 'expanded'
-    $('.link-item')[method] 'expanded'
-    Uno.search.form options.form if options.form?
+  _expand = (options)->
+    $('main, .cover, .link-item').toggleClass 'expanded'
+    Uno.search.form options.form
 
   $('#blog-button, #avatar-link').click ->
-    return $('#menu-button').trigger('click') unless Uno.is 'device', 'desktop'
-    _expand(hide: 'toggle', form: 'toggle')
+    return $('#menu-button').trigger 'click' unless Uno.is 'device', 'desktop'
+    _expand form: 'toggle'
 
   $("#menu-button").click ->
-    $('.cover').toggleClass 'expanded'
-    $('.main').toggleClass 'expanded'
-    $('#menu-button').toggleClass 'expanded'
+    $('main, .cover, #menu-button').toggleClass 'expanded'
 
   if (Uno.is 'device', 'desktop') and (Uno.is 'page', 'home')
     _animate()
-    _expand(aside: 'hide', form: 'hide') if !isOpen
+    _expand form: 'hide' if !isOpen
