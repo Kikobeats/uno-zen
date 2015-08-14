@@ -1,9 +1,22 @@
+<a name="2.3.2"></a>
+## 2.3.2 (2015-08-14)
+
+
+* added rel attribute in pagination elements
+ ([530174e](https://github.com/kikobeats/uno-zen/commit/530174e))
+
+
+
 <a name="2.3.1"></a>
 ## 2.3.1 (2015-08-12)
 
 
+* 2.3.1 releases
+ ([f953974](https://github.com/kikobeats/uno-zen/commit/f953974))
 * Update README.md
  ([79546b7](https://github.com/kikobeats/uno-zen/commit/79546b7))
+* compiled again
+ ([b877428](https://github.com/kikobeats/uno-zen/commit/b877428))
 * fixed little bug in blog button selector
  ([e9c9a5c](https://github.com/kikobeats/uno-zen/commit/e9c9a5c))
 
