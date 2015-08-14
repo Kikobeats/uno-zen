@@ -25,11 +25,11 @@
 
     <div class="post related">
       {{#prev_post}}
-        <a id="prev-btn" class="btn small square" href="{{url}}">← {{title}}</a>
+        <a rel="prev" id="prev-btn" class="btn small square" href="{{url}}">← {{title}}</a>
       {{/prev_post}}
 
       {{#next_post}}
-        <a id="next-btn" class="btn small square" href="{{url}}">{{title}} →</a>
+        <a rel="next" id="next-btn" class="btn small square" href="{{url}}">{{title}} →</a>
       {{/next_post}}
     </div>
 
