@@ -191,6 +191,10 @@ main {
   left: 22.5rem;
   padding: 2rem 3rem;
 
+  &.expanded {
+    overflow: hidden
+  }
+
   > .content {
     padding: 2rem 0;
     margin: 0 3.7rem;
