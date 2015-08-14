@@ -132,9 +132,9 @@ var disqus_shortname = 'YOUR_DISQUS_SHORTCUT_HERE';
 
 ### Sidebar Name
 
-By default name is automatically taken from blog title, subtitle is set to author's name but hidden and description is obtained from the description of the blog.
+By default name is automatically taken from blog title and description is obtained from the description of the blog.
 
-To change this behavior, edit the file `partials/aside.hbs` and change the title to show modifying the `h1` header or subtitle modifying the `h3` header.
+If you want to change this behavior or add subtitle (hidden by default), edit the file `partials/aside.hbs` and change the title by modifying the `h1` header or subtitle modifying the `h3` header.
 
 ### Colors
 
