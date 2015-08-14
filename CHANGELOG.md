@@ -1,7 +1,22 @@
+<a name="2.3.3"></a>
+## 2.3.3 (2015-08-14)
+
+
+* Added robinz blog
+ ([0508ca9](https://github.com/kikobeats/uno-zen/commit/0508ca9))
+* Merge branch 'robincsamuel-master'
+ ([4090e2b](https://github.com/kikobeats/uno-zen/commit/4090e2b))
+* main overflow based in a class instead of css inline
+ ([ffa9893](https://github.com/kikobeats/uno-zen/commit/ffa9893))
+
+
+
 <a name="2.3.2"></a>
 ## 2.3.2 (2015-08-14)
 
 
+* 2.3.2 releases
+ ([d2484ff](https://github.com/kikobeats/uno-zen/commit/d2484ff))
 * added rel attribute in pagination elements
  ([530174e](https://github.com/kikobeats/uno-zen/commit/530174e))
 
