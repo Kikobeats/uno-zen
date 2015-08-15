@@ -130,15 +130,20 @@ var disqus_shortname = 'YOUR_DISQUS_SHORTCUT_HERE';
 </script>
 ```
 
-### Sidebar Name
+### Sidebar title and subtitle
 
-By default name is automatically taken from blog title and description is obtained from the description of the blog.
+Go to Ghost admin panel -> `Code Injection` -> `Blog Header` and add:
 
-If you want to change this behavior or add subtitle (hidden by default), edit the file `partials/aside.hbs` and change the title by modifying the `h1` header or subtitle modifying the `h3` header.
+```html
+<script>
+var profile_title = 'Kiko Beats';
+var profile_resume ='Software Engineer';
+</script>
+```
 
 ### Colors
 
-Edit the file `assets/scss/modules/_variables.scss`.
+Edit the file `assets/scss/modules/_variables.scss`. Remember that is necessary compile the build to load the new style, so keep running your gulp process in background.
 
 ### Social Networks
 
