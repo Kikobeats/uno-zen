@@ -164,7 +164,7 @@ Check the [page part](http://themes.ghost.org/v0.6.4/docs/page-context) in the G
 
 ### Multiaccount support
 
-You can enable the multiaccount support for post editing the `posts.hbs` and editing the code commented inside the meta post information.
+You can enable the multiaccount support editing `posts.hbs` code commented inside the meta post information.
 
 ## Preparing for production
 
