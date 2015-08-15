@@ -1,6 +1,7 @@
 'use strict'
 
 $ ->
+
   window.Uno = Uno =
     version: '2.3.3'
 

@@ -1,6 +1,7 @@
 'use strict'
 
 $ ->
+
   el = document.body
   isOpen = location.hash is '#open'
 

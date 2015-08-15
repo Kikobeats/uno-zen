@@ -1,6 +1,7 @@
 'use strict'
 
 $ ->
+
   showSearch = ->
     $(".content").hide()
     $('#search-results').addClass('active')
