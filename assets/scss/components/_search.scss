@@ -11,7 +11,7 @@
   border-radius: 1.68rem;
   transition: border .3s ease-in;
 
-  &:hover {
+  &:focus, &:hover {
     border: 1.5px solid lighten($hover-color, 5%);
   }
 }
