@@ -11,6 +11,9 @@ $ ->
   Uno.readTime()
   FastClick.attach el unless Uno.is 'device', 'desktop'
 
+  $('#profile-title').text window.profile_title if window.profile_title
+  $('#profile-resume').text window.profile_resume if window.profile_resume
+
   if Uno.is 'device', 'desktop'
     $(document.links).filter ->
       @hostname != window.location.hostname
