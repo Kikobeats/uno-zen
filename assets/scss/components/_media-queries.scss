@@ -171,14 +171,13 @@
   #post-title {
     margin: 2.5rem 0;
   }
-  body[data-page='post'] {
-    .post.tags {
-      > a {
-        display: inline-block;
-        margin: .2rem 0;
-      }
-    }
+
+  .post .tags,
+  .post .meta > time,
+  .pagination > span {
+      display: none;
   }
+
   .post {
     &.newer,
     &.older {
@@ -191,11 +190,7 @@
       margin: 0 0 10px;
     }
   }
-  .pagination {
-    > span {
-      display: none;
-    }
-  }
+
   blockquote {
     > p {
       margin: 2rem -1rem;

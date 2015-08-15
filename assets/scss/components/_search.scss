@@ -8,8 +8,12 @@
   width: 12.5rem;
   height: .4rem;
   padding: 5% 5px 5% 18px;
-  border: 1.5px solid lighten($hover-color, 5%);
   border-radius: 1.68rem;
+  transition: border .3s ease-in;
+
+  &:hover {
+    border: 1.5px solid lighten($hover-color, 5%);
+  }
 }
 #search-results {
   text-align: center;

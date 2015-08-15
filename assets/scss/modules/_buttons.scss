@@ -1,3 +1,14 @@
+img, .btn {
+
+  &.square {
+    border-radius: 0;
+  }
+
+  &.rounded {
+    border-radius: 50%;
+  }
+}
+
 .btn {
   padding: 10px 20px;
   font-size: .9em;
@@ -9,9 +20,6 @@
   border-radius: 20px;
   -webkit-font-smoothing: antialiased;
 
-  &.square {
-    border-radius: 0;
-  }
   &:hover {
     color: darken($primary-color, 15%);
     border-color: darken($primary-color, 15%);
