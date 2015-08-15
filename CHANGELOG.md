@@ -1,7 +1,42 @@
+<a name="2.3.4"></a>
+## 2.3.4 (2015-08-15)
+
+
+* Add Blog link by default.
+ ([1198895](https://github.com/kikobeats/uno-zen/commit/1198895))
+* Improve multiaccount support
+ ([cfc918d](https://github.com/kikobeats/uno-zen/commit/cfc918d))
+* Improve twitter share link based in a url native helper.
+ ([7cb2a61](https://github.com/kikobeats/uno-zen/commit/7cb2a61))
+* Include URL as-is.
+ ([533f796](https://github.com/kikobeats/uno-zen/commit/533f796))
+* Make Google Analytics and Disqus use variables from admin panel.
+ ([2aebfbe](https://github.com/kikobeats/uno-zen/commit/2aebfbe))
+* Merge pull request #47 from RReverser/out-of-the-box
+ ([efcb4e3](https://github.com/kikobeats/uno-zen/commit/efcb4e3))
+* Revert author in aside (Ghost doesn't provide it for entire blog).
+ ([9b26637](https://github.com/kikobeats/uno-zen/commit/9b26637))
+* Use blog title and author's name by default on main page.
+ ([7ffad11](https://github.com/kikobeats/uno-zen/commit/7ffad11))
+* Use links from Ghost navigation settings.
+ ([4d9bfb3](https://github.com/kikobeats/uno-zen/commit/4d9bfb3))
+* disable multiaccount support by default
+ ([58c38cb](https://github.com/kikobeats/uno-zen/commit/58c38cb))
+* little details in title and readTime
+ ([a017558](https://github.com/kikobeats/uno-zen/commit/a017558))
+* removed dot from post title
+ ([2adf9c1](https://github.com/kikobeats/uno-zen/commit/2adf9c1))
+* removed dot from title
+ ([940e60d](https://github.com/kikobeats/uno-zen/commit/940e60d))
+
+
+
 <a name="2.3.3"></a>
 ## 2.3.3 (2015-08-14)
 
 
+* 2.3.3 releases
+ ([78603e5](https://github.com/kikobeats/uno-zen/commit/78603e5))
 * Added robinz blog
  ([0508ca9](https://github.com/kikobeats/uno-zen/commit/0508ca9))
 * Merge branch 'robincsamuel-master'
