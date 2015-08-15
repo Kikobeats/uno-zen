@@ -112,25 +112,29 @@ As the screenshot, you need to use for the proxying the same port as your Ghost 
 
 ### Google Analytics
 
-Edit `partials/google-analytics.hbs` put your [Google Analytics](http://www.google.com/analytics) domain ID in the line 6 like:
+Go to Ghost admin panel -> `Code Injection` -> `Blog Header` and add:
 
-```
-ga('create', 'UA-YOURIDHERE', 'auto');
+```html
+<script>
+var ga_id = 'UA-YOUR_ID_HERE';
+</script>
 ```
 
 ### Comments
 
-Edit `partials/comments.hbs` and put your [Disqus](https://disqus.com) shorcut in the line 5 like:
+Go to Ghost admin panel -> `Code Injection` -> `Blog Header` and add:
 
-```
-var disqus_shortname = 'myShorcut';
+```html
+<script>
+var disqus_shortname = 'YOUR_DISQUS_SHORTCUT_HERE';
+</script>
 ```
 
 ### Sidebar Name
 
-Edit the file `partials/aside.hbs` and change the name to show modifying the `h1` header.
+By default name is automatically taken from blog title and description is obtained from the description of the blog.
 
-The description is automatically obtained from the description of the blog.
+If you want to change this behavior or add subtitle (hidden by default), edit the file `partials/aside.hbs` and change the title by modifying the `h1` header or subtitle modifying the `h3` header.
 
 ### Colors
 
@@ -142,7 +146,9 @@ Edit the file `partials/social.hbs`.
 
 ### Links
 
-Edit the file `partials/links.hbs`
+Go to Ghost admin panel -> `Navigation` and add/edit items.
+
+"Blog" link is always included by default, so you don't need to add it manually.
 
 ### Favicon
 
