@@ -1,7 +1,16 @@
+<a name="2.4.0"></a>
+# 2.4.0 (2015-08-31)
+
+
+* Improve twitter share. rel me tag for social links ([eef7556](https://github.com/kikobeats/uno-zen/commit/eef7556))
+
+
+
 <a name="2.3.5"></a>
 ## 2.3.5 (2015-08-24)
 
 
+* 2.3.5 releases ([3ec3d83](https://github.com/kikobeats/uno-zen/commit/3ec3d83))
 * Added gln blog ([e8887b1](https://github.com/kikobeats/uno-zen/commit/e8887b1))
 * Fixed navigation URLs ([fe64b69](https://github.com/kikobeats/uno-zen/commit/fe64b69))
 * Merge pull request #54 from jcdenton/navigation_urls_fix ([58dc121](https://github.com/kikobeats/uno-zen/commit/58dc121))
