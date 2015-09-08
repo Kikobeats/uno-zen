@@ -51,7 +51,6 @@
   }
   .cover {
     width: 16rem;
-    background: $mobile-primary;
     transition: all $aside-animation-time;
     transform: translate3d(-16rem, 0, 0);
 
@@ -97,7 +96,7 @@
     padding: .625rem 1.25rem;
 
     &:hover {
-      background-color: darken($mobile-primary, 5%);
+      background-color: rgba($black, 0.1);
     }
   }
   #avatar-link {

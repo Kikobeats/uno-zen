@@ -4,7 +4,6 @@
   display: block;
   width: $aside-width-collapsed;
   height: 100%;
-  @include background-filter;
 
   &.animated {
     transition: width $aside-animation-time $aside-animation;
@@ -16,6 +15,7 @@
     font-weight: $font-weight-thin;
     color: $gray-lightest;
     text-align: center;
+    @include background-filter;
     @include center-absolute;
     @include font-shadow;
   }

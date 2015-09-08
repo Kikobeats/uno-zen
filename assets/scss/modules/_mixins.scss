@@ -9,17 +9,19 @@
 }
 
 @mixin background-filter {
-  background: linear-gradient(150deg, $cover-secondary 30%, $cover-primary 70%)
-  0 0/cover fixed,url(/assets/img/cover.jpg) center/cover no-repeat fixed;
+  background: linear-gradient(150deg, $cover-secondary 30%, $cover-primary 70%) 0 0/cover fixed;
 }
+
 @mixin center-absolute {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 @mixin font-shadow {
   text-shadow: 0 1px 1px rgba(000, 000, 000, .4);
 }
+
 @mixin btn-cover {
   position: relative;
   display: block;
