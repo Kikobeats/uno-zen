@@ -112,7 +112,7 @@ As the screenshot, you need to use for the proxying the same port as your Ghost 
 
 ### Google Analytics
 
-Go to Ghost admin panel -> `Code Injection` -> `Blog Header` and add:
+Go to Ghost Admin panel -> `Code Injection` -> `Blog Header` and add:
 
 ```html
 <script>
@@ -122,7 +122,7 @@ var ga_id = 'UA-YOUR_ID_HERE';
 
 ### Comments
 
-Go to Ghost admin panel -> `Code Injection` -> `Blog Header` and add:
+Go to Ghost Admin panel -> `Code Injection` -> `Blog Header` and add:
 
 ```html
 <script>
@@ -130,13 +130,28 @@ var disqus_shortname = 'YOUR_DISQUS_SHORTCUT_HERE';
 </script>
 ```
 
-### Sidebar title and subtitle
+### Sidebar title
 
-Go to Ghost admin panel -> `Code Injection` -> `Blog Header` and add:
+By default, the title that you see in the open page of your blog is extracted from your blog settings (Admin panel -> Blog Title).
+
+If you want to customize it, you can do it:
+
+Go to Ghost Admin panel -> `Code Injection` -> `Blog Header` and add:
 
 ```html
 <script>
 var profile_title = 'Kiko Beats';
+</script>
+```
+
+### Sidebar subtitle
+
+The purpose of the subtitle is resume the bio in a phrase. This will be shown in the mobile/tablet version instead of the bio.
+
+Go to Ghost Admin panel -> `Code Injection` -> `Blog Header` and add:
+
+```html
+<script>
 var profile_resume ='Software Engineer';
 </script>
 ```
@@ -151,7 +166,7 @@ Edit the file `partials/social.hbs`.
 
 ### Links
 
-Go to Ghost admin panel -> `Navigation` and add/edit items.
+Go to Ghost Admin panel -> `Navigation` and add/edit items.
 
 "Blog" link is always included by default, so you don't need to add it manually.
 
@@ -161,7 +176,11 @@ Create your favicons with [Favicon Generator](http://realfavicongenerator.net/) 
 
 ### Cover
 
-Replace the `assets/img/cover.jpg` file. If you put another with different extensin remember modify the CSS for do it.
+Go to Ghost Admin panel -> `Code Injection` -> `Blog Cover`
+
+### Cover Filter
+
+The linear gradient of the cover filter is based in `$cover-primary` and `$cover-secondary` colors. If you want to adapt the filter for your cover, check [background-filter](https://github.com/Kikobeats/uno-zen/blob/master/assets/scss/modules/_mixins.scss#L11) mixin.
 
 ### Custom static pages
 
@@ -169,7 +188,7 @@ Check the [page part](http://themes.ghost.org/v0.6.4/docs/page-context) in the G
 
 ### Multiaccount support
 
-You can enable the multiaccount support editing `posts.hbs` code commented inside the meta post information.
+You can enable the multiaccount support editing [posts.hbs](https://github.com/Kikobeats/uno-zen/blob/master/post.hbs#L11-L13) code commented inside the meta post information.
 
 ## Preparing for production
 
