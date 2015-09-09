@@ -136,11 +136,25 @@
   }
   .mayday {
     width: auto;
-    > h1 {
+    > h2 {
       font-size: 20px;
       line-height: 25px;
     }
   }
+
+  .astronaut {
+    background-size: 55%;
+  }
+
+  .astro-wrap {
+    margin: -5% auto;
+
+  }
+
+  .astro-wrap, .astronaut {
+    height: 10rem;
+  }
+
   #panic-button {
     margin-bottom: 1rem;
   }

@@ -29,20 +29,20 @@ body[data-page="error"] {
 .astro-wrap {
   position: relative;
 
-  width: 175px;
-  height: 283px;
-  margin: -7px auto;
+  width: 11rem;
+  height: 18rem;
+  margin: 15% auto;
 }
 .astronaut {
   position: absolute;
   top: 0;
   left: 0;
 
-  width: 175px;
-  height: 283px;
+  width: 11rem;
+  height: 18rem;
 
   transform: translate(0, 50px);
   animation: move 10s infinite;
 
-  background: url("/assets/img/astronaut.png");
+  background: url("/assets/img/astronaut.png") center/cover no-repeat;
 }
