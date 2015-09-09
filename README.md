@@ -38,16 +38,18 @@ You can see a demo in my [blog](http://kikobeats.com). Also you can check the [s
 <a target="blank" href="http://www.evilsocket.net"><img src="http://i.imgur.com/qanAbQf.png"></a>
 <a target="blank" href="http://pupboss.com"><img src="http://i.imgur.com/0AeVKgB.png"></a>
 <a target="blank" href="http://www.flaviocorpa.com"><img src="http://i.imgur.com/1ESq2xs.png" /></a>
-<a target="blank" href="http://morris.guru/"><img src="http://i.imgur.com/s9oimfG.png" /></a>
-<a target="blank" href="https://www.mooash.me/"><img src="http://i.imgur.com/Ojmkuvw.png" /></a>
-<a target="blank" href="http://jahlom.com/"><img src="http://i.imgur.com/qwgQ9Ay.png" /></a>
+<a target="blank" href="http://morris.guru"><img src="http://i.imgur.com/s9oimfG.png" /></a>
+<a target="blank" href="https://www.mooash.me"><img src="http://i.imgur.com/Ojmkuvw.png" /></a>
+<a target="blank" href="http://jahlom.com"><img src="http://i.imgur.com/qwgQ9Ay.png" /></a>
 <a target="blank" href="http://adrianperez.org"><img src="http://i.imgur.com/XlNFWWA.png" /></a>
 <a target="blank" href="http://www.bradenericson.com"><img src="http://i.imgur.com/8wz0LKN.png" /></a>
-<a target="blank" href="https://blog.h4t0n.com/"><img src="http://i.imgur.com/GPWzqnG.png" /></a>
-<a target="blank" href="https://www.guovz.com/"><img src="http://i.imgur.com/62TktSa.jpg" /></a>
-<a target="blank" href="http://robinz.in/"><img src="http://i.imgur.com/qDAbrch.jpg" /></a>
+<a target="blank" href="https://blog.h4t0n.com"><img src="http://i.imgur.com/GPWzqnG.png" /></a>
+<a target="blank" href="https://www.guovz.com"><img src="http://i.imgur.com/62TktSa.jpg" /></a>
+<a target="blank" href="http://robinz.in"><img src="http://i.imgur.com/qDAbrch.jpg" /></a>
 <a target="blank" href="http://www.iayon.com"><img src="http://i.imgur.com/vzZXfkf.png" /></a>
 <a target="blank" href="http://gln.me"><img src="http://i.imgur.com/v7N4hvi.png" /></a>
+<a target="blank" href="http://biercoff.com"><img src="http://i.imgur.com/goS3pE3.jpg" /></a>
+<a target="blank" href="https://randy.sesser.me"><img src="http://i.imgur.com/9hacUJc.jpg" /></a>
 </br>
 </br>
 </div>
