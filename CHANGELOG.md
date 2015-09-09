@@ -1,7 +1,23 @@
+<a name="2.5.0"></a>
+# 2.5.0 (2015-09-09)
+
+
+* Update README.md ([b7d8e7a](https://github.com/kikobeats/uno-zen/commit/b7d8e7a))
+* added #64 and #65 into showcase ([5541b0d](https://github.com/kikobeats/uno-zen/commit/5541b0d))
+* added jQuery dependency ([b8b815f](https://github.com/kikobeats/uno-zen/commit/b8b815f))
+* fixed hamburguer button space in tablet ([10acd12](https://github.com/kikobeats/uno-zen/commit/10acd12))
+* linted using CSSOrder ([9121c68](https://github.com/kikobeats/uno-zen/commit/9121c68))
+* replace behavior for event ([43bf742](https://github.com/kikobeats/uno-zen/commit/43bf742))
+* separated background from filter ([1beb4fe](https://github.com/kikobeats/uno-zen/commit/1beb4fe))
+* updated ([a0a162d](https://github.com/kikobeats/uno-zen/commit/a0a162d))
+
+
+
 <a name="2.4.0"></a>
 # 2.4.0 (2015-08-31)
 
 
+* 2.4.0 releases ([033fd58](https://github.com/kikobeats/uno-zen/commit/033fd58))
 * Improve twitter share. rel me tag for social links ([eef7556](https://github.com/kikobeats/uno-zen/commit/eef7556))
 
 
