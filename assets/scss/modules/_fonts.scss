@@ -15,14 +15,16 @@
 .icon:before,
 .icon-reverse:after {
   display: inline-block;
+
   font-family: "foundation-icons";
+  -webkit-font-smoothing: antialiased;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
   line-height: 1;
+
   text-decoration: inherit;
   text-transform: none;
-  -webkit-font-smoothing: antialiased;
 }
 .icon-search {
   position: static !important;
@@ -30,7 +32,9 @@
 .icon-search:before {
   position: absolute;
   right: 83px;
+
   margin-top: 30px;
+
   content: "\f16c";
 }
 .icon-address-book:before {
@@ -724,9 +728,11 @@
   display: inline-block;
   height: 36px;
   margin-left: 9px;
+
   font-size: 26px;
-  vertical-align: middle;
+
   content: "\f1e4";
+  vertical-align: middle;
 }
 .icon-social-vimeo:before {
   content: "\f1e5";

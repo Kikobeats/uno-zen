@@ -5,6 +5,7 @@
 html {
   height: 100%;
   max-height: 100%;
+
   font-size: $unit;
 }
 html,
@@ -13,6 +14,7 @@ body {
 }
 body {
   font-family: $sans-font;
+
   color: $gray-darker;
 }
 
@@ -32,9 +34,11 @@ mark {
 
 a {
   position: relative;
-  color: $link-color;
-  text-decoration: none;
+
   transition: all $aside-animation-time;
+  text-decoration: none;
+
+  color: $link-color;
 
   &:hover {
     color: $hover-color;
@@ -47,41 +51,49 @@ h4,
 h5,
 h5 {
   font-family: $serif-font;
-  font-weight: lighter;
-  color: $gray-darkest;
   -webkit-font-smoothing: antialiased;
+  font-weight: lighter;
+
+  color: $gray-darkest;
 }
 h1 {
   margin: $margin-h1 0;
+
   font-size: $font-h1;
   line-height: 3rem;
 }
 h2 {
   margin: $margin-h2 0;
+
   font-size: $font-h2;
 }
 h3 {
   margin: $margin-h3 0;
+
   font-size: $font-h3;
 }
 h4 {
   margin: $margin-h4 0;
+
   font-size: $font-h4;
 }
 h5 {
   margin: $margin-h5 0;
+
   font-size: $font-h5;
 }
 h6 {
   margin: $margin-h6 0;
+
   font-size: $font-h6;
 }
 p {
   margin-bottom: 1.3rem;
+
   line-height: 1.7rem;
 
   > code {
-    @include inline-code-style
+    @include inline-code-style;
   }
 }
 strong {
@@ -92,15 +104,17 @@ em {
 }
 blockquote {
   > p {
-    line-height: 1.4;
-    text-align: center;
-    font-size: 1.2rem;
     margin: 2.5rem -3rem;
+
     font-family: $quote-font;
-    letter-spacing: .01rem;
-    font-style: italic;
-    word-wrap: break-word;
+    font-size: 1.2rem;
     -webkit-font-smoothing: antialiased;
+    font-style: italic;
+    line-height: 1.4;
+
+    text-align: center;
+    letter-spacing: .01rem;
+    word-wrap: break-word;
   }
 }
 // ------------------------------
@@ -113,6 +127,7 @@ ul {
 
   li {
     margin: 0 0 .2rem 0;
+
     line-height: 1.6rem;
   }
   ol,
@@ -128,24 +143,28 @@ ul {
 }
 
 li > code {
- @include inline-code-style
+  @include inline-code-style;
 }
 
 pre {
   padding: 1rem 2.5%;
   margin-bottom: 1.3rem;
+
   font-family: $code-font;
   font-size: .9rem;
   font-weight: $font-weight-normal;
   line-height: 1.3rem;
-  color: $gray-dark;
+
   word-wrap: break-word;
+
+  color: $gray-dark;
   border: 1px solid #d9d9d9;
   border-radius: 3px;
 
   > code {
     font-family: $code-font;
     font-size: .85rem;
+
     color: $gray-dark;
   }
 }
@@ -157,11 +176,14 @@ pre:hover {
 .block-heading {
   position: relative;
   bottom: -15px;
+
   font-size: .8rem;
   font-weight: bold;
+
   text-align: center;
-  text-transform: uppercase;
   letter-spacing: 1px;
+  text-transform: uppercase;
+
   @include column(12);
 }
 .label {
@@ -180,6 +202,7 @@ pre:hover {
 .container {
   position: relative;
   z-index: 500;
+
   width: $total-width - $gutter-width;
   margin: 0 auto;
 }
@@ -189,10 +212,11 @@ main {
   right: 0;
   bottom: 0;
   left: 22.5rem;
+
   padding: 2rem 3rem;
 
   &.expanded {
-    overflow: hidden
+    overflow: hidden;
   }
 
   > .content {
@@ -205,7 +229,9 @@ main {
     > footer {
       display: block;
       padding: 2em 0 0;
+
       font-size: .7em;
+
       color: lighten($gray-dark, 10%);
       border-top: 2px solid $gray-light;
     }
@@ -216,9 +242,10 @@ main {
   margin-bottom: .7em;
 
   a {
+    text-decoration: underline;
+
     color: lighten($gray-dark,
     5%);
-    text-decoration: underline;
 
     &:hover {
       color: $hover-color;
@@ -227,6 +254,7 @@ main {
 }
 .divider {
   margin: 10px auto;
+
   border-top: 1px solid rgba(255, 255, 255, .14);
 
   &.long {
@@ -238,6 +266,7 @@ main {
   &.post {
     width: 30%;
     margin: 1.7rem 0;
+
     border-top: 1px solid $gray-light;
   }
 }

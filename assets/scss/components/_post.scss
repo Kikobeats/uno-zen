@@ -1,19 +1,24 @@
 .posts {
   padding: 0;
   margin: 0;
-  text-align: left;
+
   list-style-type: none;
+
+  text-align: left;
 
   > li {
     > a {
       > h2 {
         margin-bottom: 1rem;
+
         line-height: 3rem;
+
         transition: all $aside-animation-time;
 
         &:hover {
-          color: $hover-color;
           transition: all $aside-animation-time;
+
+          color: $hover-color;
         }
         &:first-child {
           margin-top: 0;
@@ -31,9 +36,12 @@
       position: absolute;
       bottom: -.5px;
       left: 0;
+
       width: 100%;
       height: 0;
-      content: '';
+
+      content: "";
+
       border-bottom: 1px solid $primary-color;
     }
     &:hover {
@@ -47,7 +55,9 @@
     > img {
       width: 100%;
       margin: 1.5rem auto;
+
       text-align: center;
+
       border-radius: $border-radius;
     }
   }
@@ -60,23 +70,30 @@
   }
   &.description {
     margin-bottom: 1rem;
+
     font-size: .9em;
+
     color: $gray-dark;
   }
   &.meta {
     margin: .7em 0;
+
     font-size: .85rem;
+
     color: $gray;
   }
   &.tags {
     > a {
       padding: .167rem .25rem;
+
       font-size: .55rem;
-      color: $gray-lightest;
-      text-transform: uppercase;
-      background-color: rgba($primary-color, .7);
-      border-radius: .25rem;
+
       transition: all $aside-animation-time;
+      text-transform: uppercase;
+
+      color: $gray-lightest;
+      border-radius: .25rem;
+      background-color: rgba($primary-color, .7);
 
       &:hover {
         background-color: rgba($primary-color, 1);
@@ -85,10 +102,12 @@
   }
   &.author {
     img {
-      margin: 0 0.5rem;
       display: inline-block;
       height: 22px;
+      margin: 0 .5rem;
+
       vertical-align: middle;
+
       border: none;
       box-shadow: none;
     }
@@ -99,8 +118,9 @@
 
   &.related {
     display: flex;
-    justify-content: space-between;
     padding: 4rem 0 2rem 0;
+
+    justify-content: space-between;
   }
 }
 
@@ -111,6 +131,7 @@
 
 #post-title {
   margin: 3rem 0 2.5rem;
+
   transition: all $aside-animation-time;
 
   &:hover {

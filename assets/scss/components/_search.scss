@@ -8,10 +8,13 @@
   width: 12.5rem;
   height: .4rem;
   padding: 5% 5px 5% 18px;
-  border-radius: 1.68rem;
+
   transition: border .3s ease-in;
 
-  &:focus, &:hover {
+  border-radius: 1.68rem;
+
+  &:focus,
+  &:hover {
     border: 1.5px solid lighten($hover-color, 5%);
   }
 }
@@ -24,6 +27,7 @@
   }
   > p {
     margin-bottom: 3rem;
+
     font-size: 1.2rem;
   }
 }
@@ -31,22 +35,23 @@
   display: block;
   padding: 1rem;
   margin-bottom: 1.3rem;
+
   text-decoration: none;
   word-wrap: break-word;
+
   border: 1px solid $primary-color;
   border-radius: 5px;
 
-  > h2,
-  > h4 {
+  > h2, > h4 {
     color: $gray-darker;
   }
   &:hover {
     transition: .5s;
 
-    > h2,
-    > h4 {
-      color: $hover-color;
+    > h2, > h4 {
       transition: .5s;
+
+      color: $hover-color;
     }
   }
 }
@@ -54,6 +59,7 @@
   position: absolute;
   top: 31.5rem;
   left: 16.5rem;
+
   color: $gray;
   text-shadow: 1px 1px 0 $gray;
 }

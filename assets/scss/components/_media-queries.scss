@@ -15,7 +15,6 @@
 // ------------------------------
 
 @media all and (max-width:1024px) {
-
   /* disabling element, too much information*/
   .pace,
   .post.reading-time,
@@ -35,13 +34,14 @@
   #menu-button {
     position: fixed;
     top: .5rem;
-    left: 13rem;
+    left: 13.5rem;
     z-index: 999;
-    display: block;
-    transition: all $aside-animation-time;
 
+    display: block;
+
+    transition: all $aside-animation-time;
     &.expanded {
-      left: 1.5rem;
+      left: .85rem;
     }
     > a {
       > i {
@@ -51,11 +51,12 @@
   }
   .cover {
     width: 16rem;
+
     transition: all $aside-animation-time;
     transform: translate3d(-16rem, 0, 0);
-
     &.expanded {
       width: 16rem;
+
       transform: translate3d(0, 0, 0);
     }
     &.animated {
@@ -64,23 +65,18 @@
   }
   .profile {
     width: 100%;
-    max-width: 100%;
     height: 100%;
+    max-width: 100%;
     overflow: hidden;
-
     &.contact {
-      margin-top: 1rem;
-
       > nav {
         padding: 0;
       }
     }
     > a {
       > img {
-        width: 6rem;
-      }
-      > h1 {
-        font-size: 1.5rem;
+        width: 8rem;
+        margin-bottom: 1rem;
       }
     }
     > p {
@@ -91,21 +87,22 @@
     }
   }
   .link-item {
+    padding: .85rem 1.25rem;
     margin: 0;
-    border-radius: 0;
-    padding: .625rem 1.25rem;
 
+    font-size: 1rem;
+
+    border-radius: 0;
     &:hover {
-      background-color: rgba($black, 0.1);
+      background-color: rgba($black, .1);
     }
   }
   #avatar-link {
     display: inline-block;
-    margin-top: 1rem;
+    margin-top: 4rem;
   }
   .navigation {
     width: 100%;
-
     &.right {
       margin: 0;
     }
@@ -117,9 +114,9 @@
   }
   main {
     left: 0;
+
     transition: all $aside-animation-time;
     transform: translate3d(0, 0, 0);
-
     &.expanded {
       transform: translate3d(14rem, 0, 0);
     }
@@ -130,18 +127,6 @@
 // ------------------------------
 
 @media all and (max-width:480px) {
-
-  .profile {
-    > a {
-      > h1 {
-        font-size: 1.25rem;
-      }
-
-      > h3 {
-        font-size: 1rem;
-      }
-    }
-  }
   .btn {
     display: block;
     margin-bottom: .4em;
@@ -151,17 +136,9 @@
   }
   .mayday {
     width: auto;
-
     > h1 {
       font-size: 20px;
       line-height: 25px;
-    }
-  }
-  #menu-button {
-    left: 13.5rem;
-
-    &.expanded {
-      left: 1rem;
     }
   }
   #panic-button {
@@ -174,7 +151,7 @@
   .post .tags,
   .post .meta > time,
   .pagination > span {
-      display: none;
+    display: none;
   }
 
   .post {

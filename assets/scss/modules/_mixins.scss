@@ -1,11 +1,13 @@
 @mixin inline-code-style {
-  border: 1px solid #D9D9D9;
-  border-radius: 3px;
-  padding: 0.09rem 0.2rem;
+  padding: .09rem .2rem;
+
   font-family: $code-font;
-  font-weight: $font-weight-normal;
   font-size: .85rem;
+  font-weight: $font-weight-normal;
+
   color: $gray-dark;
+  border: 1px solid #d9d9d9;
+  border-radius: 3px;
 }
 
 @mixin background-filter {
@@ -14,8 +16,9 @@
 
 @mixin center-absolute {
   display: flex;
-  justify-content: center;
+
   align-items: center;
+  justify-content: center;
 }
 
 @mixin font-shadow {
@@ -24,15 +27,19 @@
 
 @mixin btn-cover {
   position: relative;
+
   display: block;
+
   font-size: .9em;
-  font-weight: bold;
-  color: $gray-lightest;
-  text-shadow: none;
-  letter-spacing: 1px;
-  border-radius: 20px;
-  opacity: .8;
   -webkit-font-smoothing: antialiased;
+  font-weight: bold;
+
+  letter-spacing: 1px;
+
+  opacity: .8;
+  color: $gray-lightest;
+  border-radius: 20px;
+  text-shadow: none;
 
   &:hover {
     opacity: 1;
@@ -40,8 +47,9 @@
 }
 
 @mixin btn-cover-with-border {
-  @extend btn-cover;
   border: 1px solid $gray-lightest;
+
+  @extend btn-cover;
 }
 
 @mixin placeholder {

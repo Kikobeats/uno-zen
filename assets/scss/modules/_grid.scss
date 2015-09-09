@@ -3,12 +3,12 @@
 /////////////////
 
 // Defaults which you can freely override
-$column-width:60px;
+$column-width: 60px;
 $gutter-width: 20px;
 $columns: 12;
 
 // Utility function — you should never need to modify this
-@function gridsystem-width($columns:$columns) {
+@function gridsystem-width($columns: $columns) {
   @return ($column-width * $columns) + ($gutter-width * $columns);
 }
 // Set $total-width to 100% for a fluid layout
@@ -24,6 +24,7 @@ $total-width: gridsystem-width($columns);
   &:before,
   &:after {
     display: table;
+
     content: "";
   }
   &:after {
@@ -36,18 +37,19 @@ $total-width: gridsystem-width($columns);
 
 body {
   width: 100%;
+
   @include clearfix();
 }
-@mixin row($columns:$columns) {
+@mixin row($columns: $columns) {
   display: block;
   width: $total-width*(($gutter-width + gridsystem-width($columns))/gridsystem-width($columns));
   margin: 0 $total-width*((($gutter-width*.5)/gridsystem-width($columns))*-1);
   // *width: $total-width*(($gutter-width + gridsystem-width($columns))/gridsystem-width($columns))-$correction;
   // *margin: 0 $total-width*((($gutter-width*.5)/gridsystem-width($columns))*-1)-$correction;
+
   @include clearfix();
 }
-@mixin column($x,
-$columns:$columns) {
+@mixin column($x, $columns: $columns) {
   display: inline;
   float: left;
   width: $total-width*(((($gutter-width+$column-width)*$x)-$gutter-width) / gridsystem-width($columns));
@@ -55,9 +57,9 @@ $columns:$columns) {
   // *width: $total-width*(((($gutter-width+$column-width)*$x)-$gutter-width) / gridsystem-width($columns))-$correction;
   // *margin: 0 $total-width*(($gutter-width*.5)/gridsystem-width($columns))-$correction;
 }
-@mixin push($offset:1) {
+@mixin push($offset: 1) {
   margin-left: $total-width*((($gutter-width+$column-width)*$offset) / gridsystem-width($columns)) + $total-width*(($gutter-width*.5)/gridsystem-width($columns));
 }
-@mixin pull($offset:1) {
+@mixin pull($offset: 1) {
   margin-right: $total-width*((($gutter-width+$column-width)*$offset) / gridsystem-width($columns)) + $total-width*(($gutter-width*.5)/gridsystem-width($columns));
 }

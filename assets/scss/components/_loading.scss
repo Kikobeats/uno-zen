@@ -1,10 +1,11 @@
 // more in http://github.hubspot.com/pace/docs/welcome/
 
 .pace {
-  pointer-events: none;
   -webkit-user-select: none;
-  -moz-user-select: none;
-  user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+          pointer-events: none;
+
   -webkit-pointer-events: none;
 }
 .pace-inactive {
@@ -15,7 +16,9 @@
   top: 0;
   right: 100%;
   z-index: 2000;
+
   width: 100%;
   height: 2px;
+
   background: $primary-color;
 }

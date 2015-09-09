@@ -1,10 +1,10 @@
 .cover {
   position: fixed;
   z-index: 900;
+
   display: block;
   width: $aside-width-collapsed;
   height: 100%;
-
   &.animated {
     transition: width $aside-animation-time $aside-animation;
   }
@@ -13,11 +13,14 @@
   }
   &.container {
     font-weight: $font-weight-thin;
-    color: $gray-lightest;
+
     text-align: center;
-    @include background-filter;
-    @include center-absolute;
+
+    color: $gray-lightest;
+
     @include font-shadow;
+    @include center-absolute;
+    @include background-filter;
   }
 }
 
@@ -27,28 +30,31 @@
 
 .profile {
   max-width: 38.75rem;
-
   > p {
     margin: 0 2rem;
+
     font-size: .9rem;
   }
   > a {
     > h1 {
       margin: 0;
+
       font-family: $sans-font;
       font-size: $unit * 1.6;
       font-weight: $font-weight-bold;
-      color: $gray-lightest;
-      letter-spacing: .05rem;
-    }
 
+      letter-spacing: .05rem;
+
+      color: $gray-lightest;
+    }
     > h3 {
       margin: 0;
-      color: $gray-lightest;
 
+      color: $gray-lightest;
     }
     > img {
       width: 7rem;
+
       border: 2px solid rgba($primary-color, .1);
       box-shadow: 0 0 1px 1px rgba(000, 000, 000, .3);
     }
@@ -57,15 +63,14 @@
 .navigation {
   &.left {
     display: inline-block;
-    margin-top: .85rem;
+    margin-top: 1.2rem;
     margin-bottom: 1rem;
-
     .links {
       margin: 0;
-
       &.item {
         display: inline-block;
         margin: 0 1px 0 0;
+
         line-height: 1em;
       }
     }
@@ -73,27 +78,25 @@
   &.right {
     display: block;
     margin: .5rem;
-
     .social {
       margin: 0;
-
       &.item {
         display: inline-block;
         margin: 0 4px 0 0;
-        line-height: 1em;
 
+        line-height: 1em;
         a {
           padding: 6px 8px 6px 9px;
-          @include btn-cover;
 
+          @include btn-cover;
           .label {
             display: none;
           }
           .icon {
             display: block;
+
             font-size: 1.7em;
           }
-
           &:hover {
             color: $hover-color;
           }
@@ -105,12 +108,13 @@
 .link-item {
   float: none;
   padding: .5rem 1.25rem;
-  @include btn-cover;
 
+  @include btn-cover;
   &.expanded {
     float: left;
     padding: .625rem 1.25rem;
     margin: 0 5px;
+
     @include btn-cover-with-border;
   }
 }
