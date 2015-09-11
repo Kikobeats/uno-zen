@@ -5,8 +5,6 @@ $ ->
   el = document.body
   el.dataset.page = Uno.context()
   el.dataset.device = Uno.device()
-  $(window).on "resize", Uno.device()
-  $(window).on "orientationchange", Uno.device()
 
   Uno.readTime()
   FastClick.attach el unless Uno.is 'device', 'desktop'
