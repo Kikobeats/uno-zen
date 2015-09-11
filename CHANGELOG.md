@@ -1,7 +1,19 @@
+<a name="2.5.2"></a>
+## 2.5.2 (2015-09-11)
+
+
+* Fixed #50 ([074f743](https://github.com/kikobeats/uno-zen/commit/074f743)), closes [#50](https://github.com/kikobeats/uno-zen/issues/50)
+* Fixed #68 ([fe8b32d](https://github.com/kikobeats/uno-zen/commit/fe8b32d)), closes [#68](https://github.com/kikobeats/uno-zen/issues/68)
+* Fixes #70 ([7110954](https://github.com/kikobeats/uno-zen/commit/7110954)), closes [#70](https://github.com/kikobeats/uno-zen/issues/70)
+* jQuery injection from ghost_foot instead of inline ([1b2e852](https://github.com/kikobeats/uno-zen/commit/1b2e852))
+
+
+
 <a name="2.5.1"></a>
 ## 2.5.1 (2015-09-09)
 
 
+* 2.5.1 releases ([a7dab00](https://github.com/kikobeats/uno-zen/commit/a7dab00))
 * fixed 404 page style ([60e2f18](https://github.com/kikobeats/uno-zen/commit/60e2f18))
 
 
