@@ -27,6 +27,14 @@ Things that already existed:
 
 For more information check [changelog](https://github.com/Kikobeats/uno-zen/blob/master/CHANGELOG.md) section.
 
+## Install
+
+Enter in the theme folder (`content/themes`) of your Ghost installation and:
+
+```bash
+$ npm install uno-zen && mv node_modules/uno-zen uno-zen && (trash node_modules || rm -r node_modules)
+```
+
 ## Demo
 
 You can see a demo in my [blog](http://kikobeats.com). Also you can check the [styleguide](http://kikobeats.com/styleguide) to view how it looks.
