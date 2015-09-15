@@ -15,12 +15,12 @@
     "url": "https://github.com/Kikobeats/uno-zen/issues"
   },
   "keywords": [
+    "elegant",
     "ghost",
+    "minimalism",
     "theme",
     "uno",
-    "zen",
-    "elegant",
-    "minimalism"
+    "zen"
   ],
   "devDependencies": {
     "browser-sync": "*",
@@ -28,16 +28,17 @@
     "gulp": "*",
     "gulp-add-src": "*",
     "gulp-autoprefixer": "*",
-    "gulp-sass": "*",
     "gulp-changed": "*",
     "gulp-coffee": "*",
     "gulp-concat": "*",
     "gulp-cssmin": "*",
     "gulp-header": "*",
     "gulp-minify-css": "*",
+    "gulp-sass": "*",
     "gulp-strip-css-comments": "*",
     "gulp-uglify": "*",
-    "gulp-util": "*"
+    "gulp-util": "*",
+    "underscore.string": "*"
   },
   "engines": {
     "node": "~0.12.x"

@@ -18,7 +18,7 @@ The code of the theme is divided in 3 main sections: static files (as HTML and i
 ├── README.md
 ├── assets
 │   ├── css
-│   │   └── uno.css # the production css
+│   │   └── uno-zen.css # the production css
 │   ├── fonts
 │   ├── img # favicons and cover image
 │   ├── js
@@ -27,7 +27,7 @@ The code of the theme is divided in 3 main sections: static files (as HTML and i
 │   │   │   ├── cover.coffee
 │   │   │   ├── main.coffee
 │   │   │   └── search.coffee
-│   │   └── uno.js # the production js
+│   │   └── uno-zen.js # the production js
 │   └── scss
 │   │   ├── components # specific stuff
 │   │   │   ├── _aside.scss
