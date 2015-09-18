@@ -27,6 +27,11 @@ Things that already existed:
 
 For more information check [changelog](https://github.com/Kikobeats/uno-zen/blob/master/CHANGELOG.md) section.
 
+## Demo
+
+You can see a demo in my [blog](http://kikobeats.com). Also you can check the [styleguide](http://kikobeats.com/styleguide) to view how it looks.
+
+
 ## Install
 
 Enter in the theme folder (`content/themes`) of your Ghost installation and:
@@ -35,9 +40,13 @@ Enter in the theme folder (`content/themes`) of your Ghost installation and:
 $ npm install uno-zen && mv node_modules/uno-zen uno-zen && (trash node_modules || rm -r node_modules)
 ```
 
-## Demo
+**NOTE:** This theme needs jQuery to works fine, but jQuery library is not provided by the library. Instead, you need to inject from the `Blog Footer` in the `Code injection` of your Ghost installation, as:
 
-You can see a demo in my [blog](http://kikobeats.com). Also you can check the [styleguide](http://kikobeats.com/styleguide) to view how it looks.
+![](https://camo.githubusercontent.com/f600498109f9b8e7d15fadd28b51c75b1f585d0f/687474703a2f2f692e696d6775722e636f6d2f4b365a595933752e706e67)
+
+```html
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+```
 
 ## Showcase
 
