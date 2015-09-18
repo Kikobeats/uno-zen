@@ -244,8 +244,7 @@ main {
   a {
     text-decoration: underline;
 
-    color: lighten($gray-dark,
-    5%);
+    color: lighten($gray-dark, 5%);
 
     &:hover {
       color: $hover-color;
@@ -255,7 +254,7 @@ main {
 .divider {
   margin: 10px auto;
 
-  border-top: 1px solid rgba(255, 255, 255, .14);
+  border-top: 1px solid $divider-color;
 
   &.long {
     width: 30%;
