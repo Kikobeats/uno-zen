@@ -48,6 +48,12 @@ $ npm install uno-zen && mv node_modules/uno-zen uno-zen && (trash node_modules 
 <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 ```
 
+## Documentation
+
+If is your first time using Ghost, please check the [Official Documentation](http://support.ghost.org/installation/).
+
+All the information you need to know about the theme is collected on the [Documentation](https://github.com/Kikobeats/uno-zen/blob/master/DOCUMENTATION.md) section.
+
 ## Showcase
 
 <div align="center">
@@ -72,12 +78,6 @@ $ npm install uno-zen && mv node_modules/uno-zen uno-zen && (trash node_modules 
 </div>
 
 Do you want appear here? Please, [add your blog!](https://github.com/Kikobeats/uno-zen/issues/new?title=Add%20my%20blog%20into%20showcase&body=The%20URL%20of%20my%20blog%20is:%20).
-
-## Documentation
-
-If is your first time using Ghost, please check the [Official Documentation](http://support.ghost.org/installation/).
-
-All the information you need to know about the theme is collected on the [Documentation](https://github.com/Kikobeats/uno-zen/blob/master/DOCUMENTATION.md) section.
 
 ## License
 
