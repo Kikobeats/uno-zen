@@ -1,7 +1,21 @@
+<a name="2.5.3"></a>
+## 2.5.3 (2015-09-18)
+
+
+* Added a note about how to inject jQuery ([b83c9ed](https://github.com/kikobeats/uno-zen/commit/b83c9ed))
+* Added installation script ([fe12f5f](https://github.com/kikobeats/uno-zen/commit/fe12f5f))
+* Fixed #77 ([50d01a2](https://github.com/kikobeats/uno-zen/commit/50d01a2)), closes [#77](https://github.com/kikobeats/uno-zen/issues/77)
+* Moved documentation section ([05a9f70](https://github.com/kikobeats/uno-zen/commit/05a9f70))
+* Update README.md ([c0c0574](https://github.com/kikobeats/uno-zen/commit/c0c0574))
+* little refactor ([0fca530](https://github.com/kikobeats/uno-zen/commit/0fca530))
+
+
+
 <a name="2.5.2"></a>
 ## 2.5.2 (2015-09-11)
 
 
+* 2.5.2 releases ([e697c12](https://github.com/kikobeats/uno-zen/commit/e697c12))
 * Fixed #50 ([074f743](https://github.com/kikobeats/uno-zen/commit/074f743)), closes [#50](https://github.com/kikobeats/uno-zen/issues/50)
 * Fixed #68 ([fe8b32d](https://github.com/kikobeats/uno-zen/commit/fe8b32d)), closes [#68](https://github.com/kikobeats/uno-zen/issues/68)
 * Fixes #70 ([7110954](https://github.com/kikobeats/uno-zen/commit/7110954)), closes [#70](https://github.com/kikobeats/uno-zen/issues/70)
