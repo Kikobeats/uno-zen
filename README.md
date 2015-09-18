@@ -32,7 +32,7 @@ For more information check [changelog](https://github.com/Kikobeats/uno-zen/blob
 You can see a demo in my [blog](http://kikobeats.com). Also you can check the [styleguide](http://kikobeats.com/styleguide) to view how it looks.
 
 
-## Install
+## Installation
 
 Enter in the theme folder (`content/themes`) of your Ghost installation and:
 
