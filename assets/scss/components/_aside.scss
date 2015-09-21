@@ -67,11 +67,36 @@
     margin-bottom: 1rem;
     .links {
       margin: 0;
-      &.item {
-        display: inline-block;
-        margin: 0 1px 0 0;
+      list-style: none;
 
+      > li {
+        display: block;
+        margin: 0 1px 0 0;
         line-height: 1em;
+
+        &.expanded {
+          margin: 0 5px;
+          display: inline-block;
+          @include btn-cover-with-border;
+          border-radius: 20px;
+
+          > a {
+            padding: .625rem 1.25rem;
+          }
+        }
+
+        > a {
+          @include btn-cover;
+          float: none;
+          padding: .5rem 1.25rem;
+          display: block;
+          opacity: .8;
+          color: $gray-lightest;
+
+          &:hover {
+            color: $hover-color;
+          }
+        }
       }
     }
   }
@@ -103,18 +128,5 @@
         }
       }
     }
-  }
-}
-.link-item {
-  float: none;
-  padding: .5rem 1.25rem;
-
-  @include btn-cover;
-  &.expanded {
-    float: left;
-    padding: .625rem 1.25rem;
-    margin: 0 5px;
-
-    @include btn-cover-with-border;
   }
 }

@@ -86,15 +86,15 @@
       display: none;
     }
   }
-  .link-item {
-    padding: .85rem 1.25rem;
-    margin: 0;
 
-    font-size: 1rem;
+  .navigation.left .links {
+    > li {
+      margin: 0;
 
-    border-radius: 0;
-    &:hover {
-      background-color: rgba($black, .1);
+      > a {
+        padding: .85rem 1.25rem;
+        font-size: 1rem;
+      }
     }
   }
   #avatar-link {
