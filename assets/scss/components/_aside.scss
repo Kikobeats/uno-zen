@@ -18,9 +18,9 @@
 
     color: $gray-lightest;
 
-    @include font-shadow;
-    @include center-absolute;
     @include background-filter;
+    @include center-absolute;
+    @include font-shadow;
   }
 }
 
@@ -67,18 +67,22 @@
     margin-bottom: 1rem;
     .links {
       margin: 0;
+
       list-style: none;
 
       > li {
         display: block;
         margin: 0 1px 0 0;
+
         line-height: 1em;
 
         &.expanded {
-          margin: 0 5px;
           display: inline-block;
-          @include btn-cover-with-border;
+          margin: 0 5px;
+
           border-radius: 20px;
+
+          @include btn-cover-with-border;
 
           > a {
             padding: .625rem 1.25rem;
@@ -86,12 +90,14 @@
         }
 
         > a {
-          @include btn-cover;
+          display: block;
           float: none;
           padding: .5rem 1.25rem;
-          display: block;
+
           opacity: .8;
           color: $gray-lightest;
+
+          @include btn-cover;
 
           &:hover {
             color: $hover-color;

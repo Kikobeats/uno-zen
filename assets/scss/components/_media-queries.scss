@@ -93,6 +93,7 @@
 
       > a {
         padding: .85rem 1.25rem;
+
         font-size: 1rem;
       }
     }
@@ -148,10 +149,10 @@
 
   .astro-wrap {
     margin: -5% auto;
-
   }
 
-  .astro-wrap, .astronaut {
+  .astro-wrap,
+  .astronaut {
     height: 10rem;
   }
 
