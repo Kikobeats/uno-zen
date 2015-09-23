@@ -1,13 +1,25 @@
+<a name="2.5.4"></a>
+## 2.5.4 (2015-09-23)
+
+
+* Fixes #82 ([4beffad](https://github.com/kikobeats/uno-zen/commit/4beffad)), closes [#82](https://github.com/kikobeats/uno-zen/issues/82)
+* order properties ([7ce8ab9](https://github.com/kikobeats/uno-zen/commit/7ce8ab9))
+* Update README.md ([949ec4a](https://github.com/kikobeats/uno-zen/commit/949ec4a))
+* Update README.md ([e5c7a73](https://github.com/kikobeats/uno-zen/commit/e5c7a73))
+
+
+
 <a name="2.5.3"></a>
 ## 2.5.3 (2015-09-18)
 
 
+* 2.5.3 releases ([1413b36](https://github.com/kikobeats/uno-zen/commit/1413b36))
 * Added a note about how to inject jQuery ([b83c9ed](https://github.com/kikobeats/uno-zen/commit/b83c9ed))
 * Added installation script ([fe12f5f](https://github.com/kikobeats/uno-zen/commit/fe12f5f))
 * Fixed #77 ([50d01a2](https://github.com/kikobeats/uno-zen/commit/50d01a2)), closes [#77](https://github.com/kikobeats/uno-zen/issues/77)
+* little refactor ([0fca530](https://github.com/kikobeats/uno-zen/commit/0fca530))
 * Moved documentation section ([05a9f70](https://github.com/kikobeats/uno-zen/commit/05a9f70))
 * Update README.md ([c0c0574](https://github.com/kikobeats/uno-zen/commit/c0c0574))
-* little refactor ([0fca530](https://github.com/kikobeats/uno-zen/commit/0fca530))
 
 
 
@@ -37,13 +49,13 @@
 
 
 * 2.5.0 releases ([28bb310](https://github.com/kikobeats/uno-zen/commit/28bb310))
-* Update README.md ([b7d8e7a](https://github.com/kikobeats/uno-zen/commit/b7d8e7a))
 * added #64 and #65 into showcase ([5541b0d](https://github.com/kikobeats/uno-zen/commit/5541b0d))
 * added jQuery dependency ([b8b815f](https://github.com/kikobeats/uno-zen/commit/b8b815f))
 * fixed hamburguer button space in tablet ([10acd12](https://github.com/kikobeats/uno-zen/commit/10acd12))
 * linted using CSSOrder ([9121c68](https://github.com/kikobeats/uno-zen/commit/9121c68))
 * replace behavior for event ([43bf742](https://github.com/kikobeats/uno-zen/commit/43bf742))
 * separated background from filter ([1beb4fe](https://github.com/kikobeats/uno-zen/commit/1beb4fe))
+* Update README.md ([b7d8e7a](https://github.com/kikobeats/uno-zen/commit/b7d8e7a))
 * updated ([a0a162d](https://github.com/kikobeats/uno-zen/commit/a0a162d))
 * updated information. Now compatible with Ghost 0.7 🎉 ([fe343d1](https://github.com/kikobeats/uno-zen/commit/fe343d1))
 
@@ -64,9 +76,9 @@
 
 * 2.3.5 releases ([3ec3d83](https://github.com/kikobeats/uno-zen/commit/3ec3d83))
 * Added gln blog ([e8887b1](https://github.com/kikobeats/uno-zen/commit/e8887b1))
+* added iayon blog ([44db987](https://github.com/kikobeats/uno-zen/commit/44db987))
 * Fixed navigation URLs ([fe64b69](https://github.com/kikobeats/uno-zen/commit/fe64b69))
 * Merge pull request #54 from jcdenton/navigation_urls_fix ([58dc121](https://github.com/kikobeats/uno-zen/commit/58dc121))
-* added iayon blog ([44db987](https://github.com/kikobeats/uno-zen/commit/44db987))
 * renamed partial links into navigation ([fdfc2bc](https://github.com/kikobeats/uno-zen/commit/fdfc2bc))
 * search hover also for focus ([2f6905f](https://github.com/kikobeats/uno-zen/commit/2f6905f))
 
@@ -80,19 +92,19 @@
 * 2.3.4 releases (again) ([ec8352c](https://github.com/kikobeats/uno-zen/commit/ec8352c))
 * Add Blog link by default. ([1198895](https://github.com/kikobeats/uno-zen/commit/1198895))
 * Added customize aside title and subtitle ([4755ace](https://github.com/kikobeats/uno-zen/commit/4755ace))
+* disable multiaccount support by default ([82c91d4](https://github.com/kikobeats/uno-zen/commit/82c91d4))
 * Improve multiaccount support ([2f71d11](https://github.com/kikobeats/uno-zen/commit/2f71d11))
 * Improve twitter share link based in a url native helper. ([6328b03](https://github.com/kikobeats/uno-zen/commit/6328b03))
 * Include URL as-is. ([533f796](https://github.com/kikobeats/uno-zen/commit/533f796))
+* little details in title and readTime ([eb95489](https://github.com/kikobeats/uno-zen/commit/eb95489))
 * Make Google Analytics and Disqus use variables from admin panel. ([2aebfbe](https://github.com/kikobeats/uno-zen/commit/2aebfbe))
 * Merge pull request #47 from RReverser/out-of-the-box ([efcb4e3](https://github.com/kikobeats/uno-zen/commit/efcb4e3))
+* removed dot from post title ([33786a5](https://github.com/kikobeats/uno-zen/commit/33786a5))
+* removed dot from title ([64c6d4c](https://github.com/kikobeats/uno-zen/commit/64c6d4c))
 * Revert author in aside (Ghost doesn't provide it for entire blog). ([9b26637](https://github.com/kikobeats/uno-zen/commit/9b26637))
 * Update DOCUMENTATION.md ([4aaa2ed](https://github.com/kikobeats/uno-zen/commit/4aaa2ed))
 * Use blog title and author's name by default on main page. ([7ffad11](https://github.com/kikobeats/uno-zen/commit/7ffad11))
 * Use links from Ghost navigation settings. ([4d9bfb3](https://github.com/kikobeats/uno-zen/commit/4d9bfb3))
-* disable multiaccount support by default ([82c91d4](https://github.com/kikobeats/uno-zen/commit/82c91d4))
-* little details in title and readTime ([eb95489](https://github.com/kikobeats/uno-zen/commit/eb95489))
-* removed dot from post title ([33786a5](https://github.com/kikobeats/uno-zen/commit/33786a5))
-* removed dot from title ([64c6d4c](https://github.com/kikobeats/uno-zen/commit/64c6d4c))
 
 
 
@@ -102,8 +114,8 @@
 
 * 2.3.3 releases ([78603e5](https://github.com/kikobeats/uno-zen/commit/78603e5))
 * Added robinz blog ([0508ca9](https://github.com/kikobeats/uno-zen/commit/0508ca9))
-* Merge branch 'robincsamuel-master' ([4090e2b](https://github.com/kikobeats/uno-zen/commit/4090e2b))
 * main overflow based in a class instead of css inline ([ffa9893](https://github.com/kikobeats/uno-zen/commit/ffa9893))
+* Merge branch 'robincsamuel-master' ([4090e2b](https://github.com/kikobeats/uno-zen/commit/4090e2b))
 
 
 
@@ -121,9 +133,9 @@
 
 
 * 2.3.1 releases ([f953974](https://github.com/kikobeats/uno-zen/commit/f953974))
-* Update README.md ([79546b7](https://github.com/kikobeats/uno-zen/commit/79546b7))
 * compiled again ([b877428](https://github.com/kikobeats/uno-zen/commit/b877428))
 * fixed little bug in blog button selector ([e9c9a5c](https://github.com/kikobeats/uno-zen/commit/e9c9a5c))
+* Update README.md ([79546b7](https://github.com/kikobeats/uno-zen/commit/79546b7))
 
 
 
@@ -152,8 +164,8 @@
 
 
 * 2.2.6 releases ([635d176](https://github.com/kikobeats/uno-zen/commit/635d176))
-* Merge pull request #41 from Kikobeats/list_code_block ([47e8622](https://github.com/kikobeats/uno-zen/commit/47e8622))
 * fixed code block in lists ([dd734bd](https://github.com/kikobeats/uno-zen/commit/dd734bd))
+* Merge pull request #41 from Kikobeats/list_code_block ([47e8622](https://github.com/kikobeats/uno-zen/commit/47e8622))
 * updated preview ([325b602](https://github.com/kikobeats/uno-zen/commit/325b602))
 
 
@@ -197,10 +209,10 @@
 
 
 * 2.2.2 releases ([07a1486](https://github.com/kikobeats/uno-zen/commit/07a1486))
+* added moar blogs into showcase 🙌 ([ec5edcf](https://github.com/kikobeats/uno-zen/commit/ec5edcf))
 * Fix profile center in IE ([55a04ad](https://github.com/kikobeats/uno-zen/commit/55a04ad))
 * Merge pull request #27 from kutyel/explorer ([91d3af0](https://github.com/kikobeats/uno-zen/commit/91d3af0))
 * Update DOCUMENTATION.md ([34b14f2](https://github.com/kikobeats/uno-zen/commit/34b14f2))
-* added moar blogs into showcase 🙌 ([ec5edcf](https://github.com/kikobeats/uno-zen/commit/ec5edcf))
 * updated ([a355ab0](https://github.com/kikobeats/uno-zen/commit/a355ab0))
 * updated ([5c72df8](https://github.com/kikobeats/uno-zen/commit/5c72df8))
 
@@ -230,11 +242,11 @@
 
 
 * 2.2.0 releases ([657b473](https://github.com/kikobeats/uno-zen/commit/657b473))
-* Update README.md ([d9f9ad4](https://github.com/kikobeats/uno-zen/commit/d9f9ad4))
 * avoid animate cover in blog post ([34daa8b](https://github.com/kikobeats/uno-zen/commit/34daa8b))
 * improved aside behavior ([c0b8897](https://github.com/kikobeats/uno-zen/commit/c0b8897))
 * only use blank target in blog links in desktop version ([c909eae](https://github.com/kikobeats/uno-zen/commit/c909eae))
 * revert email from author ([8c350bd](https://github.com/kikobeats/uno-zen/commit/8c350bd))
+* Update README.md ([d9f9ad4](https://github.com/kikobeats/uno-zen/commit/d9f9ad4))
 
 
 
@@ -300,12 +312,12 @@
 
 
 * 2.0.2 released ([cd1d5c6](https://github.com/kikobeats/uno-zen/commit/cd1d5c6))
-* Update README.md ([5622963](https://github.com/kikobeats/uno-zen/commit/5622963))
-* Update aside.hbs ([90cd34a](https://github.com/kikobeats/uno-zen/commit/90cd34a))
-* Update main.coffee ([72ed9cf](https://github.com/kikobeats/uno-zen/commit/72ed9cf))
 * fixed responsive tags in mobile ([5b525e8](https://github.com/kikobeats/uno-zen/commit/5b525e8))
 * fixed tags in post view under mobile ([f950a01](https://github.com/kikobeats/uno-zen/commit/f950a01))
 * refactor mobile behavior ([ba8b428](https://github.com/kikobeats/uno-zen/commit/ba8b428))
+* Update aside.hbs ([90cd34a](https://github.com/kikobeats/uno-zen/commit/90cd34a))
+* Update main.coffee ([72ed9cf](https://github.com/kikobeats/uno-zen/commit/72ed9cf))
+* Update README.md ([5622963](https://github.com/kikobeats/uno-zen/commit/5622963))
 
 
 
@@ -313,41 +325,41 @@
 ## 2.0.1 (2015-02-26)
 
 
-* Improved device experience ([c61dd55](https://github.com/kikobeats/uno-zen/commit/c61dd55))
-* Merge branch 'master' of github.com:Kikobeats/uno-zen ([cbd6219](https://github.com/kikobeats/uno-zen/commit/cbd6219))
-* Merge branch 'master' of github.com:Kikobeats/uno-zen ([04542c5](https://github.com/kikobeats/uno-zen/commit/04542c5))
-* Update README.md ([ee94b22](https://github.com/kikobeats/uno-zen/commit/ee94b22))
-* WIP – Added social buttons in post view ([b9d6330](https://github.com/kikobeats/uno-zen/commit/b9d6330))
-* WIP – Added styleguide for more things ([c939c1e](https://github.com/kikobeats/uno-zen/commit/c939c1e))
-* WIP – Adjust mobile and refactored ([f8d6e19](https://github.com/kikobeats/uno-zen/commit/f8d6e19))
-* WIP – Changed into only one share button ([eab7a04](https://github.com/kikobeats/uno-zen/commit/eab7a04))
-* WIP – Deleted unnecessary code ([c0369ea](https://github.com/kikobeats/uno-zen/commit/c0369ea))
-* WIP – Fixed search icon ([ee8ca5f](https://github.com/kikobeats/uno-zen/commit/ee8ca5f))
-* WIP – Improved mobile experience ([4847cd2](https://github.com/kikobeats/uno-zen/commit/4847cd2))
-* WIP – Refactor aside into off canvas (table and mobile ([c9149c6](https://github.com/kikobeats/uno-zen/commit/c9149c6))
-* WIP – Refactored post views ([db930bb](https://github.com/kikobeats/uno-zen/commit/db930bb))
-* WIP – Refactored tags view and improve style ([dd2f0cf](https://github.com/kikobeats/uno-zen/commit/dd2f0cf))
-* WIP – adjust search markup ([44801e1](https://github.com/kikobeats/uno-zen/commit/44801e1))
-* WIP – fixed little issues ([f5db7a6](https://github.com/kikobeats/uno-zen/commit/f5db7a6))
-* WIP – fixed social expanded ([b2df5d5](https://github.com/kikobeats/uno-zen/commit/b2df5d5))
-* WIP – improved experience in large desktops ([98b0880](https://github.com/kikobeats/uno-zen/commit/98b0880))
-* WIP – little refactor ([dde3c67](https://github.com/kikobeats/uno-zen/commit/dde3c67))
-* WIP – refactor CSS scaffold ([c710928](https://github.com/kikobeats/uno-zen/commit/c710928))
-* WIP – refactored 404 view ([63eaef6](https://github.com/kikobeats/uno-zen/commit/63eaef6))
-* WIP – refactored and delete unnecessary code ([a3fad93](https://github.com/kikobeats/uno-zen/commit/a3fad93))
-* WIP – refactored aside & index ([21e2f3f](https://github.com/kikobeats/uno-zen/commit/21e2f3f))
-* WIP – refactored search view ([d7406b3](https://github.com/kikobeats/uno-zen/commit/d7406b3))
-* WIP – refactored using rem as basic metric ([08bfca2](https://github.com/kikobeats/uno-zen/commit/08bfca2))
-* WIP – split scripts in two files ([a109b64](https://github.com/kikobeats/uno-zen/commit/a109b64))
 * adjust separator ([d2c82a4](https://github.com/kikobeats/uno-zen/commit/d2c82a4))
 * deleted unnecessary dependencies ([b002d24](https://github.com/kikobeats/uno-zen/commit/b002d24))
 * deleted unnecessary file ([3378763](https://github.com/kikobeats/uno-zen/commit/3378763))
 * fixed some little issues ([f387745](https://github.com/kikobeats/uno-zen/commit/f387745))
 * fixing spaces in aside ([92466d0](https://github.com/kikobeats/uno-zen/commit/92466d0))
+* Improved device experience ([c61dd55](https://github.com/kikobeats/uno-zen/commit/c61dd55))
 * improved documentation ([5a8aa5f](https://github.com/kikobeats/uno-zen/commit/5a8aa5f))
 * little refactor ([b6b760a](https://github.com/kikobeats/uno-zen/commit/b6b760a))
+* Merge branch 'master' of github.com:Kikobeats/uno-zen ([cbd6219](https://github.com/kikobeats/uno-zen/commit/cbd6219))
+* Merge branch 'master' of github.com:Kikobeats/uno-zen ([04542c5](https://github.com/kikobeats/uno-zen/commit/04542c5))
 * released 2.0.1 ([dd50f60](https://github.com/kikobeats/uno-zen/commit/dd50f60))
 * setup gulp with browserSync ([2e06d19](https://github.com/kikobeats/uno-zen/commit/2e06d19))
+* Update README.md ([ee94b22](https://github.com/kikobeats/uno-zen/commit/ee94b22))
+* WIP – Added social buttons in post view ([b9d6330](https://github.com/kikobeats/uno-zen/commit/b9d6330))
+* WIP – Added styleguide for more things ([c939c1e](https://github.com/kikobeats/uno-zen/commit/c939c1e))
+* WIP – Adjust mobile and refactored ([f8d6e19](https://github.com/kikobeats/uno-zen/commit/f8d6e19))
+* WIP – adjust search markup ([44801e1](https://github.com/kikobeats/uno-zen/commit/44801e1))
+* WIP – Changed into only one share button ([eab7a04](https://github.com/kikobeats/uno-zen/commit/eab7a04))
+* WIP – Deleted unnecessary code ([c0369ea](https://github.com/kikobeats/uno-zen/commit/c0369ea))
+* WIP – fixed little issues ([f5db7a6](https://github.com/kikobeats/uno-zen/commit/f5db7a6))
+* WIP – Fixed search icon ([ee8ca5f](https://github.com/kikobeats/uno-zen/commit/ee8ca5f))
+* WIP – fixed social expanded ([b2df5d5](https://github.com/kikobeats/uno-zen/commit/b2df5d5))
+* WIP – improved experience in large desktops ([98b0880](https://github.com/kikobeats/uno-zen/commit/98b0880))
+* WIP – Improved mobile experience ([4847cd2](https://github.com/kikobeats/uno-zen/commit/4847cd2))
+* WIP – little refactor ([dde3c67](https://github.com/kikobeats/uno-zen/commit/dde3c67))
+* WIP – Refactor aside into off canvas (table and mobile ([c9149c6](https://github.com/kikobeats/uno-zen/commit/c9149c6))
+* WIP – refactor CSS scaffold ([c710928](https://github.com/kikobeats/uno-zen/commit/c710928))
+* WIP – refactored 404 view ([63eaef6](https://github.com/kikobeats/uno-zen/commit/63eaef6))
+* WIP – refactored and delete unnecessary code ([a3fad93](https://github.com/kikobeats/uno-zen/commit/a3fad93))
+* WIP – refactored aside & index ([21e2f3f](https://github.com/kikobeats/uno-zen/commit/21e2f3f))
+* WIP – Refactored post views ([db930bb](https://github.com/kikobeats/uno-zen/commit/db930bb))
+* WIP – refactored search view ([d7406b3](https://github.com/kikobeats/uno-zen/commit/d7406b3))
+* WIP – Refactored tags view and improve style ([dd2f0cf](https://github.com/kikobeats/uno-zen/commit/dd2f0cf))
+* WIP – refactored using rem as basic metric ([08bfca2](https://github.com/kikobeats/uno-zen/commit/08bfca2))
+* WIP – split scripts in two files ([a109b64](https://github.com/kikobeats/uno-zen/commit/a109b64))
 
 
 
@@ -355,8 +367,8 @@
 ## 1.3.2 (2015-02-15)
 
 
-* Update RODAMAP.md ([ee07464](https://github.com/kikobeats/uno-zen/commit/ee07464))
 * improved mobile experience ([ca5cc5b](https://github.com/kikobeats/uno-zen/commit/ca5cc5b))
+* Update RODAMAP.md ([ee07464](https://github.com/kikobeats/uno-zen/commit/ee07464))
 
 
 
@@ -381,9 +393,9 @@
 
 
 * Merge branch 'master' of github.com:Kikobeats/uno-zen ([e5ad9a0](https://github.com/kikobeats/uno-zen/commit/e5ad9a0))
-* Update README.md ([cb56f93](https://github.com/kikobeats/uno-zen/commit/cb56f93))
 * new build ([506cb0c](https://github.com/kikobeats/uno-zen/commit/506cb0c))
 * refactor background filter ([fa4ee2d](https://github.com/kikobeats/uno-zen/commit/fa4ee2d))
+* Update README.md ([cb56f93](https://github.com/kikobeats/uno-zen/commit/cb56f93))
 
 
 
@@ -404,12 +416,12 @@
 ## 1.1.24 (2015-01-24)
 
 
-* Update bower.json ([9964387](https://github.com/kikobeats/uno-zen/commit/9964387))
-* Update package.json ([c5c5ed2](https://github.com/kikobeats/uno-zen/commit/c5c5ed2))
-* Update social.hbs ([3d942d8](https://github.com/kikobeats/uno-zen/commit/3d942d8))
 * https is better ([646e642](https://github.com/kikobeats/uno-zen/commit/646e642))
 * new build ([7a6ce18](https://github.com/kikobeats/uno-zen/commit/7a6ce18))
 * removed google analytics meta ([7991a31](https://github.com/kikobeats/uno-zen/commit/7991a31))
+* Update bower.json ([9964387](https://github.com/kikobeats/uno-zen/commit/9964387))
+* Update package.json ([c5c5ed2](https://github.com/kikobeats/uno-zen/commit/c5c5ed2))
+* Update social.hbs ([3d942d8](https://github.com/kikobeats/uno-zen/commit/3d942d8))
 * updated google track code ([fe2a544](https://github.com/kikobeats/uno-zen/commit/fe2a544))
 
 
@@ -418,9 +430,9 @@
 ## 1.1.18 (2015-01-18)
 
 
+* convert post day in days ([8af7134](https://github.com/kikobeats/uno-zen/commit/8af7134))
 * Date in days in index page ([1c7105a](https://github.com/kikobeats/uno-zen/commit/1c7105a))
 * Update README.md ([8834194](https://github.com/kikobeats/uno-zen/commit/8834194))
-* convert post day in days ([8af7134](https://github.com/kikobeats/uno-zen/commit/8af7134))
 
 
 
@@ -428,8 +440,8 @@
 ## 1.1.11 (2015-01-10)
 
 
-* CSSCombo is your friend ([85c014a](https://github.com/kikobeats/uno-zen/commit/85c014a))
 * changed how to load google analytics script ([0653e8a](https://github.com/kikobeats/uno-zen/commit/0653e8a))
+* CSSCombo is your friend ([85c014a](https://github.com/kikobeats/uno-zen/commit/85c014a))
 * fixed button padding ([cd6e493](https://github.com/kikobeats/uno-zen/commit/cd6e493))
 * jshint is your friend ([04a3f85](https://github.com/kikobeats/uno-zen/commit/04a3f85))
 * new build ([d8b51bb](https://github.com/kikobeats/uno-zen/commit/d8b51bb))
