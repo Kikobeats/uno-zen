@@ -73,6 +73,7 @@ All the information you need to know about the theme is collected on the [Docume
 <a target="blank" href="http://gln.me"><img src="http://i.imgur.com/v7N4hvi.png" /></a>
 <a target="blank" href="http://biercoff.com"><img src="http://i.imgur.com/goS3pE3.jpg" /></a>
 <a target="blank" href="https://randy.sesser.me"><img src="http://i.imgur.com/9hacUJc.jpg" /></a>
+<a target="blank" href="http://dan.maharry.me.uk"><img src="http://i.imgur.com/gAeS9jQ.jpg" /></a>
 </br>
 </br>
 </div>
