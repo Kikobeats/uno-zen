@@ -112,7 +112,7 @@ As the screenshot, you need to use for the proxying the same port as your Ghost 
 
 ### Google Analytics
 
-Go to Ghost Admin panel -> `Code Injection` -> `Blog Header` and add:
+Go to Ghost Admin panel → `Code Injection` → `Blog Header` and add:
 
 ```html
 <script>
@@ -122,7 +122,7 @@ var ga_id = 'UA-YOUR_ID_HERE';
 
 ### Comments
 
-Go to Ghost Admin panel -> `Code Injection` -> `Blog Header` and add:
+Go to Ghost Admin panel → `Code Injection` → `Blog Header` and add:
 
 ```html
 <script>
@@ -132,11 +132,11 @@ var disqus_shortname = 'YOUR_DISQUS_SHORTCUT_HERE';
 
 ### Sidebar title
 
-By default, the title that you see in the open page of your blog is extracted from your blog settings (Admin panel -> Blog Title).
+By default, the title that you see in the open page of your blog is extracted from your blog settings (Admin panel → Blog Title).
 
 If you want to customize it, you can do it:
 
-Go to Ghost Admin panel -> `Code Injection` -> `Blog Header` and add:
+Go to Ghost Admin panel → `Code Injection` → `Blog Header` and add:
 
 ```html
 <script>
@@ -148,7 +148,7 @@ var profile_title = 'Kiko Beats';
 
 The purpose of the subtitle is resume the bio in a phrase. This will be shown in the mobile/tablet version instead of the bio.
 
-Go to Ghost Admin panel -> `Code Injection` -> `Blog Header` and add:
+Go to Ghost Admin panel → `Code Injection` → `Blog Header` and add:
 
 ```html
 <script>
@@ -166,7 +166,7 @@ Edit the file `partials/social.hbs`.
 
 ### Links
 
-Go to Ghost Admin panel -> `Navigation` and add/edit items.
+Go to Ghost Admin panel → `Navigation` and add/edit items.
 
 "Blog" link is always included by default, so you don't need to add it manually.
 
@@ -176,7 +176,7 @@ Create your favicons with [Favicon Generator](http://realfavicongenerator.net/) 
 
 ### Cover
 
-Go to Ghost Admin panel -> `Code Injection` -> `Blog Cover`
+Go to Ghost Admin panel → General → `Blog Cover`
 
 ### Cover Filter
 
