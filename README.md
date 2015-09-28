@@ -34,10 +34,10 @@ You can see a demo in my [blog](http://kikobeats.com). Also you can check the [s
 
 ## Installation
 
-Enter in the theme folder (`content/themes`) of your Ghost installation and:
+Enter in the theme folder (`content/themes`) of your Ghost installation and type:
 
 ```bash
-$ npm install uno-zen && mv node_modules/uno-zen uno-zen && (trash node_modules || rm -r node_modules)
+$ git clone git@github.com:Kikobeats/uno-zen.git
 ```
 
 **NOTE:** This theme needs jQuery to works fine, but jQuery library is not provided by the library. Instead, you need to inject from the `Blog Footer` in the `Code injection` of your Ghost installation, as:
