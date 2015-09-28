@@ -1,7 +1,6 @@
 #!/bin/bash
 
-echo "Cloning repository"
-git clone git@github.com:Kikobeats/uno-zen.git
+git clone git@github.com:Kikobeats/uno-zen.git && cd uno-zen
 
 echo "Getting the repository tagged commits"
 git fetch --tags
