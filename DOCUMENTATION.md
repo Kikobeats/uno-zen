@@ -1,11 +1,3 @@
-# Installation
-
-Put a terminal in the `content/themes` folder of your Ghost installation.
-
-[Download the lastest version](https://github.com/Kikobeats/uno-zen/releases).
-
-Deploy your server and after that enter in the Admin area and changes the theme in the UI panel.
-
 # Development
 
 ## Understanding scenario

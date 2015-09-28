@@ -10,7 +10,7 @@
 
 **Uno Zen** is a fork of [Uno for Ghost](https://github.com/daleanthony/Uno) that provides some features missing in the original theme.
 
-## Whats is new in 2.0
+### Whats is new in 2.x
 
 - Totally rewritten using HTML5 and CSS3.
 - Improved development workflow with gulp + browersync.
@@ -25,12 +25,7 @@ Things that already existed:
 - Loading progress state for each page.
 - Estimation about the time of reading.
 
-For more information check [changelog](https://github.com/Kikobeats/uno-zen/blob/master/CHANGELOG.md) section.
-
-## Demo
-
-You can see a demo in my [blog](http://kikobeats.com). Also you can check the [styleguide](http://kikobeats.com/styleguide) to view how it looks.
-
+You can see a [demo](http://kikobeats.com) in my own blog. Also you can check the [styleguide](http://kikobeats.com/styleguide) to view how it looks.
 
 ## Installation
 
@@ -40,7 +35,7 @@ Enter in the theme folder (`content/themes`) of your Ghost installation and past
 $ curl -sSL http://git.io/vcIHr | sh
 ```
 
-**NOTE:** This theme needs jQuery to works fine, but jQuery library is not provided by the library. Instead, you need to inject from the `Blog Footer` in the `Code injection` of your Ghost installation, as:
+**NOTE:** This theme needs jQuery to works fine, but jQuery library is not provided by the theme. Instead, you need to inject from the `Blog Footer` in the `Code injection` of your Ghost installation, as:
 
 ![](https://camo.githubusercontent.com/f600498109f9b8e7d15fadd28b51c75b1f585d0f/687474703a2f2f692e696d6775722e636f6d2f4b365a595933752e706e67)
 
@@ -48,11 +43,13 @@ $ curl -sSL http://git.io/vcIHr | sh
 <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 ```
 
-## Documentation
+## Update
 
-If is your first time using Ghost, please check the [Official Documentation](http://support.ghost.org/installation/).
+If you have already installed the theme, you can update it executing `sh scripts/update`.
 
-All the information you need to know about the theme is collected on the [Documentation](https://github.com/Kikobeats/uno-zen/blob/master/DOCUMENTATION.md) section.
+## Development and Customization
+
+See in [documentation](https://github.com/Kikobeats/uno-zen/blob/master/DOCUMENTATION.md).
 
 ## Showcase
 
@@ -79,7 +76,7 @@ All the information you need to know about the theme is collected on the [Docume
 </br>
 </div>
 
-Do you want appear here? Please, [add your blog!](https://github.com/Kikobeats/uno-zen/issues/new?title=Add%20my%20blog%20into%20showcase&body=The%20URL%20of%20my%20blog%20is:%20).
+Do you want appear here? Please, [add your blog](https://github.com/Kikobeats/uno-zen/issues/new?title=Add%20my%20blog%20into%20showcase&body=The%20URL%20of%20my%20blog%20is:%20)!.
 
 ## License
 
