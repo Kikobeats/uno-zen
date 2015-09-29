@@ -1,10 +1,11 @@
 #!/bin/bash
 
-. "$PWD"/utils.sh
-
-welcome
 
 git clone https://github.com/Kikobeats/uno-zen.git && cd uno-zen
+
+. "$PWD"/scripts/utils.sh
+
+welcome
 
 echo "Getting the repository tagged commits"
 git fetch --tags
