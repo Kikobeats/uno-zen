@@ -1,8 +1,33 @@
+<a name="2.5.5"></a>
+## 2.5.5 (2015-10-04)
+
+
+* adjust scripts ([0dfb6b2](https://github.com/kikobeats/uno-zen/commit/0dfb6b2))
+* first commit ([92ba10b](https://github.com/kikobeats/uno-zen/commit/92ba10b))
+* Fixed #88 ([696d98a](https://github.com/kikobeats/uno-zen/commit/696d98a)), closes [#88](https://github.com/kikobeats/uno-zen/issues/88)
+* Fixed #91 ([6be573b](https://github.com/kikobeats/uno-zen/commit/6be573b)), closes [#91](https://github.com/kikobeats/uno-zen/issues/91)
+* fixed #96 ([a5ea9e6](https://github.com/kikobeats/uno-zen/commit/a5ea9e6)), closes [#96](https://github.com/kikobeats/uno-zen/issues/96)
+* Fixed how to setup cover ([6decadc](https://github.com/kikobeats/uno-zen/commit/6decadc))
+* git clone first ([d7f0a35](https://github.com/kikobeats/uno-zen/commit/d7f0a35))
+* improve scripts ([cc04a44](https://github.com/kikobeats/uno-zen/commit/cc04a44))
+* Merge pull request #93 from Loo7Oopeit/patch-1 ([07f741f](https://github.com/kikobeats/uno-zen/commit/07f741f))
+* Merge pull request #94 from Loo7Oopeit/patch-2 ([974de7a](https://github.com/kikobeats/uno-zen/commit/974de7a))
+* Update install.sh ([c388147](https://github.com/kikobeats/uno-zen/commit/c388147))
+* Update README.md ([c2f05af](https://github.com/kikobeats/uno-zen/commit/c2f05af))
+* Update README.md ([6fbb42b](https://github.com/kikobeats/uno-zen/commit/6fbb42b))
+* Update README.md ([32e7bbc](https://github.com/kikobeats/uno-zen/commit/32e7bbc))
+* updated ([5339968](https://github.com/kikobeats/uno-zen/commit/5339968))
+* using git https ([758acde](https://github.com/kikobeats/uno-zen/commit/758acde))
+
+
+
 <a name="2.5.4"></a>
-## 2.5.4 (2015-09-23)
+## 2.5.4 (2015-09-24)
 
 
+* 2.5.4 releases ([d5b0a40](https://github.com/kikobeats/uno-zen/commit/d5b0a40))
 * Fixes #82 ([4beffad](https://github.com/kikobeats/uno-zen/commit/4beffad)), closes [#82](https://github.com/kikobeats/uno-zen/issues/82)
+* Fixes #84 ([1374e31](https://github.com/kikobeats/uno-zen/commit/1374e31)), closes [#84](https://github.com/kikobeats/uno-zen/issues/84)
 * order properties ([7ce8ab9](https://github.com/kikobeats/uno-zen/commit/7ce8ab9))
 * Update README.md ([949ec4a](https://github.com/kikobeats/uno-zen/commit/949ec4a))
 * Update README.md ([e5c7a73](https://github.com/kikobeats/uno-zen/commit/e5c7a73))
