@@ -45,7 +45,23 @@ $ curl -sSL http://git.io/vcIHr | sh
 
 ## Update
 
-If you have already installed the theme, you can update it executing `sh scripts/update`.
+One objective of this project is to adopt an effective policy to have the latest version of the theme all the time. We have divided this process into two steps:
+
+### Receive a mail notification when a new version is available.
+
+Based in a [IFTT](https://ifttt.com/recipes) recipe, you can subscribe for know the next releases:
+
+<div align="center">
+<a target="blank" href="https://ifttt.com/recipes/330382-uno-zen-new-release-send-me-an-email"><img src="http://i.imgur.com/sbl8YiZ.png"></a>
+</br>
+</br>
+</div>
+
+### Update your current version
+
+Just run the `sh scripts/update` script for do it.
+
+That's all!
 
 ## Development and Customization
 
