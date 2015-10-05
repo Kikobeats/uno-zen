@@ -8,6 +8,19 @@
 
 [<img src="http://i.imgur.com/LCSB4Ca.jpg">](http://kikobeats.com)
 
+- [Uno Zen for Ghost](#uno-zen-for-ghost)
+  * [Introduction](#introduction)
+    + [Whats is new in 2.x](#whats-is-new-in-2x)
+  * [Installation](#installation)
+  * [Update](#update)
+    + [Receive a mail notification when a new version is available.](#receive-a-mail-notification-when-a-new-version-is-available)
+    + [Update your current version](#update-your-current-version)
+  * [Development and Customization](#development-and-customization)
+  * [Showcase](#showcase)
+  * [License](#license)
+
+## Introduction
+
 **Uno Zen** is a fork of [Uno for Ghost](https://github.com/daleanthony/Uno) that provides some features missing in the original theme.
 
 ### Whats is new in 2.x
