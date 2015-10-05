@@ -19,6 +19,8 @@
   * [Showcase](#showcase)
   * [License](#license)
 
+---
+
 ## Introduction
 
 **Uno Zen** is a fork of [Uno for Ghost](https://github.com/daleanthony/Uno) that provides some features missing in the original theme.
