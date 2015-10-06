@@ -13,8 +13,8 @@
     + [Whats is new in 2.x](#whats-is-new-in-2x)
   * [Installation](#installation)
   * [Update](#update)
-    + [Receive a mail notification when a new version is available.](#receive-a-mail-notification-when-a-new-version-is-available)
     + [Update your current version](#update-your-current-version)
+    + [Receive a mail notification when a new version is available.](#receive-a-mail-notification-when-a-new-version-is-available)
   * [Development and Customization](#development-and-customization)
   * [Showcase](#showcase)
   * [License](#license)
@@ -62,6 +62,17 @@ $ curl -sSL http://git.io/vcIHr | sh
 
 One objective of this project is to adopt an effective policy to have the latest version of the theme all the time. We have divided this process into two steps:
 
+
+### Update your current version
+
+Make sure you're in the uno-zen directory. Then run
+
+```bash
+sh scripts/update
+```
+
+That's all!
+
 ### Receive a mail notification when a new version is available.
 
 Based in a [IFTTT](https://ifttt.com/recipes) recipe, you can subscribe for know the next releases:
@@ -71,12 +82,6 @@ Based in a [IFTTT](https://ifttt.com/recipes) recipe, you can subscribe for know
 </br>
 </br>
 </div>
-
-### Update your current version
-
-Just run the `sh scripts/update` script for do it.
-
-That's all!
 
 ## Development and Customization
 

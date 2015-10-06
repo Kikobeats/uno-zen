@@ -2,7 +2,7 @@
 
 if [ -d "uno-zen" ]; then
   echo "\nUno Zen is already installed. Maybe you want to update? Run:"
-  echo "\nsh scripts/update.sh"
+  echo "\ncd uno-zen && sh scripts/update.sh\n"
   exit
 fi
 
