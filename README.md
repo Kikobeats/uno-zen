@@ -14,7 +14,7 @@
   * [Installation](#installation)
   * [Update](#update)
     + [Update your current version](#update-your-current-version)
-    + [Receive a mail notification when a new version is available.](#receive-a-mail-notification-when-a-new-version-is-available)
+    + [Receive a mail notification when a new version is available](#receive-a-mail-notification-when-a-new-version-is-available)
   * [Development and Customization](#development-and-customization)
   * [Showcase](#showcase)
   * [License](#license)
@@ -65,7 +65,7 @@ One objective of this project is to adopt an effective policy to have the latest
 
 ### Update your current version
 
-Make sure you're in the uno-zen directory. Then run
+Make sure you're in the uno-zen directory. Then run:
 
 ```bash
 sh scripts/update
@@ -73,7 +73,7 @@ sh scripts/update
 
 That's all!
 
-### Receive a mail notification when a new version is available.
+### Receive a mail notification when a new version is available
 
 Based in a [IFTTT](https://ifttt.com/recipes) recipe, you can subscribe for know the next releases:
 
