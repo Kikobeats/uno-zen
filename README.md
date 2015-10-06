@@ -44,7 +44,7 @@ You can see a [demo](http://kikobeats.com) in my own blog. Also you can check th
 
 ## Installation
 
-Enter in the theme folder (`content/themes`) of your Ghost installation and paste the follow command:
+Enter in the theme folder (`content/themes`) of your Ghost installation and paste the following command:
 
 ```bash
 $ curl -sSL http://git.io/vcIHr | sh
