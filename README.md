@@ -65,7 +65,7 @@ One objective of this project is to adopt an effective policy to have the latest
 
 ### Update your current version
 
-Make sure you in the uno-zen directory. Then run
+Make sure you're in the uno-zen directory. Then run
 
 ```bash
 sh scripts/update
