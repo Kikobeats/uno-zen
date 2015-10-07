@@ -79,7 +79,7 @@ That's all!
 
 ### Receive a mail notification when a new version is available
 
-Based in a [IFTTT](https://ifttt.com/recipes) recipe, you can subscribe for know the next releases:
+Stay tuned for new releases with this [IFTTT recipe](https://ifttt.com/recipes):
 
 <div align="center">
 <a target="blank" href="https://ifttt.com/recipes/330382-uno-zen-new-release-send-me-an-email"><img src="http://i.imgur.com/sbl8YiZ.png"></a>
