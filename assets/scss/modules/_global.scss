@@ -25,9 +25,11 @@ mark {
 ::selection {
   background: lighten($primary-color, 36%);
 }
-::-moz-selection {
-  background: lighten($primary-color, 36%);
+
+::scrollbar {
+  display: none;
 }
+
 // ------------------------------
 // TYPOGRAPHY
 // ------------------------------
@@ -201,7 +203,6 @@ pre:hover {
 
 .container {
   position: relative;
-  z-index: 500;
 
   width: $total-width - $gutter-width;
   margin: 0 auto;
@@ -215,9 +216,7 @@ main {
 
   padding: 2rem 3rem;
 
-  &.expanded {
-    overflow: hidden;
-  }
+
 
   > .content {
     padding: 2rem 0;
