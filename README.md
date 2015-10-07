@@ -44,19 +44,23 @@ You can see a [demo](http://kikobeats.com) in my own blog. Also you can check th
 
 ## Installation
 
-Enter in the theme folder (`content/themes`) of your Ghost installation and paste the follow command:
+Please ensure that `git` and `curl` is installed on your machine.
+
+Enter the theme folder (`content/themes`) of your Ghost installation and paste the following command:
 
 ```bash
-$ curl -sSL http://git.io/vcIHr | sh
+curl -sSL http://git.io/vcIHr | sh
 ```
 
-**NOTE:** This theme needs jQuery to works fine, but jQuery library is not provided by the theme. Instead, you need to inject from the `Blog Footer` in the `Code injection` of your Ghost installation, as:
-
-![](https://camo.githubusercontent.com/f600498109f9b8e7d15fadd28b51c75b1f585d0f/687474703a2f2f692e696d6775722e636f6d2f4b365a595933752e706e67)
+**NOTE:** This theme needs jQuery to works fine, but jQuery library is not provided by the theme. Instead, you need to inject from the `Blog Footer` in the `Code injection` of your Ghost installation:
 
 ```html
 <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 ```
+
+It should look like this:
+![](https://camo.githubusercontent.com/f600498109f9b8e7d15fadd28b51c75b1f585d0f/687474703a2f2f692e696d6775722e636f6d2f4b365a595933752e706e67)
+
 
 ## Update
 
@@ -75,7 +79,7 @@ That's all!
 
 ### Receive a mail notification when a new version is available
 
-Based in a [IFTTT](https://ifttt.com/recipes) recipe, you can subscribe for know the next releases:
+Stay tuned for new releases with this [IFTTT recipe](https://ifttt.com/recipes):
 
 <div align="center">
 <a target="blank" href="https://ifttt.com/recipes/330382-uno-zen-new-release-send-me-an-email"><img src="http://i.imgur.com/sbl8YiZ.png"></a>
@@ -114,7 +118,7 @@ See in [documentation](https://github.com/Kikobeats/uno-zen/blob/master/DOCUMENT
 </br>
 </div>
 
-Do you want appear here? Please, [add your blog](https://github.com/Kikobeats/uno-zen/issues/new?title=Add%20my%20blog%20into%20showcase&body=The%20URL%20of%20my%20blog%20is:%20)!.
+Do you want appear here? Please [add your blog](https://github.com/Kikobeats/uno-zen/issues/new?title=Add%20my%20blog%20into%20showcase&body=The%20URL%20of%20my%20blog%20is:%20)!
 
 ## License
 
