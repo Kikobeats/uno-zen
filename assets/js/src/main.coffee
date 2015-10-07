@@ -2,7 +2,7 @@
 
 $ ->
 
-  el = document.body
+  el = Uno.app
   el.dataset.page = Uno.context()
   el.dataset.device = Uno.device()
 
