@@ -52,7 +52,7 @@ Enter the theme folder (`content/themes`) of your Ghost installation and paste t
 curl -sSL http://git.io/vcIHr | sh
 ```
 
-**NOTE:** This theme needs jQuery to works fine, but jQuery library is not provided by the theme. Instead, you need to inject from the `Blog Footer` in the `Code injection` of your Ghost installation, as:
+**NOTE:** This theme needs jQuery to works fine, but jQuery library is not provided by the theme. Instead, you need to inject from the `Blog Footer` in the `Code injection` of your Ghost installation:
 
 ```html
 <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
