@@ -14,7 +14,7 @@
   * [Installation](#installation)
   * [Update](#update)
     + [Update your current version](#update-your-current-version)
-    + [Receive a mail notification when a new version is available.](#receive-a-mail-notification-when-a-new-version-is-available)
+    + [Receive a mail notification when a new version is available](#receive-a-mail-notification-when-a-new-version-is-available)
   * [Development and Customization](#development-and-customization)
   * [Showcase](#showcase)
   * [License](#license)
@@ -66,7 +66,7 @@ One objective of this project is to adopt an effective policy to have the latest
 
 ### Update your current version
 
-Make sure you're in the uno-zen directory. Then run
+Make sure you're in the uno-zen directory. Then run:
 
 ```bash
 sh scripts/update
@@ -74,7 +74,7 @@ sh scripts/update
 
 That's all!
 
-### Receive a mail notification when a new version is available.
+### Receive a mail notification when a new version is available
 
 Based in a [IFTTT](https://ifttt.com/recipes) recipe, you can subscribe for know the next releases:
 
@@ -109,7 +109,8 @@ See in [documentation](https://github.com/Kikobeats/uno-zen/blob/master/DOCUMENT
 <a target="blank" href="https://randy.sesser.me"><img src="http://i.imgur.com/9hacUJc.jpg" /></a>
 <a target="blank" href="http://dan.maharry.me.uk"><img src="http://i.imgur.com/gAeS9jQ.jpg" /></a>
 <a target="blank" href="https://ishcha.com"><img src="http://i.imgur.com/u9PGLZj.jpg" /></a>
-<a target="blank" href="http://maptime.io/milan/"><img src="http://i.imgur.com/hd9tpzq.jpg" /></a>
+<a target="blank" href="http://maptime.io/milan"><img src="http://i.imgur.com/hd9tpzq.jpg" /></a>
+<a target="blank" href="http://xlbd.me"><img src="http://i.imgur.com/wiqVB9R.jpg" /></a>
 </br>
 </br>
 </div>
