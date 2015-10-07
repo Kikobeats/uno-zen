@@ -1,10 +1,15 @@
 .cover {
   position: fixed;
-  z-index: 900;
+  z-index: 1;
 
   display: block;
   width: $aside-width-collapsed;
   height: 100%;
+  overflow-y: scroll;
+
+  border-right: 1px solid $gray;
+  box-shadow: 11px -10px 1px -9px $gray-light;
+
   &.animated {
     transition: width $aside-animation-time $aside-animation;
   }
@@ -18,9 +23,9 @@
 
     color: $gray-lightest;
 
-    @include background-filter;
-    @include center-absolute;
     @include font-shadow;
+    @include center-absolute;
+    @include background-filter;
   }
 }
 
