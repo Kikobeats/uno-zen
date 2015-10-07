@@ -52,11 +52,12 @@ $ curl -sSL http://git.io/vcIHr | sh
 
 **NOTE:** This theme needs jQuery to works fine, but jQuery library is not provided by the theme. Instead, you need to inject from the `Blog Footer` in the `Code injection` of your Ghost installation, as:
 
-![](https://camo.githubusercontent.com/f600498109f9b8e7d15fadd28b51c75b1f585d0f/687474703a2f2f692e696d6775722e636f6d2f4b365a595933752e706e67)
-
 ```html
 <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 ```
+
+![](https://camo.githubusercontent.com/f600498109f9b8e7d15fadd28b51c75b1f585d0f/687474703a2f2f692e696d6775722e636f6d2f4b365a595933752e706e67)
+
 
 ## Update
 
