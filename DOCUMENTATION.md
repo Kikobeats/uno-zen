@@ -54,7 +54,6 @@ The code of the theme is divided in 3 main sections: static files (as HTML and i
 │   ├── footer.hbs
 │   ├── google-analytics.hbs
 │   ├── links.hbs
-│   ├── list-posts.hbs
 │   ├── meta.hbs
 │   ├── pagination.hbs
 │   ├── search.hbs
