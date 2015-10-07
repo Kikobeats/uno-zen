@@ -44,10 +44,12 @@ You can see a [demo](http://kikobeats.com) in my own blog. Also you can check th
 
 ## Installation
 
+Please ensure that git and curl is installed on your machine.
+
 Enter the theme folder (`content/themes`) of your Ghost installation and paste the following command:
 
 ```bash
-$ curl -sSL http://git.io/vcIHr | sh
+curl -sSL http://git.io/vcIHr | sh
 ```
 
 **NOTE:** This theme needs jQuery to works fine, but jQuery library is not provided by the theme. Instead, you need to inject from the `Blog Footer` in the `Code injection` of your Ghost installation, as:
@@ -56,6 +58,7 @@ $ curl -sSL http://git.io/vcIHr | sh
 <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 ```
 
+It should look like this:
 ![](https://camo.githubusercontent.com/f600498109f9b8e7d15fadd28b51c75b1f585d0f/687474703a2f2f692e696d6775722e636f6d2f4b365a595933752e706e67)
 
 
