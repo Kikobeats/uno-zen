@@ -118,7 +118,7 @@ See in [documentation](https://github.com/Kikobeats/uno-zen/blob/master/DOCUMENT
 </br>
 </div>
 
-Do you want appear here? Please, [add your blog](https://github.com/Kikobeats/uno-zen/issues/new?title=Add%20my%20blog%20into%20showcase&body=The%20URL%20of%20my%20blog%20is:%20)!.
+Do you want appear here? Please [add your blog](https://github.com/Kikobeats/uno-zen/issues/new?title=Add%20my%20blog%20into%20showcase&body=The%20URL%20of%20my%20blog%20is:%20)!
 
 ## License
 
