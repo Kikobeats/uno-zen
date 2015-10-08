@@ -8,7 +8,7 @@
   overflow-y: scroll;
 
   border-right: 1px solid $gray;
-  box-shadow: 11px -10px 1px -9px $gray-light;
+  box-shadow: 10.5px -10px 1px -9px $gray-light;
 
   &.animated {
     transition: width $aside-animation-time $aside-animation;
