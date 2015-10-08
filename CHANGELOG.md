@@ -1,7 +1,41 @@
+<a name="2.5.6"></a>
+## 2.5.6 (2015-10-08)
+
+
+* Added IFTT recipe for know new releases ([936e4fd](https://github.com/kikobeats/uno-zen/commit/936e4fd))
+* added scrollbar behavior. Adjusted z-index ([d3b998e](https://github.com/kikobeats/uno-zen/commit/d3b998e))
+* added ToC ([0636bc2](https://github.com/kikobeats/uno-zen/commit/0636bc2))
+* adjust aside shadow. Fixed #72 ([54a693e](https://github.com/kikobeats/uno-zen/commit/54a693e)), closes [#72](https://github.com/kikobeats/uno-zen/issues/72)
+* Adjusted aside behavior ([f46c266](https://github.com/kikobeats/uno-zen/commit/f46c266))
+* compare operator ([65a3549](https://github.com/kikobeats/uno-zen/commit/65a3549))
+* Fixed #97 ([b329940](https://github.com/kikobeats/uno-zen/commit/b329940)), closes [#97](https://github.com/kikobeats/uno-zen/issues/97)
+* improve install/update ([b7a01e6](https://github.com/kikobeats/uno-zen/commit/b7a01e6))
+* little improvements ([30cad77](https://github.com/kikobeats/uno-zen/commit/30cad77))
+* Merge pull request #98 from foorb/master ([1136f56](https://github.com/kikobeats/uno-zen/commit/1136f56))
+* Merge pull request #99 from foorb/master ([3db5355](https://github.com/kikobeats/uno-zen/commit/3db5355))
+* Merge remote-tracking branch 'Kikobeats/master' ([16cb4d6](https://github.com/kikobeats/uno-zen/commit/16cb4d6))
+* removed unnecessary file ([69f25ea](https://github.com/kikobeats/uno-zen/commit/69f25ea))
+* update README ([3507855](https://github.com/kikobeats/uno-zen/commit/3507855))
+* update README.md ([b2fd76e](https://github.com/kikobeats/uno-zen/commit/b2fd76e))
+* update README.md ([5a19e2a](https://github.com/kikobeats/uno-zen/commit/5a19e2a))
+* update README.md ([6175a95](https://github.com/kikobeats/uno-zen/commit/6175a95))
+* update README.md ([c9c3254](https://github.com/kikobeats/uno-zen/commit/c9c3254))
+* update README.md ([c377cea](https://github.com/kikobeats/uno-zen/commit/c377cea))
+* update README.md ([4a61614](https://github.com/kikobeats/uno-zen/commit/4a61614))
+* update README.md ([61a84a3](https://github.com/kikobeats/uno-zen/commit/61a84a3))
+* update README.md ([83ca7ae](https://github.com/kikobeats/uno-zen/commit/83ca7ae))
+* Update README.md ([714f4e3](https://github.com/kikobeats/uno-zen/commit/714f4e3))
+* Update README.md ([d0a56f0](https://github.com/kikobeats/uno-zen/commit/d0a56f0))
+* Update README.md ([ffc6d89](https://github.com/kikobeats/uno-zen/commit/ffc6d89))
+* Update README.md ([7d594c4](https://github.com/kikobeats/uno-zen/commit/7d594c4))
+
+
+
 <a name="2.5.5"></a>
 ## 2.5.5 (2015-10-04)
 
 
+* 2.5.5 releases ([a3357b8](https://github.com/kikobeats/uno-zen/commit/a3357b8))
 * adjust scripts ([0dfb6b2](https://github.com/kikobeats/uno-zen/commit/0dfb6b2))
 * first commit ([92ba10b](https://github.com/kikobeats/uno-zen/commit/92ba10b))
 * Fixed #88 ([696d98a](https://github.com/kikobeats/uno-zen/commit/696d98a)), closes [#88](https://github.com/kikobeats/uno-zen/issues/88)
