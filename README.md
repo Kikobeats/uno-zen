@@ -49,7 +49,7 @@ Please ensure that `git` and `curl` is installed on your machine.
 Enter the theme folder (`content/themes`) of your Ghost installation and paste the following command:
 
 ```bash
-curl -sSL http://git.io/vcIHr | sh
+$ curl -sSL http://git.io/vcIHr | sh
 ```
 
 **NOTE:** This theme needs jQuery to works fine, but jQuery library is not provided by the theme. Instead, you need to inject from the `Blog Footer` in the `Code injection` of your Ghost installation:
@@ -72,7 +72,7 @@ One objective of this project is to adopt an effective policy to have the latest
 Make sure you're in the uno-zen directory. Then run:
 
 ```bash
-sh scripts/update
+$ sh scripts/update
 ```
 
 That's all!
