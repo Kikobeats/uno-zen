@@ -10,11 +10,11 @@ $ ->
     , 1000)
 
   _expand = (options)->
-    $('main, .cover, .links > li').toggleClass 'expanded'
+    $('main, .cover, .links > li, html').toggleClass 'expanded'
     Uno.search.form options.form
 
   $('#menu-button').click ->
-    $('.cover, main, #menu-button').toggleClass 'expanded'
+    $('.cover, main, #menu-button, html').toggleClass 'expanded'
 
   $('.nav-blog > a, #avatar-link').click (event) ->
     if Uno.is 'page', 'home'
