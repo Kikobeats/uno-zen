@@ -1,7 +1,21 @@
+<a name="2.5.7"></a>
+## 2.5.7 (2015-10-11)
+
+
+* Fix some styles errors with the scroll bars ([2f3b578](https://github.com/kikobeats/uno-zen/commit/2f3b578))
+* Merge pull request #101 from ManRueda/master ([95d0b8b](https://github.com/kikobeats/uno-zen/commit/95d0b8b))
+* Merge pull request #103 from foorb/patch-1 ([ba968b1](https://github.com/kikobeats/uno-zen/commit/ba968b1))
+* Merge pull request #104 from foorb/patch-2 ([c7a8ddf](https://github.com/kikobeats/uno-zen/commit/c7a8ddf))
+* selection color ([d790df5](https://github.com/kikobeats/uno-zen/commit/d790df5))
+* Update README.md ([4a012a3](https://github.com/kikobeats/uno-zen/commit/4a012a3))
+
+
+
 <a name="2.5.6"></a>
 ## 2.5.6 (2015-10-08)
 
 
+* 2.5.6 releases ([fd225da](https://github.com/kikobeats/uno-zen/commit/fd225da))
 * Added IFTT recipe for know new releases ([936e4fd](https://github.com/kikobeats/uno-zen/commit/936e4fd))
 * added scrollbar behavior. Adjusted z-index ([d3b998e](https://github.com/kikobeats/uno-zen/commit/d3b998e))
 * added ToC ([0636bc2](https://github.com/kikobeats/uno-zen/commit/0636bc2))
@@ -17,17 +31,17 @@
 * removed unnecessary file ([69f25ea](https://github.com/kikobeats/uno-zen/commit/69f25ea))
 * update README ([3507855](https://github.com/kikobeats/uno-zen/commit/3507855))
 * update README.md ([b2fd76e](https://github.com/kikobeats/uno-zen/commit/b2fd76e))
-* update README.md ([5a19e2a](https://github.com/kikobeats/uno-zen/commit/5a19e2a))
 * update README.md ([6175a95](https://github.com/kikobeats/uno-zen/commit/6175a95))
 * update README.md ([c9c3254](https://github.com/kikobeats/uno-zen/commit/c9c3254))
 * update README.md ([c377cea](https://github.com/kikobeats/uno-zen/commit/c377cea))
-* update README.md ([4a61614](https://github.com/kikobeats/uno-zen/commit/4a61614))
 * update README.md ([61a84a3](https://github.com/kikobeats/uno-zen/commit/61a84a3))
 * update README.md ([83ca7ae](https://github.com/kikobeats/uno-zen/commit/83ca7ae))
-* Update README.md ([714f4e3](https://github.com/kikobeats/uno-zen/commit/714f4e3))
+* update README.md ([5a19e2a](https://github.com/kikobeats/uno-zen/commit/5a19e2a))
+* update README.md ([4a61614](https://github.com/kikobeats/uno-zen/commit/4a61614))
 * Update README.md ([d0a56f0](https://github.com/kikobeats/uno-zen/commit/d0a56f0))
-* Update README.md ([ffc6d89](https://github.com/kikobeats/uno-zen/commit/ffc6d89))
+* Update README.md ([714f4e3](https://github.com/kikobeats/uno-zen/commit/714f4e3))
 * Update README.md ([7d594c4](https://github.com/kikobeats/uno-zen/commit/7d594c4))
+* Update README.md ([ffc6d89](https://github.com/kikobeats/uno-zen/commit/ffc6d89))
 
 
 
