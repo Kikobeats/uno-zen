@@ -30,7 +30,9 @@
 
 #post-content {
   a {
-    transition: all $aside-animation-time;
+    padding: 0 .2em;
+
+    transition: all .5s;
 
     &::after {
       position: absolute;
@@ -42,10 +44,17 @@
 
       content: "";
 
-      border-bottom: 1px solid $primary-color;
+      border-bottom: 1px dashed $primary-color;
     }
     &:hover {
+      color: $white;
       border-color: $hover-color;
+      background: $primary-color;
+    }
+
+    &:hover,
+    &:active {
+      outline: 0;
     }
   }
 }
