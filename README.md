@@ -72,7 +72,7 @@ One objective of this project is to adopt an effective policy to have the latest
 Make sure you're in the uno-zen directory. Then run:
 
 ```bash
-$ sh scripts/update
+$ sh scripts/update.sh
 ```
 
 That's all!
