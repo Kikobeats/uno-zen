@@ -2,14 +2,14 @@
 // PRE
 // ------------------------------
 
-@import 'modules/mixins.scss';
+@import 'modules/variables.scss';
+@import 'modules/utils.scss';
 
 // ------------------------------
 // MODULES
 // ------------------------------
 
 @import 'modules/reset.scss';
-@import 'modules/variables.scss';
 @import 'modules/grid.scss';
 @import 'modules/global.scss';
 @import 'modules/fonts.scss';

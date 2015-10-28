@@ -1,3 +1,33 @@
+%dotted-link {
+  padding-right: 0.2rem;
+  padding-left: 0.2rem;
+  padding-bottom: 2px;
+  transition: all .5s;
+
+  &::after {
+    position: absolute;
+    bottom: -.5px;
+    left: 0;
+
+    width: 100%;
+    height: 0;
+
+    content: "";
+
+    border-bottom: 1px dashed $primary-color;
+  }
+  &:hover {
+    color: $white;
+    border-color: $hover-color;
+    background: $primary-color;
+  }
+
+  &:hover,
+  &:active {
+    outline: 0;
+  }
+}
+
 @mixin inline-code-style {
   padding: .09rem .2rem;
 
