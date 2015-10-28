@@ -1,62 +1,37 @@
 .posts {
+
   padding: 0;
   margin: 0;
 
   list-style-type: none;
 
-  text-align: left;
-
   > li {
+    margin-bottom: 1.25rem;
+
+    &:first-child {
+      margin-top: 4.6875rem;
+    }
+
+    &:last-child {
+      margin-bottom: 4.6875rem;
+    }
+
+    > time {
+      float: right;
+      text-transform: uppercase;
+      color: #777;
+      font-size: 10px;
+      letter-spacing: 2px;
+    }
+
     > a {
-      > h2 {
-        margin-bottom: 1rem;
-
-        line-height: 3rem;
-
-        transition: all $aside-animation-time;
-
-        &:hover {
-          transition: all $aside-animation-time;
-
-          color: $hover-color;
-        }
-        &:first-child {
-          margin-top: 0;
-        }
-      }
+      @extend %dotted-link;
     }
   }
 }
 
-#post-content {
-  a {
-    padding: 0 .2em;
-
-    transition: all .5s;
-
-    &::after {
-      position: absolute;
-      bottom: -.5px;
-      left: 0;
-
-      width: 100%;
-      height: 0;
-
-      content: "";
-
-      border-bottom: 1px dashed $primary-color;
-    }
-    &:hover {
-      color: $white;
-      border-color: $hover-color;
-      background: $primary-color;
-    }
-
-    &:hover,
-    &:active {
-      outline: 0;
-    }
-  }
+#post-content a {
+  @extend %dotted-link;
 }
 
 .post {
@@ -93,7 +68,12 @@
   }
   &.tags {
     > a {
-      padding: .167rem .25rem;
+
+      &:first-child {
+        margin-left: .55rem;
+      }
+
+      padding: .15rem .25rem;
 
       font-size: .55rem;
 
@@ -102,7 +82,8 @@
 
       color: $gray-lightest;
       border-radius: .25rem;
-      background-color: rgba($primary-color, .7);
+      background-color: rgba($primary-color, .45);
+      bottom: 4px;
 
       &:hover {
         background-color: rgba($primary-color, 1);

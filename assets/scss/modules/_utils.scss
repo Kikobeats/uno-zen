@@ -1,12 +1,10 @@
 %dotted-link {
-  padding-right: 0.2rem;
-  padding-left: 0.2rem;
-  padding-bottom: 2px;
+  padding: 3px;
   transition: all .5s;
 
   &::after {
     position: absolute;
-    bottom: -.5px;
+    bottom: 0px;
     left: 0;
 
     width: 100%;
