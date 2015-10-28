@@ -1,21 +1,14 @@
-.posts {
+#posts-list {
 
   padding: 0;
   margin: 0;
+  margin: 5rem 0;
 
   list-style-type: none;
 
   > li {
     margin-left: 1rem;
     margin-bottom: 1.25rem;
-
-    &:first-child {
-      margin-top: 4.6875rem;
-    }
-
-    &:last-child {
-      margin-bottom: 4.6875rem;
-    }
 
     > time {
       float: right;
@@ -30,7 +23,7 @@
     }
 
     > span > a  {
-      bottom: 3px;
+      bottom: 2px;
     }
   }
 }
