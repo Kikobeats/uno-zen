@@ -6,6 +6,7 @@
   list-style-type: none;
 
   > li {
+    margin-left: 1rem;
     margin-bottom: 1.25rem;
 
     &:first-child {
@@ -26,6 +27,10 @@
 
     > a {
       @extend %dotted-link;
+    }
+
+    > span > a  {
+      bottom: 3px;
     }
   }
 }
@@ -70,7 +75,11 @@
     > a {
 
       &:first-child {
-        margin-left: .55rem;
+        margin-left: .2rem;
+      }
+
+      &:last-child {
+        margin-right: .2rem;
       }
 
       padding: .15rem .25rem;
@@ -83,7 +92,7 @@
       color: $gray-lightest;
       border-radius: .25rem;
       background-color: rgba($primary-color, .45);
-      bottom: 4px;
+      // bottom: 1.5px;
 
       &:hover {
         background-color: rgba($primary-color, 1);
