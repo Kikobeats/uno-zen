@@ -1,19 +1,8 @@
 %dotted-link {
-  padding: 3px;
+  border-bottom: 1px dashed $primary-color;
+  line-height: 25px;
   transition: all .5s;
 
-  &::after {
-    position: absolute;
-    bottom: 0px;
-    left: 0;
-
-    width: 100%;
-    height: 0;
-
-    content: "";
-
-    border-bottom: 1px dashed $primary-color;
-  }
   &:hover {
     color: $white;
     border-color: $hover-color;

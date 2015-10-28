@@ -17,6 +17,7 @@
 @media all and (max-width:1024px) {
   /* disabling element, too much information*/
   .pace,
+  span.post.tags,
   .post.reading-time,
   .post.related {
     display: none;
@@ -121,6 +122,13 @@
       }
     }
   }
+
+  #posts-list > li {
+    > time {
+      padding: 0 0 0 4rem;
+    }
+  }
+
   main {
     left: 0;
 
@@ -136,6 +144,14 @@
 // ------------------------------
 
 @media all and (max-width:480px) {
+
+  .post .tags,
+  .post .meta > time,
+  .pagination > span {
+    display: none;
+  }
+
+
   .btn {
     display: block;
     margin-bottom: .4em;
@@ -167,14 +183,17 @@
   #panic-button {
     margin-bottom: 1rem;
   }
-  #post-title {
-    margin: 2.5rem 0;
+
+  #posts-list > li {
+    margin-bottom: 2.5rem;
+    > time {
+      padding: 0 0 25px 25px;
+      letter-spacing: 1px;
+    }
   }
 
-  .post .tags,
-  .post .meta > time,
-  .pagination > span {
-    display: none;
+  #post-title {
+    margin: 2.5rem 0;
   }
 
   .post {
