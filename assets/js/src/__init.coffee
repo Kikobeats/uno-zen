@@ -33,9 +33,11 @@ $ ->
           else postDateInDays = "#{postDateInDays} days ago"
 
           $(this).html(postDateInDays)
-          $(this).mouseover -> $(this).html(postDate)
-          $(this).mouseout -> $(this).html(postDateInDays)
-      DateInDays '.post.meta > time'
+          $(this).mouseover -> $(this).html postDate
+          $(this).mouseout -> $(this).html postDateInDays
+
+      selectorDate = if Uno.is 'home' then '#posts-list time' else '.post.meta > time'
+      DateInDays selectorDate
 
     device: ->
       w = window.innerWidth
