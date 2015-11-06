@@ -88,7 +88,7 @@ Note that my local Ghost is running in the port `2387`.
 With your local Ghost running, open another terminal and enter in the folder `content/themes` of your local Ghost and clone the theme repository and install the dependencies for local development:
 
 ```bash
-$ git clone https://github.com/Kikobeats/uno-zen && npm install && bower install
+$ git clone https://github.com/Kikobeats/uno-zen && cd uno-zen && npm install && bower install
 ```
 
 Just run `gulp` command in the theme terminal. Now you have a development scenario, and looks like this:
