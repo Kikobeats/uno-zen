@@ -2,6 +2,7 @@
   border-bottom: 1px dashed $primary-color;
   line-height: 25px;
   transition: all .5s;
+  padding: .1rem .25rem;
 
   &:hover {
     color: $white;
