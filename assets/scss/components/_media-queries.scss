@@ -151,14 +151,15 @@
     display: none;
   }
 
+  main {
+    padding: 1rem 0;
+  }
 
   .btn {
     display: block;
     margin-bottom: .4em;
   }
-  main {
-    padding: 1rem 0;
-  }
+
   .mayday {
     width: auto;
     > h2 {
@@ -184,6 +185,11 @@
     margin-bottom: 1rem;
   }
 
+  .posts.newer,
+  .posts.older {
+    margin: 1rem 0;
+  }
+
   #posts-list > li {
     margin-bottom: 2.5rem;
     > time {
@@ -194,19 +200,6 @@
 
   #post-title {
     margin: 2.5rem 0;
-  }
-
-  .post {
-    &.newer,
-    &.older {
-      padding: 1rem;
-    }
-    &.newer {
-      margin: 0 0 1.2rem;
-    }
-    &.older {
-      margin: 0 0 10px;
-    }
   }
 
   blockquote {
