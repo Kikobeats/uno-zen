@@ -45,3 +45,16 @@ $ ->
       return 'mobile' if (w <= 480)
       return 'tablet' if (w <= 1024)
       'desktop'
+
+    parseEmojis: ->
+      twemoji.parse document.body,
+        folder: 'svg'
+        ext: '.svg'
+        callback: (icon, options, variant) ->
+          switch icon
+            # © copyright
+            # ® registered trademark
+            when 'a9', 'ae', '2122'
+              # ™ trademark
+              return false
+          ''.concat options.base, options.size, '/', icon, options.ext

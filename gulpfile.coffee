@@ -43,6 +43,7 @@ src =
               'assets/vendor/ghostHunter/jquery.ghostHunter.min.js'
               'assets/vendor/pace/pace.min.js'
               'assets/vendor/fitvids/jquery.fitvids.js'
+              'assets/vendor/twemoji/twemoji.min.js'
               'assets/vendor/reading-time/build/readingTime.min.js']
   css      :
     main   : 'assets/css/' + dist.name + '.css'
