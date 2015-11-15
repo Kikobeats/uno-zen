@@ -16,18 +16,6 @@
   }
 }
 
-@mixin inline-code-style {
-  padding: .09rem .2rem;
-
-  font-family: $code-font;
-  font-size: .85rem;
-  font-weight: $font-weight-normal;
-
-  color: $gray-dark;
-  border: 1px solid #d9d9d9;
-  border-radius: 3px;
-}
-
 @mixin background-filter {
   background: linear-gradient(150deg, $cover-secondary 30%, $cover-primary 70%) 0 0/cover fixed;
 }
