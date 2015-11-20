@@ -1,15 +1,12 @@
 {{!< default}}
-<h1>Tag: {{tag.name}}</h1>
-<ol class="posts">
+
+<h1 style="text-align: center;">Tag: {{tag.name}}.</h1>
+<ol id="posts-list">
   {{#foreach posts}}
   <li>
-    <a href="{{url}}" title="link to {{{title}}}"><h2>{{{title}}}</h2></a>
-    <p class="excerpt">{{excerpt}}&hellip;</p>
-    <div class="post meta">
-      <time datetime="{{date format="DD MMM YYYY"}}">{{date format="DD MMM YYYY"}}</time>
-      <span class="post tags">{{tags prefix="on " separator=" "}}</span>
-    </div>
-    <hr class="divider post" />
+    <time datetime="{{date format="DD MMM YYYY"}}">{{date format="DD MMM YYYY"}}</time>
+    <a href="{{url}}" title="link to {{{title}}}">{{title}}</a>
+    <span class="post tags">{{tags separator=" "}}</span>
   </li>
   {{/foreach}}
 </ol>
