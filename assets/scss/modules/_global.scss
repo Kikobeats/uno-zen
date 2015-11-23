@@ -106,18 +106,16 @@ em {
   font-style: italic;
 }
 blockquote {
+  padding: 0 0 0 1.5rem;
+  border-left: $gray-darkest 0.25rem solid;
   > p {
-    margin: 2.5rem -3rem;
-
+    margin: 0.8em 0;
     font-family: $quote-font;
-    font-size: 1.2rem;
-    -webkit-font-smoothing: antialiased;
     font-style: italic;
-    line-height: 1.4;
 
-    text-align: center;
     letter-spacing: .01rem;
     word-wrap: break-word;
+    -webkit-font-smoothing: antialiased;
   }
 }
 // ------------------------------
