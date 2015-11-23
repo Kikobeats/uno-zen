@@ -40,13 +40,15 @@ $font-weight-thin      : 100;
 $font-weight-normal    : 300;
 $font-weight-bold      : 700;
 
+$line-height           : 1.75rem;
+
 $margin-title          : $unit * 2.2;
-$margin-h1             : $margin-title * .8;
-$margin-h2             : $margin-h1 * .8;
-$margin-h3             : $margin-h2 * .8;
-$margin-h4             : $margin-h3 * .8;
-$margin-h5             : $margin-h4 * .8;
-$margin-h6             : $margin-h5 * .8;
+$margin-h1             : $margin-title * .9;
+$margin-h2             : $margin-title * .9;
+$margin-h3             : $margin-title * .9;
+$margin-h4             : $margin-title * .9;
+$margin-h5             : $margin-title * .9;
+$margin-h6             : $margin-title * .9;
 
 $font-title            : $unit * 2.2;
 $font-h1               : $font-title * .8;

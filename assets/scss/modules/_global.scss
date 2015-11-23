@@ -67,7 +67,7 @@ h1 {
   margin: $margin-h1 0;
 
   font-size: $font-h1;
-  line-height: 3rem;
+  line-height: $line-height * 1.75;
 }
 h2 {
   margin: $margin-h2 0;
@@ -97,7 +97,7 @@ h6 {
 p {
   margin-bottom: 1.3rem;
 
-  line-height: 1.7rem;
+  line-height: $line-height;
 }
 strong {
   font-weight: bold;
@@ -129,7 +129,7 @@ ul {
   li {
     margin: 0 0 .2rem 0;
 
-    line-height: 1.6rem;
+    line-height: $line-height * 1.2;
   }
   ol,
   ul {
