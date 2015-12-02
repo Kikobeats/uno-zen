@@ -10,54 +10,51 @@ img,
 }
 
 .btn {
-  padding: 10px 20px;
-
+  border: 1px solid $primary-color;
+  border-radius: 20px;
+  color: $primary-color;
   font-size: .9em;
   -webkit-font-smoothing: antialiased;
   font-weight: bold;
-
   letter-spacing: 1px;
-
-  color: $primary-color;
-  border: 1px solid $primary-color;
-  border-radius: 20px;
+  padding: 10px 20px;
   text-shadow: none;
 
   &:hover {
-    color: darken($primary-color, 15%);
     border-color: darken($primary-color, 15%);
+    color: darken($primary-color, 15%);
   }
+
   &.small {
-    padding: 8px 12px;
-
     font-size: .7em;
+    padding: 8px 12px;
   }
-  &.large {
-    padding: 10px 24px;
 
+  &.large {
     font-size: 1.1em;
+    padding: 10px 24px;
   }
+
   &.secondary {
-    color: $secondary-color;
     border-color: $secondary-color;
+    color: $secondary-color;
 
     &:hover {
-      color: darken($secondary-color, 15%);
       border-color: darken($secondary-color, 15%);
+      color: darken($secondary-color, 15%);
     }
   }
 }
+
 #menu-button {
   display: none;
 
   > a {
     > i {
+      color: $gray-lightest;
+      font-size: 36px;
       position: relative;
       top: 3px;
-
-      font-size: 36px;
-
-      color: $gray-lightest;
     }
   }
 }

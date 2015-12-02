@@ -1,9 +1,6 @@
 #posts-list {
-
   padding: 0;
-  margin: 0;
   margin: 5rem 0;
-
   list-style-type: none;
 
   > li {
@@ -22,7 +19,7 @@
       @extend %dotted-link;
     }
 
-    > span > a  {
+    > span > a {
       bottom: 2px;
     }
   }
@@ -37,12 +34,11 @@
     > img {
       width: 100%;
       margin: 1.5rem auto;
-
       text-align: center;
-
       border-radius: $border-radius;
     }
   }
+
   pre {
     width: 95%;
   }
@@ -50,23 +46,21 @@
   > header {
     text-align: center;
   }
+
   &.description {
     margin-bottom: 1rem;
-
     font-size: .9em;
-
     color: $gray-dark;
   }
+
   &.meta {
     margin: .7em 0;
-
     font-size: .85rem;
-
     color: $gray;
   }
+
   &.tags {
     > a {
-
       &:first-child {
         margin-left: .2rem;
       }
@@ -74,36 +68,31 @@
       &:last-child {
         margin-right: .2rem;
       }
-
       padding: .15rem .25rem;
-
       font-size: .55rem;
-
       transition: all $aside-animation-time;
       text-transform: uppercase;
-
       color: $gray-lightest;
       border-radius: .25rem;
       background-color: rgba($primary-color, .45);
-      // bottom: 1.5px;
 
       &:hover {
         background-color: rgba($primary-color, 1);
       }
     }
   }
+
   &.author {
     img {
       display: inline-block;
       height: 22px;
       margin: 0 .5rem;
-
       vertical-align: middle;
-
-      border: none;
+      border: 0;
       box-shadow: none;
     }
   }
+
   &.comments {
     padding: 2rem 0 0 0;
   }
@@ -111,7 +100,6 @@
   &.related {
     display: flex;
     padding: 4rem 0 2rem 0;
-
     justify-content: space-between;
   }
 }
@@ -124,7 +112,6 @@
 #post-title {
   font-size: $font-title;
   margin: 3rem 0 2.5rem;
-
   transition: all $aside-animation-time;
 
   &:hover {
