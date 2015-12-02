@@ -132,12 +132,6 @@
     }
   }
 
-  #posts-list > li {
-    > time {
-      padding: 0 0 0 4rem;
-    }
-  }
-
   main {
     left: 0;
     transition: all $aside-animation-time;
@@ -200,12 +194,18 @@
     margin: 1rem 0;
   }
 
-  #posts-list > li {
-    margin-bottom: 2.5rem;
+  #posts-list{
+    margin: 3rem 0;
+    text-align: center;
+    > li {
+      margin-bottom: 2rem;
 
-    > time {
-      padding: 0 0 25px 25px;
-      letter-spacing: 1px;
+      > time {
+        display: block;
+        float: none;
+        letter-spacing: 1px;
+        padding: 0;
+      }
     }
   }
 
