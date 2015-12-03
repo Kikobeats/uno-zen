@@ -1,17 +1,14 @@
 {{!< default}}
-<ol class="posts">
+
+<h1 style="text-align: center;">Writtings.</h1>
+<ol id="posts-list">
   {{#foreach posts}}
   <li>
-    <a href="{{url}}" title="link to {{{title}}}">
-      <h2>{{{title}}}</h2>
-      <p class="post description">{{excerpt}}&hellip;</p>
-    </a>
-    <div class="post meta">
-      <time datetime="{{date format="DD MMM YYYY"}}">{{date format="DD MMM YYYY"}}</time>
-      <span class="post tags">{{tags prefix="on " separator=" "}}</span>
-    </div>
-    <hr class="divider post" />
+    <a href="{{url}}" title="link to {{{title}}}">{{title}}</a>
+    <time datetime="{{date format="DD MMM YYYY"}}">{{date format="DD MMM YYYY"}}</time>
+    <span class="post tags">{{tags separator=" "}}</span>
   </li>
   {{/foreach}}
 </ol>
+
 {{pagination}}

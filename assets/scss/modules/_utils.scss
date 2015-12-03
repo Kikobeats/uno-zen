@@ -1,17 +1,23 @@
-@mixin inline-code-style {
-  padding: .09rem .2rem;
+%dotted-link {
+  border-bottom: 1px dashed $primary-color;
+  line-height: 25px;
+  transition: all .5s;
+  padding: .1rem .25rem;
 
-  font-family: $code-font;
-  font-size: .85rem;
-  font-weight: $font-weight-normal;
+  &:hover {
+    color: $white;
+    border-color: $hover-color;
+    background: $primary-color;
+  }
 
-  color: $gray-dark;
-  border: 1px solid #d9d9d9;
-  border-radius: 3px;
+  &:hover,
+  &:active {
+    outline: 0;
+  }
 }
 
 @mixin background-filter {
-  background: linear-gradient(150deg, $cover-secondary 30%, $cover-primary 70%) 0 0/cover fixed;
+  background: linear-gradient(150deg, $cover-secondary 30%, $cover-primary 70%) 0 0 / cover fixed;
 }
 
 @mixin center-absolute {

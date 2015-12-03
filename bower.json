@@ -14,26 +14,27 @@
     "url": "https://github.com/Kikobeats/uno-zen/issues"
   },
   "keywords": [
+    "elegant",
     "ghost",
+    "minimalism",
     "theme",
     "uno",
-    "zen",
-    "elegant",
-    "minimalism"
+    "zen"
   ],
   "dependencies": {
     "animate.css": "*",
     "fastclick": "*",
+    "fitvids": "*",
     "ghostHunter": "git://github.com/i11ume/ghostHunter.git",
     "pace": "*",
     "reading-time": "*",
-    "fitvids": "*"
+    "twemoji": "git://github.com/twitter/twemoji.git#gh-pages"
   },
   "ignore": [
     "**/.*",
-    "node_modules",
-    "bower_components",
     "assets/vendor ",
+    "bower_components",
+    "node_modules",
     "test",
     "tests"
   ],

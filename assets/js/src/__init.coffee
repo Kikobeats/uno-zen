@@ -33,9 +33,11 @@ $ ->
           else postDateInDays = "#{postDateInDays} days ago"
 
           $(this).html(postDateInDays)
-          $(this).mouseover -> $(this).html(postDate)
-          $(this).mouseout -> $(this).html(postDateInDays)
-      DateInDays '.post.meta > time'
+          $(this).mouseover -> $(this).html postDate
+          $(this).mouseout -> $(this).html postDateInDays
+
+      selectorDate = if Uno.is 'home' then '#posts-list time' else '.post.meta > time'
+      DateInDays selectorDate
 
     device: ->
       w = window.innerWidth
@@ -43,3 +45,16 @@ $ ->
       return 'mobile' if (w <= 480)
       return 'tablet' if (w <= 1024)
       'desktop'
+
+    parseEmojis: ->
+      twemoji.parse document.body,
+        folder: 'svg'
+        ext: '.svg'
+        callback: (icon, options, variant) ->
+          switch icon
+            # © copyright
+            # ® registered trademark
+            when 'a9', 'ae', '2122'
+              # ™ trademark
+              return false
+          ''.concat options.base, options.size, '/', icon, options.ext

@@ -1,15 +1,9 @@
 <nav class="navigation left">
   <ul class="links">
-
-    <li class="nav-blog {{#if current}} nav-current{{/if}}">
-      <a href="{{@blog.url}}/#open" title="{{@blog.title}} blog">Blog</a>
-    </li>
-
     {{#foreach navigation}}
-      <li class="nav-{{slug}} {{#if current}} nav-current{{/if}}">
-        <a href="{{this.url}}">{{label}}</a>
+      <li class="nav-{{slug}}{{#if current}} nav-current{{/if}} {{#is "home"}}nav-current{{/is}}">
+        <a href="{{url absolute="true"}}">{{label}}</a>
       </li>
     {{/foreach}}
-
   </ul>
 </nav>

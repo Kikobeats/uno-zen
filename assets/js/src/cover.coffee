@@ -3,6 +3,7 @@
 $ ->
 
   isOpen = location.hash is '#open'
+  openButton = window.open_button or '.nav-posts > a'
 
   _animate = ->
     setTimeout(->
@@ -16,7 +17,7 @@ $ ->
   $('#menu-button').click ->
     $('.cover, main, #menu-button, html').toggleClass 'expanded'
 
-  $('.nav-blog > a, #avatar-link').click (event) ->
+  $("#{openButton}, #avatar-link").click (event) ->
     if Uno.is 'page', 'home'
       event.preventDefault()
       location.hash = if location.hash is '' then '#open' else ''

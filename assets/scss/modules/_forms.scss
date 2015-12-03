@@ -1,6 +1,7 @@
 *:focus {
   outline: none;
 }
+
 input[type="text"],
 input[type="password"],
 input[type="datetime"],
@@ -14,19 +15,18 @@ input[type="email"],
 input[type="url"],
 input[type="search"],
 input[type="tel"] {
-  width: 240px;
-  padding: 1em;
-
-  font-size: .9em;
-
-  color: $gray-darker;
+  background: $gray-lightest;
   border: 1px solid $gray-light;
   border-radius: $border-radius;
-  background: $gray-lightest;
+  color: $gray-darker;
+  font-size: .9em;
+  padding: 1em;
+  width: 240px;
 
   @include placeholder {
     color: $gray;
   }
+
   &:focus {
     border-color: $secondary-color;
   }

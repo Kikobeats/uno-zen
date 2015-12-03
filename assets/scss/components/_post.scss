@@ -1,62 +1,32 @@
-.posts {
+#posts-list {
   padding: 0;
-  margin: 0;
-
+  margin: 5rem 0;
   list-style-type: none;
 
-  text-align: left;
-
   > li {
+    margin-left: 1rem;
+    margin-bottom: 1.25rem;
+
+    > time {
+      float: right;
+      text-transform: uppercase;
+      color: #777;
+      font-size: 10px;
+      letter-spacing: 2px;
+    }
+
     > a {
-      > h2 {
-        margin-bottom: 1rem;
+      @extend %dotted-link;
+    }
 
-        line-height: 3rem;
-
-        transition: all $aside-animation-time;
-
-        &:hover {
-          transition: all $aside-animation-time;
-
-          color: $hover-color;
-        }
-        &:first-child {
-          margin-top: 0;
-        }
-      }
+    > span > a {
+      bottom: 2px;
     }
   }
 }
 
-#post-content {
-  a {
-    padding: 0 .2em;
-
-    transition: all .5s;
-
-    &::after {
-      position: absolute;
-      bottom: -.5px;
-      left: 0;
-
-      width: 100%;
-      height: 0;
-
-      content: "";
-
-      border-bottom: 1px dashed $primary-color;
-    }
-    &:hover {
-      color: $white;
-      border-color: $hover-color;
-      background: $primary-color;
-    }
-
-    &:hover,
-    &:active {
-      outline: 0;
-    }
-  }
+#post-content a {
+  @extend %dotted-link;
 }
 
 .post {
@@ -64,12 +34,11 @@
     > img {
       width: 100%;
       margin: 1.5rem auto;
-
       text-align: center;
-
       border-radius: $border-radius;
     }
   }
+
   pre {
     width: 95%;
   }
@@ -77,50 +46,53 @@
   > header {
     text-align: center;
   }
+
   &.description {
     margin-bottom: 1rem;
-
     font-size: .9em;
-
     color: $gray-dark;
   }
+
   &.meta {
     margin: .7em 0;
-
     font-size: .85rem;
-
     color: $gray;
   }
+
   &.tags {
     > a {
-      padding: .167rem .25rem;
+      &:first-child {
+        margin-left: .2rem;
+      }
 
+      &:last-child {
+        margin-right: .2rem;
+      }
+      padding: .15rem .25rem;
       font-size: .55rem;
-
       transition: all $aside-animation-time;
       text-transform: uppercase;
-
       color: $gray-lightest;
       border-radius: .25rem;
-      background-color: rgba($primary-color, .7);
+      background-color: rgba($primary-color, .45);
 
       &:hover {
         background-color: rgba($primary-color, 1);
       }
     }
   }
+
   &.author {
     img {
       display: inline-block;
       height: 22px;
       margin: 0 .5rem;
-
       vertical-align: middle;
-
-      border: none;
+      border: 0;
       box-shadow: none;
     }
   }
+
   &.comments {
     padding: 2rem 0 0 0;
   }
@@ -128,7 +100,6 @@
   &.related {
     display: flex;
     padding: 4rem 0 2rem 0;
-
     justify-content: space-between;
   }
 }
@@ -139,8 +110,8 @@
 }
 
 #post-title {
+  font-size: $font-title;
   margin: 3rem 0 2.5rem;
-
   transition: all $aside-animation-time;
 
   &:hover {

@@ -1,18 +1,32 @@
 files: [
-  "package.json"
-  "bower.json"
+  'package.json'
+  'bower.json'
 ]
 
 plugins:
+
+  prerelease:
+
+    'Linting config files':
+      plugin: 'bumped-finepack'
+
   postrelease:
 
-    'Compile browser version':
+    'Compiling browser version':
       plugin: 'bumped-terminal'
       command: 'gulp build'
 
     'Generating CHANGELOG file':
       plugin: 'bumped-changelog'
 
-    'Commit the new version':
+    'Commiting new version':
       plugin: 'bumped-terminal'
-      command: 'git add . && git commit -m "$newVersion releases"'
+      command: 'git add CHANGELOG.md bower.json package.json assets/css/uno-zen.css assets/js/uno-zen.js && git commit -m "$newVersion releases" && git push origin master'
+
+    'Publishing tag at Github':
+      plugin: 'bumped-terminal'
+      command: 'git tag $newVersion && git push origin $newVersion'
+
+    'Publishing at NPM':
+      plugin: 'bumped-terminal'
+      command: 'npm publish'
