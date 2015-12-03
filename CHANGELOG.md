@@ -1,7 +1,81 @@
+<a name="2.6.0"></a>
+# 2.6.0 (2015-12-03)
+
+
+* adjust blockquotes margins ([4ae9f7e](https://github.com/kikobeats/uno-zen/commit/4ae9f7e))
+* deleted some duplicate rules and format files ([3851935](https://github.com/kikobeats/uno-zen/commit/3851935))
+* improved mobile view ([6ab6ad5](https://github.com/kikobeats/uno-zen/commit/6ab6ad5))
+* Merge pull request #135 from Kikobeats/beta ([ce0ac71](https://github.com/kikobeats/uno-zen/commit/ce0ac71))
+* updated bumped settings ([5a911c6](https://github.com/kikobeats/uno-zen/commit/5a911c6))
+
+
+
+<a name="2.6.0-rc.4"></a>
+# 2.6.0-rc.4 (2015-11-23)
+
+
+* Added node version badge ([efa7ba4](https://github.com/kikobeats/uno-zen/commit/efa7ba4))
+* added to automatically change the version ([997cfa0](https://github.com/kikobeats/uno-zen/commit/997cfa0))
+* little improvement in inline code style ([1a0c6db](https://github.com/kikobeats/uno-zen/commit/1a0c6db))
+* refactor margins and font from titles ([8dec9ea](https://github.com/kikobeats/uno-zen/commit/8dec9ea))
+* refactor margins to be constant ([7a003fb](https://github.com/kikobeats/uno-zen/commit/7a003fb))
+* refactor prism theme to be similar to github gist ([dc65f71](https://github.com/kikobeats/uno-zen/commit/dc65f71))
+* refactor quotes style ([3362c0b](https://github.com/kikobeats/uno-zen/commit/3362c0b))
+
+
+
+<a name="2.6.0-rc.3"></a>
+# 2.6.0-rc.3 (2015-11-20)
+
+
+* Fixed #124 ([fca6b83](https://github.com/kikobeats/uno-zen/commit/fca6b83)), closes [#124](https://github.com/kikobeats/uno-zen/issues/124)
+* Tag view similar to index view ([3f2160c](https://github.com/kikobeats/uno-zen/commit/3f2160c))
+
+
+
+<a name="2.6.0-rc.2"></a>
+# 2.6.0-rc.2 (2015-11-15)
+
+
+* 2.6.0-rc.2 ([427d429](https://github.com/kikobeats/uno-zen/commit/427d429))
+* add prism as dependency ([2f8aaf5](https://github.com/kikobeats/uno-zen/commit/2f8aaf5))
+* Added twemoji as dependency ([f150cdc](https://github.com/kikobeats/uno-zen/commit/f150cdc))
+
+
+
+<a name="2.6.0"></a>
+# 2.6.0 (2015-11-12)
+
+
+* adjust breadcrumbs on mobile ([673d0af](https://github.com/kikobeats/uno-zen/commit/673d0af))
+* adjust margins...again. ([570d08c](https://github.com/kikobeats/uno-zen/commit/570d08c))
+* adjust padding in links ([b77b378](https://github.com/kikobeats/uno-zen/commit/b77b378))
+* adjust post list media queries ([58fa32d](https://github.com/kikobeats/uno-zen/commit/58fa32d))
+* adjust read time for post lists ([fad1086](https://github.com/kikobeats/uno-zen/commit/fad1086))
+* be posible to setup a different open button ([af17af5](https://github.com/kikobeats/uno-zen/commit/af17af5))
+* changed twitter share link. Fixed #108 ([014dac8](https://github.com/kikobeats/uno-zen/commit/014dac8)), closes [#108](https://github.com/kikobeats/uno-zen/issues/108)
+* first approach of posts ([c33125d](https://github.com/kikobeats/uno-zen/commit/c33125d))
+* fixed #114 #112 #111 #109 ([86dc8e0](https://github.com/kikobeats/uno-zen/commit/86dc8e0)), closes [#114](https://github.com/kikobeats/uno-zen/issues/114) [#112](https://github.com/kikobeats/uno-zen/issues/112) [#111](https://github.com/kikobeats/uno-zen/issues/111) [#109](https://github.com/kikobeats/uno-zen/issues/109)
+* fixed pagination extra space ([561d5a4](https://github.com/kikobeats/uno-zen/commit/561d5a4))
+* fixed post list margins ([fe7a001](https://github.com/kikobeats/uno-zen/commit/fe7a001))
+* improved a:hover style ([e8610a4](https://github.com/kikobeats/uno-zen/commit/e8610a4))
+* mark and selection color based in $secondary-color ([3810a2c](https://github.com/kikobeats/uno-zen/commit/3810a2c))
+* Merge pull request #105 from foorb/patch-1 ([42a4631](https://github.com/kikobeats/uno-zen/commit/42a4631))
+* Merge pull request #113 from foorb/master ([7c83395](https://github.com/kikobeats/uno-zen/commit/7c83395))
+* Merge pull request #127 from foorb/master ([ddc76a3](https://github.com/kikobeats/uno-zen/commit/ddc76a3))
+* mixins renamed into utils ([4747b0a](https://github.com/kikobeats/uno-zen/commit/4747b0a))
+* Refactor meta tags in the same place ([244e9a5](https://github.com/kikobeats/uno-zen/commit/244e9a5))
+* Update DOCUMENTATION.md ([57953a2](https://github.com/kikobeats/uno-zen/commit/57953a2))
+* Update README.md ([6ce84ef](https://github.com/kikobeats/uno-zen/commit/6ce84ef))
+* Update showcase ([1e374cf](https://github.com/kikobeats/uno-zen/commit/1e374cf))
+
+
+
 <a name="2.5.7"></a>
 ## 2.5.7 (2015-10-11)
 
 
+* 2.5.7 releases ([3c54914](https://github.com/kikobeats/uno-zen/commit/3c54914))
 * Fix some styles errors with the scroll bars ([2f3b578](https://github.com/kikobeats/uno-zen/commit/2f3b578))
 * Merge pull request #101 from ManRueda/master ([95d0b8b](https://github.com/kikobeats/uno-zen/commit/95d0b8b))
 * Merge pull request #103 from foorb/patch-1 ([ba968b1](https://github.com/kikobeats/uno-zen/commit/ba968b1))
