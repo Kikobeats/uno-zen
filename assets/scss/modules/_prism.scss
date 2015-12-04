@@ -6,8 +6,8 @@
  * @author Lea Verou
  */
 
-code[class*="language-"],
-pre[class*="language-"] {
+code,
+pre {
   font-family: $code-font;
   font-size: 90%;
   line-height: 1.5;
@@ -16,50 +16,36 @@ pre[class*="language-"] {
   word-spacing: normal;
   word-wrap: normal;
   word-break: normal;
-  -moz-tab-size: 2;
-  -o-tab-size: 2;
   tab-size: 2;
-  -webkit-hyphens: none;
-  -moz-hyphens: none;
   hyphens: none;
   color: black;
   text-shadow: 0 1px white;
   direction: ltr;
-  -ms-hyphens: none;
 }
 
-pre[class*="language-"]::-moz-selection,
-pre[class*="language-"]::-moz-selection,
-code[class*="language-"]::-moz-selection,
-code[class*="language-"]::-moz-selection {
-  background: #b3d4fc;
-  text-shadow: none;
-}
-
-pre[class*="language-"]::selection,
-pre[class*="language-"]::selection,
-code[class*="language-"]::selection,
-code[class*="language-"]::selection {
+pre::selection,
+code::selection {
   background: #b3d4fc;
   text-shadow: none;
 }
 
 @media print {
-  code[class*="language-"],
-  pre[class*="language-"] {
+  code,
+  pre {
     text-shadow: none;
   }
 
 }
 
 /* Code blocks */
-pre[class*="language-"] {
+pre {
   padding: 1em;
   margin: .5em 0;
   overflow: auto;
 }
 
-:not(pre) > code[class*="language-"],pre[class*="language-"] {
+:not(pre) > code,
+pre {
   border: 1px solid rgba(0, 0, 0, .15);
   background: #fbfaf8;
 }
@@ -213,16 +199,10 @@ div.prism-show-language > div.prism-show-language-label[data-language] {
   height: auto;
   padding: 0 .5em;
   font-size: .9em;
-  -webkit-transform: none;
-  -moz-transform: none;
-  -ms-transform: none;
-  -o-transform: none;
   transform: none;
   color: black;
   border-radius: 0 0 0 5px;
   background-color: #cfcfcf;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
   box-shadow: none;
   text-shadow: none;
 }
