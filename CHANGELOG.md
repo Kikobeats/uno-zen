@@ -1,7 +1,16 @@
+<a name="2.6.1"></a>
+## 2.6.1 (2015-12-04)
+
+
+* fixed highlight syntax for non detected language ([abb2212](https://github.com/kikobeats/uno-zen/commit/abb2212))
+
+
+
 <a name="2.6.0"></a>
 # 2.6.0 (2015-12-03)
 
 
+* 2.6.0 releases ([7e6736a](https://github.com/kikobeats/uno-zen/commit/7e6736a))
 * adjust blockquotes margins ([4ae9f7e](https://github.com/kikobeats/uno-zen/commit/4ae9f7e))
 * deleted some duplicate rules and format files ([3851935](https://github.com/kikobeats/uno-zen/commit/3851935))
 * improved mobile view ([6ab6ad5](https://github.com/kikobeats/uno-zen/commit/6ab6ad5))
@@ -40,13 +49,6 @@
 * 2.6.0-rc.2 ([427d429](https://github.com/kikobeats/uno-zen/commit/427d429))
 * add prism as dependency ([2f8aaf5](https://github.com/kikobeats/uno-zen/commit/2f8aaf5))
 * Added twemoji as dependency ([f150cdc](https://github.com/kikobeats/uno-zen/commit/f150cdc))
-
-
-
-<a name="2.6.0"></a>
-# 2.6.0 (2015-11-12)
-
-
 * adjust breadcrumbs on mobile ([673d0af](https://github.com/kikobeats/uno-zen/commit/673d0af))
 * adjust margins...again. ([570d08c](https://github.com/kikobeats/uno-zen/commit/570d08c))
 * adjust padding in links ([b77b378](https://github.com/kikobeats/uno-zen/commit/b77b378))
