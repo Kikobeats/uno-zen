@@ -40,7 +40,7 @@ code::selection {
 /* Code blocks */
 pre {
   padding: 1em;
-  margin: .5em 0;
+  margin: 2.5rem 0;
   overflow: auto;
 }
 
@@ -53,12 +53,10 @@ pre {
 /* Inline code */
 :not(pre) > code {
   // slack style
-  padding: .1em;
   padding: 1px 3px;
   font-family: $code-font;
   font-size: 72%;
   line-height: 72%;
-  white-space: normal;
   white-space: normal;
   color: #c25;
   border: 1px solid #e1e1e8;
@@ -152,10 +150,6 @@ pre[data-line] {
   line-height: inherit;
   white-space: pre;
   pointer-events: none;
-  background: hsla(24, 20%, 50%, .08);
-  background: -moz-linear-gradient(left, hsla(24, 20%, 50%, .1) 70%, hsla(24, 20%, 50%, 0));
-  background: -webkit-linear-gradient(left, hsla(24, 20%, 50%, .1) 70%, hsla(24, 20%, 50%, 0));
-  background: -o-linear-gradient(left, hsla(24, 20%, 50%, .1) 70%, hsla(24, 20%, 50%, 0));
   background: linear-gradient(left, hsla(24, 20%, 50%, .1) 70%, hsla(24, 20%, 50%, 0));
 }
 
