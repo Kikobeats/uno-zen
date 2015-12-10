@@ -53,15 +53,22 @@ Enter the theme folder (`content/themes`) of your Ghost installation and paste t
 $ curl -sSL http://git.io/vcIHr | sh
 ```
 
-**NOTE:** This theme needs jQuery to works fine, but jQuery library is not provided by the theme. Instead, you need to inject from the `Blog Footer` in the `Code injection` of your Ghost installation:
+**NOTE:** This theme needs a DOM selector library. The library is not provided by the theme. Instead, you need to inject from the `Blog Footer` in the `Code injection` of your Ghost installation:
 
 ```html
 <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 ```
 
-It should look like this:
-![](https://camo.githubusercontent.com/f600498109f9b8e7d15fadd28b51c75b1f585d0f/687474703a2f2f692e696d6775722e636f6d2f4b365a595933752e706e67)
+You can use jQuery, but we recommend use [Zepto](https://github.com/madrobby/zepto), a lightweight jQuery alternative compatible with jQuery Plugins:
 
+```html
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/zepto/1.1.6/zepto.min.js"></script>
+<script>jQuery = Zepto</script>
+```
+
+It should look like this:
+
+![](http://i.imgur.com/xUXdFeH.png)
 
 ## Update
 
