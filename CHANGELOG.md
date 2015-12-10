@@ -1,7 +1,17 @@
+<a name="2.6.2"></a>
+## 2.6.2 (2015-12-10)
+
+
+* added prism ([c1a2371](https://github.com/kikobeats/uno-zen/commit/c1a2371))
+* Adjust margins and deleted duplicated rules ([2c081fe](https://github.com/kikobeats/uno-zen/commit/2c081fe))
+
+
+
 <a name="2.6.1"></a>
 ## 2.6.1 (2015-12-04)
 
 
+* 2.6.1 releases ([fa953e3](https://github.com/kikobeats/uno-zen/commit/fa953e3))
 * fixed highlight syntax for non detected language ([abb2212](https://github.com/kikobeats/uno-zen/commit/abb2212))
 
 
