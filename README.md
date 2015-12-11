@@ -123,6 +123,7 @@ See in [documentation](https://github.com/Kikobeats/uno-zen/blob/master/DOCUMENT
 <a target="blank" href="http://olddonkey.com"><img src="http://i.imgur.com/wa4kwnZ.jpg" /></a>
 <a target="blank" href="http://mohammedovich.com"><img src="http://i.imgur.com/oiKFBG2.jpg" /></a>
 <a target="blank" href="http://blog.sysbase.org"><img src="http://i.imgur.com/DiPo76r.jpg" /></a>
+<a target="blank" href="http://yangshuan.cn"><img src="http://i.imgur.com/6ptrCIp.jpg" /></a>
 </br>
 </br>
 </div>
