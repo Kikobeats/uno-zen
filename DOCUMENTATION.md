@@ -120,7 +120,7 @@ Be careful, the current prism code is integrated with the color schema of the th
 
 ### Google Analytics
 
-Go to Ghost Admin panel → `Code Injection` → `Blog Header` and add:
+Go to Ghost `Admin Panel` → `Code Injection` → `Blog Header` and add:
 
 ```html
 <script>
@@ -130,7 +130,7 @@ var ga_id = 'UA-YOUR_ID_HERE';
 
 ### Comments
 
-Go to Ghost Admin panel → `Code Injection` → `Blog Header` and add:
+Go to Ghost `Admin Panel` → `Code Injection` → `Blog Header` and add:
 
 ```html
 <script>
@@ -138,13 +138,29 @@ var disqus_shortname = 'YOUR_DISQUS_SHORTCUT_HERE';
 </script>
 ```
 
-### Sidebar title
+### Open Button
 
-By default, the title that you see in the open page of your blog is extracted from your blog settings (Admin panel → Blog Title).
+By default, the open buttons works binding the event of open the blog with a button called 'Posts' created into Ghost Navigation section. Here is the piece of code that create the bind:
+
+```js
+var openButton = window.open_button || '.nav-posts > a'
+```
+
+As you see, you can specify a different button selector. For example, if You want to open your blog under 'Blog' button, then you add this in `Admin Panel` → `Code Injection` → `Blog Header`:
+
+```html
+<script>
+var open_button = '.nav-blog > a'
+</script>
+```
+
+### Profile title
+
+By default, the title that you see in the open page of your blog is extracted from your blog settings (`Admin Panel` → Blog Title).
 
 If you want to customize it, you can do it:
 
-Go to Ghost Admin panel → `Code Injection` → `Blog Header` and add:
+Go to Ghost ``Admin Panel`` → `Code Injection` → `Blog Header` and add:
 
 ```html
 <script>
@@ -152,11 +168,11 @@ var profile_title = 'Kiko Beats';
 </script>
 ```
 
-### Sidebar subtitle
+### Profile subtitle
 
 The purpose of the subtitle is resume the bio in a phrase. This will be shown in the mobile/tablet version instead of the bio.
 
-Go to Ghost Admin panel → `Code Injection` → `Blog Header` and add:
+Go to Ghost `Admin Panel` → `Code Injection` → `Blog Header` and add:
 
 ```html
 <script>
@@ -174,7 +190,7 @@ Edit the file `partials/social.hbs`.
 
 ### Links
 
-Go to Ghost Admin panel → `Navigation` and add/edit items.
+Go to Ghost `Admin Panel` → `Navigation` and add/edit items.
 
 "Blog" link is always included by default, so you don't need to add it manually.
 
@@ -184,7 +200,7 @@ Create your favicons with [Favicon Generator](http://realfavicongenerator.net/) 
 
 ### Cover
 
-Go to Ghost Admin panel → General → `Blog Cover`
+Go to Ghost `Admin Panel` → General → `Blog Cover`
 
 ### Cover Filter
 
