@@ -1,7 +1,19 @@
+<a name="2.6.3"></a>
+## 2.6.3 (2015-12-13)
+
+
+* Add mail template ([c70fe70](https://github.com/kikobeats/uno-zen/commit/c70fe70))
+* Add Zepto as recommendation (#144) ([03b3d61](https://github.com/kikobeats/uno-zen/commit/03b3d61))
+* Fix #140 ([191ac93](https://github.com/kikobeats/uno-zen/commit/191ac93)), closes [#140](https://github.com/kikobeats/uno-zen/issues/140)
+* Update DOCUMENTATION.md ([f308683](https://github.com/kikobeats/uno-zen/commit/f308683))
+
+
+
 <a name="2.6.2"></a>
 ## 2.6.2 (2015-12-10)
 
 
+* 2.6.2 releases ([20c2774](https://github.com/kikobeats/uno-zen/commit/20c2774))
 * added prism ([c1a2371](https://github.com/kikobeats/uno-zen/commit/c1a2371))
 * Adjust margins and deleted duplicated rules ([2c081fe](https://github.com/kikobeats/uno-zen/commit/2c081fe))
 
