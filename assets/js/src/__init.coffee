@@ -3,7 +3,7 @@
 $ ->
 
   window.Uno = Uno =
-    version: '2.5.7'
+    version: '2.6.4'
 
     search:
       container: -> $('#results')
@@ -29,7 +29,7 @@ $ ->
           postDateInDays = Math.floor((postDateNow - new Date(postDate)) / 86400000)
 
           if postDateInDays is 0 then postDateInDays = 'today'
-          else if postDateInDays is 1 then postDateInDays = "yesterday"
+          else if postDateInDays is 1 then postDateInDays = 'yesterday'
           else postDateInDays = "#{postDateInDays} days ago"
 
           $(this).html(postDateInDays)
