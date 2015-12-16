@@ -1,7 +1,16 @@
+<a name="2.6.4"></a>
+## 2.6.4 (2015-12-16)
+
+
+* 2.6.4 releases ([3662203](https://github.com/kikobeats/uno-zen/commit/3662203))
+
+
+
 <a name="2.6.3"></a>
 ## 2.6.3 (2015-12-13)
 
 
+* 2.6.3 releases ([51476d9](https://github.com/kikobeats/uno-zen/commit/51476d9))
 * Add mail template ([c70fe70](https://github.com/kikobeats/uno-zen/commit/c70fe70))
 * Add Zepto as recommendation (#144) ([03b3d61](https://github.com/kikobeats/uno-zen/commit/03b3d61))
 * Fix #140 ([191ac93](https://github.com/kikobeats/uno-zen/commit/191ac93)), closes [#140](https://github.com/kikobeats/uno-zen/issues/140)
