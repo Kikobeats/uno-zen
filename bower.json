@@ -27,8 +27,7 @@
     "fitvids": "*",
     "ghostHunter": "git://github.com/i11ume/ghostHunter.git",
     "pace": "*",
-    "reading-time": "*",
-    "twemoji": "git://github.com/twitter/twemoji.git#gh-pages"
+    "reading-time": "*"
   },
   "ignore": [
     "**/.*",
