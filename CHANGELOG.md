@@ -1,7 +1,20 @@
+<a name="2.6.5"></a>
+## 2.6.5 (2015-12-22)
+
+
+* _mixins.scss doesn't exist.  The variables $cover-primary and $cover-secondary are in _variables.scs ([f4ac947](https://github.com/kikobeats/uno-zen/commit/f4ac947))
+* Fix timeAgo function ([398e691](https://github.com/kikobeats/uno-zen/commit/398e691))
+* Merge pull request #146 from alexlovescoding/patch-1 ([49ae326](https://github.com/kikobeats/uno-zen/commit/49ae326))
+* Remove twemoji ([161bd5c](https://github.com/kikobeats/uno-zen/commit/161bd5c))
+* Update DOCUMENTATION.md ([04f89a1](https://github.com/kikobeats/uno-zen/commit/04f89a1))
+
+
+
 <a name="2.6.4"></a>
 ## 2.6.4 (2015-12-16)
 
 
+* 2.6.4 releases ([09500d9](https://github.com/kikobeats/uno-zen/commit/09500d9))
 * 2.6.4 releases ([3662203](https://github.com/kikobeats/uno-zen/commit/3662203))
 
 
