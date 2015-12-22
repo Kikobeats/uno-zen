@@ -2,23 +2,26 @@
 
 $ ->
 
+  $('#profile-title').text window.profile_title if window.profile_title
+  $('#profile-resume').text window.profile_resume if window.profile_resume
+
   el = Uno.app
   el.dataset.page = Uno.context()
   el.dataset.device = Uno.device()
-
-  Uno.readTime()
-  FastClick.attach el unless Uno.is 'device', 'desktop'
-
-  $('#profile-title').text window.profile_title if window.profile_title
-  $('#profile-resume').text window.profile_resume if window.profile_resume
 
   if Uno.is 'device', 'desktop'
     $('a').not('[href*="mailto:"]').click ->
       if this.href.indexOf(location.hostname) is -1
         window.open $(this).attr 'href'
         false
+  else
+    FastClick.attach el
+
+  if Uno.is 'page', 'home'
+    Uno.timeAgo '#posts-list time'
 
   if Uno.is 'page', 'post'
+    Uno.timeAgo '.post.meta > time'
     $('main').readingTime readingTimeTarget: '.post.reading-time > span'
     $('.content').fitVids()
 

@@ -21,23 +21,18 @@ $ ->
 
     is: (property, value) -> this.app.dataset[property] is value
 
-    readTime: ->
-      DateInDays = (selector, cb) ->
-        $(selector).each ->
-          postDate = $(this).html()
-          postDateNow = new Date(Date.now())
-          postDateInDays = Math.floor((postDateNow - new Date(postDate)) / 86400000)
+    timeAgo: (selector) ->
+      $(selector).each ->
+        postDate = $(this).html()
+        postDateInDays = Math.floor((Date.now() - new Date(postDate)) / 86400000)
 
-          if postDateInDays is 0 then postDateInDays = 'today'
-          else if postDateInDays is 1 then postDateInDays = 'yesterday'
-          else postDateInDays = "#{postDateInDays} days ago"
+        if postDateInDays is 0 then postDateInDays = 'today'
+        else if postDateInDays is 1 then postDateInDays = 'yesterday'
+        else postDateInDays = "#{postDateInDays} days ago"
 
-          $(this).html(postDateInDays)
-          $(this).mouseover -> $(this).html postDate
-          $(this).mouseout -> $(this).html postDateInDays
-
-      selectorDate = if Uno.is 'home' then '#posts-list time' else '.post.meta > time'
-      DateInDays selectorDate
+        $(this).html(postDateInDays)
+        $(this).mouseover -> $(this).html postDate
+        $(this).mouseout -> $(this).html postDateInDays
 
     device: ->
       w = window.innerWidth
