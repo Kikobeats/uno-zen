@@ -1,7 +1,7 @@
 'use strict'
 
 window.Uno = Uno =
-  version: '2.6.5'
+  version: '2.6.6'
 
   search:
     container: -> $('#results')

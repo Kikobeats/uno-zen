@@ -1,8 +1,18 @@
+<a name="2.6.6"></a>
+## 2.6.6 (2015-12-26)
+
+
+* Removed wait for DOM ([6f5e8f2](https://github.com/kikobeats/uno-zen/commit/6f5e8f2))
+* Update to include inline version ([9c9e757](https://github.com/kikobeats/uno-zen/commit/9c9e757))
+
+
+
 <a name="2.6.5"></a>
 ## 2.6.5 (2015-12-22)
 
 
 * _mixins.scss doesn't exist.  The variables $cover-primary and $cover-secondary are in _variables.scs ([f4ac947](https://github.com/kikobeats/uno-zen/commit/f4ac947))
+* 2.6.5 releases ([06cf240](https://github.com/kikobeats/uno-zen/commit/06cf240))
 * Fix timeAgo function ([398e691](https://github.com/kikobeats/uno-zen/commit/398e691))
 * Merge pull request #146 from alexlovescoding/patch-1 ([49ae326](https://github.com/kikobeats/uno-zen/commit/49ae326))
 * Remove twemoji ([161bd5c](https://github.com/kikobeats/uno-zen/commit/161bd5c))
