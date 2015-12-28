@@ -1,7 +1,16 @@
+<a name="2.6.7"></a>
+## 2.6.7 (2015-12-28)
+
+
+* Fix #151 ([b4337d1](https://github.com/kikobeats/uno-zen/commit/b4337d1)), closes [#151](https://github.com/kikobeats/uno-zen/issues/151)
+
+
+
 <a name="2.6.6"></a>
 ## 2.6.6 (2015-12-26)
 
 
+* 2.6.6 releases ([ed1553a](https://github.com/kikobeats/uno-zen/commit/ed1553a))
 * Removed wait for DOM ([6f5e8f2](https://github.com/kikobeats/uno-zen/commit/6f5e8f2))
 * Update to include inline version ([9c9e757](https://github.com/kikobeats/uno-zen/commit/9c9e757))
 
