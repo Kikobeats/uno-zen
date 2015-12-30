@@ -1,7 +1,17 @@
+<a name="2.6.8"></a>
+## 2.6.8 (2015-12-30)
+
+
+* Extract post-author into a partial ([430f4f3](https://github.com/kikobeats/uno-zen/commit/430f4f3))
+* Fix #153 ([d63d508](https://github.com/kikobeats/uno-zen/commit/d63d508)), closes [#153](https://github.com/kikobeats/uno-zen/issues/153)
+
+
+
 <a name="2.6.7"></a>
 ## 2.6.7 (2015-12-28)
 
 
+* 2.6.7 releases ([71db207](https://github.com/kikobeats/uno-zen/commit/71db207))
 * Fix #151 ([b4337d1](https://github.com/kikobeats/uno-zen/commit/b4337d1)), closes [#151](https://github.com/kikobeats/uno-zen/issues/151)
 
 
