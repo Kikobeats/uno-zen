@@ -32,10 +32,12 @@
 .post {
   > p {
     > img {
-      width: 100%;
-      margin: 1.5rem auto;
-      text-align: center;
       border-radius: $border-radius;
+        display: block;
+      margin: 1.5rem auto;
+      max-width: 100%;
+      text-align: center;
+      width: auto;
     }
   }
 
