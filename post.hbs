@@ -8,9 +8,7 @@
         <time datetime="{{date format="DD MMM YYYY"}}">{{date format="DD MMM YYYY"}}</time>
         <span class="post tags">{{tags prefix="in " separator=" "}}</span>
 
-        {{!-- <span class="post author">
-          <img src="{{author.image}}" class="rounded" alt="profile image for {{author.name}}"/> by {{author.name}}
-        </span> --}}
+        {{!> post-author}}
 
         <span class="post reading-time"> ~ <span></span> read.</span>
       </div>
