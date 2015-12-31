@@ -1,7 +1,19 @@
+<a name="2.6.9"></a>
+## 2.6.9 (2015-12-31)
+
+
+* Add default static page template ([0d102d8](https://github.com/kikobeats/uno-zen/commit/0d102d8))
+* Added brief description of build.sh script. ([e6420f8](https://github.com/kikobeats/uno-zen/commit/e6420f8))
+* Added build script to create archive for usage with Ghost(pro). ([bb67bc5](https://github.com/kikobeats/uno-zen/commit/bb67bc5))
+* Merge pull request #157 from devillex/kikobeats-master ([3225bd2](https://github.com/kikobeats/uno-zen/commit/3225bd2))
+
+
+
 <a name="2.6.8"></a>
 ## 2.6.8 (2015-12-30)
 
 
+* 2.6.8 releases ([62bf4d2](https://github.com/kikobeats/uno-zen/commit/62bf4d2))
 * Extract post-author into a partial ([430f4f3](https://github.com/kikobeats/uno-zen/commit/430f4f3))
 * Fix #153 ([d63d508](https://github.com/kikobeats/uno-zen/commit/d63d508)), closes [#153](https://github.com/kikobeats/uno-zen/issues/153)
 
