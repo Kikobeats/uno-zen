@@ -33,7 +33,6 @@
     "gulp-concat": "latest",
     "gulp-cssmin": "latest",
     "gulp-header": "latest",
-    "gulp-minify-css": "latest",
     "gulp-sass": "latest",
     "gulp-shorthand": "latest",
     "gulp-strip-css-comments": "latest",
