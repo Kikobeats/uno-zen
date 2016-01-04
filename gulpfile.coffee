@@ -82,7 +82,7 @@ gulp.task 'js', ->
   .pipe coffee().on 'error', gutil.log
   .pipe addsrc src.js.vendor
   .pipe concat '' + dist.name + '.js'
-  .pipe uglify mangle: false
+  .pipe uglify()
   .pipe header banner, pkg: pkg
   .pipe gulp.dest dist.js
   return
