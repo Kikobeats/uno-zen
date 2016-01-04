@@ -12,7 +12,7 @@ uglify      = require 'gulp-uglify'
 cssmin      = require 'gulp-cssmin'
 addsrc      = require 'gulp-add-src'
 changed     = require 'gulp-changed'
-shortand    = require 'gulp-shortand'
+shorthand    = require 'gulp-shorthand'
 pkg         = require './package.json'
 _s          = require 'underscore.string'
 prefix      = require 'gulp-autoprefixer'
@@ -70,7 +70,7 @@ gulp.task 'css', ->
   .pipe prefix()
   .pipe strip
     all: true
-  .pipe shortand()
+  .pipe shorthand()
   .pipe cssmin()
   .pipe header banner, pkg: pkg
   .pipe gulp.dest dist.css

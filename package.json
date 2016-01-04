@@ -35,7 +35,7 @@
     "gulp-header": "latest",
     "gulp-minify-css": "latest",
     "gulp-sass": "latest",
-    "gulp-shortand": "latest",
+    "gulp-shorthand": "latest",
     "gulp-strip-css-comments": "latest",
     "gulp-uglify": "latest",
     "gulp-util": "latest",
