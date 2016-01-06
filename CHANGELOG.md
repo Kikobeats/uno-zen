@@ -1,7 +1,23 @@
+<a name="2.6.10"></a>
+## 2.6.10 (2016-01-06)
+
+
+* Add gulp-shortand dep ([3e46534](https://github.com/kikobeats/uno-zen/commit/3e46534))
+* Add Related section ([c35a0d3](https://github.com/kikobeats/uno-zen/commit/c35a0d3))
+* Add Setup section ([01073c1](https://github.com/kikobeats/uno-zen/commit/01073c1))
+* Adjust prism build ([7bdbdc6](https://github.com/kikobeats/uno-zen/commit/7bdbdc6))
+* Better JS minification ([c68fa03](https://github.com/kikobeats/uno-zen/commit/c68fa03))
+* Fix typo ([a6fedf8](https://github.com/kikobeats/uno-zen/commit/a6fedf8))
+* Refactor footer ([7219ada](https://github.com/kikobeats/uno-zen/commit/7219ada))
+* Remove unnecessary dependency ([3da45d5](https://github.com/kikobeats/uno-zen/commit/3da45d5))
+
+
+
 <a name="2.6.9"></a>
 ## 2.6.9 (2015-12-31)
 
 
+* 2.6.9 releases ([57f63f8](https://github.com/kikobeats/uno-zen/commit/57f63f8))
 * Add default static page template ([0d102d8](https://github.com/kikobeats/uno-zen/commit/0d102d8))
 * Added brief description of build.sh script. ([e6420f8](https://github.com/kikobeats/uno-zen/commit/e6420f8))
 * Added build script to create archive for usage with Ghost(pro). ([bb67bc5](https://github.com/kikobeats/uno-zen/commit/bb67bc5))
