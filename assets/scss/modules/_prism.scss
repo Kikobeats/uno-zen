@@ -141,42 +141,6 @@ pre[data-line] {
   padding: 1em 0 1em 3em;
 }
 
-.line-highlight {
-  position: absolute;
-  right: 0;
-  left: 0;
-  padding: inherit 0;
-  margin-top: 1em; /* Same as .prism’s padding-top */
-  line-height: inherit;
-  white-space: pre;
-  pointer-events: none;
-  background: linear-gradient(left, hsla(24, 20%, 50%, .1) 70%, hsla(24, 20%, 50%, 0));
-}
-
-.line-highlight:before,
-.line-highlight[data-end]:after {
-  position: absolute;
-  top: .4em;
-  left: .6em;
-  min-width: 1em;
-  padding: 0 .5em;
-  font: bold 65%/1.5 sans-serif;
-  content: attr(data-start);
-  text-align: center;
-  vertical-align: .3em;
-  color: hsl(24, 20%, 95%);
-  border-radius: 999px;
-  background-color: hsla(24, 20%, 50%, .4);
-  box-shadow: 0 1px white;
-  text-shadow: none;
-}
-
-.line-highlight[data-end]:after {
-  top: auto;
-  bottom: .4em;
-  content: attr(data-end);
-}
-
 div.prism-show-language {
   position: relative;
 }
