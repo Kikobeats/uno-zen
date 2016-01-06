@@ -2,12 +2,8 @@
 
 window.Uno = Uno =
   version: '2.6.10'
-
-  search:
-    container: -> $('#results')
-    form: (action) -> $('#search-container')[action]()
-
-  loadingBar: (action) -> $('.pace')[action]()
+  app: do -> document.body
+  is: (k, v=!'undefined') -> this.app.dataset[k] is v
 
   context: ->
     # get the context from the first class name of body
@@ -15,9 +11,11 @@ window.Uno = Uno =
     className = document.body.className.split(' ')[0].split('-')[0]
     if className is '' then 'error' else className
 
-  app: do -> document.body
+  search:
+    container: -> $('#results')
+    form: (action) -> $('#search-container')[action]()
 
-  is: (property, value) -> this.app.dataset[property] is value
+  loadingBar: (action) -> $('.pace')[action]()
 
   timeAgo: (selector) ->
     $(selector).each ->
@@ -38,3 +36,10 @@ window.Uno = Uno =
     return 'mobile' if (w <= 480)
     return 'tablet' if (w <= 1024)
     'desktop'
+
+Uno.app.dataset.page = Uno.context()
+Uno.app.dataset.device = Uno.device()
+
+$('#profile-title').text window.profile_title if window.profile_title
+$('#profile-resume').text window.profile_resume if window.profile_resume
+
