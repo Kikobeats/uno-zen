@@ -18,6 +18,7 @@
     + [Receive a mail notification when a new version is available](#receive-a-mail-notification-when-a-new-version-is-available)
   * [Development and Customization](#development-and-customization)
   * [Showcase](#showcase)
+  * [Related](#related)
   * [License](#license)
 
 ---
@@ -131,6 +132,10 @@ See in [documentation](https://github.com/Kikobeats/uno-zen/blob/master/DOCUMENT
 </div>
 
 Do you want appear here? Please [add your blog](https://github.com/Kikobeats/uno-zen/issues/new?title=Add%20my%20blog%20into%20showcase&body=The%20URL%20of%20my%20blog%20is:%20)!
+
+## Related
+
+* [Bloggy](https://github.com/Kikobeats/bloggy#bloggy-for-ghost) – Branding theme for Ghost.
 
 ## License
 
