@@ -30,7 +30,7 @@
 ## Add your blog
 
 1. Customize your blog! Use a different color and combine it with a nice background.
-2. Take a picture if your blog main page in **327 × 174 pixels** and hosted it in [imgur](https://imgur.com) (or similar).
+2. Take a picture if your blog main page in **327 × 174 pixels** and hosted it on [imgur](https://imgur.com) (or similar).
 3. Edit this file adding a new line at the end of this file following the format:
 ```html
 <a target="blank" href="https://MYBLOG.url"><img src="https://MY_IMAGE_PREVIEW.jpg"></a>
