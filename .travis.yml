@@ -4,4 +4,6 @@ rvm:
 before_script:
   - gem install awesome_bot
 script:
-  - awesome_bot SHOWCASE.md
+  - awesome_bot README.md --allow-dupe --allow-redirect
+  - awesome_bot DOCUMENTATION.md --allow-dupe --allow-redirect --white-list http://127.0.0.1:2387
+  - awesome_bot SHOWCASE.md --allow-dupe --allow-redirec
