@@ -108,30 +108,12 @@ See in [documentation](https://github.com/Kikobeats/uno-zen/blob/master/DOCUMENT
 <a target="blank" href="http://kikobeats.com"><img src="http://i.imgur.com/crE8jt2.png"></a>
 <a target="blank" href="http://www.evilsocket.net"><img src="http://i.imgur.com/qanAbQf.png"></a>
 <a target="blank" href="http://pupboss.com"><img src="http://i.imgur.com/0AeVKgB.png"></a>
-<a target="blank" href="http://www.flaviocorpa.com"><img src="http://i.imgur.com/1ESq2xs.png" /></a>
-<a target="blank" href="http://morris.guru"><img src="http://i.imgur.com/s9oimfG.png" /></a>
-<a target="blank" href="https://www.mooash.me"><img src="http://i.imgur.com/Ojmkuvw.png" /></a>
-<a target="blank" href="http://adrianperez.org"><img src="http://i.imgur.com/XlNFWWA.png" /></a>
-<a target="blank" href="http://www.bradenericson.com"><img src="http://i.imgur.com/8wz0LKN.png" /></a>
-<a target="blank" href="https://blog.h4t0n.com"><img src="http://i.imgur.com/GPWzqnG.png" /></a>
 <a target="blank" href="http://robinz.in"><img src="http://i.imgur.com/qDAbrch.jpg" /></a>
-<a target="blank" href="http://biercoff.com"><img src="http://i.imgur.com/goS3pE3.jpg" /></a>
-<a target="blank" href="https://randy.sesser.me"><img src="http://i.imgur.com/9hacUJc.jpg" /></a>
-<a target="blank" href="http://dan.maharry.me.uk"><img src="http://i.imgur.com/gAeS9jQ.jpg" /></a>
-<a target="blank" href="https://ishcha.com"><img src="http://i.imgur.com/u9PGLZj.jpg" /></a>
-<a target="blank" href="http://maptime.io/milan"><img src="http://i.imgur.com/hd9tpzq.jpg" /></a>
-<a target="blank" href="http://xlbd.me"><img src="http://i.imgur.com/wiqVB9R.jpg" /></a>
-<a target="blank" href="http://blog.sujithvishwajith.com"><img src="http://i.imgur.com/eol02YK.jpg" /></a>
-<a target="blank" href="https://carlbernardo.github.io"><img src="http://i.imgur.com/dihIo6Q.jpg" /></a>
-<a target="blank" href="http://olddonkey.com"><img src="http://i.imgur.com/wa4kwnZ.jpg" /></a>
-<a target="blank" href="http://mohammedovich.com"><img src="http://i.imgur.com/oiKFBG2.jpg" /></a>
-<a target="blank" href="http://blog.sysbase.org"><img src="http://i.imgur.com/DiPo76r.jpg" /></a>
-<a target="blank" href="http://yangshuan.cn"><img src="http://i.imgur.com/6ptrCIp.jpg" /></a>
 </br>
 </br>
+.. and many, many more. <a href="https://github.com/Kikobeats/uno-zen/blob/master/SHOWCASE.md">See all</a>!.
 </div>
 
-Do you want appear here? Please [add your blog](https://github.com/Kikobeats/uno-zen/issues/new?title=Add%20my%20blog%20into%20showcase&body=The%20URL%20of%20my%20blog%20is:%20)!
 
 ## Related
 
