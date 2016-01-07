@@ -100,7 +100,7 @@ Stay tuned for new releases with this [IFTTT recipe](https://ifttt.com/recipes):
 
 ## Development and Customization
 
-See in [documentation](https://github.com/Kikobeats/uno-zen/blob/master/DOCUMENTATION.md).
+See in [Documentation](https://github.com/Kikobeats/uno-zen/blob/master/DOCUMENTATION.md).
 
 ## Showcase
 
