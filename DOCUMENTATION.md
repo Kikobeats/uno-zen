@@ -180,6 +180,20 @@ var profile_resume ='Software Engineer';
 </script>
 ```
 
+### Posts list headline
+
+By default, the title that you see in the page with your blog posts list is 'Writings.' but you might want to adjust this text.
+
+If you want to customize it, you can do it:
+
+Go to Ghost `Admin Panel` → `Code Injection` → `Blog Header` and add:
+
+```html
+<script>
+var posts_headline = 'Random Stuff';
+</script>
+```
+
 ### Colors
 
 Edit the file `assets/scss/modules/_variables.scss`. Remember that is necessary compile the build to load the new style, so keep running your gulp process in background.
