@@ -57,7 +57,7 @@ $ curl -sSL http://git.io/vcIHr | sh
 
 ## Setup
 
-This theme needs a DOM selector library. The library is not provided by the theme. Instead, you need to inject from the `Blog Footer` in the `Code injection` of your Ghost installation:
+This theme needs a DOM selector library. The library is not provided by the theme. Instead, you need to paste one into the `Blog Footer` in the `Code injection` of your Ghost installation:
 
 ```html
 <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>

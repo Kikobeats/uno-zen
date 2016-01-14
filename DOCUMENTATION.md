@@ -72,7 +72,7 @@ For do it automatically and easily we use [Gulp](http://gulpjs.com/), check `gul
 
 ## First Steps
 
-For local development you need to have a locally Ghost server, like this:
+For local development you need to have a local Ghost server running. It should look like this:
 
 ```bash
 node index.js
@@ -95,9 +95,9 @@ Just run `gulp` command in the theme terminal. Now you have a development scenar
 
 ![](http://i.imgur.com/Gf4gPR2.png)
 
-With the `gulp` command you are automatically launching the task for compile the assets and reload the server when your assets change. For do it we uses [BrowserSync](http://www.browsersync.io) that is setup as middleware between the theme and the Ghost. You can connect different devices and try the responsive of the website as well.
+With the default `gulp` command you are automatically launching the task that will compile all assets and reload the server when those assets change. To do that, we use [BrowserSync](http://www.browsersync.io), which is set up as middleware between the theme and Ghost. You can connect different devices and see how the website is responsive as well.
 
-As the screenshot, you need to use for the proxying the same port as your Ghost server. If your Ghost server is in a different port than `2387` you need to modify `gulpfile.coffee` and put the correct port.
+As you can see in the screenshot (top right window), BrowserSync needs to know which port to proxy, and it needs to be the same port as your Ghost server. If your Ghost server is in a different port than `2387` you need to modify `gulpfile.coffee` and add the correct port. BrowserSync should remain on 3000.
 
 ## Customization
 
@@ -210,7 +210,7 @@ Go to Ghost `Admin Panel` → `Navigation` and add/edit items.
 
 ### Favicon
 
-Create your favicons with [Favicon Generator](http://realfavicongenerator.net/) and puts it in `assets/img`.
+Create your favicons with [Favicon Generator](http://realfavicongenerator.net/) and put it into `assets/img`.
 
 ### Cover
 
