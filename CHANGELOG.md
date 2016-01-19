@@ -1,7 +1,19 @@
+<a name="2.7.1"></a>
+## 2.7.1 (2016-01-19)
+
+
+* edit readme for clarity ([0dc5cb5](https://github.com/kikobeats/uno-zen/commit/0dc5cb5))
+* fix grammar errors and edit for clarity ([524df2a](https://github.com/kikobeats/uno-zen/commit/524df2a))
+* Fix highlights code blocks ([220e75c](https://github.com/kikobeats/uno-zen/commit/220e75c))
+* Merge pull request #171 from martinms-usc/master ([fa245d0](https://github.com/kikobeats/uno-zen/commit/fa245d0))
+
+
+
 <a name="2.7.0"></a>
 # 2.7.0 (2016-01-09)
 
 
+* 2.7.0 releases ([e36ef50](https://github.com/kikobeats/uno-zen/commit/e36ef50))
 * Add 4ts.io blog as a showcase ([3e60322](https://github.com/kikobeats/uno-zen/commit/3e60322))
 * Add travis ([ef69dac](https://github.com/kikobeats/uno-zen/commit/ef69dac))
 * Add travis tests ([a09c269](https://github.com/kikobeats/uno-zen/commit/a09c269))
@@ -12,8 +24,8 @@
 * Merge pull request #168 from waja/post_list_headline ([c43f0dc](https://github.com/kikobeats/uno-zen/commit/c43f0dc))
 * Replace the https with http of 4ts.io blog ([7d7bf0f](https://github.com/kikobeats/uno-zen/commit/7d7bf0f))
 * This makes the headline of the post list page customizable. ([e81896c](https://github.com/kikobeats/uno-zen/commit/e81896c)), closes [#166](https://github.com/kikobeats/uno-zen/issues/166)
-* Update README.md ([260960d](https://github.com/kikobeats/uno-zen/commit/260960d))
 * Update README.md ([a0b0185](https://github.com/kikobeats/uno-zen/commit/a0b0185))
+* Update README.md ([260960d](https://github.com/kikobeats/uno-zen/commit/260960d))
 * Update showcase section ([4fceeab](https://github.com/kikobeats/uno-zen/commit/4fceeab))
 * Update SHOWCASE.md ([a48fb41](https://github.com/kikobeats/uno-zen/commit/a48fb41))
 * Update SHOWCASE.md ([108285f](https://github.com/kikobeats/uno-zen/commit/108285f))
