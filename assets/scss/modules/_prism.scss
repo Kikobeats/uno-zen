@@ -1,10 +1,4 @@
-/* http://prismjs.com/download.html?themes=prism&languages=markup+css+clike+javascript&plugins=line-highlight+show-language */
-
-/**
- * prism.js default theme for JavaScript, CSS and HTML
- * Based on dabblet (http://dabblet.com)
- * @author Lea Verou
- */
+/* http://prismjs.com/download.html?themes=prism-okaidia&languages=markup+css+clike+javascript+bash+c+coffeescript+css-extras+git+markdown+scss+sql&plugins=show-language */
 
 code,
 pre {
@@ -134,33 +128,4 @@ pre {
 
 .token.entity {
   cursor: help;
-}
-
-pre[data-line] {
-  position: relative;
-  padding: 1em 0 1em 3em;
-}
-
-div.prism-show-language {
-  position: relative;
-}
-
-div.prism-show-language > div.prism-show-language-label[data-language] {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: auto;
-  left: auto;
-  z-index: 1;
-  display: inline-block;
-  width: auto;
-  height: auto;
-  padding: 0 .5em;
-  font-size: .9em;
-  transform: none;
-  color: black;
-  border-radius: 0 0 0 5px;
-  background-color: #cfcfcf;
-  box-shadow: none;
-  text-shadow: none;
 }
