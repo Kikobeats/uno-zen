@@ -1,7 +1,17 @@
+<a name="2.7.2"></a>
+## 2.7.2 (2016-01-19)
+
+
+* Fic W3C Validations ([7a45489](https://github.com/kikobeats/uno-zen/commit/7a45489))
+* Move external font into link tag ([cb1869a](https://github.com/kikobeats/uno-zen/commit/cb1869a))
+
+
+
 <a name="2.7.1"></a>
 ## 2.7.1 (2016-01-19)
 
 
+* 2.7.1 releases ([27fe347](https://github.com/kikobeats/uno-zen/commit/27fe347))
 * edit readme for clarity ([0dc5cb5](https://github.com/kikobeats/uno-zen/commit/0dc5cb5))
 * fix grammar errors and edit for clarity ([524df2a](https://github.com/kikobeats/uno-zen/commit/524df2a))
 * Fix highlights code blocks ([220e75c](https://github.com/kikobeats/uno-zen/commit/220e75c))

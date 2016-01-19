@@ -1,7 +1,7 @@
 'use strict'
 
 window.Uno = Uno =
-  version: '2.7.1'
+  version: '2.7.2'
   app: do -> document.body
   is: (k, v=!'undefined') -> this.app.dataset[k] is v
 
