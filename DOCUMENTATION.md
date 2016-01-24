@@ -156,11 +156,9 @@ var open_button = '.nav-blog > a'
 
 ### Profile title
 
-By default, the title that you see in the open page of your blog is extracted from your blog settings (`Admin Panel` → Blog Title).
+Until Ghost doesn't support apps, we can provide a easy way to adapt it wihtout change the code.
 
-If you want to customize it, you can do it:
-
-Go to Ghost ``Admin Panel`` → `Code Injection` → `Blog Header` and add:
+Meanwhile, in your fork you can edit manually the file `partials/aside.hbs`.
 
 ```html
 <script>
