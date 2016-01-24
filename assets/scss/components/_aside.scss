@@ -15,6 +15,11 @@
   }
   &.expanded {
     width: 100%;
+
+    .navigation.left {
+      margin-top: .85rem;
+      margin-bottom: 1rem;
+    }
   }
   &.container {
     font-weight: $font-weight-thin;
