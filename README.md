@@ -118,7 +118,7 @@ See in [Documentation](https://github.com/Kikobeats/uno-zen/blob/master/DOCUMENT
 
 ## Related
 
-* [Bloggy](https://github.com/Kikobeats/bloggy#bloggy-for-ghost) – Branding theme for Ghost.
+* [Bloggy](https://github.com/Kikobeats/bloggy#bloggy-for-ghost) – Brand theme for Ghost.
 
 ## License
 
