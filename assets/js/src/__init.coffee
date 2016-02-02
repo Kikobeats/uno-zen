@@ -41,6 +41,7 @@ Uno.app.dataset.page = Uno.context()
 Uno.app.dataset.device = Uno.device()
 
 # window global properties
+$('#profile-title').text window.profile_title if window.profile_title
 $('#profile-resume').text window.profile_resume if window.profile_resume
 $('#posts-headline').text window.posts_headline if window.posts_headline
 window.open_button = window.open_button or '.nav-posts > a'
