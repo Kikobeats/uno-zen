@@ -2,7 +2,7 @@
 
 <div align="center">
 <a target="blank" href="https://kikobeats.com"><img src="http://i.imgur.com/crE8jt2.png"></a>
-<a target="blank" href="http://www.evilsocket.net"><img src="http://i.imgur.com/qanAbQf.png"></a>
+<a target="blank" href="http://www.evilsocket.net/"><img src="http://i.imgur.com/qanAbQf.png"></a>
 <a target="blank" href="https://www.pupboss.com/"><img src="http://i.imgur.com/0AeVKgB.png"></a>
 <a target="blank" href="http://www.flaviocorpa.com"><img src="http://i.imgur.com/1ESq2xs.png" /></a>
 <a target="blank" href="http://morris.guru"><img src="http://i.imgur.com/s9oimfG.png" /></a>
