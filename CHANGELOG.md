@@ -1,7 +1,19 @@
+<a name="2.7.3"></a>
+## 2.7.3 (2016-02-02)
+
+
+* Adjust cover margins ([e9d257f](https://github.com/kikobeats/uno-zen/commit/e9d257f))
+* Adjust sidebar margins ([7e7ca13](https://github.com/kikobeats/uno-zen/commit/7e7ca13))
+* move into scripts ([72e9522](https://github.com/kikobeats/uno-zen/commit/72e9522))
+* Update README.md ([e4ca41a](https://github.com/kikobeats/uno-zen/commit/e4ca41a))
+
+
+
 <a name="2.7.2"></a>
 ## 2.7.2 (2016-01-19)
 
 
+* 2.7.2 releases ([275a187](https://github.com/kikobeats/uno-zen/commit/275a187))
 * Fic W3C Validations ([7a45489](https://github.com/kikobeats/uno-zen/commit/7a45489))
 * Move external font into link tag ([cb1869a](https://github.com/kikobeats/uno-zen/commit/cb1869a))
 
