@@ -41,7 +41,7 @@
     "underscore.string": "latest"
   },
   "engines": {
-    "node": "~0.12.x"
+    "node": ">= 4"
   },
   "license": "MIT"
 }
