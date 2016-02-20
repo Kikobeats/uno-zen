@@ -1,7 +1,21 @@
+<a name="2.7.4"></a>
+## 2.7.4 (2016-02-20)
+
+
+* adjust font base ([2bfbadc](https://github.com/kikobeats/uno-zen/commit/2bfbadc))
+* fix build ([6ed5cb2](https://github.com/kikobeats/uno-zen/commit/6ed5cb2))
+* Fix build ([26cd27a](https://github.com/kikobeats/uno-zen/commit/26cd27a))
+* Fix travis ([1392630](https://github.com/kikobeats/uno-zen/commit/1392630))
+* improve template ([45ca19d](https://github.com/kikobeats/uno-zen/commit/45ca19d))
+* upgrade node ([90e3564](https://github.com/kikobeats/uno-zen/commit/90e3564))
+
+
+
 <a name="2.7.3"></a>
 ## 2.7.3 (2016-02-02)
 
 
+* 2.7.3 releases ([d4ab6cd](https://github.com/kikobeats/uno-zen/commit/d4ab6cd))
 * Adjust cover margins ([e9d257f](https://github.com/kikobeats/uno-zen/commit/e9d257f))
 * Adjust sidebar margins ([7e7ca13](https://github.com/kikobeats/uno-zen/commit/7e7ca13))
 * move into scripts ([72e9522](https://github.com/kikobeats/uno-zen/commit/72e9522))
