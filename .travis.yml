@@ -6,4 +6,4 @@ before_script:
 script:
   - awesome_bot README.md --allow-dupe --allow-redirect
   - awesome_bot DOCUMENTATION.md --allow-dupe --allow-redirect --white-list http://127.0.0.1:2387
-  - awesome_bot SHOWCASE.md --allow-dupe --allow-redirec
+  - awesome_bot SHOWCASE.md --allow-dupe --allow-redirect
