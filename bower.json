@@ -22,7 +22,6 @@
     "zen"
   ],
   "dependencies": {
-    "animate.css": "*",
     "fastclick": "*",
     "fitvids": "*",
     "ghostHunter": "git://github.com/i11ume/ghostHunter.git",
