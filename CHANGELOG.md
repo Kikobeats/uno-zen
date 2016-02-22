@@ -1,7 +1,22 @@
+<a name="2.7.5"></a>
+## 2.7.5 (2016-02-22)
+
+
+* Fix line height ([6fb493a](https://github.com/kikobeats/uno-zen/commit/6fb493a))
+* Fix paged views ([6fee7d0](https://github.com/kikobeats/uno-zen/commit/6fee7d0))
+* Remove unnecessary ([c21188f](https://github.com/kikobeats/uno-zen/commit/c21188f))
+* Setup correctly font weight ([f95cdf6](https://github.com/kikobeats/uno-zen/commit/f95cdf6))
+* Setup correctly line-height ([1881c5d](https://github.com/kikobeats/uno-zen/commit/1881c5d))
+* setup root directory ([b4685cb](https://github.com/kikobeats/uno-zen/commit/b4685cb))
+* Use bold keyword ([9199dfd](https://github.com/kikobeats/uno-zen/commit/9199dfd))
+
+
+
 <a name="2.7.4"></a>
 ## 2.7.4 (2016-02-20)
 
 
+* 2.7.4 releases ([58c7dac](https://github.com/kikobeats/uno-zen/commit/58c7dac))
 * adjust font base ([2bfbadc](https://github.com/kikobeats/uno-zen/commit/2bfbadc))
 * fix build ([6ed5cb2](https://github.com/kikobeats/uno-zen/commit/6ed5cb2))
 * Fix build ([26cd27a](https://github.com/kikobeats/uno-zen/commit/26cd27a))
