@@ -96,12 +96,13 @@
   }
 
   &.comments {
-    padding: 2rem 0 0 0;
+    padding: 2rem 0 0;
   }
 
   &.related {
+    line-height: 1;
     display: flex;
-    padding: 4rem 0 2rem 0;
+    padding: 4rem 0 2rem;
     justify-content: space-between;
   }
 }
