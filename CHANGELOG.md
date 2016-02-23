@@ -1,7 +1,17 @@
+<a name="2.7.6"></a>
+## 2.7.6 (2016-02-23)
+
+
+* Fix typo ([4624cff](https://github.com/kikobeats/uno-zen/commit/4624cff))
+* Remove unnecessary ([7a8567b](https://github.com/kikobeats/uno-zen/commit/7a8567b))
+
+
+
 <a name="2.7.5"></a>
 ## 2.7.5 (2016-02-22)
 
 
+* 2.7.5 releases ([780d021](https://github.com/kikobeats/uno-zen/commit/780d021))
 * Fix line height ([6fb493a](https://github.com/kikobeats/uno-zen/commit/6fb493a))
 * Fix paged views ([6fee7d0](https://github.com/kikobeats/uno-zen/commit/6fee7d0))
 * Remove unnecessary ([c21188f](https://github.com/kikobeats/uno-zen/commit/c21188f))
