@@ -3,3 +3,7 @@ node_modules/
 .sass-cache/
 assets/vendor
 assets/scss/bourbon
+.publish
+_docpress
+builds
+*sublime*
