@@ -7,6 +7,8 @@
 [![Donate](https://img.shields.io/badge/donate-paypal-blue.svg?style=flat-square)](https://paypal.me/kikobeats)
 
 > Minimalist and Elegant theme for Ghost.
+<br>
+> **NOTE**: Commercial version is available as [Uno Urban](https://sellfy.com/p/G5kK).
 
 [<img src="http://i.imgur.com/LCSB4Ca.jpg">](http://kikobeats.com)
 
@@ -118,7 +120,7 @@ See in [Documentation](https://github.com/Kikobeats/uno-zen/blob/master/DOCUMENT
 
 ## Related
 
-* [Uno Urban](https://kikobeats.github.io/uno-urban/) – Commercial version of Uno Zen.
+* [Uno Urban](https://kikobeats.github.io/uno-urban) – Commercial version of Uno Zen.
 * [Bloggy](https://github.com/Kikobeats/bloggy#bloggy-for-ghost) – Brand theme for Ghost.
 
 ## License
