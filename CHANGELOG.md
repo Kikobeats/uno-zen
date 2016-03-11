@@ -1,7 +1,18 @@
+<a name="2.7.7"></a>
+## 2.7.7 (2016-03-11)
+
+
+* Add more stuff ([5c0ac0a](https://github.com/kikobeats/uno-zen/commit/5c0ac0a))
+* Add Uno Urban announcement 🎉 ([5702f48](https://github.com/kikobeats/uno-zen/commit/5702f48))
+* Update README.md ([8fc16c8](https://github.com/kikobeats/uno-zen/commit/8fc16c8))
+
+
+
 <a name="2.7.6"></a>
 ## 2.7.6 (2016-02-23)
 
 
+* 2.7.6 releases ([b139bba](https://github.com/kikobeats/uno-zen/commit/b139bba))
 * Fix typo ([4624cff](https://github.com/kikobeats/uno-zen/commit/4624cff))
 * Remove unnecessary ([7a8567b](https://github.com/kikobeats/uno-zen/commit/7a8567b))
 
