@@ -6,7 +6,6 @@
 <a target="blank" href="https://www.pupboss.com/"><img src="http://i.imgur.com/0AeVKgB.png"></a>
 <a target="blank" href="http://www.flaviocorpa.com"><img src="http://i.imgur.com/1ESq2xs.png" /></a>
 <a target="blank" href="http://morris.guru"><img src="http://i.imgur.com/s9oimfG.png" /></a>
-<a target="blank" href="https://www.mooash.me"><img src="http://i.imgur.com/Ojmkuvw.png" /></a>
 <a target="blank" href="https://adrianperez.org"><img src="http://i.imgur.com/XlNFWWA.png" /></a>
 <a target="blank" href="http://www.bradenericson.com"><img src="http://i.imgur.com/8wz0LKN.png" /></a>
 <a target="blank" href="https://blog.h4t0n.com"><img src="http://i.imgur.com/GPWzqnG.png" /></a>
