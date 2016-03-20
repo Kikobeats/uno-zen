@@ -10,7 +10,7 @@ $ ->
   else
     FastClick.attach Uno.app
 
-  if Uno.is('page', 'home') or Uno.is('page', 'paged')
+  if Uno.is('page', 'home') or Uno.is('page', 'paged') or Uno.is('page', 'tag')
     Uno.timeAgo '#posts-list time'
 
   if Uno.is 'page', 'post'
