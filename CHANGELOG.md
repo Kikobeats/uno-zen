@@ -1,7 +1,21 @@
+<a name="2.7.8"></a>
+## 2.7.8 (2016-03-20)
+
+
+* Added new blog to showcase ([d7be966](https://github.com/kikobeats/uno-zen/commit/d7be966))
+* Apply effect in tag version as well. ([266f331](https://github.com/kikobeats/uno-zen/commit/266f331))
+* Merge pull request #183 from binaryfever/patch-1 ([93ff62a](https://github.com/kikobeats/uno-zen/commit/93ff62a))
+* Merge pull request #184 from Mooash/master ([4e1db0c](https://github.com/kikobeats/uno-zen/commit/4e1db0c))
+* Removing blog ([5c92c32](https://github.com/kikobeats/uno-zen/commit/5c92c32))
+* Update ([db0c527](https://github.com/kikobeats/uno-zen/commit/db0c527))
+
+
+
 <a name="2.7.7"></a>
 ## 2.7.7 (2016-03-11)
 
 
+* 2.7.7 releases ([509a564](https://github.com/kikobeats/uno-zen/commit/509a564))
 * Add more stuff ([5c0ac0a](https://github.com/kikobeats/uno-zen/commit/5c0ac0a))
 * Add Uno Urban announcement 🎉 ([5702f48](https://github.com/kikobeats/uno-zen/commit/5702f48))
 * Update README.md ([8fc16c8](https://github.com/kikobeats/uno-zen/commit/8fc16c8))
