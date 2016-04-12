@@ -1,3 +1,10 @@
+<a name="2.7.9"></a>
+## 2.7.9 (2016-04-12)
+
+* Add @daleanthony as original design ([949fe29](https://github.com/kikobeats/uno-zen/commit/949fe29))
+
+
+
 <a name="2.7.8"></a>
 ## 2.7.8 (2016-03-20)
 
