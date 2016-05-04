@@ -57,6 +57,16 @@ Enter the theme folder (`content/themes`) of your Ghost installation and paste t
 $ curl -sSL http://git.io/vcIHr | sh
 ```
 
+### Alternative installation (to enable deployment to remote server):
+
+Run the above command inside a temporary folder.  
+
+Delete the `.git` folder inside the `uno-zen` folder.
+
+Copy and paste the `uno-zen` folder into the theme folder (`content/themes`).
+
+This will add a static copy of the theme to your blog's git repository and allow changes to be tracked by git.
+
 ## Setup
 
 This theme needs a DOM selector library. The library is not provided by the theme. Instead, you need to paste one into the `Blog Footer` in the `Code injection` of your Ghost installation:
