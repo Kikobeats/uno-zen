@@ -1,3 +1,10 @@
+<a name="2.8.1"></a>
+## 2.8.1 (2016-05-08)
+
+* Adjust style ([ef6b3c3](https://github.com/kikobeats/uno-zen/commit/ef6b3c3))
+
+
+
 <a name="2.8.0"></a>
 # 2.8.0 (2016-05-08)
 
