@@ -1,3 +1,11 @@
+<a name="2.8.0"></a>
+# 2.8.0 (2016-05-08)
+
+* Linkify post headers ([b5a0b63](https://github.com/kikobeats/uno-zen/commit/b5a0b63))
+* updated readme file with alternative installation instructions ([cbee6a2](https://github.com/kikobeats/uno-zen/commit/cbee6a2))
+
+
+
 <a name="2.7.9"></a>
 ## 2.7.9 (2016-04-12)
 
