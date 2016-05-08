@@ -24,7 +24,6 @@
   "dependencies": {
     "fastclick": "latest",
     "fitvids": "latest",
-    "linkify": "git+ssh://git@github.com/kikobeats/linkify.git",
     "pace": "latest",
     "reading-time": "latest"
   },
