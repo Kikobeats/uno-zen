@@ -11,6 +11,16 @@ window.Uno = Uno =
     className = document.body.className.split(' ')[0].split('-')[0]
     if className is '' then 'error' else className
 
+  linkify: (selector) ->
+    $(selector).each ->
+      el = $(this)
+      text = el.text()
+      id = el.attr 'id'
+
+      el.html('')
+      el.addClass('deep-link')
+      el.append("<a href=##{id} class=\"title-link\">#{text}</a>")
+
   search:
     container: -> $('#results')
     form: (action) -> $('#search-container')[action]()

@@ -25,8 +25,29 @@
   }
 }
 
-#post-content a {
-  @extend %dotted-link;
+#post-content {
+
+  a:not(.title-link) {
+    @extend %dotted-link;
+  }
+
+  a.title-link {
+    color: $primary-color;
+  }
+
+  .deep-link a:before {
+    display: inline-block;
+    content: "#";
+    margin-left: -20px;
+    width: 20px;
+    color: $white;
+    transition: all 0.2s;
+    font-family: $quote-font;
+  }
+
+  .deep-link a:hover::before {
+    color: rgba($primary-color, .8);
+  }
 }
 
 .post {

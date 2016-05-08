@@ -22,11 +22,11 @@
     "zen"
   ],
   "dependencies": {
-    "fastclick": "*",
-    "fitvids": "*",
-    "ghostHunter": "git://github.com/i11ume/ghostHunter.git",
-    "pace": "*",
-    "reading-time": "*"
+    "fastclick": "latest",
+    "fitvids": "latest",
+    "linkify": "git+ssh://git@github.com/kikobeats/linkify.git",
+    "pace": "latest",
+    "reading-time": "latest"
   },
   "ignore": [
     "**/.*",

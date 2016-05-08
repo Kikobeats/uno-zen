@@ -16,6 +16,7 @@ $ ->
   if Uno.is 'page', 'post'
     Uno.timeAgo '.post.meta > time'
     $('main').readingTime readingTimeTarget: '.post.reading-time > span'
+    Uno.linkify $('#post-content').children('h1, h2, h3, h4, h5, h6')
     $('.content').fitVids()
 
   if Uno.is 'page', 'error'
