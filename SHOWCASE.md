@@ -23,6 +23,7 @@
 <a target="blank" href="http://yangshuan.cn"><img src="http://i.imgur.com/6ptrCIp.jpg" /></a>
 <a target="blank" href="http://4ts.io"><img src="http://i.imgur.com/wm9Lr5o.png" /></a>
 <a target="blank" href="http://binaryfever.com"><img src="http://i.imgur.com/SHzfMEE.png" /></a>
+<a target="blank" href="https://joshmiramant.com"><img src="http://i.imgur.com/JnDzgLq.gif"></a>
 </br>
 </br>
 </div>
