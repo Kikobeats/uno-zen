@@ -15,7 +15,6 @@
 <a target="blank" href="http://dan.maharry.me.uk"><img src="http://i.imgur.com/gAeS9jQ.jpg" /></a>
 <a target="blank" href="http://maptime.io/milan/"><img src="http://i.imgur.com/hd9tpzq.jpg" /></a>
 <a target="blank" href="http://xlbd.me"><img src="http://i.imgur.com/wiqVB9R.jpg" /></a>
-<a target="blank" href="http://blog.sujithvishwajith.com"><img src="http://i.imgur.com/eol02YK.jpg" /></a>
 <a target="blank" href="https://carlbernardo.github.io"><img src="http://i.imgur.com/dihIo6Q.jpg" /></a>
 <a target="blank" href="http://olddonkey.com"><img src="http://i.imgur.com/wa4kwnZ.jpg" /></a>
 <a target="blank" href="http://www.mohammedovich.com/"><img src="http://i.imgur.com/oiKFBG2.jpg" /></a>
