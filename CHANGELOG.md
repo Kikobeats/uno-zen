@@ -1,3 +1,13 @@
+<a name="2.8.3"></a>
+## 2.8.3 (2016-06-01)
+
+* Remove unnecessary ([422da16](https://github.com/kikobeats/uno-zen/commit/422da16))
+* Update docs link ([19b09d5](https://github.com/kikobeats/uno-zen/commit/19b09d5))
+* Use the same date format ([77ceee8](https://github.com/kikobeats/uno-zen/commit/77ceee8))
+* Use title attribute with a tag ([61ef8ab](https://github.com/kikobeats/uno-zen/commit/61ef8ab))
+
+
+
 <a name="2.8.2"></a>
 ## 2.8.2 (2016-05-23)
 
