@@ -23,15 +23,13 @@ body {
 }
 
 mark {
-  background: saturate($secondary-color, 60%);
+  background: $mark-color;
+  padding: .05em .2em;
+  border-radius: 3px;
 }
 
 ::selection {
   background: lighten($secondary-color, 26%);
-}
-
-:scrollbar {
-  display: none;
 }
 
 hr {
