@@ -21,9 +21,9 @@ plugins:
 
     'Commiting new version':
       plugin: 'bumped-terminal'
-      command: 'git add assets/js/src/__init.coffee CHANGELOG.md bower.json package.json assets/css/uno-zen.css assets/js/uno-zen.js && git commit -m "$newVersion releases" && git push origin master'
+      command: 'git add assets/js/src/__init.coffee CHANGELOG.md bower.json package.json assets/css/uno-zen.css assets/js/uno-zen.*.js && git commit -m "$newVersion releases" && git push origin master'
 
-    'Publishing tag at Github':
+    'Publishing tag at GitHub':
       plugin: 'bumped-terminal'
       command: 'git tag $newVersion && git push origin $newVersion'
 
