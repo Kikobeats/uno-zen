@@ -4,7 +4,7 @@ do ->
   app = document.body
 
   window.Uno = Uno =
-    version: '2.8.2'
+    version: '2.9.0'
 
     is: (k, v) ->
       return app.dataset[k] is v unless Array.isArray v

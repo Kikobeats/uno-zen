@@ -1,3 +1,16 @@
+<a name="2.9.0"></a>
+# 2.9.0 (2016-06-13)
+
+* Adjust mark style ([850a4be](https://github.com/kikobeats/uno-zen/commit/850a4be))
+* Better dev reload ([9998f80](https://github.com/kikobeats/uno-zen/commit/9998f80))
+* javascript factor bundle ([22293ed](https://github.com/kikobeats/uno-zen/commit/22293ed))
+* Little Refactor ([08f0745](https://github.com/kikobeats/uno-zen/commit/08f0745))
+* Remove 5xx URL ([bdbbf8e](https://github.com/kikobeats/uno-zen/commit/bdbbf8e))
+* Update build process ([744d46e](https://github.com/kikobeats/uno-zen/commit/744d46e))
+* Use Google Search instead of GhostHunter ([94e0604](https://github.com/kikobeats/uno-zen/commit/94e0604))
+
+
+
 <a name="2.8.3"></a>
 ## 2.8.3 (2016-06-01)
 

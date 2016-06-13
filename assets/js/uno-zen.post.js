@@ -1,6 +1,6 @@
 /**
  * uno-zen - Minimalist and Elegant theme for Ghost
- * @version 2.8.3
+ * @version 2.9.0
  * @link    https://github.com/kikobeats/uno-zen
  * @author  Kiko Beats (https://github.com/kikobeats)
  * @license MIT
