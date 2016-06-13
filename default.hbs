@@ -20,7 +20,11 @@
       </section>
     </main>
     {{ghost_foot}}
-    <script src="{{asset "js/uno-zen.js"}}" type="text/javascript" charset="utf-8"></script>
+
+    <script src="{{asset "js/uno-zen.common.js"}}" type="text/javascript" charset="utf-8"></script>
+    {{#is "post, page"}}
+      <script src="{{asset "js/uno-zen.post.js"}}" type="text/javascript" charset="utf-8"></script>
+    {{/is}}
     {{> google-analytics}}
   </body>
 </html>
