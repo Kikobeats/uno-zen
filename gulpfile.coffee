@@ -12,7 +12,7 @@ uglify      = require 'gulp-uglify'
 cssmin      = require 'gulp-cssmin'
 addsrc      = require 'gulp-add-src'
 changed     = require 'gulp-changed'
-shorthand    = require 'gulp-shorthand'
+shorthand   = require 'gulp-shorthand'
 pkg         = require './package.json'
 _s          = require 'underscore.string'
 prefix      = require 'gulp-autoprefixer'
@@ -38,8 +38,7 @@ src =
   js       :
     main   : ['assets/js/src/__init.coffee'
               'assets/js/src/main.coffee'
-              'assets/js/src/cover.coffee'
-              'assets/js/src/search.coffee']
+              'assets/js/src/cover.coffee']
     vendor : ['assets/vendor/fastclick/lib/fastclick.js'
               'assets/vendor/ghostHunter/jquery.ghostHunter.min.js'
               'assets/vendor/pace/pace.min.js'
@@ -88,17 +87,16 @@ gulp.task 'js', ->
   return
 
 gulp.task 'server', ->
-  browserSync.init null,
+  browserSync.init
     proxy: "http://127.0.0.1:#{PORT.GHOST}"
-    files: ['assets/**/*.*']
-    reloadDelay: 300
     port: PORT.BROWSERSYNC
+    files: ['assets/**/*.*']
   return
 
 gulp.task 'build', ['css', 'js']
 
 gulp.task 'default', ->
   gulp.start ['build', 'server']
-  gulp.watch src.sass.files, ['css']
-  gulp.watch src.js.main, ['js']
-  gulp.watch src.js.vendor, ['js']
+  gulp.watch src.sass.files, ['css', reload]
+  gulp.watch src.js.main, ['js', reload]
+  gulp.watch src.js.vendor, ['js', reload]
