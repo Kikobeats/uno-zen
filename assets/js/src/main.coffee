@@ -24,3 +24,6 @@ $ ->
       s = document.createElement 'script'
       s.setAttribute 'src','https://nthitz.github.io/turndownforwhatjs/tdfw.js'
       document.body.appendChild s
+
+  $('#search-input').keyup (e) ->
+    $('#search-form').attr('action', Uno.search.url + '+' + encodeURIComponent(e.target.value))
