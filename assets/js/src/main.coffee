@@ -2,6 +2,8 @@
 
 $ ->
 
+  InstantClick.init()
+
   if Uno.is 'device', 'desktop'
     $('a').not('[href*="mailto:"]').click ->
       if this.href.indexOf(location.hostname) is -1

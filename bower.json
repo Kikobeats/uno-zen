@@ -25,7 +25,8 @@
     "fastclick": "latest",
     "fitvids": "latest",
     "pace": "latest",
-    "reading-time": "latest"
+    "reading-time": "latest",
+    "instantclick": "latest"
   },
   "ignore": [
     "**/.*",

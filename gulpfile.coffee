@@ -42,6 +42,7 @@ src =
                 'assets/js/src/main.coffee'
                 'assets/js/src/cover.coffee']
       vendor : ['assets/vendor/fastclick/lib/fastclick.js'
+                'assets/vendor/instantclick/instantclick.js'
                 'assets/vendor/pace/pace.min.js'
                 'assets/vendor/reading-time/build/readingTime.min.js']
     post     : ['assets/vendor/fitvids/jquery.fitvids.js'
