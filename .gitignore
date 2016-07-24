@@ -8,3 +8,5 @@ _docpress
 builds
 *sublime*
 .gh-pages
+search.json
+search.example.json
