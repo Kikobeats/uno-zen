@@ -37,8 +37,7 @@
     "gulp-shorthand": "latest",
     "gulp-strip-css-comments": "latest",
     "gulp-uglify": "latest",
-    "gulp-util": "latest",
-    "underscore.string": "latest"
+    "gulp-util": "latest"
   },
   "engines": {
     "node": "^4.2.0"

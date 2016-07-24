@@ -14,7 +14,6 @@ addsrc      = require 'gulp-add-src'
 changed     = require 'gulp-changed'
 shorthand   = require 'gulp-shorthand'
 pkg         = require './package.json'
-_s          = require 'underscore.string'
 prefix      = require 'gulp-autoprefixer'
 strip       = require 'gulp-strip-css-comments'
 browserSync = require 'browser-sync'
@@ -27,7 +26,7 @@ PORT =
 # -- Files ---------------------------------------------------------------------
 
 dist =
-  name       : _s.slugify pkg.name
+  name       : pkg.name
   css        : 'assets/css'
   js         : 'assets/js'
 
