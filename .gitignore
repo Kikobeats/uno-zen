@@ -10,3 +10,4 @@ builds
 .gh-pages
 search.json
 search.example.json
+assets/js/uno-urban.common.js
