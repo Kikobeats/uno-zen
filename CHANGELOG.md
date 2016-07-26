@@ -1,3 +1,10 @@
+<a name="2.9.2"></a>
+## 2.9.2 (2016-07-26)
+
+* Fix error page font ([a19f837](https://github.com/kikobeats/uno-zen/commit/a19f837))
+
+
+
 <a name="2.9.1"></a>
 ## 2.9.1 (2016-07-26)
 
