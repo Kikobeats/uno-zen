@@ -1,3 +1,14 @@
+<a name="2.9.1"></a>
+## 2.9.1 (2016-07-26)
+
+* Add Instantclick as pajax lib ([aca757a](https://github.com/kikobeats/uno-zen/commit/aca757a))
+* Fix error page css load ([d3949b5](https://github.com/kikobeats/uno-zen/commit/d3949b5))
+* Ignore cfg files ([cd302be](https://github.com/kikobeats/uno-zen/commit/cd302be))
+* Remove unnecessary dep ([db817ea](https://github.com/kikobeats/uno-zen/commit/db817ea))
+* Update ignore files ([17dbcd7](https://github.com/kikobeats/uno-zen/commit/17dbcd7))
+
+
+
 <a name="2.9.0"></a>
 # 2.9.0 (2016-06-13)
 
