@@ -1,3 +1,11 @@
+<a name="2.9.3"></a>
+## 2.9.3 (2016-09-18)
+
+* Add `lang=en` as default ([07bad81](https://github.com/kikobeats/uno-zen/commit/07bad81))
+* Better minify ([c1e23cb](https://github.com/kikobeats/uno-zen/commit/c1e23cb))
+
+
+
 <a name="2.9.2"></a>
 ## 2.9.2 (2016-07-26)
 
