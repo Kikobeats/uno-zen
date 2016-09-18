@@ -9,10 +9,9 @@ concat      = require 'gulp-concat'
 coffee      = require 'gulp-coffee'
 header      = require 'gulp-header'
 uglify      = require 'gulp-uglify'
-cssmin      = require 'gulp-cssmin'
+cssnano     = require 'gulp-cssnano'
 addsrc      = require 'gulp-add-src'
 changed     = require 'gulp-changed'
-shorthand   = require 'gulp-shorthand'
 pkg         = require './package.json'
 prefix      = require 'gulp-autoprefixer'
 strip       = require 'gulp-strip-css-comments'
@@ -91,8 +90,7 @@ gulp.task 'css', ->
   .pipe prefix()
   .pipe strip
     all: true
-  .pipe shorthand()
-  .pipe cssmin()
+  .pipe cssnano()
   .pipe header banner, pkg: pkg
   .pipe gulp.dest dist.css
   return

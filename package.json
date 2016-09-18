@@ -31,10 +31,9 @@
     "gulp-changed": "latest",
     "gulp-coffee": "latest",
     "gulp-concat": "latest",
-    "gulp-cssmin": "latest",
+    "gulp-cssnano": "latest",
     "gulp-header": "latest",
     "gulp-sass": "latest",
-    "gulp-shorthand": "latest",
     "gulp-strip-css-comments": "latest",
     "gulp-uglify": "latest",
     "gulp-util": "latest"
