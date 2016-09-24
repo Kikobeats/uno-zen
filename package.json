@@ -33,10 +33,19 @@
     "gulp-concat": "latest",
     "gulp-cssnano": "latest",
     "gulp-header": "latest",
+    "gulp-if": "latest",
     "gulp-sass": "latest",
     "gulp-strip-css-comments": "latest",
     "gulp-uglify": "latest",
     "gulp-util": "latest"
+  },
+  "browserSync": {
+    "proxy": "http://127.0.0.1:2387",
+    "port": 3000,
+    "files": [
+      "**/*.html",
+      "assets/**/*.*"
+    ]
   },
   "engines": {
     "node": "^4.2.0"
