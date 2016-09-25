@@ -1,3 +1,11 @@
+<a name="2.9.4"></a>
+## 2.9.4 (2016-09-25)
+
+* Fix pjax for external post content ([fefe4ae](https://github.com/kikobeats/uno-zen/commit/fefe4ae))
+* Improve development workflow ([1941fa7](https://github.com/kikobeats/uno-zen/commit/1941fa7))
+
+
+
 <a name="2.9.3"></a>
 ## 2.9.3 (2016-09-18)
 

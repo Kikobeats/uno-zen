@@ -2,7 +2,7 @@
   "name": "uno-zen",
   "description": "Minimalist and Elegant theme for Ghost",
   "homepage": "https://github.com/kikobeats/uno-zen",
-  "version": "2.9.3",
+  "version": "2.9.4",
   "author": {
     "name": "Kiko Beats",
     "url": "https://github.com/kikobeats"
@@ -39,16 +39,16 @@
     "gulp-uglify": "latest",
     "gulp-util": "latest"
   },
-  "browserSync": {
-    "proxy": "http://127.0.0.1:2387",
-    "port": 3000,
-    "files": [
-      "**/*.html",
-      "assets/**/*.*"
-    ]
-  },
   "engines": {
     "node": "^4.2.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "browserSync": {
+    "files": [
+      "**/*.html",
+      "assets/**/*.*"
+    ],
+    "port": 3000,
+    "proxy": "http://127.0.0.1:2387"
+  }
 }
