@@ -7,8 +7,8 @@
 [![Donate](https://img.shields.io/badge/donate-paypal-blue.svg?style=flat-square)](https://paypal.me/kikobeats)
 
 > Minimalist and Elegant theme for Ghost.
-<br>
-> **NOTE**: Commercial version is available as [Uno Urban](https://sellfy.com/p/G5kK).
+
+**NOTE**: Commercial version is available as [Uno Urban](https://sellfy.com/p/G5kK).
 
 [<img src="http://i.imgur.com/LCSB4Ca.jpg">](http://kikobeats.com)
 
