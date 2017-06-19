@@ -1,3 +1,15 @@
+<a name="2.9.5"></a>
+## 2.9.5 (2017-06-19)
+
+* Create README.md ([91c53b9](https://github.com/kikobeats/uno-zen/commit/91c53b9))
+* Removed the 404 ([0c4c978](https://github.com/kikobeats/uno-zen/commit/0c4c978))
+* Update Ghost badge ([e08e063](https://github.com/kikobeats/uno-zen/commit/e08e063))
+* Update node version ([c2deddc](https://github.com/kikobeats/uno-zen/commit/c2deddc))
+* Updated aside.hbs to 1.0 ([3d75ca9](https://github.com/kikobeats/uno-zen/commit/3d75ca9))
+* Updated error.hbs to 1.0 ([c986f75](https://github.com/kikobeats/uno-zen/commit/c986f75))
+
+
+
 <a name="2.9.4"></a>
 ## 2.9.4 (2016-09-25)
 
