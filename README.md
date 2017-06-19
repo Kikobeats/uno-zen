@@ -2,7 +2,7 @@
 
 ![Last version](https://img.shields.io/github/tag/Kikobeats/uno-zen.svg?style=flat-square)
 [![Build Status](http://img.shields.io/travis/Kikobeats/uno-zen/master.svg?style=flat-square)](https://travis-ci.org/Kikobeats/uno-zen)
-![Ghost version](https://img.shields.io/badge/Ghost-0.11.x-brightgreen.svg?style=flat-square)
+![Ghost version](https://img.shields.io/badge/Ghost-1.x-brightgreen.svg?style=flat-square)
 ![Node version](https://img.shields.io/node/v/uno-zen.svg?style=flat-square)
 [![Donate](https://img.shields.io/badge/donate-paypal-blue.svg?style=flat-square)](https://paypal.me/kikobeats)
 

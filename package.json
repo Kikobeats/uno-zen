@@ -40,7 +40,7 @@
     "gulp-util": "latest"
   },
   "engines": {
-    "node": "^4.2.0"
+    "node": ">= 8"
   },
   "license": "MIT",
   "browserSync": {
