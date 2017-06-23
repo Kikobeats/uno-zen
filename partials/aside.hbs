@@ -1,4 +1,8 @@
-<aside class="cover" style="background: url({{@blog.cover_image}}) center/cover no-repeat fixed">
+{{#if @blog.cover}}
+  <aside class="cover" style="background: url({{@blog.cover}}) center/cover no-repeat fixed">
+{{else}}
+  <aside class="cover" style="background: url({{@blog.cover_image}}) center/cover no-repeat fixed">
+{{/if}}
   <div class="cover container">
     <div class="profile">
       {{#if @blog.logo}}
