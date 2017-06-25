@@ -1,3 +1,10 @@
+<a name="2.9.6"></a>
+## 2.9.6 (2017-06-25)
+
+* Fix backward compatibilty for cover image ([7f64345](https://github.com/kikobeats/uno-zen/commit/7f64345))
+
+
+
 <a name="2.9.5"></a>
 ## 2.9.5 (2017-06-19)
 
