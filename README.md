@@ -1,5 +1,7 @@
 # Uno Zen for Ghost
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Kikobeats/uno-zen.svg)](https://greenkeeper.io/)
+
 ![Last version](https://img.shields.io/github/tag/Kikobeats/uno-zen.svg?style=flat-square)
 [![Build Status](http://img.shields.io/travis/Kikobeats/uno-zen/master.svg?style=flat-square)](https://travis-ci.org/Kikobeats/uno-zen)
 ![Ghost version](https://img.shields.io/badge/Ghost-1.x-brightgreen.svg?style=flat-square)
