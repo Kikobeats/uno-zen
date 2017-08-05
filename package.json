@@ -5,7 +5,8 @@
   "version": "2.9.6",
   "author": {
     "name": "Kiko Beats",
-    "url": "https://github.com/kikobeats"
+    "url": "https://github.com/kikobeats",
+    "email": "josefrancisco.verdu@gmail.com"
   },
   "repository": {
     "type": "git",

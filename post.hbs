@@ -13,7 +13,7 @@
         <span class="post reading-time"> ~ <span></span> read.</span>
       </div>
       <a title="Tweet '{{title}}'" href="https://twitter.com/intent/tweet?text={{encode title}}{{encode ' »'}}&amp;hashtags={{tags separator="," autolink="false"}}&amp;url={{url absolute="true"}}">
-        {{#if image}}<img id="post-image" src="{{image}}" alt="{{title}}">{{/if}}
+        {{#if feature_image}}<img id="post-image" src="{{img_url feature_image}}" alt="{{title}}">{{/if}}
         <h1 class="icon-reverse icon-social-twitter-post" id="post-title">{{title}}</h1>
       </a>
     </header>
