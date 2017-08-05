@@ -1,3 +1,14 @@
+<a name="2.9.7"></a>
+## 2.9.7 (2017-08-05)
+
+* author email ([3f6624c](https://github.com/kikobeats/uno-zen/commit/3f6624c))
+* Ghost error to replace few key names ([6ba56b1](https://github.com/kikobeats/uno-zen/commit/6ba56b1))
+* removed a non existing url from showcase whihc failed the checks ([e24f512](https://github.com/kikobeats/uno-zen/commit/e24f512))
+* Update README.md ([6751b8f](https://github.com/kikobeats/uno-zen/commit/6751b8f))
+* docs(readme): add Greenkeeper badge ([1db15b1](https://github.com/kikobeats/uno-zen/commit/1db15b1))
+
+
+
 <a name="2.9.6"></a>
 ## 2.9.6 (2017-06-25)
 
