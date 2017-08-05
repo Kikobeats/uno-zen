@@ -8,7 +8,6 @@
 <a target="blank" href="http://morris.guru"><img src="http://i.imgur.com/s9oimfG.png" /></a>
 <a target="blank" href="https://adrianperez.org"><img src="http://i.imgur.com/XlNFWWA.png" /></a>
 <a target="blank" href="http://www.bradenericson.com"><img src="http://i.imgur.com/8wz0LKN.png" /></a>
-<a target="blank" href="https://blog.h4t0n.com"><img src="http://i.imgur.com/GPWzqnG.png" /></a>
 <a target="blank" href="https://robinz.in"><img src="http://i.imgur.com/qDAbrch.jpg" /></a>
 <a target="blank" href="http://biercoff.com"><img src="http://i.imgur.com/goS3pE3.jpg" /></a>
 <a target="blank" href="https://randy.sesser.me"><img src="http://i.imgur.com/9hacUJc.jpg" /></a>
