@@ -41,7 +41,7 @@ src =
       vendor : ['assets/vendor/fastclick/lib/fastclick.js'
                 'assets/vendor/instantclick/instantclick.js'
                 'assets/vendor/pace/pace.min.js'
-                'assets/vendor/reading-time/build/readingTime.min.js']
+                'assets/vendor/reading-time/build/readingtime.min.js']
     post     : ['assets/vendor/fitvids/jquery.fitvids.js'
                 'assets/js/src/prism.js']
 
